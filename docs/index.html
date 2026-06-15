@@ -100,7 +100,7 @@
       `).join('');
     }
 
-    ffetch('https://raw.githubusercontent.com/caitlinbetz/hardcover-library-availability/main/data/results.json')
+    fetch('https://raw.githubusercontent.com/caitlinbetz/hardcover-library-availability/main/data/results.json')
       .then(r => r.json())
       .then(data => {
         allBooks = data.books;
