@@ -107,7 +107,7 @@
         document.getElementById('updated').textContent =
           data.updated === 'never'
             ? 'Not yet updated — run the GitHub Action to populate data.'
-            : `Last updated: ${new Date(data.updated).toLocaleString()}`;
+            : `Last updated: ${new Date(data.updated).toLocaleString('en-US', { timeZone: 'America/New_York', dateStyle: 'medium', timeStyle: 'short' })}`;
         render();
       })
       .catch(() => {
