@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Availability Dashboard</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f5f5f0; color: #1a1a1a; padding: 2rem; }
+    h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+    .subtitle { color: #666; font-size: 0.9rem; margin-bottom: 2rem; }
+    .filters { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .filter-btn { padding: 0.4rem 1rem; border: 1px solid #ccc; border-radius: 20px; background: white; cursor: pointer; font-size: 0.85rem; }
+    .filter-btn.active { background: #1a1a1a; color: white; border-color: #1a1a1a; }
+    .book-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1rem; }
+    .book-card { background: white; border-radius: 8px; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+    .book-title { font-weight: 600; margin-bottom: 0.2rem; }
+    .book-author { font-size: 0.85rem; color: #666; margin-bottom: 1rem; }
+    .library-row { display: flex; justify-content: space-between; align-items: center; padding: 0.4rem 0; border-top: 1px solid #f0f0f0; font-size: 0.85rem; }
+    .library-name { color: #444; }
+    .badge { padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.75rem; font-weight: 500; }
+    .badge.available { background: #d1fae5; color: #065f46; }
+    .badge.waitlist { background: #fef3c7; color: #92400e; }
+    .badge.unavailable { background: #f3f4f6; color: #6b7280; }
+    .badge.no-isbn { background: #f3f4f6; color: #9ca3af; }
+    .no-results { text-align: center; color: #999; padding: 3rem; }
+  </style>
+</head>
+<body>
+  <h1>📚 Library Availability</h1>
+  <p class="subtitle" id="updated">Loading...</p>
+
+  <div class="filters">
+    <button class="filter-btn active" onclick="setFilter('all')">All books</button>
+    <button class="filter-btn" onclick="setFilter('available')">Available now</button>
+    <button class="filter-btn" onclick="setFilter('waitlist')">Waitlist</button>
+    <button class="filter-btn" onclick="setFilter('unavailable')">Not available</button>
+  </div>
+
+  <div class="book-grid" id="grid"></div>
+
+  <script>
+    let allBooks = [];
+    let currentFilter = 'all';
+
+    function getStatus(avail) {
+      if (!avail || avail.reason === 'no_isbn') return 'no-isbn';
+      if (avail.reason === 'not_in_catalog') return 'unavailable';
+      if (avail.available) return 'available';
+      if (avail.copies_owned > 0) return 'waitlist';
+      return 'unavailable';
+    }
+
+    function getBadgeLabel(avail) {
+      const status = getStatus(avail);
+      if (status === 'no-isbn') return 'No ISBN';
+      if (status === 'unavailable') return 'Not available';
+      if (status === 'available') return `Available (${avail.copies_available} of ${avail.copies_owned})`;
+      if (status === 'waitlist') return `Waitlist (${avail.holds} holds)`;
+      return 'Unknown';
+    }
+
+    function bookBestStatus(book) {
+      const statuses = Object.values(book.availability).map(getStatus);
+      if (statuses.includes('available')) return 'available';
+      if (statuses.includes('waitlist')) return 'waitlist';
+      if (statuses.includes('unavailable')) return 'unavailable';
+      return 'no-isbn';
+    }
+
+    function setFilter(filter) {
+      currentFilter = filter;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      event.target.classList.add('active');
+      render();
+    }
+
+    function render() {
+      const grid = document.getElementById('grid');
+      const filtered = currentFilter === 'all'
+        ? allBooks
+        : allBooks.filter(b => bookBestStatus(b) === currentFilter);
+
+      if (filtered.length === 0) {
+        grid.innerHTML = '<div class="no-results">No books match this filter.</div>';
+        return;
+      }
+
+      grid.innerHTML = filtered.map(book => `
+        <div class="book-card">
+          <div class="book-title">${book.title}</div>
+          <div class="book-author">${book.author}</div>
+          ${Object.entries(book.availability).map(([lib, avail]) => `
+            <div class="library-row">
+              <span class="library-name">${lib.replace(' Public Library', '')}</span>
+              <span class="badge ${getStatus(avail)}">${getBadgeLabel(avail)}</span>
+            </div>
+          `).join('')}
+        </div>
+      `).join('');
+    }
+
+    fetch('../data/results.json')
+      .then(r => r.json())
+      .then(data => {
+        allBooks = data.books;
+        document.getElementById('updated').textContent =
+          data.updated === 'never'
+            ? 'Not yet updated — run the GitHub Action to populate data.'
+            : `Last updated: ${new Date(data.updated).toLocaleString()}`;
+        render();
+      })
+      .catch(() => {
+        document.getElementById('updated').textContent = 'Error loading data.';
+      });
+  </script>
+</body>
+</html>
