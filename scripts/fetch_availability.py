@@ -15,7 +15,8 @@ def fetch_want_to_read():
     query = """
     query WantToRead {
       me {
-        user_books(where: { status_id: { _eq: 1 } }) {
+        user_books(where: { status_id: { _eq: 1 } }, order_by: { created_at: desc }) {
+          created_at
           book {
             title
             contributions { author { name } }
@@ -44,7 +45,8 @@ def fetch_want_to_read():
         books.append({
             "title": book["title"],
             "author": authors[0] if authors else "Unknown",
-            "isbn": isbn
+            "isbn": isbn,
+            "added_at": ub.get("created_at")
         })
     return books
 
@@ -52,7 +54,6 @@ def fetch_want_to_read():
 def check_overdrive(title, author, isbn, library_id):
     headers = {"User-Agent": "Mozilla/5.0"}
 
-    # Try ISBN first, then title+author
     queries = []
     if isbn:
         queries.append(isbn)
@@ -67,7 +68,6 @@ def check_overdrive(title, author, isbn, library_id):
             items = data.get("items", [])
             if not items:
                 continue
-            # Find best match by title
             for item in items:
                 title_words = title.lower().replace('-', ' ').split()
                 item_title = item.get("title", "").lower()
