@@ -48,33 +48,42 @@ def fetch_want_to_read():
         })
     return books
 
-# --- Step 2: Check availability on OverDrive for each library ---
-def check_overdrive(isbn, library_id):
-    if not isbn:
-        return {"available": None, "reason": "no_isbn"}
-    url = f"https://thunder.api.overdrive.com/v2/libraries/{library_id}/media"
-    params = {"query": isbn, "limit": 1}
+# --- Step 2: Check availability on OverDrive ---
+def check_overdrive(title, author, isbn, library_id):
     headers = {"User-Agent": "Mozilla/5.0"}
-    try:
-        response = requests.get(url, params=params, headers=headers, timeout=10)
-        data = response.json()
-        items = data.get("items", [])
-        if not items:
-            return {"available": False, "reason": "not_in_catalog"}
-        item = items[0]
-        copies_available = item.get("availableCopies", 0)
-        copies_owned = item.get("ownedCopies", 0)
-        holds = item.get("holdsCount", 0)
-        return {
-            "available": copies_available > 0,
-            "copies_available": copies_available,
-            "copies_owned": copies_owned,
-            "holds": holds,
-            "overdrive_id": item.get("id"),
-            "reason": "ok"
-        }
-    except Exception as e:
-        return {"available": None, "reason": f"error: {str(e)}"}
+
+    # Try ISBN first, then title+author
+    queries = []
+    if isbn:
+        queries.append(isbn)
+    queries.append(f"{title} {author}")
+
+    for query in queries:
+        url = f"https://thunder.api.overdrive.com/v2/libraries/{library_id}/media"
+        params = {"query": query, "limit": 3}
+        try:
+            response = requests.get(url, params=params, headers=headers, timeout=10)
+            data = response.json()
+            items = data.get("items", [])
+            if not items:
+                continue
+            # Find best match by title
+            for item in items:
+                if title.lower() in item.get("title", "").lower():
+                    copies_available = item.get("availableCopies", 0)
+                    copies_owned = item.get("ownedCopies", 0)
+                    holds = item.get("holdsCount", 0)
+                    return {
+                        "available": copies_available > 0,
+                        "copies_available": copies_available,
+                        "copies_owned": copies_owned,
+                        "holds": holds,
+                        "reason": "ok"
+                    }
+        except Exception as e:
+            return {"available": None, "reason": f"error: {str(e)}"}
+
+    return {"available": False, "reason": "not_in_catalog"}
 
 # --- Step 3: Build results and write to data/results.json ---
 def main():
@@ -87,12 +96,17 @@ def main():
         print(f"Checking: {book['title']}")
         availability = {}
         for lib in LIBRARIES:
-            availability[lib["name"]] = check_overdrive(book["isbn"], lib["overdrive_id"])
+            availability[lib["name"]] = check_overdrive(
+                book["title"], book["author"], book["isbn"], lib["overdrive_id"]
+            )
         results.append({**book, "availability": availability})
 
     os.makedirs("data", exist_ok=True)
     with open("data/results.json", "w") as f:
-        json.dump({"updated": __import__("datetime").datetime.utcnow().isoformat(), "books": results}, f, indent=2)
+        json.dump({
+            "updated": __import__("datetime").datetime.utcnow().isoformat(),
+            "books": results
+        }, f, indent=2)
     print("Done! Written to data/results.json")
 
 if __name__ == "__main__":
