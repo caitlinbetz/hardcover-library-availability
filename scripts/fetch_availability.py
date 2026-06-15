@@ -69,7 +69,9 @@ def check_overdrive(title, author, isbn, library_id):
                 continue
             # Find best match by title
             for item in items:
-                if title.lower() in item.get("title", "").lower():
+                title_words = title.lower().replace('-', ' ').split()
+                item_title = item.get("title", "").lower()
+                if sum(1 for w in title_words if w in item_title) >= len(title_words) // 2:
                     copies_available = item.get("availableCopies", 0)
                     copies_owned = item.get("ownedCopies", 0)
                     holds = item.get("holdsCount", 0)
