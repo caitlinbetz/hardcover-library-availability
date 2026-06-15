@@ -5,8 +5,8 @@ import requests
 # --- Config ---
 HARDCOVER_TOKEN = os.environ.get("HARDCOVER_TOKEN")
 LIBRARIES = [
-    {"name": "Fairfax County Public Library", "overdrive_id": "fairfaxcounty"},
-    {"name": "Montgomery County Public Library", "overdrive_id": "montgomerycountypubliclibraries"},
+    {"name": "Fairfax County Public Library", "overdrive_id": "fairfax"},
+    {"name": "Montgomery County Public Library", "overdrive_id": "mcplmd"},
     {"name": "Alexandria Public Library", "overdrive_id": "alexandria"},
 ]
 
