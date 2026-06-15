@@ -8,14 +8,20 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f5f5f0; color: #1a1a1a; padding: 2rem; }
     h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
-    .subtitle { color: #666; font-size: 0.9rem; margin-bottom: 2rem; }
-    .filters { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
-    .filter-btn { padding: 0.4rem 1rem; border: 1px solid #ccc; border-radius: 20px; background: white; cursor: pointer; font-size: 0.85rem; }
-    .filter-btn.active { background: #1a1a1a; color: white; border-color: #1a1a1a; }
+    .subtitle { color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; }
+
+    .search-box { width: 100%; max-width: 400px; padding: 0.6rem 1rem; border: 1px solid #ccc; border-radius: 8px; font-size: 0.95rem; margin-bottom: 1.5rem; outline: none; }
+    .search-box:focus { border-color: #1a1a1a; }
+
+    .tabs { display: flex; gap: 0.25rem; margin-bottom: 1.5rem; border-bottom: 2px solid #e0e0e0; }
+    .tab { padding: 0.5rem 1.25rem; border: none; background: none; cursor: pointer; font-size: 0.9rem; color: #666; border-bottom: 2px solid transparent; margin-bottom: -2px; }
+    .tab.active { color: #1a1a1a; border-bottom-color: #1a1a1a; font-weight: 600; }
+
     .book-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1rem; }
     .book-card { background: white; border-radius: 8px; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
     .book-title { font-weight: 600; margin-bottom: 0.2rem; }
-    .book-author { font-size: 0.85rem; color: #666; margin-bottom: 1rem; }
+    .book-author { font-size: 0.85rem; color: #666; margin-bottom: 0.4rem; }
+    .book-added { font-size: 0.75rem; color: #aaa; margin-bottom: 1rem; }
     .library-row { display: flex; justify-content: space-between; align-items: center; padding: 0.4rem 0; border-top: 1px solid #f0f0f0; font-size: 0.85rem; }
     .library-name { color: #444; }
     .badge { padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.75rem; font-weight: 500; }
@@ -23,25 +29,27 @@
     .badge.waitlist { background: #fef3c7; color: #92400e; }
     .badge.unavailable { background: #f3f4f6; color: #6b7280; }
     .badge.no-isbn { background: #f3f4f6; color: #9ca3af; }
-    .no-results { text-align: center; color: #999; padding: 3rem; }
+    .no-results { text-align: center; color: #999; padding: 3rem; grid-column: 1/-1; }
   </style>
 </head>
 <body>
   <h1>📚 Library Availability</h1>
   <p class="subtitle" id="updated">Loading...</p>
 
-  <div class="filters">
-    <button class="filter-btn active" onclick="setFilter('all')">All books</button>
-    <button class="filter-btn" onclick="setFilter('available')">Available now</button>
-    <button class="filter-btn" onclick="setFilter('waitlist')">Waitlist</button>
-    <button class="filter-btn" onclick="setFilter('unavailable')">Not available</button>
+  <input class="search-box" type="text" id="search" placeholder="Search by title or author..." oninput="render()" />
+
+  <div class="tabs">
+    <button class="tab active" onclick="setTab('recent')">Recently Added</button>
+    <button class="tab" onclick="setTab('available')">Available Now</button>
+    <button class="tab" onclick="setTab('all')">All Books</button>
+    <button class="tab" onclick="setTab('unavailable')">Not Available</button>
   </div>
 
   <div class="book-grid" id="grid"></div>
 
   <script>
     let allBooks = [];
-    let currentFilter = 'all';
+    let currentTab = 'recent';
 
     function getStatus(avail) {
       if (!avail || avail.reason === 'no_isbn') return 'no-isbn';
@@ -68,21 +76,58 @@
       return 'no-isbn';
     }
 
-    function setFilter(filter) {
-      currentFilter = filter;
-      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    function isRecent(book) {
+      if (!book.added_at) return false;
+      const sixMonthsAgo = new Date();
+      sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
+      return new Date(book.added_at) >= sixMonthsAgo;
+    }
+
+    function fuzzyMatch(text, query) {
+      // Simple fuzzy: all query chars appear in order in text
+      text = text.toLowerCase();
+      query = query.toLowerCase();
+      let ti = 0, qi = 0;
+      while (ti < text.length && qi < query.length) {
+        if (text[ti] === query[qi]) qi++;
+        ti++;
+      }
+      return qi === query.length;
+    }
+
+    function matchesSearch(book, query) {
+      if (!query) return true;
+      return fuzzyMatch(book.title, query) || fuzzyMatch(book.author, query);
+    }
+
+    function formatDate(iso) {
+      if (!iso) return '';
+      return new Date(iso).toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+    }
+
+    function setTab(tab) {
+      currentTab = tab;
+      document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
       event.target.classList.add('active');
       render();
     }
 
     function render() {
+      const query = document.getElementById('search').value;
       const grid = document.getElementById('grid');
-      const filtered = currentFilter === 'all'
-        ? allBooks
-        : allBooks.filter(b => bookBestStatus(b) === currentFilter);
+
+      let filtered = allBooks.filter(b => matchesSearch(b, query));
+
+      if (currentTab === 'recent') {
+        filtered = filtered.filter(isRecent);
+      } else if (currentTab === 'available') {
+        filtered = filtered.filter(b => bookBestStatus(b) === 'available');
+      } else if (currentTab === 'unavailable') {
+        filtered = filtered.filter(b => bookBestStatus(b) === 'unavailable' || bookBestStatus(b) === 'no-isbn');
+      }
 
       if (filtered.length === 0) {
-        grid.innerHTML = '<div class="no-results">No books match this filter.</div>';
+        grid.innerHTML = '<div class="no-results">No books match.</div>';
         return;
       }
 
@@ -90,6 +135,7 @@
         <div class="book-card">
           <div class="book-title">${book.title}</div>
           <div class="book-author">${book.author}</div>
+          ${book.added_at ? `<div class="book-added">Added ${formatDate(book.added_at)}</div>` : ''}
           ${Object.entries(book.availability).map(([lib, avail]) => `
             <div class="library-row">
               <span class="library-name">${lib.replace(' Public Library', '')}</span>
