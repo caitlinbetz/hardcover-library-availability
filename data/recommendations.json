@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-16T18:03:53.817813Z",
+  "updated": "2026-06-16T22:39:45.534991Z",
   "recommendations": [
     {
       "title": "The Terror",
       "author": "Dan Simmons",
-      "reason": "Fans of Dark Matter by Michelle Paver and Hyperion by Dan Simmons will find this Arctic horror-adventure novel, blending historical fiction with supernatural dread, an irresistible combination of their favorite genres.",
+      "reason": "Fans of Dark Matter's Arctic horror and Hyperion's epic scope will find this historical horror novel about a doomed Arctic expedition utterly gripping.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 48,
           "holds": 3,
           "reason": "ok",
@@ -38,7 +38,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 31,
-          "holds": 4,
+          "holds": 6,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20Dan%20Simmons/page-1"
         },
@@ -63,7 +63,7 @@
     {
       "title": "Piranesi",
       "author": "Susanna Clarke",
-      "reason": "The taste for literary fantasy with mystery and uncanny atmosphere seen in The Night Circus and We Have Always Lived in the Castle points directly to this strange, beautifully written novel about a man trapped in a labyrinthine house.",
+      "reason": "With the same blend of literary fiction, fantasy, and mystery found in The Night Circus and We Have Always Lived in the Castle, this haunting puzzle of a novel rewards readers who love atmosphere and strangeness.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -71,7 +71,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 30,
-          "holds": 36,
+          "holds": 35,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Piranesi%20Susanna%20Clarke/page-1"
         },
@@ -79,7 +79,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 29,
-          "holds": 32,
+          "holds": 30,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Piranesi%20Susanna%20Clarke/page-1"
         },
@@ -120,9 +120,68 @@
       }
     },
     {
+      "title": "Never Let Me Go",
+      "author": "Kazuo Ishiguro",
+      "reason": "Readers drawn to The Unbearable Lightness of Being and The Pale King for their meditative, literary explorations of human fate will be devastated by this quiet, dystopian masterpiece.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 17,
+          "holds": 75,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 12,
+          "holds": 60,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 7,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 11,
+          "holds": 105,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 9,
+          "holds": 76,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 8,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+        }
+      }
+    },
+    {
       "title": "Blood Meridian",
       "author": "Cormac McCarthy",
-      "reason": "The appetite for dark, literary historical fiction with brutal authenticity seen in The Vaster Wilds, Augustus, and The Last Kingdom makes this savage masterpiece of American violence and history a natural next read.",
+      "reason": "Given the appetite for literary fiction with dark themes, historical adventure, and challenging prose seen across multiple list entries, this brutal frontier epic is an essential companion.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -130,7 +189,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 18,
+          "holds": 19,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
         },
@@ -173,9 +232,56 @@
       }
     },
     {
+      "title": "The Poisoner's Handbook",
+      "author": "Deborah Blum",
+      "reason": "A natural pairing with A Taste for Poison, this narrative nonfiction account of poison, murder, and the birth of forensic science blends true crime history with scientific detail.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Poisoner%27s%20Handbook%20Deborah%20Blum/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Poisoner%27s%20Handbook%20Deborah%20Blum/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Poisoner%27s%20Handbook%20Deborah%20Blum/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Poisoner%27s%20Handbook%20Deborah%20Blum/page-1"
+        }
+      }
+    },
+    {
       "title": "Station Eleven",
       "author": "Emily St. John Mandel",
-      "reason": "The intersection of literary fiction, science fiction, and dystopian themes visible across 2030, A Visit from the Goon Squad, and The Future Library maps perfectly onto this elegant, character-driven post-apocalyptic novel.",
+      "reason": "Readers who enjoy literary science fiction with human warmth, as seen in How to Live Safely in a Science Fictional Universe and 2030, will love this elegiac post-apocalyptic novel about art and survival.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -191,7 +297,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 17,
-          "holds": 4,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Station%20Eleven%20Emily%20St.%20John%20Mandel/page-1"
         },
@@ -232,138 +338,86 @@
       }
     },
     {
-      "title": "The Secret Agent",
-      "author": "Joseph Conrad",
-      "reason": "The strong interest in espionage and political thriller fiction through Slow Horses, Our Kind of Traitor, and Eye of the Needle aligns closely with this dark classic about terrorism, conspiracy, and moral ambiguity.",
+      "title": "The Secret History",
+      "author": "Donna Tartt",
+      "reason": "The taste for dark, literary fiction with mystery undercurrents visible in Lolita, The Rules of Attraction, and The Comfort of Strangers points directly toward this campus murder novel with a poisonous, claustrophobic atmosphere.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 0,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20Agent%20Joseph%20Conrad/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20Agent%20Joseph%20Conrad/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20Agent%20Joseph%20Conrad/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 1,
           "copies_owned": 1,
-          "holds": 0,
+          "holds": 29,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20Agent%20Joseph%20Conrad/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20Agent%20Joseph%20Conrad/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20Agent%20Joseph%20Conrad/page-1"
-        }
-      }
-    },
-    {
-      "title": "The Raw Shark Texts",
-      "author": "Steven Hall",
-      "reason": "The taste for formally inventive, genre-blending literary fiction seen in How to Live Safely in a Science Fictional Universe and The Pale King makes this experimental thriller about memory and identity an ideal fit.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-        }
-      }
-    },
-    {
-      "title": "2666",
-      "author": "Roberto Bola\u00f1o",
-      "reason": "The love of ambitious, dark literary fiction spanning The House of the Spirits, Nightwood, and The Poisonwood Bible suggests a deep affinity for this monumental, unsettling masterpiece of contemporary world literature.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-2666%20Roberto%20Bola%C3%B1o/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 2,
+          "holds": 22,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-2666%20Roberto%20Bola%C3%B1o/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 3,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 9,
+          "holds": 70,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
         },
         "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 29,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
+        },
+        "Alexandria Public Library": {
           "available": true,
           "copies_available": 1,
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-2666%20Roberto%20Bola%C3%B1o/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
+        }
+      }
+    },
+    {
+      "title": "The Buried Giant",
+      "author": "Kazuo Ishiguro",
+      "reason": "Readers who love the intersection of literary fiction, fantasy, and historical settings found in The House of the Spirits, The Last Kingdom, and Augustus will be moved by this Arthurian fable about memory and love.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 14,
+          "holds": 11,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 10,
+          "holds": 9,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
@@ -371,66 +425,33 @@
           "copies_owned": 1,
           "holds": 1,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-2666%20Roberto%20Bola%C3%B1o/page-1"
-        }
-      }
-    },
-    {
-      "title": "Annihilation",
-      "author": "Jeff VanderMeer",
-      "reason": "The combination of science fiction, horror, and eerie atmospheric mystery running through Solaris, Dark Matter, and The Cormorant makes this haunting novel about a strange forbidden zone an unmistakable recommendation.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Annihilation%20Jeff%20VanderMeer/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 0,
-          "holds": 6,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Annihilation%20Jeff%20VanderMeer/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Annihilation%20Jeff%20VanderMeer/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 0,
-          "holds": 0,
+          "copies_owned": 4,
+          "holds": 65,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Annihilation%20Jeff%20VanderMeer/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 6,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Annihilation%20Jeff%20VanderMeer/page-1"
-        },
-        "Alexandria Public Library": {
           "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
+          "copies_available": 6,
+          "copies_owned": 7,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Annihilation%20Jeff%20VanderMeer/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 1,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         }
       }
     }
