@@ -208,6 +208,7 @@ Respond ONLY with a JSON array, no markdown, no preamble. Format:
     )
 
     data = response.json()
+    print(f"Claude API response: {data}")
     raw = data["content"][0]["text"].strip()
 
     # Strip markdown fences if present
