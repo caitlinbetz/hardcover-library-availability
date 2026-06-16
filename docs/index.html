@@ -11,15 +11,18 @@
     .subtitle { color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; }
 
     .controls { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; margin-bottom: 1.5rem; }
-    .search-box { width: 100%; max-width: 280px; }
-    @media (max-width: 480px) { .controls { flex-direction: column; align-items: stretch; } .search-box { width: 100%; max-width: 100%; } .genre-select { width: 100%; } }
-    .search-box { padding: 0.6rem 1rem; border: 1px solid #ccc; border-radius: 8px; font-size: 0.95rem; width: 280px; outline: none; }
+    .search-box { width: 100%; max-width: 280px; padding: 0.6rem 1rem; border: 1px solid #ccc; border-radius: 8px; font-size: 0.95rem; outline: none; }
     .search-box:focus { border-color: #1a1a1a; }
     .genre-select { padding: 0.6rem 1rem; border: 1px solid #ccc; border-radius: 8px; font-size: 0.95rem; outline: none; background: white; cursor: pointer; }
     .genre-select:focus { border-color: #1a1a1a; }
+    @media (max-width: 480px) {
+      .controls { flex-direction: column; align-items: stretch; }
+      .search-box { width: 100%; max-width: 100%; }
+      .genre-select { width: 100%; }
+    }
 
     .tabs { display: flex; gap: 0.25rem; margin-bottom: 1.5rem; border-bottom: 2px solid #e0e0e0; overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch; }
-    .tab { padding: 0.5rem 1.25rem; border: none; background: none; cursor: pointer; font-size: 0.9rem; color: #666; border-bottom: 2px solid transparent; margin-bottom: -2px; }
+    .tab { padding: 0.5rem 1.25rem; border: none; background: none; cursor: pointer; font-size: 0.9rem; color: #666; border-bottom: 2px solid transparent; margin-bottom: -2px; white-space: nowrap; }
     .tab.active { color: #1a1a1a; border-bottom-color: #1a1a1a; font-weight: 600; }
 
     .book-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1rem; }
@@ -31,6 +34,7 @@
     .book-title { font-weight: 600; margin-bottom: 0.2rem; line-height: 1.3; }
     .book-author { font-size: 0.85rem; color: #666; margin-bottom: 0.3rem; }
     .book-added { font-size: 0.75rem; color: #aaa; }
+    .book-reason { font-size: 0.82rem; color: #555; line-height: 1.5; margin-top: 0.4rem; font-style: italic; }
 
     .genre-pills { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.5rem; }
     .genre-pill { padding: 0.15rem 0.5rem; border-radius: 10px; font-size: 0.7rem; background: #e8f0fe; color: #3b5bdb; font-weight: 500; }
@@ -53,13 +57,16 @@
     .badge.no-isbn { background: #f3f4f6; color: #9ca3af; }
     .no-results { text-align: center; color: #999; padding: 3rem; grid-column: 1/-1; }
 
-    /* Surprise Me */
     .surprise-container { max-width: 480px; }
     .surprise-controls { display: flex; gap: 0.75rem; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; }
     .surprise-genre { padding: 0.6rem 1rem; border: 1px solid #ccc; border-radius: 8px; font-size: 0.95rem; outline: none; background: white; cursor: pointer; }
     .surprise-btn { padding: 0.6rem 1.25rem; background: #1a1a1a; color: white; border: none; border-radius: 8px; font-size: 0.9rem; cursor: pointer; font-weight: 500; }
     .surprise-btn:hover { background: #333; }
     .surprise-empty { color: #999; padding: 2rem 0; font-size: 0.95rem; }
+
+    .for-you-header { margin-bottom: 1rem; }
+    .for-you-header p { font-size: 0.85rem; color: #666; margin-top: 0.25rem; }
+    .rec-badge { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 10px; font-size: 0.7rem; background: #fef3c7; color: #92400e; font-weight: 500; margin-bottom: 0.5rem; }
   </style>
 </head>
 <body>
@@ -79,14 +86,19 @@
     <button class="tab" onclick="setTab('all', event)">All Books</button>
     <button class="tab" onclick="setTab('unavailable', event)">Not Available</button>
     <button class="tab" onclick="setTab('surprise', event)">Surprise Me 🎲</button>
+    <button class="tab" onclick="setTab('foryou', event)">For You ✨</button>
   </div>
 
   <div class="book-grid" id="grid"></div>
 
+  <select id="surprise-genre" style="display:none">
+    <option value="">Any genre</option>
+  </select>
+
   <script>
     let allBooks = [];
+    let allRecs = [];
     let currentTab = 'recent';
-    let surpriseBook = null;
 
     function getStatus(avail) {
       if (!avail || avail.reason === 'no_isbn') return 'no-isbn';
@@ -152,15 +164,11 @@
       currentTab = tab;
       document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
       e.target.classList.add('active');
-
       const mainControls = document.getElementById('main-controls');
-      mainControls.style.display = tab === 'surprise' ? 'none' : 'flex';
-
-      if (tab === 'surprise') {
-        renderSurprise();
-      } else {
-        render();
-      }
+      mainControls.style.display = (tab === 'surprise' || tab === 'foryou') ? 'none' : 'flex';
+      if (tab === 'surprise') renderSurprise();
+      else if (tab === 'foryou') renderForYou();
+      else render();
     }
 
     function toggleAccordion(id) {
@@ -175,23 +183,15 @@
       const allGenres = new Set();
       allBooks.forEach(b => (b.genres || []).forEach(g => allGenres.add(g)));
       const sorted = Array.from(allGenres).sort();
-
-      // Main filter dropdown
       const select = document.getElementById('genre-filter');
-      sorted.forEach(g => {
-        const opt = document.createElement('option');
-        opt.value = g;
-        opt.textContent = g;
-        select.appendChild(opt);
-      });
-
-      // Surprise Me genre dropdown
       const surpriseSelect = document.getElementById('surprise-genre');
       sorted.forEach(g => {
-        const opt = document.createElement('option');
-        opt.value = g;
-        opt.textContent = g;
-        surpriseSelect.appendChild(opt);
+        [select, surpriseSelect].forEach(el => {
+          const opt = document.createElement('option');
+          opt.value = g;
+          opt.textContent = g;
+          el.appendChild(opt);
+        });
       });
     }
 
@@ -210,7 +210,7 @@
       }).join('');
     }
 
-    function buildCard(book, i) {
+    function buildCard(book, i, showReason) {
       const descId = `desc-${i}`;
       const audioId = `audio-${i}`;
 
@@ -220,6 +220,10 @@
 
       const genreHtml = (book.genres || []).length
         ? `<div class="genre-pills">${book.genres.map(g => `<span class="genre-pill">${g}</span>`).join('')}</div>`
+        : '';
+
+      const reasonHtml = showReason && book.reason
+        ? `<div class="book-reason">✨ ${book.reason}</div>`
         : '';
 
       const descHtml = book.description
@@ -237,9 +241,7 @@
                🎧 Audiobook availability <span>▾</span>
              </button>
              <div class="accordion-content" id="${audioId}">
-               <div class="library-rows">
-                 ${renderLibraryRows(book.audio_availability)}
-               </div>
+               <div class="library-rows">${renderLibraryRows(book.audio_availability)}</div>
              </div>
            </div>`
         : '';
@@ -255,53 +257,70 @@
               ${genreHtml}
             </div>
           </div>
+          ${reasonHtml}
           ${descHtml}
-          <div class="library-rows">
-            ${renderLibraryRows(book.ebook_availability)}
-          </div>
+          <div class="library-rows">${renderLibraryRows(book.ebook_availability)}</div>
           ${audioHtml}
         </div>`;
+    }
+
+    function renderForYou() {
+      const grid = document.getElementById('grid');
+
+      if (!allRecs.length) {
+        grid.innerHTML = '<div class="no-results">Recommendations not yet generated — run the GitHub Action to populate.</div>';
+        return;
+      }
+
+      const availableRecs = allRecs.filter(r => bookBestEbookStatus(r) === 'available');
+      const otherRecs = allRecs.filter(r => bookBestEbookStatus(r) !== 'available');
+      const sorted = [...availableRecs, ...otherRecs];
+
+      grid.innerHTML = `
+        <div style="grid-column: 1/-1;" class="for-you-header">
+          <h2 style="font-size:1.1rem;">Recommended for you</h2>
+          <p>Based on your want-to-read list, Claude picked these books you might love — with library availability checked.</p>
+        </div>
+        ${sorted.map((rec, i) => buildCard(rec, `rec-${i}`, true)).join('')}`;
     }
 
     function renderSurprise() {
       const grid = document.getElementById('grid');
       const genre = document.getElementById('surprise-genre').value;
 
-      const available = allBooks.filter(b => {
-        const isAvail = bookBestEbookStatus(b) === 'available';
-        const genreMatch = matchesGenre(b, genre);
-        return isAvail && genreMatch;
-      });
+      const available = allBooks.filter(b =>
+        bookBestEbookStatus(b) === 'available' && matchesGenre(b, genre)
+      );
 
       if (available.length === 0) {
         grid.innerHTML = `
           <div class="surprise-container">
             <div class="surprise-controls">
-              <select class="surprise-genre" id="surprise-genre" onchange="renderSurprise()">
+              <select class="surprise-genre" id="surprise-genre-ui" onchange="document.getElementById('surprise-genre').value=this.value; renderSurprise()">
                 ${document.getElementById('surprise-genre').innerHTML}
               </select>
               <button class="surprise-btn" onclick="renderSurprise()">Try Another 🎲</button>
             </div>
-            <div class="surprise-empty">No available books match that genre right now. Try a different one!</div>
+            <div class="surprise-empty">No available books match that genre. Try a different one!</div>
           </div>`;
         return;
       }
 
       const pick = available[Math.floor(Math.random() * available.length)];
+      const savedGenre = genre;
 
       grid.innerHTML = `
         <div class="surprise-container">
           <div class="surprise-controls">
-            <select class="surprise-genre" id="surprise-genre" onchange="renderSurprise()">
+            <select class="surprise-genre" id="surprise-genre-ui" onchange="document.getElementById('surprise-genre').value=this.value; renderSurprise()">
               ${document.getElementById('surprise-genre').innerHTML}
             </select>
             <button class="surprise-btn" onclick="renderSurprise()">Try Another 🎲</button>
           </div>
-          ${buildCard(pick, 'surprise')}
+          ${buildCard(pick, 'surprise', false)}
         </div>`;
 
-      // restore selected genre in rebuilt dropdown
-      document.getElementById('surprise-genre').value = genre;
+      document.getElementById('surprise-genre-ui').value = savedGenre;
     }
 
     function render() {
@@ -337,29 +356,25 @@
         return;
       }
 
-      grid.innerHTML = filtered.map((book, i) => buildCard(book, i)).join('');
+      grid.innerHTML = filtered.map((book, i) => buildCard(book, i, false)).join('');
     }
 
-    fetch('https://raw.githubusercontent.com/caitlinbetz/hardcover-library-availability/main/data/results.json')
-      .then(r => r.json())
-      .then(data => {
-        allBooks = data.books;
-        document.getElementById('updated').textContent =
-          data.updated === 'never'
-            ? 'Not yet updated — run the GitHub Action to populate data.'
-            : `Last updated: ${new Date(data.updated).toLocaleString('en-US', { timeZone: 'America/New_York', dateStyle: 'medium', timeStyle: 'short' })}`;
-        buildGenreDropdown();
-        render();
-      })
-      .catch(() => {
-        document.getElementById('updated').textContent = 'Error loading data.';
-      });
+    // Load both data files in parallel
+    Promise.all([
+      fetch('https://raw.githubusercontent.com/caitlinbetz/hardcover-library-availability/main/data/results.json').then(r => r.json()),
+      fetch('https://raw.githubusercontent.com/caitlinbetz/hardcover-library-availability/main/data/recommendations.json').then(r => r.json())
+    ]).then(([data, recsData]) => {
+      allBooks = data.books;
+      allRecs = recsData.recommendations || [];
+      document.getElementById('updated').textContent =
+        data.updated === 'never'
+          ? 'Not yet updated — run the GitHub Action to populate data.'
+          : `Last updated: ${new Date(data.updated).toLocaleString('en-US', { timeZone: 'America/New_York', dateStyle: 'medium', timeStyle: 'short' })}`;
+      buildGenreDropdown();
+      render();
+    }).catch(() => {
+      document.getElementById('updated').textContent = 'Error loading data.';
+    });
   </script>
-
-  <!-- Surprise Me genre selector (hidden, populated by buildGenreDropdown) -->
-  <select id="surprise-genre" style="display:none">
-    <option value="">Any genre</option>
-  </select>
-
 </body>
 </html>
