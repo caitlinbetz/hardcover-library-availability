@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T15:31:37.286867Z",
+  "updated": "2026-06-16T15:53:49.356487Z",
   "books": [
     {
       "title": "The Tommyknockers",
@@ -235,9 +235,9 @@
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Screen%20People%3A%20How%20We%20Entertained%20Ourselves%20Into%20a%20State%20of%20Emergency%20%E2%80%93%20An%20Urgent%20Exploration%20of%20Media%20Culture%2C%20Politics%2C%20and%20Social%20Reality%20Megan%20Garber/page-1"
+          "available": null,
+          "reason": "error: HTTPSConnectionPool(host='thunder.api.overdrive.com', port=443): Read timed out. (read timeout=10)",
+          "libby_url": null
         },
         "Montgomery County Public Library": {
           "available": false,
@@ -252,9 +252,9 @@
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Screen%20People%3A%20How%20We%20Entertained%20Ourselves%20Into%20a%20State%20of%20Emergency%20%E2%80%93%20An%20Urgent%20Exploration%20of%20Media%20Culture%2C%20Politics%2C%20and%20Social%20Reality%20Megan%20Garber/page-1"
+          "available": null,
+          "reason": "error: HTTPSConnectionPool(host='thunder.api.overdrive.com', port=443): Read timed out. (read timeout=10)",
+          "libby_url": null
         },
         "Montgomery County Public Library": {
           "available": false,
@@ -4702,7 +4702,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 3,
+          "holds": 4,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Starling%20House%20Alix%20E.%20Harrow/page-1"
         },
@@ -7826,7 +7826,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 36,
+          "holds": 35,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Demon%20Copperhead%20Barbara%20Kingsolver/page-1"
         },
@@ -8633,13 +8633,13 @@
           "available": true,
           "copies_available": 2,
           "copies_owned": 12,
-          "holds": 3,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Yellowface%20R.F.%20Kuang/page-1"
         },
         "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 13,
           "holds": 0,
           "reason": "ok",
@@ -14540,7 +14540,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 24,
-          "holds": 131,
+          "holds": 130,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Deadly%20Education%20Naomi%20Novik/page-1"
         },
@@ -18362,7 +18362,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 49,
+          "holds": 48,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-On%20Earth%20We%27re%20Briefly%20Gorgeous%20Ocean%20Vuong/page-1"
         },
@@ -18388,7 +18388,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 16,
-          "holds": 9,
+          "holds": 8,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-On%20Earth%20We%27re%20Briefly%20Gorgeous%20Ocean%20Vuong/page-1"
         },
@@ -22095,7 +22095,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 0,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-My%20Brilliant%20Friend%20Elena%20Ferrante/page-1"
         }
@@ -22269,9 +22269,9 @@
       ],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Life%20in%20Letters%20John%20Steinbeck/page-1"
+          "available": null,
+          "reason": "error: HTTPSConnectionPool(host='thunder.api.overdrive.com', port=443): Read timed out. (read timeout=10)",
+          "libby_url": null
         },
         "Montgomery County Public Library": {
           "available": false,
@@ -22286,9 +22286,9 @@
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Life%20in%20Letters%20John%20Steinbeck/page-1"
+          "available": null,
+          "reason": "error: HTTPSConnectionPool(host='thunder.api.overdrive.com', port=443): Read timed out. (read timeout=10)",
+          "libby_url": null
         },
         "Montgomery County Public Library": {
           "available": false,
@@ -27828,7 +27828,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 92,
-          "holds": 1105,
+          "holds": 1106,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Whistler%20Ann%20Patchett/page-1"
         },
@@ -27877,7 +27877,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 69,
-          "holds": 1970,
+          "holds": 1971,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Theo%20of%20Golden%20Allen%20Levi/page-1"
         },
@@ -28078,7 +28078,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 12,
-          "holds": 408,
+          "holds": 409,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Kin%20Tayari%20Jones/page-1"
         },
@@ -28086,7 +28086,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 53,
-          "holds": 560,
+          "holds": 561,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Kin%20Tayari%20Jones/page-1"
         },
@@ -29200,7 +29200,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 15,
-          "holds": 19,
+          "holds": 18,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Wilderness%20Angela%20Flournoy/page-1"
         },
@@ -29733,7 +29733,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 4,
+          "holds": 5,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Devil%20in%20the%20White%20City%20Erik%20Larson/page-1"
         }
@@ -32571,7 +32571,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 1,
+          "copies_available": 2,
           "copies_owned": 21,
           "holds": 0,
           "reason": "ok",
@@ -33339,7 +33339,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 44,
+          "holds": 45,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-I%20Am%20Pilgrim%20Terry%20Hayes/page-1"
         },
@@ -33948,7 +33948,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 8,
-          "holds": 40,
+          "holds": 39,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-All%20About%20Love%3A%20New%20Visions%20bell%20hooks/page-1"
         },
@@ -37215,7 +37215,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 4,
+          "copies_available": 5,
           "copies_owned": 24,
           "holds": 0,
           "reason": "ok",
