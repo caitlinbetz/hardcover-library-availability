@@ -6,6 +6,7 @@ import urllib.parse
 
 # --- Config ---
 HARDCOVER_TOKEN = os.environ.get("HARDCOVER_TOKEN")
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 LIBRARIES = [
     {"name": "Fairfax County Public Library", "overdrive_id": "fairfax"},
     {"name": "Montgomery County Public Library", "overdrive_id": "mcplmd"},
@@ -165,7 +166,81 @@ def check_overdrive(title, author, isbn, library_id):
 
     return ebook_result, audio_result
 
-# --- Step 3: Build results and write to data/results.json ---
+# --- Step 3: Generate recommendations via Claude ---
+def generate_recommendations(books):
+    print("Generating recommendations via Claude...")
+
+    # Build a compact reading list for the prompt
+    book_list = "\n".join([
+        f"- {b['title']} by {b['author']}" +
+        (f" [{', '.join(b['genres'][:3])}]" if b['genres'] else "")
+        for b in books[:80]  # cap at 80 to stay within token limits
+    ])
+
+    prompt = f"""Here is someone's want-to-read list:
+
+{book_list}
+
+Based on their taste — the authors, genres, themes, and styles represented — recommend exactly 8 books they would likely love that are NOT already on this list.
+
+For each recommendation, provide:
+- title
+- author
+- a single sentence explaining why it fits their taste based on specific books or patterns you noticed in their list
+
+Respond ONLY with a JSON array, no markdown, no preamble. Format:
+[
+  {{"title": "Book Title", "author": "Author Name", "reason": "One sentence why."}}
+]"""
+
+    response = requests.post(
+        "https://api.anthropic.com/v1/messages",
+        headers={
+            "Content-Type": "application/json",
+            "x-api-key": ANTHROPIC_API_KEY,
+            "anthropic-version": "2023-06-01"
+        },
+        json={
+            "model": "claude-sonnet-4-6",
+            "max_tokens": 1000,
+            "messages": [{"role": "user", "content": prompt}]
+        }
+    )
+
+    data = response.json()
+    raw = data["content"][0]["text"].strip()
+
+    # Strip markdown fences if present
+    if raw.startswith("```"):
+        raw = re.sub(r'^```[a-z]*\n?', '', raw)
+        raw = re.sub(r'\n?```$', '', raw)
+
+    return json.loads(raw)
+
+# --- Step 4: Check availability for recommendations ---
+def check_recommendations_availability(recs):
+    print("Checking availability for recommendations...")
+    results = []
+    for rec in recs:
+        print(f"  Checking: {rec['title']}")
+        ebook_availability = {}
+        audio_availability = {}
+        for lib in LIBRARIES:
+            ebook, audio = check_overdrive(
+                rec["title"], rec["author"], None, lib["overdrive_id"]
+            )
+            ebook_availability[lib["name"]] = ebook
+            audio_availability[lib["name"]] = audio
+        results.append({
+            **rec,
+            "cover": None,
+            "genres": [],
+            "ebook_availability": ebook_availability,
+            "audio_availability": audio_availability
+        })
+    return results
+
+# --- Step 5: Build results and write to JSON files ---
 def main():
     print("Fetching want-to-read list from Hardcover...")
     books = fetch_want_to_read()
@@ -195,6 +270,19 @@ def main():
             "books": results
         }, f, indent=2)
     print("Done! Written to data/results.json")
+
+    # Generate and save recommendations
+    try:
+        recs = generate_recommendations(books)
+        recs_with_availability = check_recommendations_availability(recs)
+        with open("data/recommendations.json", "w") as f:
+            json.dump({
+                "updated": __import__("datetime").datetime.utcnow().isoformat() + "Z",
+                "recommendations": recs_with_availability
+            }, f, indent=2)
+        print("Done! Written to data/recommendations.json")
+    except Exception as e:
+        print(f"Recommendations failed: {e}")
 
 if __name__ == "__main__":
     main()
