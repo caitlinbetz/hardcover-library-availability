@@ -193,6 +193,7 @@ Respond ONLY with a JSON array, no markdown, no preamble. Format:
   {{"title": "Book Title", "author": "Author Name", "reason": "One sentence why."}}
 ]"""
 
+    print(f"API key present: {bool(ANTHROPIC_API_KEY)}")
     response = requests.post(
         "https://api.anthropic.com/v1/messages",
         headers={
