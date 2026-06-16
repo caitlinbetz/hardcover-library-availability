@@ -89,10 +89,11 @@
       const status = getStatus(avail);
       if (status === 'no-isbn') return 'No ISBN';
       if (status === 'unavailable') return 'Not available';
-      if (status === 'available') return `Available (${avail.copies_available} of ${avail.copies_owned})`;
+      if (status === 'available' && avail.copies_available > 0) return `Available (${avail.copies_available} of ${avail.copies_owned})`;
+      if (status === 'available' && avail.copies_available === 0) return `Available (join queue)`;
       if (status === 'waitlist') return `Waitlist (${avail.holds} holds)`;
       return 'Unknown';
-    }
+}
 
     function bookBestEbookStatus(book) {
       const avails = book.ebook_availability || {};
