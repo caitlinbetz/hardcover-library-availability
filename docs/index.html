@@ -80,9 +80,10 @@
       if (!avail || avail.reason === 'no_isbn') return 'no-isbn';
       if (avail.reason === 'not_in_catalog') return 'unavailable';
       if (avail.available) return 'available';
-      if (avail.copies_owned > 0) return 'waitlist';
-      return 'unavailable';
-    }
+      if (avail.copies_owned > 0 && avail.holds > 0) return 'waitlist';
+      if (avail.copies_owned > 0 && avail.holds === 0) return 'available';
+    return 'unavailable';
+}
 
     function getBadgeLabel(avail) {
       const status = getStatus(avail);
