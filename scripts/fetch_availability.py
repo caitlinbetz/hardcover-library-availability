@@ -10,6 +10,21 @@ LIBRARIES = [
     {"name": "Alexandria Public Library", "overdrive_id": "alexandria"},
 ]
 
+GENRE_WHITELIST = {
+    "fiction", "nonfiction", "non-fiction", "literary fiction", "literature & fiction",
+    "historical fiction", "science fiction", "fantasy", "horror", "thriller",
+    "thriller & suspense", "mystery", "romance", "biography", "memoir",
+    "autobiography", "essay", "essays", "poetry", "short stories",
+    "graphic novel", "young adult", "children", "classics", "adventure",
+    "crime", "dystopian", "humor", "comedy", "political", "philosophy",
+    "psychology", "sociology", "history", "true crime", "self-help",
+    "business", "economics", "science", "nature", "travel", "sports",
+    "art", "music", "food", "cooking", "religion", "spirituality",
+    "african american fiction", "lgbtqia+ fiction", "lgbtq+",
+    "literary collections", "contemporary fiction", "magical realism",
+    "african american", "asian literature", "war", "family", "coming of age"
+}
+
 # --- Step 1: Fetch want-to-read list from Hardcover ---
 def fetch_want_to_read():
     query = """
@@ -19,8 +34,11 @@ def fetch_want_to_read():
           created_at
           book {
             title
+            description
+            image { url }
             contributions { author { name } }
             editions(limit: 1) { isbn_13 isbn_10 }
+            taggings { tag { tag } }
           }
         }
       }
@@ -42,11 +60,25 @@ def fetch_want_to_read():
         if book["editions"]:
             isbn = book["editions"][0].get("isbn_13") or book["editions"][0].get("isbn_10")
         authors = [c["author"]["name"] for c in book.get("contributions", [])]
+
+        # Filter tags to genre whitelist
+        all_tags = [t["tag"]["tag"] for t in book.get("taggings", []) if t.get("tag")]
+        genres = list(dict.fromkeys([
+            t for t in all_tags if t.lower() in GENRE_WHITELIST
+        ]))[:6]  # cap at 6
+
+        # Clean description
+        description = book.get("description") or ""
+        description = description.replace("\r\n", " ").replace("\n", " ").strip()
+
         books.append({
             "title": book["title"],
             "author": authors[0] if authors else "Unknown",
             "isbn": isbn,
-            "added_at": ub.get("created_at")
+            "added_at": ub.get("created_at"),
+            "cover": book.get("image", {}).get("url") if book.get("image") else None,
+            "description": description,
+            "genres": genres
         })
     return books
 
