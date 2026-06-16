@@ -117,7 +117,8 @@ def check_overdrive(title, author, isbn, library_id):
                 found = True
                 formats = {f["id"] for f in item.get("formats", [])}
                 reserve_id = item.get("reserveId", "")
-                libby_url = f"https://libbyapp.com/library/{library_id}/everything/page-1/{reserve_id}" if reserve_id else None
+                title_slug = title.replace(' ', '%20')
+                libby_url = f"https://libbyapp.com/library/{library_id}/search/query-{title_slug}/page-1"
 
                 is_ebook = bool(formats & EBOOK_FORMATS)
                 is_audio = bool(formats & AUDIOBOOK_FORMATS)
