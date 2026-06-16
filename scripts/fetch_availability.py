@@ -1,6 +1,8 @@
 import os
 import json
+import re
 import requests
+import urllib.parse
 
 # --- Config ---
 HARDCOVER_TOKEN = os.environ.get("HARDCOVER_TOKEN")
@@ -27,6 +29,9 @@ GENRE_WHITELIST = {
 
 EBOOK_FORMATS = {"ebook-overdrive", "ebook-epub-adobe", "ebook-kindle", "ebook-kobo"}
 AUDIOBOOK_FORMATS = {"audiobook-overdrive", "audiobook-mp3"}
+
+def normalize(s):
+    return re.sub(r'[^a-z0-9\s]', '', s.lower())
 
 # --- Step 1: Fetch want-to-read list from Hardcover ---
 def fetch_want_to_read():
@@ -96,6 +101,9 @@ def check_overdrive(title, author, isbn, library_id):
     audio_result = {"available": False, "reason": "not_in_catalog", "libby_url": None}
     found = False
 
+    query_slug = urllib.parse.quote(f"{title} {author}")
+    libby_url = f"https://libbyapp.com/library/{library_id}/search/query-{query_slug}/page-1"
+
     for query in queries:
         if found:
             break
@@ -109,18 +117,13 @@ def check_overdrive(title, author, isbn, library_id):
                 continue
 
             for item in items:
-                title_words = title.lower().replace('-', ' ').split()
-                item_title = item.get("title", "").lower()
+                title_words = normalize(title).split()
+                item_title = normalize(item.get("title", ""))
                 if sum(1 for w in title_words if w in item_title) < len(title_words) // 2:
                     continue
 
                 found = True
                 formats = {f["id"] for f in item.get("formats", [])}
-                reserve_id = item.get("reserveId", "")
-                import urllib.parse
-                query_slug = urllib.parse.quote(f"{title} {author}")
-                libby_url = f"https://libbyapp.com/library/{library_id}/search/query-{query_slug}/page-1"
-
                 is_ebook = bool(formats & EBOOK_FORMATS)
                 is_audio = bool(formats & AUDIOBOOK_FORMATS)
 
@@ -154,11 +157,10 @@ def check_overdrive(title, author, isbn, library_id):
             )
 
     if not found:
-        no_isbn = isbn is None
-        reason = "no_isbn" if no_isbn else "not_in_catalog"
+        reason = "no_isbn" if isbn is None else "not_in_catalog"
         return (
-            {"available": False, "reason": reason, "libby_url": None},
-            {"available": False, "reason": reason, "libby_url": None}
+            {"available": False, "reason": reason, "libby_url": libby_url},
+            {"available": False, "reason": reason, "libby_url": libby_url}
         )
 
     return ebook_result, audio_result
