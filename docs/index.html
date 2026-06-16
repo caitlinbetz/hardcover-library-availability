@@ -33,16 +33,17 @@
     .genre-pills { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.5rem; }
     .genre-pill { padding: 0.15rem 0.5rem; border-radius: 10px; font-size: 0.7rem; background: #e8f0fe; color: #3b5bdb; font-weight: 500; }
 
-    .accordion { border-top: 1px solid #f0f0f0; margin-top: 0.5rem; }
+    .accordion { border-top: 1px solid #f0f0f0; margin-top: 0.25rem; }
     .accordion-btn { width: 100%; text-align: left; background: none; border: none; padding: 0.5rem 0; font-size: 0.8rem; color: #888; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
     .accordion-btn:hover { color: #444; }
     .accordion-content { font-size: 0.82rem; color: #555; line-height: 1.5; padding-bottom: 0.5rem; display: none; }
     .accordion-content.open { display: block; }
 
-    .library-rows { border-top: 1px solid #f0f0f0; margin-top: 0.25rem; }
+    .library-rows { margin-top: 0.25rem; }
     .library-row { display: flex; justify-content: space-between; align-items: center; padding: 0.4rem 0; border-top: 1px solid #f0f0f0; font-size: 0.85rem; }
-    .library-row:first-child { border-top: none; }
     .library-name { color: #444; }
+    .library-name a { color: #444; text-decoration: none; }
+    .library-name a:hover { text-decoration: underline; }
     .badge { padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.75rem; font-weight: 500; }
     .badge.available { background: #d1fae5; color: #065f46; }
     .badge.waitlist { background: #fef3c7; color: #92400e; }
@@ -92,12 +93,21 @@
       return 'Unknown';
     }
 
-    function bookBestStatus(book) {
-      const statuses = Object.values(book.availability).map(getStatus);
+    function bookBestEbookStatus(book) {
+      const avails = book.ebook_availability || {};
+      const statuses = Object.values(avails).map(getStatus);
       if (statuses.includes('available')) return 'available';
       if (statuses.includes('waitlist')) return 'waitlist';
       if (statuses.includes('unavailable')) return 'unavailable';
       return 'no-isbn';
+    }
+
+    function bookMinWait(book) {
+      const avails = Object.values(book.ebook_availability || {});
+      const holds = avails
+        .filter(a => getStatus(a) === 'waitlist')
+        .map(a => a.holds ?? 999);
+      return holds.length ? Math.min(...holds) : 999;
     }
 
     function fuzzyMatch(text, query) {
@@ -154,6 +164,21 @@
       });
     }
 
+    function renderLibraryRows(availability, prefix) {
+      return Object.entries(availability || {}).map(([lib, avail]) => {
+        const status = getStatus(avail);
+        const label = lib.replace(' Public Library', '');
+        const nameHtml = avail.libby_url
+          ? `<a href="${avail.libby_url}" target="_blank">${label} ↗</a>`
+          : label;
+        return `
+          <div class="library-row">
+            <span class="library-name">${nameHtml}</span>
+            <span class="badge ${status}">${getBadgeLabel(avail)}</span>
+          </div>`;
+      }).join('');
+    }
+
     function render() {
       const query = document.getElementById('search').value;
       const genre = document.getElementById('genre-filter').value;
@@ -166,9 +191,24 @@
       if (currentTab === 'recent') {
         filtered = filtered.slice(0, 25);
       } else if (currentTab === 'available') {
-        filtered = filtered.filter(b => bookBestStatus(b) === 'available');
+        filtered = filtered.filter(b => bookBestEbookStatus(b) === 'available');
       } else if (currentTab === 'unavailable') {
-        filtered = filtered.filter(b => ['unavailable', 'no-isbn'].includes(bookBestStatus(b)));
+        filtered = filtered.filter(b => ['unavailable', 'no-isbn'].includes(bookBestEbookStatus(b)));
+      } else if (currentTab === 'all') {
+        // sort waitlist by shortest wait first, available at top, unavailable at bottom
+        filtered = filtered.slice().sort((a, b) => {
+          const order = { available: 0, waitlist: 1, unavailable: 2, 'no-isbn': 3 };
+          const sa = order[bookBestEbookStatus(a)] ?? 3;
+          const sb = order[bookBestEbookStatus(b)] ?? 3;
+          if (sa !== sb) return sa - sb;
+          if (sa === 1) return bookMinWait(a) - bookMinWait(b);
+          return 0;
+        });
+      }
+
+      // Sort waitlist tab by shortest wait
+      if (currentTab === 'available') {
+        filtered = filtered.slice().sort((a, b) => bookMinWait(a) - bookMinWait(b));
       }
 
       if (filtered.length === 0) {
@@ -178,12 +218,16 @@
 
       grid.innerHTML = filtered.map((book, i) => {
         const descId = `desc-${i}`;
+        const audioId = `audio-${i}`;
+
         const coverHtml = book.cover
           ? `<img class="book-cover" src="${book.cover}" alt="${book.title}" loading="lazy">`
           : `<div class="book-cover-placeholder">📖</div>`;
+
         const genreHtml = (book.genres || []).length
           ? `<div class="genre-pills">${book.genres.map(g => `<span class="genre-pill">${g}</span>`).join('')}</div>`
           : '';
+
         const descHtml = book.description
           ? `<div class="accordion">
                <button class="accordion-btn" id="btn-${descId}" onclick="toggleAccordion('${descId}')">
@@ -192,14 +236,19 @@
                <div class="accordion-content" id="${descId}">${book.description}</div>
              </div>`
           : '';
-        const libraryHtml = `<div class="library-rows">
-          ${Object.entries(book.availability).map(([lib, avail]) => `
-            <div class="library-row">
-              <span class="library-name">${lib.replace(' Public Library', '')}</span>
-              <span class="badge ${getStatus(avail)}">${getBadgeLabel(avail)}</span>
-            </div>
-          `).join('')}
-        </div>`;
+
+        const audioHtml = book.audio_availability
+          ? `<div class="accordion">
+               <button class="accordion-btn" id="btn-${audioId}" onclick="toggleAccordion('${audioId}')">
+                 🎧 Audiobook availability <span>▾</span>
+               </button>
+               <div class="accordion-content" id="${audioId}">
+                 <div class="library-rows">
+                   ${renderLibraryRows(book.audio_availability, audioId)}
+                 </div>
+               </div>
+             </div>`
+          : '';
 
         return `
           <div class="book-card">
@@ -213,7 +262,10 @@
               </div>
             </div>
             ${descHtml}
-            ${libraryHtml}
+            <div class="library-rows">
+              ${renderLibraryRows(book.ebook_availability, descId)}
+            </div>
+            ${audioHtml}
           </div>`;
       }).join('');
     }
