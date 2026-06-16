@@ -39,10 +39,10 @@
   <input class="search-box" type="text" id="search" placeholder="Search by title or author..." oninput="render()" />
 
   <div class="tabs">
-    <button class="tab active" onclick="setTab('recent')">Recently Added</button>
-    <button class="tab" onclick="setTab('available')">Available Now</button>
-    <button class="tab" onclick="setTab('all')">All Books</button>
-    <button class="tab" onclick="setTab('unavailable')">Not Available</button>
+    <button class="tab active" onclick="setTab('recent', event)">Recently Added</button>
+    <button class="tab" onclick="setTab('available', event)">Available Now</button>
+    <button class="tab" onclick="setTab('all', event)">All Books</button>
+    <button class="tab" onclick="setTab('unavailable', event)">Not Available</button>
   </div>
 
   <div class="book-grid" id="grid"></div>
@@ -76,15 +76,7 @@
       return 'no-isbn';
     }
 
-    function isRecent(book) {
-      if (!book.added_at) return false;
-      const sixMonthsAgo = new Date();
-      sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
-      return new Date(book.added_at) >= sixMonthsAgo;
-    }
-
     function fuzzyMatch(text, query) {
-      // Simple fuzzy: all query chars appear in order in text
       text = text.toLowerCase();
       query = query.toLowerCase();
       let ti = 0, qi = 0;
@@ -105,10 +97,10 @@
       return new Date(iso).toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
     }
 
-    function setTab(tab) {
+    function setTab(tab, e) {
       currentTab = tab;
       document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
-      event.target.classList.add('active');
+      e.target.classList.add('active');
       render();
     }
 
@@ -119,7 +111,7 @@
       let filtered = allBooks.filter(b => matchesSearch(b, query));
 
       if (currentTab === 'recent') {
-        filtered = filtered.filter(isRecent);
+        filtered = filtered.slice(0, 25);
       } else if (currentTab === 'available') {
         filtered = filtered.filter(b => bookBestStatus(b) === 'available');
       } else if (currentTab === 'unavailable') {
