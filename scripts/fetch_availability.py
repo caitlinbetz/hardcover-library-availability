@@ -106,7 +106,7 @@ def main():
     os.makedirs("data", exist_ok=True)
     with open("data/results.json", "w") as f:
         json.dump({
-            "updated": __import__("datetime").datetime.utcnow().isoformat(),
+            "updated": __import__("datetime").datetime.utcnow().isoformat() + "Z",
             "books": results
         }, f, indent=2)
     print("Done! Written to data/results.json")
