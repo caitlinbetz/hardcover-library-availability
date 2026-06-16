@@ -2,7 +2,7 @@ name: Update Library Availability
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # runs daily at noon UTC
+    - cron: '0 8,20 * * *'  # runs daily at noon UTC
   workflow_dispatch:        # also lets you run it manually from GitHub
 
 jobs:
