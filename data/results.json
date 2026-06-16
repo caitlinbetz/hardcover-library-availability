@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T15:53:49.356487Z",
+  "updated": "2026-06-16T16:04:09.320779Z",
   "books": [
     {
       "title": "The Tommyknockers",
@@ -235,9 +235,9 @@
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": null,
-          "reason": "error: HTTPSConnectionPool(host='thunder.api.overdrive.com', port=443): Read timed out. (read timeout=10)",
-          "libby_url": null
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Screen%20People%3A%20How%20We%20Entertained%20Ourselves%20Into%20a%20State%20of%20Emergency%20%E2%80%93%20An%20Urgent%20Exploration%20of%20Media%20Culture%2C%20Politics%2C%20and%20Social%20Reality%20Megan%20Garber/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
@@ -252,9 +252,9 @@
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": null,
-          "reason": "error: HTTPSConnectionPool(host='thunder.api.overdrive.com', port=443): Read timed out. (read timeout=10)",
-          "libby_url": null
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Screen%20People%3A%20How%20We%20Entertained%20Ourselves%20Into%20a%20State%20of%20Emergency%20%E2%80%93%20An%20Urgent%20Exploration%20of%20Media%20Culture%2C%20Politics%2C%20and%20Social%20Reality%20Megan%20Garber/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
@@ -412,7 +412,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 16,
-          "holds": 2,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Land%20in%20Winter%20Andrew%20%20Miller/page-1"
         },
@@ -2257,8 +2257,8 @@
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Foster%20Claire%20Keegan/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 23,
           "holds": 1,
           "reason": "ok",
@@ -4441,7 +4441,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 4,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Fraud%20Zadie%20Smith/page-1"
         },
@@ -7844,13 +7844,13 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 75,
-          "holds": 18,
+          "holds": 19,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Demon%20Copperhead%20Barbara%20Kingsolver/page-1"
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 14,
+          "copies_available": 15,
           "copies_owned": 162,
           "holds": 0,
           "reason": "ok",
@@ -9450,8 +9450,8 @@
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Small%20Things%20Like%20These%20Claire%20Keegan/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 23,
           "holds": 1,
           "reason": "ok",
@@ -10784,8 +10784,8 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 59,
-          "copies_owned": 68,
+          "copies_available": 58,
+          "copies_owned": 67,
           "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Cloud%20Cuckoo%20Land%20Anthony%20Doerr/page-1"
@@ -13639,7 +13639,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 10,
-          "holds": 16,
+          "holds": 15,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Searcher%20Tana%20French/page-1"
         },
@@ -18913,8 +18913,8 @@
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Possession%20A.S.%20Byatt/page-1"
         },
         "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 2,
           "holds": 0,
           "reason": "ok",
@@ -21230,7 +21230,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 4,
+          "copies_available": 3,
           "copies_owned": 7,
           "holds": 0,
           "reason": "ok",
@@ -22269,9 +22269,9 @@
       ],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": null,
-          "reason": "error: HTTPSConnectionPool(host='thunder.api.overdrive.com', port=443): Read timed out. (read timeout=10)",
-          "libby_url": null
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Life%20in%20Letters%20John%20Steinbeck/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
@@ -22286,9 +22286,9 @@
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": null,
-          "reason": "error: HTTPSConnectionPool(host='thunder.api.overdrive.com', port=443): Read timed out. (read timeout=10)",
-          "libby_url": null
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Life%20in%20Letters%20John%20Steinbeck/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
@@ -27241,7 +27241,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 10,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Vegetarian%20Han%20Kang/page-1"
         },
@@ -27820,7 +27820,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 803,
+          "holds": 804,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Whistler%20Ann%20Patchett/page-1"
         },
@@ -27843,7 +27843,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 8,
-          "holds": 652,
+          "holds": 653,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Whistler%20Ann%20Patchett/page-1"
         },
@@ -27885,7 +27885,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 195,
-          "holds": 1357,
+          "holds": 1356,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Theo%20of%20Golden%20Allen%20Levi/page-1"
         },
@@ -27911,7 +27911,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 193,
-          "holds": 1612,
+          "holds": 1614,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Theo%20of%20Golden%20Allen%20Levi/page-1"
         },
@@ -28078,7 +28078,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 12,
-          "holds": 409,
+          "holds": 411,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Kin%20Tayari%20Jones/page-1"
         },
@@ -28590,7 +28590,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 64,
+          "holds": 65,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         },
@@ -33030,8 +33030,8 @@
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Left%20Hand%20of%20Darkness%20Ursula%20K.%20Le%20Guin/page-1"
         },
         "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 9,
           "holds": 2,
           "reason": "ok",
@@ -33313,7 +33313,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 16,
-          "holds": 2,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-I%20Am%20Pilgrim%20Terry%20Hayes/page-1"
         },
