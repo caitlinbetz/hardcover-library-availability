@@ -89,6 +89,37 @@ def fetch_want_to_read():
         })
     return books
 
+# --- Step 1b: Fetch already-read titles from Hardcover (to exclude from recommendations) ---
+def fetch_read_titles():
+    query = """
+    query AlreadyRead {
+      me {
+        user_books(where: { status_id: { _eq: 3 } }) {
+          book {
+            title
+            contributions { author { name } }
+          }
+        }
+      }
+    }
+    """
+    response = requests.post(
+        "https://api.hardcover.app/v1/graphql",
+        json={"query": query},
+        headers={
+            "Content-Type": "application/json",
+            "authorization": f"Bearer {HARDCOVER_TOKEN}"
+        }
+    )
+    data = response.json()
+    titles = []
+    for ub in data["data"]["me"][0]["user_books"]:
+        book = ub["book"]
+        authors = [c["author"]["name"] for c in book.get("contributions", [])]
+        author = authors[0] if authors else "Unknown"
+        titles.append(f"{book['title']} by {author}")
+    return titles
+
 # --- Step 2: Check availability on OverDrive, split by format ---
 def check_overdrive(title, author, isbn, library_id):
     headers = {"User-Agent": "Mozilla/5.0"}
@@ -167,7 +198,7 @@ def check_overdrive(title, author, isbn, library_id):
     return ebook_result, audio_result
 
 # --- Step 3: Generate recommendations via Claude ---
-def generate_recommendations(books):
+def generate_recommendations(books, read_titles):
     print("Generating recommendations via Claude...")
 
     # Build a compact reading list for the prompt
@@ -177,11 +208,17 @@ def generate_recommendations(books):
         for b in books[:80]  # cap at 80 to stay within token limits
     ])
 
+    read_list = "\n".join([f"- {t}" for t in read_titles[:150]])
+
     prompt = f"""Here is someone's want-to-read list:
 
 {book_list}
 
-Based on their taste — the authors, genres, themes, and styles represented — recommend exactly 8 books they would likely love that are NOT already on this list.
+Here are titles they have ALREADY READ (do not recommend any of these, or a different edition/printing of the same book):
+
+{read_list}
+
+Based on their taste — the authors, genres, themes, and styles represented in their want-to-read list — recommend exactly 8 books they would likely love that are NOT already on their want-to-read list AND NOT in their already-read list above.
 
 For each recommendation, provide:
 - title
@@ -193,7 +230,6 @@ Respond ONLY with a JSON array, no markdown, no preamble. Format:
   {{"title": "Book Title", "author": "Author Name", "reason": "One sentence why."}}
 ]"""
 
-    print(f"API key present: {bool(ANTHROPIC_API_KEY)}")
     response = requests.post(
         "https://api.anthropic.com/v1/messages",
         headers={
@@ -209,7 +245,6 @@ Respond ONLY with a JSON array, no markdown, no preamble. Format:
     )
 
     data = response.json()
-    print(f"Claude API response: {data}")
     raw = data["content"][0]["text"].strip()
 
     # Strip markdown fences if present
@@ -275,7 +310,9 @@ def main():
 
     # Generate and save recommendations
     try:
-        recs = generate_recommendations(books)
+        read_titles = fetch_read_titles()
+        print(f"Found {len(read_titles)} already-read books to exclude")
+        recs = generate_recommendations(books, read_titles)
         recs_with_availability = check_recommendations_availability(recs)
         with open("data/recommendations.json", "w") as f:
             json.dump({
