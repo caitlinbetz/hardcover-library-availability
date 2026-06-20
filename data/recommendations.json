@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-20T10:43:06.410333Z",
+  "updated": "2026-06-20T21:35:46.281606Z",
   "recommendations": [
     {
       "title": "The Secret History",
       "author": "Donna Tartt",
-      "reason": "Given their love of dark, literary campus fiction like The Rules of Attraction and If We Were Villains (already read), this morally complex thriller about elite college students and a covered-up murder should resonate deeply.",
+      "reason": "Like 'If We Were Villains' and 'The Rules of Attraction', it blends literary fiction with dark academia, moral corruption, and a circle of privileged young people unraveling after a crime.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -12,7 +12,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 29,
+          "holds": 30,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
         },
@@ -20,7 +20,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 25,
+          "holds": 24,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
         },
@@ -63,7 +63,7 @@
     {
       "title": "Piranesi",
       "author": "Susanna Clarke",
-      "reason": "Their interest in literary fantasy with strange, atmospheric worlds \u2014 seen in titles like The Night Circus, The House of the Spirits, and Rivers of London \u2014 makes this haunting mystery set in a labyrinthine house of infinite halls a natural fit.",
+      "reason": "Fans of 'House of Leaves', 'The Night Circus', and surreal fantasy will be drawn to this haunting, labyrinthine mystery set in an impossible house with infinite halls.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -120,127 +120,68 @@
       }
     },
     {
-      "title": "The Terror",
-      "author": "Dan Simmons",
-      "reason": "Given their interest in Hyperion, Dark Matter (Paver), and adventure-horror hybrids, this meticulously researched supernatural thriller about a doomed Arctic expedition blends exactly the genres they gravitate toward.",
+      "title": "The Remains of the Day",
+      "author": "Kazuo Ishiguro",
+      "reason": "Given the interest in literary fiction like 'The Pale King', 'Stoner', and 'The Unbearable Lightness of Being', this quietly devastating novel about repression, duty, and regret fits the pattern perfectly.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 48,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20Dan%20Simmons/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 14,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 3,
-          "holds": 102,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20Dan%20Simmons/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 31,
-          "holds": 6,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20Dan%20Simmons/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 6,
-          "holds": 17,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 5,
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 2,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20Dan%20Simmons/page-1"
-        }
-      }
-    },
-    {
-      "title": "Never Let Me Go",
-      "author": "Kazuo Ishiguro",
-      "reason": "Their taste for literary dystopian fiction with emotional weight \u2014 seen in The Circle, Brave New World (already read), and The Pale King \u2014 aligns perfectly with this quiet, devastating science fiction novel about memory, identity, and mortality.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 17,
-          "holds": 73,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 12,
-          "holds": 61,
+          "available": true,
+          "copies_available": 5,
+          "copies_owned": 11,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
         },
         "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 6,
+          "available": true,
+          "copies_available": 3,
+          "copies_owned": 4,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 11,
-          "holds": 105,
+          "copies_owned": 8,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 9,
-          "holds": 73,
+          "available": true,
+          "copies_available": 5,
+          "copies_owned": 7,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
         },
         "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 1,
-          "holds": 8,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
         }
       }
     },
     {
       "title": "Blood Meridian",
       "author": "Cormac McCarthy",
-      "reason": "Their appreciation for brutal, lyrical literary fiction like The Vaster Wilds, One Foot in Eden, and On the Road suggests they would be gripped by this uncompromising historical epic widely considered one of the greatest American novels.",
+      "reason": "The appetite for dark, literary adventure seen in 'The Vaster Wilds', 'One Foot in Eden', and 'The Narrative of Arthur Gordon Pym' points strongly toward this brutal, hallucinatory masterpiece of American violence.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -248,7 +189,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 17,
+          "holds": 15,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
         },
@@ -264,7 +205,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
         }
@@ -291,65 +232,221 @@
       }
     },
     {
-      "title": "The Raw Shark Texts",
-      "author": "Steven Hall",
-      "reason": "Their interest in inventive, reality-bending narratives like House of Leaves (already read), How to Live Safely in a Science Fictional Universe, and Ghostwritten points directly to this genre-defying thriller about a man hunted by a conceptual shark.",
+      "title": "The Lathe of Heaven",
+      "author": "Ursula K. Le Guin",
+      "reason": "The interest in philosophical science fiction like 'Solaris', 'How to Live Safely in a Science Fictional Universe', and '2030' makes this mind-bending novel about a man whose dreams reshape reality a natural fit.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 9,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Lathe%20of%20Heaven%20Ursula%20K.%20Le%20Guin/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 8,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Lathe%20of%20Heaven%20Ursula%20K.%20Le%20Guin/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Lathe%20of%20Heaven%20Ursula%20K.%20Le%20Guin/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
+          "copies_owned": 5,
+          "holds": 5,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Lathe%20of%20Heaven%20Ursula%20K.%20Le%20Guin/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 12,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Lathe%20of%20Heaven%20Ursula%20K.%20Le%20Guin/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Lathe%20of%20Heaven%20Ursula%20K.%20Le%20Guin/page-1"
+        }
+      }
+    },
+    {
+      "title": "Flowers for Algernon",
+      "author": "Daniel Keyes",
+      "reason": "Fans of 'The Circle', 'Brave New World', and 'Lord of the Flies' who gravitate toward dystopian and science fiction with deep humanist undercurrents will find this story of intelligence, ethics, and loss unforgettable.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 5,
+          "holds": 11,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 5,
+          "holds": 8,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 5,
           "holds": 2,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 10,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          "reason": "not_in_catalog",
+          "libby_url": null
         }
       }
     },
     {
-      "title": "The Magus",
-      "author": "John Fowles",
-      "reason": "Their affinity for psychologically intricate, island-set mysteries with literary ambition \u2014 visible in The Beach (already read), The Monk, and Fingersmith \u2014 makes this labyrinthine thriller set on a Greek island a compelling choice.",
+      "title": "The Terror",
+      "author": "Dan Simmons",
+      "reason": "Given the love of 'Hyperion', 'Dark Matter', and 'The Tommyknockers', this sprawling horror-adventure about a doomed Arctic expedition blending historical fiction, supernatural dread, and survival perfectly mirrors their taste.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
+          "copies_available": 0,
+          "copies_owned": 48,
+          "holds": 2,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20Dan%20Simmons/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Magus%20John%20Fowles/page-1"
+          "copies_available": 0,
+          "copies_owned": 14,
+          "holds": 2,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 100,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20Dan%20Simmons/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 31,
+          "holds": 8,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20Dan%20Simmons/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 6,
+          "holds": 17,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 5,
+          "holds": 1,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20Dan%20Simmons/page-1"
+        }
+      }
+    },
+    {
+      "title": "Tinker, Tailor, Soldier, Spy",
+      "author": "John le Carr\u00e9",
+      "reason": "Having already read and presumably enjoyed 'The Spy Who Came In from the Cold' and 'Our Kind of Traitor', this masterwork of Cold War espionage and moral ambiguity is the obvious next step in the le Carr\u00e9 canon.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 5,
+          "holds": 3,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Tinker%2C%20Tailor%2C%20Soldier%2C%20Spy%20John%20le%20Carr%C3%A9/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 2,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Tinker%2C%20Tailor%2C%20Soldier%2C%20Spy%20John%20le%20Carr%C3%A9/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 5,
+          "copies_owned": 5,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Tinker%2C%20Tailor%2C%20Soldier%2C%20Spy%20John%20le%20Carr%C3%A9/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 3,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Tinker%2C%20Tailor%2C%20Soldier%2C%20Spy%20John%20le%20Carr%C3%A9/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": true,
+          "copies_available": 5,
+          "copies_owned": 6,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Tinker%2C%20Tailor%2C%20Soldier%2C%20Spy%20John%20le%20Carr%C3%A9/page-1"
         },
         "Alexandria Public Library": {
           "available": true,
@@ -357,80 +454,7 @@
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Magus%20John%20Fowles/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 2,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Magus%20John%20Fowles/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Magus%20John%20Fowles/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        }
-      }
-    },
-    {
-      "title": "Lonesome Dove",
-      "author": "Larry McMurtry",
-      "reason": "Their interest in expansive historical adventure narratives like Undaunted Courage, The Last Kingdom, and Fall of Giants suggests they would be enthralled by this Pulitzer Prize-winning epic cattle drive novel rich in character and landscape.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 11,
-          "holds": 252,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 11,
-          "holds": 118,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 15,
-          "holds": 319,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 163,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Tinker%2C%20Tailor%2C%20Soldier%2C%20Spy%20John%20le%20Carr%C3%A9/page-1"
         }
       }
     }
