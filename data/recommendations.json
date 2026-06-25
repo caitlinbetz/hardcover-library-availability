@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-24T21:43:52.300491Z",
+  "updated": "2026-06-25T11:08:26.014104Z",
   "recommendations": [
     {
       "title": "The Secret History",
       "author": "Donna Tartt",
-      "reason": "Their enjoyment of dark, literary campus fiction like The Rules of Attraction and If We Were Villains points directly to this psychological thriller about a group of classics students who commit murder.",
+      "reason": "Their enjoyment of The Goldfinch and love of literary fiction with dark, morally complex characters (Ellis, Nabokov, Highsmith) makes this campus thriller a natural fit.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -12,7 +12,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 26,
+          "holds": 25,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
         },
@@ -38,7 +38,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 9,
-          "holds": 67,
+          "holds": 66,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
         },
@@ -63,7 +63,7 @@
     {
       "title": "Piranesi",
       "author": "Susanna Clarke",
-      "reason": "Their interest in atmospheric, labyrinthine mysteries with fantastical settings like The Magus and House of Leaves suggests they would be captivated by this haunting novel of a man trapped in a mysterious infinite house.",
+      "reason": "Their interest in labyrinthine, surreal fantasy with literary depth \u2014 seen through The Magus, The Night Circus, and House of Leaves \u2014 points squarely to this strange, beautiful mystery.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -71,7 +71,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 30,
-          "holds": 26,
+          "holds": 22,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Piranesi%20Susanna%20Clarke/page-1"
         },
@@ -84,8 +84,8 @@
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Piranesi%20Susanna%20Clarke/page-1"
         },
         "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 5,
           "holds": 1,
           "reason": "ok",
@@ -120,9 +120,112 @@
       }
     },
     {
+      "title": "Cloud Atlas",
+      "author": "David Mitchell",
+      "reason": "They already have three David Mitchell books on their want-to-read or read lists (Ghostwritten, Slade House, Bone Clocks), making this his most celebrated novel an obvious next step.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 4,
+          "copies_owned": 20,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Cloud%20Atlas%20David%20Mitchell/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 5,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Cloud%20Atlas%20David%20Mitchell/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 2,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Cloud%20Atlas%20David%20Mitchell/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 11,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Cloud%20Atlas%20David%20Mitchell/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 12,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Cloud%20Atlas%20David%20Mitchell/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Cloud%20Atlas%20David%20Mitchell/page-1"
+        }
+      }
+    },
+    {
+      "title": "The Raw Shark Texts",
+      "author": "Steven Hall",
+      "reason": "Their appetite for formally experimental, genre-blurring fiction like House of Leaves and How to Live Safely in a Science Fictional Universe makes this conceptual thriller a strong match.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 2,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+        }
+      }
+    },
+    {
       "title": "The Terror",
       "author": "Dan Simmons",
-      "reason": "Given their appreciation for Hyperion's genre-blending ambition and Dark Matter's isolated, creeping dread, this historical horror novel about a doomed Arctic expedition would be a natural fit.",
+      "reason": "Their love of Simmons via Hyperion, combined with their interest in dark, isolated, survival-horror fiction like The Vaster Wilds and Dark Matter, makes this Arctic nightmare ideal.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -130,7 +233,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 48,
-          "holds": 6,
+          "holds": 8,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20Dan%20Simmons/page-1"
         },
@@ -138,7 +241,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 14,
-          "holds": 5,
+          "holds": 7,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
         },
@@ -179,86 +282,53 @@
       }
     },
     {
-      "title": "Never Let Me Go",
-      "author": "Kazuo Ishiguro",
-      "reason": "Their taste for quiet, literary dystopias and emotionally devastating fiction seen in The Pale King and The Unbearable Lightness of Being aligns perfectly with this haunting speculative novel about identity, mortality, and loss.",
+      "title": "Tenth of December",
+      "author": "George Saunders",
+      "reason": "Their interest in short story collections across speculative and literary fiction \u2014 Foster, Stories of Your Life, The Ones That Got Away \u2014 aligns perfectly with Saunders's darkly comic, humanist stories.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 17,
-          "holds": 68,
+          "available": true,
+          "copies_available": 4,
+          "copies_owned": 10,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Tenth%20of%20December%20George%20Saunders/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 12,
-          "holds": 58,
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 6,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Tenth%20of%20December%20George%20Saunders/page-1"
         },
         "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 2,
           "copies_owned": 2,
-          "holds": 7,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Tenth%20of%20December%20George%20Saunders/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 11,
-          "holds": 102,
+          "copies_owned": 3,
+          "holds": 1,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Tenth%20of%20December%20George%20Saunders/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 9,
-          "holds": 75,
+          "copies_owned": 2,
+          "holds": 14,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 10,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
-        }
-      }
-    },
-    {
-      "title": "Blood Meridian",
-      "author": "Cormac McCarthy",
-      "reason": "Their interest in brutal, literary adventure narratives like The Vaster Wilds and The Last Kingdom, combined with their appreciation for challenging prose as seen with David Foster Wallace, makes this violent masterwork a strong match.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 7,
-          "holds": 11,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 25,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Tenth%20of%20December%20George%20Saunders/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
@@ -266,34 +336,14 @@
           "copies_owned": 1,
           "holds": 1,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 5,
-          "holds": 68,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Tenth%20of%20December%20George%20Saunders/page-1"
         }
       }
     },
     {
       "title": "The Name of the Rose",
       "author": "Umberto Eco",
-      "reason": "Their appreciation for historical mysteries, Gothic atmosphere, and erudite literary fiction as seen in Fingersmith, Eye of the Needle, and Nightwood points strongly toward this medieval monastery murder mystery.",
+      "reason": "Their taste for erudite, atmospheric literary classics with mystery at their core \u2014 Nightwood, The Shadow of the Wind, Fingersmith \u2014 makes this medieval whodunit a compelling match.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -325,7 +375,7 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 1,
           "copies_owned": 4,
           "holds": 0,
           "reason": "ok",
@@ -350,59 +400,9 @@
       }
     },
     {
-      "title": "A Head Full of Ghosts",
-      "author": "Paul Tremblay",
-      "reason": "Given their interest in The Cabin at the End of the World and Dead Eleven, this meta-horror novel about demonic possession and media manipulation would appeal to their taste for intelligent, unsettling horror with layered themes.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 5,
-          "copies_owned": 6,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Head%20Full%20of%20Ghosts%20Paul%20Tremblay/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 2,
-          "copies_owned": 5,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Head%20Full%20of%20Ghosts%20Paul%20Tremblay/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Head%20Full%20of%20Ghosts%20Paul%20Tremblay/page-1"
-        }
-      }
-    },
-    {
       "title": "The Dispossessed",
       "author": "Ursula K. Le Guin",
-      "reason": "Their broad science fiction tastes spanning Solaris, Hyperion, and Leviathan Wakes alongside their interest in philosophical and societal themes suggests this rigorous, ideas-driven anarchist utopia novel would resonate deeply.",
+      "reason": "Their serious engagement with dystopian and philosophical science fiction \u2014 Solaris, Hyperion, Parable of the Sower, The Circle \u2014 suggests they would deeply appreciate Le Guin's rigorous, humane anarchist thought experiment.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -433,7 +433,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 9,
+          "holds": 10,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
         },
