@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-27T10:40:42.985670Z",
+  "updated": "2026-06-27T21:19:45.900711Z",
   "recommendations": [
     {
       "title": "The Secret History",
       "author": "Donna Tartt",
-      "reason": "Given their love of dark literary fiction with morally complex characters (The Rules of Attraction, Lolita, If We Were Villains), this campus noir about a group of classics students who commit murder would be an ideal fit.",
+      "reason": "Fans of dark, literary campus fiction with moral complexity like The Rules of Attraction and If We Were Villains will find this a natural fit.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -63,7 +63,7 @@
     {
       "title": "Piranesi",
       "author": "Susanna Clarke",
-      "reason": "Their taste for genre-blending literary fantasy (The Magus, The Night Circus, House of Leaves) points strongly toward this haunting, labyrinthine mystery set in a surreal house of infinite halls.",
+      "reason": "Its blend of literary fantasy, mystery, and uncanny atmosphere mirrors the appeal of books like The Magus, The Night Circus, and House of Leaves on their list.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -79,7 +79,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 29,
-          "holds": 32,
+          "holds": 30,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Piranesi%20Susanna%20Clarke/page-1"
         },
@@ -87,7 +87,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 5,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Piranesi%20Susanna%20Clarke/page-1"
         }
@@ -113,75 +113,169 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 27,
+          "holds": 28,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Piranesi%20Susanna%20Clarke/page-1"
         }
       }
     },
     {
-      "title": "The Remains of the Day",
-      "author": "Kazuo Ishiguro",
-      "reason": "Fans of quietly devastating literary fiction with unreliable narrators (The Unbearable Lightness of Being, The Pale King, Stoner) will find this measured, melancholy novel about a repressed English butler deeply rewarding.",
+      "title": "Blood Meridian",
+      "author": "Cormac McCarthy",
+      "reason": "Their interest in dark literary fiction, violent historical settings, and stylistically ambitious prose \u2014 seen in One Foot in Eden, The Vaster Wilds, and Augustus \u2014 points strongly toward this novel.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 6,
-          "copies_owned": 11,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 4,
-          "copies_owned": 4,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 8,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 5,
           "copies_owned": 7,
-          "holds": 0,
+          "holds": 12,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 4,
+          "holds": 25,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
+          "holds": 1,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 5,
+          "holds": 67,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        }
+      }
+    },
+    {
+      "title": "The Continuous Katherine Mortenhoe",
+      "author": "D.G. Compton",
+      "reason": "Their appetite for dystopian, media-critical science fiction like The Circle and Screen People makes this prescient novel about surveillance and voyeurism an ideal match.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Continuous%20Katherine%20Mortenhoe%20D.G.%20Compton/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Continuous%20Katherine%20Mortenhoe%20D.G.%20Compton/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Continuous%20Katherine%20Mortenhoe%20D.G.%20Compton/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Continuous%20Katherine%20Mortenhoe%20D.G.%20Compton/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Continuous%20Katherine%20Mortenhoe%20D.G.%20Compton/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Continuous%20Katherine%20Mortenhoe%20D.G.%20Compton/page-1"
+        }
+      }
+    },
+    {
+      "title": "A Gentleman in Moscow",
+      "author": "Amor Towles",
+      "reason": "Their fondness for richly observed literary historical fiction with wit and depth, evident in The Thousand Autumns of Jacob de Zoet and Fingersmith, aligns perfectly with this novel.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 6,
+          "copies_owned": 83,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": true,
+          "copies_available": 3,
+          "copies_owned": 39,
+          "holds": 3,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 3,
+          "copies_owned": 11,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 42,
+          "holds": 10,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 23,
+          "holds": 3,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 4,
+          "holds": 1,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         }
       }
     },
     {
       "title": "Never Let Me Go",
       "author": "Kazuo Ishiguro",
-      "reason": "Their interest in dystopian and speculative literary fiction (The Circle, 2030, Parable of the Sower) combined with a taste for emotionally resonant prose makes this haunting story of clones grappling with mortality a natural match.",
+      "reason": "Their taste for quiet, melancholy literary science fiction with deep emotional undercurrents \u2014 as seen with Solaris, Hyperion, and The Pale King \u2014 makes this a compelling recommendation.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -189,7 +283,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 17,
-          "holds": 69,
+          "holds": 70,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
         },
@@ -197,7 +291,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 12,
-          "holds": 60,
+          "holds": 61,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
         },
@@ -238,68 +332,15 @@
       }
     },
     {
-      "title": "Blood Meridian",
-      "author": "Cormac McCarthy",
-      "reason": "Given their appetite for dark, violent, and philosophically weighty fiction (The Road, Lord of the Flies, The Vaster Wilds), this brutal and visionary Western about scalp hunters on the Texas-Mexico border would captivate them.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 7,
-          "holds": 12,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 25,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 5,
-          "holds": 65,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        }
-      }
-    },
-    {
       "title": "The Terror",
       "author": "Dan Simmons",
-      "reason": "Their interest in Simmons (Hyperion), historical horror (Dark Matter by Michelle Paver), and survival adventure (Into Thin Air, The Vaster Wilds) makes this supernatural historical thriller about the doomed Franklin Arctic expedition a perfect convergence.",
+      "reason": "Their interest in dark, atmospheric horror and adventure in isolated settings, reflected in Dark Matter by Michelle Paver, The Cormorant, and Hyperion, makes this historical horror epic a strong fit.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 48,
           "holds": 3,
           "reason": "ok",
@@ -309,7 +350,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 14,
-          "holds": 7,
+          "holds": 8,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
         },
@@ -317,7 +358,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 97,
+          "holds": 98,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20Dan%20Simmons/page-1"
         }
@@ -335,7 +376,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 23,
+          "holds": 22,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
         },
@@ -350,68 +391,9 @@
       }
     },
     {
-      "title": "Lincoln in the Bardo",
-      "author": "George Saunders",
-      "reason": "Their taste for formally inventive literary fiction (House of Leaves, A Visit from the Goon Squad, The Pale King) and historical settings (Augustus, Fall of Giants) makes this polyphonic, genre-defying novel about grief and the afterlife an excellent fit.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 10,
-          "copies_owned": 35,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Lincoln%20in%20the%20Bardo%20George%20Saunders/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 16,
-          "copies_owned": 31,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Lincoln%20in%20the%20Bardo%20George%20Saunders/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 3,
-          "copies_owned": 5,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Lincoln%20in%20the%20Bardo%20George%20Saunders/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 23,
-          "holds": 3,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Lincoln%20in%20the%20Bardo%20George%20Saunders/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 14,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Lincoln%20in%20the%20Bardo%20George%20Saunders/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Lincoln%20in%20the%20Bardo%20George%20Saunders/page-1"
-        }
-      }
-    },
-    {
-      "title": "The Haunting of Hill House",
-      "author": "Shirley Jackson",
-      "reason": "Given their admiration for Jackson's We Have Always Lived in the Castle and their broader love of psychological horror and gothic atmosphere (Rebecca, House of Leaves, Dark Matter), Jackson's masterpiece of supernatural dread is an essential next read.",
+      "title": "The Sellout",
+      "author": "Paul Beatty",
+      "reason": "Their engagement with sharp social and political commentary \u2014 visible through What Does It Mean to Be White, Between the World and Me, and A Visit from the Goon Squad \u2014 pairs well with this satirical, Pulitzer-winning novel.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -419,40 +401,17 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 10,
+          "holds": 12,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Haunting%20of%20Hill%20House%20Shirley%20Jackson/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Haunting%20of%20Hill%20House%20Shirley%20Jackson/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 3,
-          "holds": 33,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Haunting%20of%20Hill%20House%20Shirley%20Jackson/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Sellout%20Paul%20Beatty/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 3,
+          "holds": 5,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Haunting%20of%20Hill%20House%20Shirley%20Jackson/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Sellout%20Paul%20Beatty/page-1"
         },
         "Alexandria Public Library": {
           "available": true,
@@ -460,7 +419,24 @@
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Haunting%20of%20Hill%20House%20Shirley%20Jackson/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Sellout%20Paul%20Beatty/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
         }
       }
     }
