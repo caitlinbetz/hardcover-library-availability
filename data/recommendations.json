@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-29T13:03:44.074038Z",
+  "updated": "2026-06-29T22:01:35.002565Z",
   "recommendations": [
     {
       "title": "The Secret History",
       "author": "Donna Tartt",
-      "reason": "Fans of dark, literary campus fiction with moral complexity like The Rules of Attraction and If We Were Villains will find this compulsively readable.",
+      "reason": "Their enjoyment of dark, literary campus novels with psychological depth (If We Were Villains, The Goldfinch) and classics-inflected literary fiction (Lolita, The Rules of Attraction) points strongly to this cornerstone of the genre.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -46,7 +46,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 33,
+          "holds": 32,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
         },
@@ -63,7 +63,7 @@
     {
       "title": "Piranesi",
       "author": "Susanna Clarke",
-      "reason": "Its blend of mystery, strange fantasy, and literary depth mirrors the appeal of The Magus and The Night Circus on their list.",
+      "reason": "Their interest in literary fantasy with uncanny, mysterious architectures (The Magus, House of Leaves, The Night Circus) and puzzle-box narratives makes this surreal, beautifully written mystery a natural fit.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -79,7 +79,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 29,
-          "holds": 28,
+          "holds": 30,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Piranesi%20Susanna%20Clarke/page-1"
         },
@@ -113,77 +113,83 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 27,
+          "holds": 25,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Piranesi%20Susanna%20Clarke/page-1"
         }
       }
     },
     {
-      "title": "The Alienist",
-      "author": "Caleb Carr",
-      "reason": "Combines the historical fiction and crime elements seen across their list, particularly their interest in Eye of the Needle and Fingersmith.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 4,
-          "copies_owned": 4,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Alienist%20Caleb%20Carr/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 2,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Alienist%20Caleb%20Carr/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Alienist%20Caleb%20Carr/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 2,
-          "copies_owned": 4,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Alienist%20Caleb%20Carr/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        }
-      }
-    },
-    {
-      "title": "Blood Meridian",
-      "author": "Cormac McCarthy",
-      "reason": "Fans of brutal, literary adventure with classical weight like The Vaster Wilds and Lord of the Flies will find this essential.",
+      "title": "The Terror",
+      "author": "Dan Simmons",
+      "reason": "Given their want-to-read interest in Hyperion and their love of atmospheric horror and adventure in isolated, extreme settings (The Ruins, Dark Matter by Paver, Into Thin Air), this historical horror epic would be compelling.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 7,
-          "holds": 13,
+          "copies_owned": 48,
+          "holds": 3,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20Dan%20Simmons/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 14,
+          "holds": 6,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 98,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20Dan%20Simmons/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 31,
+          "holds": 3,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20Dan%20Simmons/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 6,
+          "holds": 23,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 5,
+          "holds": 2,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20Dan%20Simmons/page-1"
+        }
+      }
+    },
+    {
+      "title": "Blood Meridian",
+      "author": "Cormac McCarthy",
+      "reason": "Their affinity for bleak, literary, intensely written fiction with violence and moral weight (The Road parallels, One Foot in Eden, The Vaster Wilds, The Old Man and the Sea) makes this brutal American classic an obvious next step.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 9,
+          "holds": 12,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
         },
@@ -228,7 +234,7 @@
     {
       "title": "Never Let Me Go",
       "author": "Kazuo Ishiguro",
-      "reason": "Its quiet, dystopian literary fiction sits perfectly at the intersection of The Unbearable Lightness of Being and The Circle on their list.",
+      "reason": "Their interest in quiet, literary dystopian fiction (The Pale King, The Circle, Station Eleven) combined with emotionally restrained yet devastating storytelling aligns perfectly with Ishiguro's approach.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -236,7 +242,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 17,
-          "holds": 69,
+          "holds": 70,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
         },
@@ -244,7 +250,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 12,
-          "holds": 62,
+          "holds": 61,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
         },
@@ -262,7 +268,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 11,
-          "holds": 102,
+          "holds": 103,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
         },
@@ -285,167 +291,167 @@
       }
     },
     {
-      "title": "The Terror",
-      "author": "Dan Simmons",
-      "reason": "Given their appetite for Hyperion, Dark Matter, and adventure horror, this Arctic survival nightmare from the same author is a natural fit.",
+      "title": "The Little Stranger",
+      "author": "Sarah Waters",
+      "reason": "Their want-to-read interest in Fingersmith by the same author, combined with their love of atmospheric, literary horror and gothic fiction (We Have Always Lived in the Castle, Rebecca, Dark Matter by Paver), makes this haunted-house novel an ideal recommendation.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 2,
+          "copies_owned": 5,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 0,
+          "holds": 4,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 2,
+          "copies_owned": 4,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 3,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        }
+      }
+    },
+    {
+      "title": "Lonesome Dove",
+      "author": "Larry McMurtry",
+      "reason": "Their interest in epic, character-driven historical adventure (Undaunted Courage, Fall of Giants, The Last Kingdom, Augustus) and richly literary American storytelling suggests this Pulitzer Prize-winning western would resonate deeply.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 48,
-          "holds": 3,
+          "copies_owned": 11,
+          "holds": 252,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20Dan%20Simmons/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 14,
-          "holds": 6,
+          "copies_owned": 12,
+          "holds": 129,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 3,
-          "holds": 98,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20Dan%20Simmons/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 31,
+          "copies_owned": 30,
+          "holds": 289,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 4,
+          "holds": 158,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
+        }
+      }
+    },
+    {
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "reason": "Their broad appetite for post-apocalyptic fiction (The Stand, Parable of the Sower, The Dog Stars), literary fiction, and survival narratives in extreme conditions makes this iconic novel a clear gap in their reading history.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 3,
+          "copies_owned": 5,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20Dan%20Simmons/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Road%20Cormac%20McCarthy/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 24,
+          "holds": 16,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 5,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20Dan%20Simmons/page-1"
-        }
-      }
-    },
-    {
-      "title": "Skippy Dies",
-      "author": "Paul Murray",
-      "reason": "Already on their want-to-read list \u2014 instead, The Bee Sting by the same author rewards fans of sprawling, darkly comic family fiction like The Most Fun We Ever Had.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 15,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Skippy%20Dies%20Paul%20Murray/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 13,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Skippy%20Dies%20Paul%20Murray/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Skippy%20Dies%20Paul%20Murray/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Skippy%20Dies%20Paul%20Murray/page-1"
-        }
-      }
-    },
-    {
-      "title": "A Gentleman in Moscow",
-      "author": "Amor Towles",
-      "reason": "Its elegant literary style, historical richness, and slow-burn character study align with their taste for Classics and Literary Fiction like Augustus and The Pale King.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 83,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 2,
-          "copies_owned": 39,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Road%20Cormac%20McCarthy/page-1"
         },
         "Alexandria Public Library": {
           "available": true,
           "copies_available": 2,
-          "copies_owned": 11,
+          "copies_owned": 2,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Road%20Cormac%20McCarthy/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 42,
-          "holds": 13,
+          "copies_owned": 3,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Road%20Cormac%20McCarthy/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 23,
-          "holds": 4,
+          "available": true,
+          "copies_available": 74,
+          "copies_owned": 77,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Road%20Cormac%20McCarthy/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          "reason": "not_in_catalog",
+          "libby_url": null
         }
       }
     }
