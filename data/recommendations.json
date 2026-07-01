@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-30T21:56:23.877669Z",
+  "updated": "2026-07-01T11:36:26.561340Z",
   "recommendations": [
     {
       "title": "The Terror",
       "author": "Dan Simmons",
-      "reason": "Fans of Simmons's Hyperion and the isolated, dread-filled horror of Dark Matter by Michelle Paver will find this arctic survival horror novel a perfect match.",
+      "reason": "Fans of Simmons's Hyperion who also enjoy dark, isolated horror like Dark Matter by Michelle Paver will find this Arctic survival nightmare a perfect convergence of their tastes.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -12,7 +12,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 43,
-          "holds": 6,
+          "holds": 8,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20Dan%20Simmons/page-1"
         },
@@ -20,7 +20,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 14,
-          "holds": 7,
+          "holds": 6,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
         },
@@ -38,7 +38,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 26,
-          "holds": 2,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20Dan%20Simmons/page-1"
         },
@@ -46,7 +46,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 25,
+          "holds": 26,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
         },
@@ -54,57 +54,190 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 5,
-          "holds": 2,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20Dan%20Simmons/page-1"
         }
       }
     },
     {
-      "title": "Riddley Walker",
-      "author": "Russell Hoban",
-      "reason": "Its post-apocalyptic literary invention sits squarely at the intersection of the dystopian science fiction and challenging literary fiction they gravitate toward, from The Road-adjacent survival narratives to The Pale King's demanding prose.",
+      "title": "Piranesi",
+      "author": "Susanna Clarke",
+      "reason": "Its blend of literary mystery, eerie fantasy, and quiet psychological unease mirrors the appeal of books like The Magus, The Night Circus, and We Have Always Lived in the Castle on their list.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
+          "copies_available": 0,
+          "copies_owned": 29,
+          "holds": 23,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Piranesi%20Susanna%20Clarke/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
+          "copies_available": 0,
+          "copies_owned": 29,
+          "holds": 26,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Piranesi%20Susanna%20Clarke/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
+          "copies_available": 0,
+          "copies_owned": 5,
+          "holds": 2,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Piranesi%20Susanna%20Clarke/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 3,
+          "copies_owned": 3,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Piranesi%20Susanna%20Clarke/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": true,
+          "copies_available": 2,
+          "copies_owned": 4,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Piranesi%20Susanna%20Clarke/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 25,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Piranesi%20Susanna%20Clarke/page-1"
+        }
+      }
+    },
+    {
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "reason": "Their love of bleak, literary fiction with dystopian undertones \u2014 from The Stand to The Pale King \u2014 makes this spare, devastating post-apocalyptic novel a natural fit.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 3,
+          "copies_owned": 5,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Road%20Cormac%20McCarthy/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 6,
+          "holds": 18,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Road%20Cormac%20McCarthy/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 2,
+          "copies_owned": 2,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Road%20Cormac%20McCarthy/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Road%20Cormac%20McCarthy/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
+          "available": true,
+          "copies_available": 73,
+          "copies_owned": 76,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Road%20Cormac%20McCarthy/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
+          "reason": "not_in_catalog",
+          "libby_url": null
+        }
+      }
+    },
+    {
+      "title": "Never Let Me Go",
+      "author": "Kazuo Ishiguro",
+      "reason": "Its quiet, literary science fiction and deeply emotional reckoning with mortality connects directly to their interest in works like The Circle, Solaris, and The Unbearable Lightness of Being.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 17,
+          "holds": 70,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 12,
+          "holds": 59,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 9,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 11,
+          "holds": 101,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 9,
+          "holds": 80,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 10,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
         }
       }
     },
     {
       "title": "The Secret History",
       "author": "Donna Tartt",
-      "reason": "Given their love of If We Were Villains, The Rules of Attraction, and Lolita, this dark, literary campus novel about obsession and moral corruption is a natural fit.",
+      "reason": "Given their enjoyment of dark academia, literary fiction, and psychological suspense across authors like Bret Easton Ellis, Patricia Highsmith, and M.L. Rio, this is a glaring and essential gap.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -138,7 +271,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 9,
-          "holds": 64,
+          "holds": 66,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
         },
@@ -146,7 +279,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 32,
+          "holds": 31,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
         },
@@ -161,35 +294,35 @@
       }
     },
     {
-      "title": "Blood Meridian",
-      "author": "Cormac McCarthy",
-      "reason": "Their interest in brutal, literary adventure across harsh landscapes \u2014 Vaster Wilds, Undaunted Courage, One Foot in Eden \u2014 points directly to McCarthy's violent, mythic masterpiece.",
+      "title": "A Wizard of Earthsea",
+      "author": "Ursula K. Le Guin",
+      "reason": "Their appetite for foundational fantasy classics \u2014 Sanderson, Hobb, Lem, Tolkien-adjacent works \u2014 points directly to this elegantly written cornerstone of the genre.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 9,
-          "holds": 15,
+          "copies_owned": 1,
+          "holds": 10,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Wizard%20of%20Earthsea%20Ursula%20K.%20Le%20Guin/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 23,
+          "available": true,
+          "copies_available": 2,
+          "copies_owned": 2,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Wizard%20of%20Earthsea%20Ursula%20K.%20Le%20Guin/page-1"
         },
         "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 1,
-          "holds": 2,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Wizard%20of%20Earthsea%20Ursula%20K.%20Le%20Guin/page-1"
         }
       },
       "audio_availability": {
@@ -197,26 +330,32 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 5,
-          "holds": 65,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Wizard%20of%20Earthsea%20Ursula%20K.%20Le%20Guin/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 4,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Wizard%20of%20Earthsea%20Ursula%20K.%20Le%20Guin/page-1"
         },
         "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Wizard%20of%20Earthsea%20Ursula%20K.%20Le%20Guin/page-1"
         }
       }
     },
     {
       "title": "The Buried Giant",
       "author": "Kazuo Ishiguro",
-      "reason": "Sitting at the crossroads of literary fiction, quiet fantasy, and historical settings they repeatedly seek out \u2014 from The House of the Spirits to The Last Kingdom \u2014 this elegiac novel will resonate deeply.",
+      "reason": "Its fusion of mythic fantasy, literary restraint, and meditation on memory and loss bridges their love of classics like The House of the Spirits and fantasy epics like The Last Kingdom.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -224,13 +363,13 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 14,
-          "holds": 7,
+          "holds": 6,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 1,
           "copies_owned": 10,
           "holds": 2,
           "reason": "ok",
@@ -273,170 +412,58 @@
       }
     },
     {
-      "title": "Piranesi",
-      "author": "Susanna Clarke",
-      "reason": "Its labyrinthine mystery wrapped in luminous fantasy prose directly bridges their love of The Night Circus, House of Leaves, and We Have Always Lived in the Castle.",
+      "title": "Flowers for Algernon",
+      "author": "Daniel Keyes",
+      "reason": "Their fondness for emotionally resonant science fiction with humanist depth \u2014 Solaris, Hyperion, How to Live Safely in a Science Fictional Universe \u2014 makes this affecting classic an ideal recommendation.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 29,
-          "holds": 21,
+          "copies_owned": 5,
+          "holds": 13,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Piranesi%20Susanna%20Clarke/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 29,
-          "holds": 25,
+          "copies_owned": 5,
+          "holds": 7,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Piranesi%20Susanna%20Clarke/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 5,
-          "holds": 3,
+          "copies_owned": 1,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Piranesi%20Susanna%20Clarke/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 3,
-          "copies_owned": 3,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Piranesi%20Susanna%20Clarke/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 4,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Piranesi%20Susanna%20Clarke/page-1"
-        },
-        "Alexandria Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 25,
+          "copies_owned": 5,
+          "holds": 2,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Piranesi%20Susanna%20Clarke/page-1"
-        }
-      }
-    },
-    {
-      "title": "The Dispossessed",
-      "author": "Ursula K. Le Guin",
-      "reason": "Their appetite for ideas-driven, literary science fiction \u2014 Solaris, Hyperion, Leviathan Wakes \u2014 makes this philosophically rich anarchist utopia an essential next read.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 10,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
         },
         "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 3,
-          "holds": 0,
+          "holds": 12,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "reason": "not_in_catalog",
           "libby_url": null
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 13,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 8,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-        }
-      }
-    },
-    {
-      "title": "Lonesome Dove",
-      "author": "Larry McMurtry",
-      "reason": "Their interest in sweeping American historical adventure \u2014 Undaunted Courage, North Woods, Eye of the Needle \u2014 combined with their appetite for long, immersive literary fiction makes this Pulitzer-winning epic a strong match.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 11,
-          "holds": 252,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 12,
-          "holds": 131,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 30,
-          "holds": 290,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 157,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
         }
       }
     }
