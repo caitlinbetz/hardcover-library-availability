@@ -1,10 +1,181 @@
 {
-  "updated": "2026-07-11T10:06:56.950585Z",
+  "updated": "2026-07-11T21:05:23.707605Z",
   "recommendations": [
+    {
+      "title": "Blood Meridian",
+      "author": "Cormac McCarthy",
+      "reason": "Their taste for dark, literary fiction with rich prose \u2014 seen in Faulkner, Kundera, and Nabokov on their list \u2014 points directly to McCarthy's brutal, philosophically dense masterwork.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 9,
+          "holds": 16,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 4,
+          "holds": 23,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 1,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 5,
+          "holds": 70,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        }
+      }
+    },
+    {
+      "title": "The Terror",
+      "author": "Dan Simmons",
+      "reason": "Given their interest in Hyperion, dark horror like Stephen King, and adventure narratives like Undaunted Courage, this historical horror novel about a doomed Arctic expedition should be a natural fit.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 43,
+          "holds": 10,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20Dan%20Simmons/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 14,
+          "holds": 11,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 94,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20Dan%20Simmons/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 26,
+          "holds": 14,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20Dan%20Simmons/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 6,
+          "holds": 26,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 5,
+          "holds": 1,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20Dan%20Simmons/page-1"
+        }
+      }
+    },
+    {
+      "title": "Cloud Atlas",
+      "author": "David Mitchell",
+      "reason": "Their appreciation for structurally ambitious literary fiction \u2014 evidenced by The Pale King, A Visit from the Goon Squad, and having read Slade House and The Bone Clocks \u2014 makes this Mitchell masterpiece an obvious next step.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 4,
+          "copies_owned": 20,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Cloud%20Atlas%20David%20Mitchell/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 5,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Cloud%20Atlas%20David%20Mitchell/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 2,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Cloud%20Atlas%20David%20Mitchell/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 11,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Cloud%20Atlas%20David%20Mitchell/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 13,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Cloud%20Atlas%20David%20Mitchell/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Cloud%20Atlas%20David%20Mitchell/page-1"
+        }
+      }
+    },
     {
       "title": "The Secret History",
       "author": "Donna Tartt",
-      "reason": "Shares the dark, literary campus intrigue and morally complex characters found in their interest in books like The Rules of Attraction and If We Were Villains, which they've already read.",
+      "reason": "Their want-to-read list features If We Were Villains and Rules of Attraction, and they've read The Goldfinch, suggesting a strong pull toward dark, literary campus fiction with moral complexity.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -12,7 +183,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 19,
+          "holds": 20,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
         },
@@ -20,7 +191,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 20,
+          "holds": 21,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
         },
@@ -63,7 +234,7 @@
     {
       "title": "Piranesi",
       "author": "Susanna Clarke",
-      "reason": "Blends the mysterious, labyrinthine atmosphere of House of Leaves and Night Film with the fantasy elements prominent throughout their want-to-read list.",
+      "reason": "Their list combines literary fiction, fantasy, and mystery \u2014 The Magus, The Night Circus, We Have Always Lived in the Castle \u2014 and Piranesi occupies exactly that same uncanny, puzzle-like intersection.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -113,324 +284,165 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 27,
+          "holds": 26,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Piranesi%20Susanna%20Clarke/page-1"
         }
       }
     },
     {
-      "title": "The Terror",
-      "author": "Dan Simmons",
-      "reason": "Combines the historical adventure of Undaunted Courage, the dread of Dark Matter by Michelle Paver, and the ambitious genre-blending of Hyperion, all of which appear on their list.",
+      "title": "The Savage Detectives",
+      "author": "Roberto Bola\u00f1o",
+      "reason": "Their taste for ambitious, experimental literary fiction from Faulkner to David Foster Wallace and international voices like Kundera and Allende suggests they would embrace Bola\u00f1o's sprawling, genre-defying novel.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Savage%20Detectives%20Roberto%20Bola%C3%B1o/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Savage%20Detectives%20Roberto%20Bola%C3%B1o/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 5,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Savage%20Detectives%20Roberto%20Bola%C3%B1o/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Savage%20Detectives%20Roberto%20Bola%C3%B1o/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Savage%20Detectives%20Roberto%20Bola%C3%B1o/page-1"
+        }
+      }
+    },
+    {
+      "title": "Lonesome Dove",
+      "author": "Larry McMurtry",
+      "reason": "Their interest in historical adventure and sweeping American narratives \u2014 Undaunted Courage, Augustus, Fall of Giants \u2014 combined with a love of rich character-driven fiction makes this epic Western a strong match.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 43,
-          "holds": 12,
+          "copies_owned": 11,
+          "holds": 248,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20Dan%20Simmons/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
         },
         "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 16,
+          "holds": 122,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 30,
+          "holds": 295,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 4,
+          "holds": 141,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
+        }
+      }
+    },
+    {
+      "title": "The Buried Giant",
+      "author": "Kazuo Ishiguro",
+      "reason": "Their list blends literary fiction, fantasy, and meditations on memory and loss seen in The Unbearable Lightness of Being and The House of the Spirits, and Ishiguro's mythic, quietly devastating novel sits perfectly at that crossroads.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
           "copies_owned": 14,
-          "holds": 10,
+          "holds": 9,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 3,
-          "holds": 94,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20Dan%20Simmons/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 26,
-          "holds": 13,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20Dan%20Simmons/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 6,
-          "holds": 26,
+          "copies_owned": 10,
+          "holds": 6,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 5,
-          "holds": 2,
+          "copies_owned": 1,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20Dan%20Simmons/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         }
-      }
-    },
-    {
-      "title": "Blood Meridian",
-      "author": "Cormac McCarthy",
-      "reason": "Appeals to their taste for dark, literary fiction with historical weight, echoing their interest in authors like William Faulkner, Ron Rash, and Lauren Groff.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
+      },
+      "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
           "copies_owned": 9,
-          "holds": 19,
+          "holds": 62,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 23,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 5,
-          "holds": 69,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        }
-      }
-    },
-    {
-      "title": "The Quincunx",
-      "author": "Charles Palliser",
-      "reason": "Matches their interest in Victorian literary complexity seen in Fingersmith and The Monk, offering an intricate, gothic historical mystery.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Quincunx%20Charles%20Palliser/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Quincunx%20Charles%20Palliser/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Quincunx%20Charles%20Palliser/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Quincunx%20Charles%20Palliser/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Quincunx%20Charles%20Palliser/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Quincunx%20Charles%20Palliser/page-1"
-        }
-      }
-    },
-    {
-      "title": "A Gentleman in Moscow",
-      "author": "Amor Towles",
-      "reason": "Reflects their appreciation for elegant, historically grounded literary fiction in the vein of Augustus, Imperium, and The Poisonwood Bible.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 3,
-          "copies_owned": 82,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 39,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 3,
-          "copies_owned": 11,
+          "copies_available": 2,
+          "copies_owned": 7,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 41,
-          "holds": 7,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 23,
-          "holds": 11,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         },
         "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
-        }
-      }
-    },
-    {
-      "title": "Oryx and Crake",
-      "author": "Margaret Atwood",
-      "reason": "Directly connects to their dystopian and speculative interests seen in The Circle, Parable of the Sower, and 2030, with the literary depth they clearly favor.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
           "available": true,
           "copies_available": 1,
-          "copies_owned": 9,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Oryx%20and%20Crake%20Margaret%20Atwood/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 3,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Oryx%20and%20Crake%20Margaret%20Atwood/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Oryx%20and%20Crake%20Margaret%20Atwood/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 6,
-          "holds": 4,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Oryx%20and%20Crake%20Margaret%20Atwood/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 4,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Oryx%20and%20Crake%20Margaret%20Atwood/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Oryx%20and%20Crake%20Margaret%20Atwood/page-1"
-        }
-      }
-    },
-    {
-      "title": "The Raw Shark Texts",
-      "author": "Steven Hall",
-      "reason": "Appeals to their love of formally inventive, reality-bending fiction seen in House of Leaves, How to Live Safely in a Science Fictional Universe, and The Magus.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         }
       }
     }
