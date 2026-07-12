@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-12T10:21:02.974603Z",
+  "updated": "2026-07-12T21:10:09.548650Z",
   "recommendations": [
     {
       "title": "The Secret History",
       "author": "Donna Tartt",
-      "reason": "Their love of dark, literary fiction with psychological depth \u2014 seen in picks like 'If We Were Villains,' 'Lolita,' and 'The Rules of Attraction' \u2014 makes this campus murder mystery a perfect fit.",
+      "reason": "Shares the dark academic atmosphere and morally complex characters found in their interest in 'If We Were Villains' and 'The Rules of Attraction', blending literary fiction with psychological suspense.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -12,7 +12,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 20,
+          "holds": 24,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
         },
@@ -63,7 +63,7 @@
     {
       "title": "Blood Meridian",
       "author": "Cormac McCarthy",
-      "reason": "Their taste for brutal, literary adventure in rugged landscapes, evidenced by 'The Vaster Wilds,' 'One Foot in Eden,' and 'The Road'-adjacent picks, points directly to McCarthy's most savage and stylistically commanding novel.",
+      "reason": "Fans of 'The Vaster Wilds', 'One Foot in Eden', and 'The Pale King' who appreciate dense, literary prose with dark themes of wilderness and human nature will find this a natural fit.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -71,7 +71,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 9,
-          "holds": 14,
+          "holds": 15,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
         },
@@ -84,10 +84,10 @@
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
         },
         "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 1,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Blood%20Meridian%20Cormac%20McCarthy/page-1"
         }
@@ -114,9 +114,159 @@
       }
     },
     {
+      "title": "The Spy Who Came in from the Cold",
+      "author": "John le Carr\u00e9",
+      "reason": "Given their interest in 'Our Kind of Traitor' and 'Slow Horses', along with Cold War history titles like 'Ghost Wars', this espionage classic would resonate deeply.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 8,
+          "holds": 2,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Spy%20Who%20Came%20in%20from%20the%20Cold%20John%20le%20Carr%C3%A9/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 4,
+          "holds": 2,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Spy%20Who%20Came%20in%20from%20the%20Cold%20John%20le%20Carr%C3%A9/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 5,
+          "copies_owned": 5,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Spy%20Who%20Came%20in%20from%20the%20Cold%20John%20le%20Carr%C3%A9/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Spy%20Who%20Came%20in%20from%20the%20Cold%20John%20le%20Carr%C3%A9/page-1"
+        }
+      }
+    },
+    {
+      "title": "The Dispossessed",
+      "author": "Ursula K. Le Guin",
+      "reason": "Their taste for thoughtful, philosophical science fiction \u2014 evidenced by 'Solaris', 'Hyperion', and 'The Hidden Reality' \u2014 makes this meditative utopian SF novel an ideal match.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 11,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": true,
+          "copies_available": 2,
+          "copies_owned": 3,
+          "holds": 1,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 4,
+          "holds": 15,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 4,
+          "holds": 13,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 6,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
+        }
+      }
+    },
+    {
+      "title": "Picnic, Lightning",
+      "author": "Billy Collins",
+      "reason": "Their inclusion of 'Blizzard: Poems' by Henri Cole signals an appetite for accessible yet resonant contemporary poetry, and Collins is a perfect companion poet in that tradition.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Picnic%2C%20Lightning%20Billy%20Collins/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Picnic%2C%20Lightning%20Billy%20Collins/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Picnic%2C%20Lightning%20Billy%20Collins/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Picnic%2C%20Lightning%20Billy%20Collins/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Picnic%2C%20Lightning%20Billy%20Collins/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Picnic%2C%20Lightning%20Billy%20Collins/page-1"
+        }
+      }
+    },
+    {
       "title": "The Terror",
       "author": "Dan Simmons",
-      "reason": "Given their interest in Simmons via 'Hyperion,' plus a clear appetite for remote-setting horror and survival narratives seen in 'Dark Matter' by Paver and 'Into Thin Air,' this Arctic expedition horror would be a natural obsession.",
+      "reason": "Their interest in Simmons's 'Hyperion', along with horror titles like 'Dark Matter' by Michelle Paver and 'The Cormorant', points directly toward this chilling historical Arctic survival horror novel.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -124,7 +274,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 43,
-          "holds": 12,
+          "holds": 10,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20Dan%20Simmons/page-1"
         },
@@ -132,7 +282,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 14,
-          "holds": 12,
+          "holds": 13,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
         },
@@ -140,7 +290,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 95,
+          "holds": 94,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20Dan%20Simmons/page-1"
         }
@@ -150,7 +300,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 26,
-          "holds": 11,
+          "holds": 9,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20Dan%20Simmons/page-1"
         },
@@ -158,7 +308,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 27,
+          "holds": 25,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
         },
@@ -173,104 +323,104 @@
       }
     },
     {
-      "title": "Tinker, Tailor, Soldier, Spy",
-      "author": "John le Carr\u00e9",
-      "reason": "They already love le Carr\u00e9's 'The Spy Who Came in from the Cold' and 'Our Kind of Traitor,' making this cerebral Cold War espionage masterpiece the most logical next step in that author's catalog.",
+      "title": "A Gentleman in Moscow",
+      "author": "Amor Towles",
+      "reason": "Their appreciation for richly layered historical literary fiction such as 'The House of the Spirits', 'Fingersmith', and 'Augustus' suggests they would love this elegant, character-driven novel set in Soviet Russia.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 5,
-          "holds": 0,
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 82,
+          "holds": 1,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Tinker%2C%20Tailor%2C%20Soldier%2C%20Spy%20John%20le%20Carr%C3%A9/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 3,
-          "holds": 0,
+          "copies_owned": 39,
+          "holds": 1,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Tinker%2C%20Tailor%2C%20Soldier%2C%20Spy%20John%20le%20Carr%C3%A9/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         },
         "Alexandria Public Library": {
           "available": true,
-          "copies_available": 4,
-          "copies_owned": 5,
+          "copies_available": 2,
+          "copies_owned": 11,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Tinker%2C%20Tailor%2C%20Soldier%2C%20Spy%20John%20le%20Carr%C3%A9/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 0,
+          "copies_owned": 41,
+          "holds": 9,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Tinker%2C%20Tailor%2C%20Soldier%2C%20Spy%20John%20le%20Carr%C3%A9/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         },
         "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 5,
-          "copies_owned": 6,
-          "holds": 0,
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 23,
+          "holds": 10,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Tinker%2C%20Tailor%2C%20Soldier%2C%20Spy%20John%20le%20Carr%C3%A9/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         },
         "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
-          "holds": 0,
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 4,
+          "holds": 3,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Tinker%2C%20Tailor%2C%20Soldier%2C%20Spy%20John%20le%20Carr%C3%A9/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         }
       }
     },
     {
-      "title": "The Remains of the Day",
+      "title": "The Buried Giant",
       "author": "Kazuo Ishiguro",
-      "reason": "Their affinity for quiet, deeply literary fiction exploring regret and self-deception \u2014 visible in picks like 'The Pale King,' 'Stoner,' and 'Foster' \u2014 aligns perfectly with Ishiguro's restrained and devastating masterpiece.",
+      "reason": "Their blend of literary fiction, fantasy, and philosophical themes \u2014 seen across 'The Magus', 'The Unbearable Lightness of Being', and 'The Vaster Wilds' \u2014 aligns perfectly with Ishiguro's quiet, mythic meditation on memory and loss.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 2,
+          "copies_owned": 14,
+          "holds": 7,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         },
         "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 7,
-          "copies_owned": 11,
-          "holds": 0,
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 10,
+          "holds": 7,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         },
         "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 2,
-          "copies_owned": 4,
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 2,
-          "copies_owned": 8,
-          "holds": 0,
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 9,
+          "holds": 61,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         },
         "Montgomery County Public Library": {
           "available": true,
@@ -278,7 +428,7 @@
           "copies_owned": 7,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         },
         "Alexandria Public Library": {
           "available": true,
@@ -286,166 +436,7 @@
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
-        }
-      }
-    },
-    {
-      "title": "Piranesi",
-      "author": "Susanna Clarke",
-      "reason": "Their taste for literary fantasy with mystery and philosophical undertones, seen in 'The Magus,' 'The Night Circus,' and 'How to Live Safely in a Science Fictional Universe,' makes this strange and beautiful labyrinthine novel an ideal recommendation.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 29,
-          "holds": 23,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Piranesi%20Susanna%20Clarke/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 29,
-          "holds": 26,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Piranesi%20Susanna%20Clarke/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 5,
-          "holds": 5,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Piranesi%20Susanna%20Clarke/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 3,
-          "copies_owned": 3,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Piranesi%20Susanna%20Clarke/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 2,
-          "copies_owned": 4,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Piranesi%20Susanna%20Clarke/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 26,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Piranesi%20Susanna%20Clarke/page-1"
-        }
-      }
-    },
-    {
-      "title": "The Stranger",
-      "author": "Albert Camus",
-      "reason": "Their interest in existentialist and philosophical classics \u2014 evidenced by 'The Unbearable Lightness of Being,' 'Walden,' and 'Man's Search for Meaning' \u2014 makes this foundational absurdist novel a clear gap worth filling.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 3,
-          "holds": 34,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Stranger%20Albert%20Camus/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 5,
-          "holds": 32,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Stranger%20Albert%20Camus/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 3,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Stranger%20Albert%20Camus/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 6,
-          "holds": 23,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Stranger%20Albert%20Camus/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        }
-      }
-    },
-    {
-      "title": "All the Pretty Horses",
-      "author": "Cormac McCarthy",
-      "reason": "Their love of literary adventure set against vast, unforgiving landscapes, shown through 'The Vaster Wilds,' 'A Walk in the Woods,' and 'Undaunted Courage,' pairs beautifully with McCarthy's elegiac and propulsive Border Trilogy opener.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 3,
-          "holds": 9,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-All%20the%20Pretty%20Horses%20Cormac%20McCarthy/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-All%20the%20Pretty%20Horses%20Cormac%20McCarthy/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-All%20the%20Pretty%20Horses%20Cormac%20McCarthy/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 3,
-          "holds": 10,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-All%20the%20Pretty%20Horses%20Cormac%20McCarthy/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-All%20the%20Pretty%20Horses%20Cormac%20McCarthy/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-All%20the%20Pretty%20Horses%20Cormac%20McCarthy/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         }
       }
     }
