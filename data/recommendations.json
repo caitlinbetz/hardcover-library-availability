@@ -1,69 +1,10 @@
 {
-  "updated": "2026-07-12T21:10:09.548650Z",
+  "updated": "2026-07-13T11:44:50.587794Z",
   "recommendations": [
-    {
-      "title": "The Secret History",
-      "author": "Donna Tartt",
-      "reason": "Shares the dark academic atmosphere and morally complex characters found in their interest in 'If We Were Villains' and 'The Rules of Attraction', blending literary fiction with psychological suspense.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 3,
-          "holds": 24,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 3,
-          "holds": 21,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 9,
-          "holds": 59,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 32,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
-        }
-      }
-    },
     {
       "title": "Blood Meridian",
       "author": "Cormac McCarthy",
-      "reason": "Fans of 'The Vaster Wilds', 'One Foot in Eden', and 'The Pale King' who appreciate dense, literary prose with dark themes of wilderness and human nature will find this a natural fit.",
+      "reason": "Given their interest in dark, literary fiction like Faulkner's Absalom, Absalom! and Ron Rash's One Foot in Eden, this brutal and philosophically rich historical novel would resonate deeply.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -114,159 +55,9 @@
       }
     },
     {
-      "title": "The Spy Who Came in from the Cold",
-      "author": "John le Carr\u00e9",
-      "reason": "Given their interest in 'Our Kind of Traitor' and 'Slow Horses', along with Cold War history titles like 'Ghost Wars', this espionage classic would resonate deeply.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 8,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Spy%20Who%20Came%20in%20from%20the%20Cold%20John%20le%20Carr%C3%A9/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Spy%20Who%20Came%20in%20from%20the%20Cold%20John%20le%20Carr%C3%A9/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 5,
-          "copies_owned": 5,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Spy%20Who%20Came%20in%20from%20the%20Cold%20John%20le%20Carr%C3%A9/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Spy%20Who%20Came%20in%20from%20the%20Cold%20John%20le%20Carr%C3%A9/page-1"
-        }
-      }
-    },
-    {
-      "title": "The Dispossessed",
-      "author": "Ursula K. Le Guin",
-      "reason": "Their taste for thoughtful, philosophical science fiction \u2014 evidenced by 'Solaris', 'Hyperion', and 'The Hidden Reality' \u2014 makes this meditative utopian SF novel an ideal match.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 11,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 2,
-          "copies_owned": 3,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 15,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 13,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 6,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-        }
-      }
-    },
-    {
-      "title": "Picnic, Lightning",
-      "author": "Billy Collins",
-      "reason": "Their inclusion of 'Blizzard: Poems' by Henri Cole signals an appetite for accessible yet resonant contemporary poetry, and Collins is a perfect companion poet in that tradition.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Picnic%2C%20Lightning%20Billy%20Collins/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Picnic%2C%20Lightning%20Billy%20Collins/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Picnic%2C%20Lightning%20Billy%20Collins/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Picnic%2C%20Lightning%20Billy%20Collins/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Picnic%2C%20Lightning%20Billy%20Collins/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Picnic%2C%20Lightning%20Billy%20Collins/page-1"
-        }
-      }
-    },
-    {
       "title": "The Terror",
       "author": "Dan Simmons",
-      "reason": "Their interest in Simmons's 'Hyperion', along with horror titles like 'Dark Matter' by Michelle Paver and 'The Cormorant', points directly toward this chilling historical Arctic survival horror novel.",
+      "reason": "Their taste for Hyperion, Stephen King's horror, and dark adventure fiction like The Vaster Wilds points directly to this meticulously researched Arctic survival horror epic.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
@@ -282,7 +73,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 14,
-          "holds": 13,
+          "holds": 12,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
         },
@@ -290,7 +81,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 94,
+          "holds": 95,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20Dan%20Simmons/page-1"
         }
@@ -313,104 +104,95 @@
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
         },
         "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 2,
           "copies_owned": 5,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20Dan%20Simmons/page-1"
         }
       }
     },
     {
-      "title": "A Gentleman in Moscow",
-      "author": "Amor Towles",
-      "reason": "Their appreciation for richly layered historical literary fiction such as 'The House of the Spirits', 'Fingersmith', and 'Augustus' suggests they would love this elegant, character-driven novel set in Soviet Russia.",
+      "title": "A Head Full of Ghosts",
+      "author": "Paul Tremblay",
+      "reason": "Given their interest in The Cabin at the End of the World and Stephen King's horror, this literary, psychologically layered horror novel about demonic possession and media culture would hit multiple notes they love.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 82,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
         },
         "Montgomery County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 39,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          "reason": "not_in_catalog",
+          "libby_url": null
         },
         "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 2,
-          "copies_owned": 11,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 41,
-          "holds": 9,
+          "copies_owned": 6,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Head%20Full%20of%20Ghosts%20Paul%20Tremblay/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 23,
-          "holds": 10,
+          "copies_owned": 5,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Head%20Full%20of%20Ghosts%20Paul%20Tremblay/page-1"
         },
         "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 3,
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Head%20Full%20of%20Ghosts%20Paul%20Tremblay/page-1"
         }
       }
     },
     {
-      "title": "The Buried Giant",
-      "author": "Kazuo Ishiguro",
-      "reason": "Their blend of literary fiction, fantasy, and philosophical themes \u2014 seen across 'The Magus', 'The Unbearable Lightness of Being', and 'The Vaster Wilds' \u2014 aligns perfectly with Ishiguro's quiet, mythic meditation on memory and loss.",
+      "title": "The Secret History",
+      "author": "Donna Tartt",
+      "reason": "Their love of literary fiction with dark undercurrents, classics like Lolita, and campus intrigue novels like The Rules of Attraction makes this a near-perfect fit.",
       "cover": null,
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 14,
-          "holds": 7,
+          "copies_owned": 3,
+          "holds": 24,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 10,
-          "holds": 7,
+          "copies_owned": 3,
+          "holds": 20,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 0,
+          "holds": 2,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
         }
       },
       "audio_availability": {
@@ -418,17 +200,106 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 9,
-          "holds": 61,
+          "holds": 58,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 4,
+          "holds": 31,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20History%20Donna%20Tartt/page-1"
+        }
+      }
+    },
+    {
+      "title": "Piranesi",
+      "author": "Susanna Clarke",
+      "reason": "Their affinity for The Magus, We Have Always Lived in the Castle, and The Night Circus suggests they love uncanny, labyrinthine mysteries with deeply original speculative premises.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 29,
+          "holds": 22,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Piranesi%20Susanna%20Clarke/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 29,
+          "holds": 24,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Piranesi%20Susanna%20Clarke/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 5,
+          "holds": 6,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Piranesi%20Susanna%20Clarke/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 3,
+          "copies_owned": 3,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Piranesi%20Susanna%20Clarke/page-1"
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 2,
-          "copies_owned": 7,
+          "copies_available": 3,
+          "copies_owned": 4,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Piranesi%20Susanna%20Clarke/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 27,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Piranesi%20Susanna%20Clarke/page-1"
+        }
+      }
+    },
+    {
+      "title": "The Historian",
+      "author": "Elizabeth Kostova",
+      "reason": "Their interest in literary historical fiction, gothic atmosphere, and classics alongside authors like Ken Follett and Sarah Waters points to this richly researched, suspenseful novel about Dracula's legacy.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 2,
+          "copies_owned": 2,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Historian%20Elizabeth%20Kostova/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
         },
         "Alexandria Public Library": {
           "available": true,
@@ -436,7 +307,142 @@
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Historian%20Elizabeth%20Kostova/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Historian%20Elizabeth%20Kostova/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 1,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Historian%20Elizabeth%20Kostova/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Historian%20Elizabeth%20Kostova/page-1"
+        }
+      }
+    },
+    {
+      "title": "Never Let Me Go",
+      "author": "Kazuo Ishiguro",
+      "reason": "Given their interest in dystopian literary fiction like The Circle and The Unbearable Lightness of Being, this quiet, devastating science fiction novel about identity and mortality would resonate powerfully.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 17,
+          "holds": 75,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 12,
+          "holds": 47,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 11,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 11,
+          "holds": 107,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 9,
+          "holds": 72,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 9,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Never%20Let%20Me%20Go%20Kazuo%20Ishiguro/page-1"
+        }
+      }
+    },
+    {
+      "title": "The Prestige",
+      "author": "Christopher Priest",
+      "reason": "Their love of The Magus, The Night Circus, and mysteries with layered unreliable narratives makes this Victorian-era novel about rival magicians a natural and compelling fit.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 2,
+          "copies_owned": 3,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Prestige%20Christopher%20Priest/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Prestige%20Christopher%20Priest/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Prestige%20Christopher%20Priest/page-1"
         }
       }
     }
