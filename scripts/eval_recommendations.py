@@ -149,15 +149,19 @@ def append_to_history(recs, history_path, max_runs=20):
 
 
 # --- Check 5: Existence (catches hallucinated titles) ---
+# open_library_lookup() also returns a cover image URL when it finds a match,
+# so fetch_availability.py reuses this same function for cover art on the
+# recommendations page -- one lookup function, two call sites.
 EXISTENCE_MATCH_THRESHOLD = 0.75  # looser than FUZZY_THRESHOLD -- Open Library's
                                    # title formatting doesn't always match cleanly
 
 
-def check_book_exists(title, author, timeout=8):
+def open_library_lookup(title, author, timeout=8):
     """
     Looks the book up on Open Library's public search API.
-    Returns True (found), False (no plausible match), or None (network
-    error / inconclusive -- don't treat this as evidence either way).
+    Returns {"exists": True/False/None, "cover_url": str or None}.
+    exists=None means a network error / inconclusive result -- don't treat
+    that as evidence the book doesn't exist.
     """
     try:
         response = requests.get(
@@ -169,10 +173,10 @@ def check_book_exists(title, author, timeout=8):
         response.raise_for_status()
         docs = response.json().get("docs", [])
     except (requests.RequestException, ValueError):
-        return None
+        return {"exists": None, "cover_url": None}
 
     if not docs:
-        return False
+        return {"exists": False, "cover_url": None}
 
     target_title = normalize(primary_title(title))
     target_author = normalize(author)
@@ -183,9 +187,16 @@ def check_book_exists(title, author, timeout=8):
         title_matches = fuzzy_match(doc_title, target_title, threshold=EXISTENCE_MATCH_THRESHOLD)
         author_matches = any(target_author in a or a in target_author for a in doc_authors)
         if title_matches and author_matches:
-            return True
+            cover_id = doc.get("cover_i")
+            cover_url = f"https://covers.openlibrary.org/b/id/{cover_id}-M.jpg" if cover_id else None
+            return {"exists": True, "cover_url": cover_url}
 
-    return False
+    return {"exists": False, "cover_url": None}
+
+
+def check_book_exists(title, author, timeout=8):
+    """Thin wrapper over open_library_lookup for callers that only need the boolean."""
+    return open_library_lookup(title, author, timeout=timeout)["exists"]
 
 
 def check_hallucination(recs):
