@@ -312,6 +312,15 @@ def main():
     try:
         read_titles = fetch_read_titles()
         print(f"Found {len(read_titles)} already-read books to exclude")
+
+        # Persist read_titles so downstream tooling (evals) has ground truth
+        # to check recommendations against, without re-hitting the Hardcover API.
+        with open("data/read_titles.json", "w") as f:
+            json.dump({
+                "updated": __import__("datetime").datetime.utcnow().isoformat() + "Z",
+                "read_titles": read_titles
+            }, f, indent=2)
+
         recs = generate_recommendations(books, read_titles)
         recs_with_availability = check_recommendations_availability(recs)
         with open("data/recommendations.json", "w") as f:
