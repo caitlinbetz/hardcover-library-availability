@@ -16,7 +16,7 @@ Usage:
 
 Expects these files to exist in data/:
     results.json                 (want-to-read snapshot, written by fetch_availability.py)
-    read_titles.json             (already-read snapshot -- see note below)
+    read_titles.json             (already-read snapshot, as {"read_titles": [{"title", "author"}, ...]})
     recommendations.json         (latest recommendation run)
     recommendation_history.json  (rolling history -- auto-created if missing)
 
@@ -40,8 +40,20 @@ def normalize(s):
     return re.sub(r'[^a-z0-9\s]', '', s.lower()).strip()
 
 
+def primary_title(title):
+    """
+    Strips a trailing subtitle so 'Blood Meridian: Or the Evening Redness in
+    the West' and 'Blood Meridian' compare as the same book. Colon and em/en
+    dash are the common subtitle separators in book titles.
+    """
+    for sep in (':', ' — ', ' – ', ' - '):
+        if sep in title:
+            return title.split(sep, 1)[0].strip()
+    return title.strip()
+
+
 def book_key(title, author):
-    return f"{normalize(title)} by {normalize(author)}"
+    return f"{normalize(primary_title(title))} by {normalize(author)}"
 
 
 def fuzzy_match(a, b, threshold=FUZZY_THRESHOLD):
@@ -71,7 +83,7 @@ def check_schema(recs):
 # --- Check 2: Already-read overlap ---
 def check_already_read(recs, read_titles):
     issues = []
-    read_keys = [normalize(t) for t in read_titles]
+    read_keys = [book_key(t["title"], t["author"]) for t in read_titles]
     for rec in recs:
         key = book_key(rec.get("title", ""), rec.get("author", ""))
         for read_key in read_keys:
