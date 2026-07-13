@@ -262,15 +262,21 @@ Respond ONLY with a JSON array, no markdown, no preamble. Format:
 def validate_recommendations(recs, want_to_read_books, read_titles):
     """
     Checks the same hard-fail criteria as eval_recommendations.py's
-    schema/already-read/want-to-read checks. Returns a list of
-    (index, book_key, reason) for anything that needs to be replaced.
-    An index of "__all__" means a batch-level problem (e.g. wrong count).
+    schema/already-read/want-to-read checks. Returns (issues, inconclusive).
+
+    issues: list of (index, book_key, reason) for anything that needs to be
+        replaced. An index of "__all__" means a batch-level problem.
+    inconclusive: list of (index, book_key) where the Open Library existence
+        lookup failed (network error) -- NOT blocked, but logged so a lookup
+        failure is visible rather than silently indistinguishable from
+        "confirmed this book is real."
     """
     issues = []
+    inconclusive = []
 
     if not isinstance(recs, list) or len(recs) != 8:
         issues.append(("__all__", None, f"Expected a JSON array of exactly 8 recommendations, got {len(recs) if isinstance(recs, list) else type(recs).__name__}"))
-        return issues  # can't validate individual entries if the shape is wrong
+        return issues, inconclusive  # can't validate individual entries if the shape is wrong
 
     read_keys = [book_key(t["title"], t["author"]) for t in read_titles] if read_titles else []
     wtr_keys = [book_key(b["title"], b["author"]) for b in want_to_read_books]
@@ -306,10 +312,11 @@ def validate_recommendations(recs, want_to_read_books, read_titles):
         if exists is False:
             issues.append((i, key, "not found on Open Library -- possibly hallucinated"))
             continue
-        # exists is True or None (inconclusive/network error) -- don't block on
-        # a lookup failure, only on a confirmed miss.
+        elif exists is None:
+            inconclusive.append((i, key))
+        # exists is True -- confirmed real, no issue and nothing to log.
 
-    return issues
+    return issues, inconclusive
 
 
 def build_correction_prompt(base_prompt, prev_recs, issues):
@@ -340,7 +347,7 @@ def generate_recommendations(books, read_titles):
     base_prompt = build_base_prompt(books, read_titles)
 
     recs = call_claude(base_prompt)
-    issues = validate_recommendations(recs, books, read_titles)
+    issues, inconclusive = validate_recommendations(recs, books, read_titles)
 
     attempt = 0
     while issues and attempt < MAX_CORRECTION_ATTEMPTS:
@@ -350,7 +357,12 @@ def generate_recommendations(books, read_titles):
             print(f"    - {key}: {reason}")
         correction_prompt = build_correction_prompt(base_prompt, recs, issues)
         recs = call_claude(correction_prompt)
-        issues = validate_recommendations(recs, books, read_titles)
+        issues, inconclusive = validate_recommendations(recs, books, read_titles)
+
+    if inconclusive:
+        print(f"  ⚠️  {len(inconclusive)} Open Library existence lookup(s) failed (network) and were NOT verified:")
+        for _, key in inconclusive:
+            print(f"    - {key} -- could not confirm this book exists; letting it through unverified")
 
     if issues:
         print(f"  Still failing after {MAX_CORRECTION_ATTEMPTS} correction attempt(s) -- giving up on this run.")
