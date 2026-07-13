@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T20:09:20.252791Z",
+  "updated": "2026-07-13T20:33:10.188945Z",
   "books": [
     {
       "title": "The Terror",
@@ -561,8 +561,8 @@
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Tommyknockers%20Stephen%20King/page-1"
         },
         "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
@@ -1331,7 +1331,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 1,
           "copies_owned": 8,
           "holds": 0,
           "reason": "ok",
@@ -3532,7 +3532,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Jurassic%20Park%20Michael%20Crichton/page-1"
         }
@@ -10028,8 +10028,8 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 47,
-          "copies_owned": 53,
+          "copies_available": 46,
+          "copies_owned": 52,
           "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Small%20Things%20Like%20These%20Claire%20Keegan/page-1"
@@ -10741,8 +10741,8 @@
         },
         "Alexandria Public Library": {
           "available": true,
-          "copies_available": 2,
-          "copies_owned": 2,
+          "copies_available": 1,
+          "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-City%20on%20Fire%20Don%20Winslow/page-1"
@@ -11345,7 +11345,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 12,
+          "holds": 13,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Cloud%20Cuckoo%20Land%20Anthony%20Doerr/page-1"
         },
@@ -11497,7 +11497,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 0,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Cackle%20Rachel%20Harrison/page-1"
         },
@@ -12034,7 +12034,10 @@
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
+          "copies_available": 0,
+          "copies_owned": 0,
+          "holds": 1,
+          "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Intimacies%20Katie%20Kitamura/page-1"
         },
         "Alexandria Public Library": {
@@ -12054,7 +12057,10 @@
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
+          "copies_available": 0,
+          "copies_owned": 0,
+          "holds": 3,
+          "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Intimacies%20Katie%20Kitamura/page-1"
         },
         "Alexandria Public Library": {
@@ -12082,7 +12088,10 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
+          "copies_available": 0,
+          "copies_owned": 4,
+          "holds": 0,
+          "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Slow%20Fire%20Burning%20Paula%20Hawkins/page-1"
         },
         "Montgomery County Public Library": {
@@ -12102,7 +12111,10 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 2,
+          "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Slow%20Fire%20Burning%20Paula%20Hawkins/page-1"
         },
         "Montgomery County Public Library": {
@@ -12314,7 +12326,7 @@
         "Montgomery County Public Library": {
           "available": false,
           "reason": "not_in_catalog",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-My%20Phantoms%20Gwendoline%20Riley/page-1"
+          "libby_url": null
         },
         "Alexandria Public Library": {
           "available": false,
@@ -12330,7 +12342,10 @@
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 6,
+          "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-My%20Phantoms%20Gwendoline%20Riley/page-1"
         },
         "Alexandria Public Library": {
@@ -12404,7 +12419,10 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 7,
+          "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-How%20the%20Word%20Is%20Passed%3A%20A%20Reckoning%20with%20the%20History%20of%20Slavery%20Across%20America%20Clint%20%20%20Smith/page-1"
         },
         "Montgomery County Public Library": {
@@ -12424,7 +12442,10 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 22,
+          "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-How%20the%20Word%20Is%20Passed%3A%20A%20Reckoning%20with%20the%20History%20of%20Slavery%20Across%20America%20Clint%20%20%20Smith/page-1"
         },
         "Montgomery County Public Library": {
@@ -12577,7 +12598,10 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
+          "copies_available": 0,
+          "copies_owned": 7,
+          "holds": 13,
+          "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Gardens%20of%20the%20Moon%20Steven%20Erikson/page-1"
         },
         "Montgomery County Public Library": {
@@ -12598,7 +12622,7 @@
         "Fairfax County Public Library": {
           "available": false,
           "reason": "not_in_catalog",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Gardens%20of%20the%20Moon%20Steven%20Erikson/page-1"
+          "libby_url": null
         },
         "Montgomery County Public Library": {
           "available": false,
@@ -12673,7 +12697,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 4,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-All%20the%20King%27s%20Men%20Robert%20Penn%20Warren/page-1"
         },
@@ -12798,7 +12822,7 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 20,
+          "copies_available": 21,
           "copies_owned": 23,
           "holds": 0,
           "reason": "ok",
@@ -13745,7 +13769,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 26,
+          "holds": 27,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Pearl%20John%20Steinbeck/page-1"
         },
@@ -14176,7 +14200,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 5,
-          "holds": 6,
+          "holds": 7,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Searcher%20Tana%20French/page-1"
         },
@@ -15583,7 +15607,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 8,
+          "copies_available": 7,
           "copies_owned": 51,
           "holds": 1,
           "reason": "ok",
@@ -17114,8 +17138,8 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 60,
-          "copies_owned": 64,
+          "copies_available": 59,
+          "copies_owned": 63,
           "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Zodiac%20Academy%3A%20The%20Awakening%20Caroline%20Peckham/page-1"
@@ -17864,7 +17888,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 35,
-          "holds": 347,
+          "holds": 348,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Hamnet%20Maggie%20O%27Farrell/page-1"
         },
@@ -17880,7 +17904,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 5,
-          "holds": 49,
+          "holds": 48,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Hamnet%20Maggie%20O%27Farrell/page-1"
         }
@@ -19985,7 +20009,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 5,
-          "holds": 25,
+          "holds": 23,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Giovanni%27s%20Room%20James%20Baldwin/page-1"
         },
@@ -23199,7 +23223,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 27,
+          "holds": 28,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Perfume%20Patrick%20S%C3%BCskind/page-1"
         },
@@ -23972,7 +23996,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 23,
+          "copies_available": 22,
           "copies_owned": 42,
           "holds": 0,
           "reason": "ok",
@@ -27745,7 +27769,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 0,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Children%20of%20Time%20Adrian%20Tchaikovsky/page-1"
         },
@@ -28385,7 +28409,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 65,
-          "holds": 1240,
+          "holds": 1239,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Whistler%20Ann%20Patchett/page-1"
         },
@@ -28393,7 +28417,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 168,
-          "holds": 1570,
+          "holds": 1569,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Whistler%20Ann%20Patchett/page-1"
         },
@@ -28411,7 +28435,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 69,
-          "holds": 1054,
+          "holds": 1053,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Whistler%20Ann%20Patchett/page-1"
         },
@@ -28419,7 +28443,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 108,
-          "holds": 1082,
+          "holds": 1081,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Whistler%20Ann%20Patchett/page-1"
         },
@@ -28448,7 +28472,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 69,
-          "holds": 2111,
+          "holds": 2108,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Theo%20of%20Golden%20Allen%20Levi/page-1"
         },
@@ -28456,7 +28480,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 195,
-          "holds": 1336,
+          "holds": 1337,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Theo%20of%20Golden%20Allen%20Levi/page-1"
         },
@@ -28675,7 +28699,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 48,
-          "holds": 433,
+          "holds": 434,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Kin%20Tayari%20Jones/page-1"
         },
@@ -28683,7 +28707,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 40,
-          "holds": 410,
+          "holds": 409,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Kin%20Tayari%20Jones/page-1"
         },
@@ -29499,7 +29523,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 70,
-          "holds": 34,
+          "holds": 35,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Careless%20People%20Sarah%20Wynn-Williams/page-1"
         },
@@ -29507,7 +29531,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 46,
-          "holds": 25,
+          "holds": 26,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Careless%20People%20Sarah%20Wynn-Williams/page-1"
         },
@@ -29693,7 +29717,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 100,
-          "holds": 159,
+          "holds": 158,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Loneliness%20of%20Sonia%20and%20Sunny%20Kiran%20Desai/page-1"
         },
@@ -29894,7 +29918,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 21,
+          "copies_available": 22,
           "copies_owned": 31,
           "holds": 0,
           "reason": "ok",
@@ -30244,8 +30268,8 @@
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Satisfaction%20Caf%C3%A9%20Kathy%20Wang/page-1"
         },
         "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
@@ -30472,8 +30496,8 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 47,
-          "copies_owned": 48,
+          "copies_available": 46,
+          "copies_owned": 47,
           "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Kind%20Worth%20Killing%20Peter%20Swanson/page-1"
@@ -32119,7 +32143,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 15,
+          "holds": 14,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Perfection%20Vincenzo%20Latronico/page-1"
         },
@@ -33242,7 +33266,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 11,
-          "holds": 5,
+          "holds": 6,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Likeness%20Tana%20French/page-1"
         },
@@ -34564,7 +34588,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 8,
-          "holds": 19,
+          "holds": 18,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-All%20About%20Love%3A%20New%20Visions%20bell%20hooks/page-1"
         },
@@ -34703,7 +34727,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 65,
-          "holds": 9,
+          "holds": 8,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-James%20Percival%20Everett/page-1"
         },
@@ -36735,7 +36759,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 8,
-          "holds": 8,
+          "holds": 7,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Things%20They%20Carried%20Tim%20O%27Brien/page-1"
         },
@@ -38098,7 +38122,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 4,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Future%20Naomi%20Alderman/page-1"
         },
@@ -39965,7 +39989,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 18,
+          "holds": 19,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Bright%20Young%20Women%20Jessica%20Knoll/page-1"
         },

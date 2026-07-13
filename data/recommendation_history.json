@@ -1513,5 +1513,407 @@
         }
       }
     ]
+  },
+  {
+    "run_at": "2026-07-13T20:34:10.144591+00:00",
+    "recommendations": [
+      {
+        "title": "The Passage of Power",
+        "author": "Robert A. Caro",
+        "reason": "Their interest in sweeping historical narratives like Undaunted Courage, Augustus, and Fall of Giants suggests they would be captivated by this masterful account of LBJ's rise and the Kennedy assassination.",
+        "cover": "https://covers.openlibrary.org/b/id/12869926-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": true,
+            "copies_available": 2,
+            "copies_owned": 3,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Passage%20of%20Power%20Robert%20A.%20Caro/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 2,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Passage%20of%20Power%20Robert%20A.%20Caro/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Passage%20of%20Power%20Robert%20A.%20Caro/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          }
+        }
+      },
+      {
+        "title": "The Raw Shark Texts",
+        "author": "Steven Hall",
+        "reason": "Their love of mind-bending metafictional works like House of Leaves, Piranesi, and How to Live Safely in a Science Fictional Universe points directly to this inventive thriller about a man hunted by a conceptual shark.",
+        "cover": "https://covers.openlibrary.org/b/id/888852-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 2,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          }
+        }
+      },
+      {
+        "title": "The Helliconia Trilogy",
+        "author": "Brian W. Aldiss",
+        "reason": "Their want-to-read list includes Aldiss's Hothouse alongside epic science fantasy like Hyperion and Leviathan Wakes, making this sweeping civilization-spanning saga a natural fit.",
+        "cover": "https://covers.openlibrary.org/b/id/8460522-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
+          }
+        }
+      },
+      {
+        "title": "The Historian",
+        "author": "Elizabeth Kostova",
+        "reason": "Their taste for atmospheric literary horror with historical depth, as seen with The Terror, The Shadow of the Wind already read, and Fingersmith on their list, aligns perfectly with this richly researched gothic thriller.",
+        "cover": "https://covers.openlibrary.org/b/id/8345372-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": true,
+            "copies_available": 2,
+            "copies_owned": 2,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Historian%20Elizabeth%20Kostova/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Alexandria Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Historian%20Elizabeth%20Kostova/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 2,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Historian%20Elizabeth%20Kostova/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 1,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Historian%20Elizabeth%20Kostova/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Historian%20Elizabeth%20Kostova/page-1"
+          }
+        }
+      },
+      {
+        "title": "Riddley Walker",
+        "author": "Russell Hoban",
+        "reason": "Their dystopian science fiction appetite spanning Parable of the Sower, The Road already read, and The Deluge on their list, combined with their literary fiction sensibility, makes this post-apocalyptic masterpiece of invented language essential.",
+        "cover": "https://covers.openlibrary.org/b/id/8510440-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
+          }
+        }
+      },
+      {
+        "title": "The Children of Men",
+        "author": "P.D. James",
+        "reason": "Their sustained interest in dystopian fiction from Brave New World to The Handmaid's Tale adjacent works, paired with their fondness for British literary thrillers like Slow Horses and Our Kind of Traitor, makes this near-future extinction novel a compelling fit.",
+        "cover": null,
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 2,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Children%20of%20Men%20P.D.%20James/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Alexandria Public Library": {
+            "available": true,
+            "copies_available": 2,
+            "copies_owned": 2,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Children%20of%20Men%20P.D.%20James/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 2,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Children%20of%20Men%20P.D.%20James/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 6,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Children%20of%20Men%20P.D.%20James/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          }
+        }
+      },
+      {
+        "title": "Pillars of the Earth",
+        "author": "Ken Follett",
+        "reason": "Having Fall of Giants and Eye of the Needle on their want-to-read list by the same author, and loving epic historical fiction and adventure, this sweeping medieval saga of cathedral-building and political intrigue is an essential next step.",
+        "cover": "https://covers.openlibrary.org/b/id/9269909-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 5,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Pillars%20of%20the%20Earth%20Ken%20Follett/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 2,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Pillars%20of%20the%20Earth%20Ken%20Follett/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Pillars%20of%20the%20Earth%20Ken%20Follett/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 3,
+            "holds": 1,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Pillars%20of%20the%20Earth%20Ken%20Follett/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 5,
+            "holds": 37,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Pillars%20of%20the%20Earth%20Ken%20Follett/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 2,
+            "holds": 1,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Pillars%20of%20the%20Earth%20Ken%20Follett/page-1"
+          }
+        }
+      },
+      {
+        "title": "Suttree",
+        "author": "Cormac McCarthy",
+        "reason": "Having read Blood Meridian, The Road, and All the Pretty Horses, and with their clear appetite for literary fiction from Absalom Absalom to The Pale King, this richly lyrical McCarthy novel about an outcast living on the margins of society is a natural recommendation.",
+        "cover": "https://covers.openlibrary.org/b/id/9296908-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 9,
+            "holds": 16,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Suttree%20Cormac%20McCarthy/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 4,
+            "holds": 23,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Suttree%20Cormac%20McCarthy/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Suttree%20Cormac%20McCarthy/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 2,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Suttree%20Cormac%20McCarthy/page-1"
+          }
+        }
+      }
+    ]
   }
 ]
