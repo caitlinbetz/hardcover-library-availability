@@ -10,6 +10,11 @@ Checks:
   2. Already-read overlap -- flags recs that fuzzy-match something already read
   3. Want-to-read overlap -- flags recs that fuzzy-match something already on the list
   4. Repetition            -- flags recs that showed up in recent past runs
+  5. Existence             -- flags recs that don't turn up in Open Library at all
+                               (catches hallucinated titles). Best-effort: a network
+                               error or a genuinely obscure book both look like "not
+                               found," so treat a miss here as a strong signal, not
+                               absolute proof.
 
 Usage:
     python scripts/eval_recommendations.py
@@ -28,6 +33,7 @@ import json
 import os
 import re
 import sys
+import requests
 from datetime import datetime, timezone
 from difflib import SequenceMatcher
 
@@ -142,6 +148,69 @@ def append_to_history(recs, history_path, max_runs=20):
         json.dump(history, f, indent=2)
 
 
+# --- Check 5: Existence (catches hallucinated titles) ---
+EXISTENCE_MATCH_THRESHOLD = 0.75  # looser than FUZZY_THRESHOLD -- Open Library's
+                                   # title formatting doesn't always match cleanly
+
+
+def check_book_exists(title, author, timeout=8):
+    """
+    Looks the book up on Open Library's public search API.
+    Returns True (found), False (no plausible match), or None (network
+    error / inconclusive -- don't treat this as evidence either way).
+    """
+    try:
+        response = requests.get(
+            "https://openlibrary.org/search.json",
+            params={"title": title, "author": author, "limit": 5},
+            headers={"User-Agent": "hardcover-library-availability-eval/1.0"},
+            timeout=timeout
+        )
+        response.raise_for_status()
+        docs = response.json().get("docs", [])
+    except (requests.RequestException, ValueError):
+        return None
+
+    if not docs:
+        return False
+
+    target_title = normalize(primary_title(title))
+    target_author = normalize(author)
+
+    for doc in docs:
+        doc_title = normalize(primary_title(doc.get("title", "")))
+        doc_authors = [normalize(a) for a in doc.get("author_name", [])]
+        title_matches = fuzzy_match(doc_title, target_title, threshold=EXISTENCE_MATCH_THRESHOLD)
+        author_matches = any(target_author in a or a in target_author for a in doc_authors)
+        if title_matches and author_matches:
+            return True
+
+    return False
+
+
+def check_hallucination(recs):
+    """
+    Returns (issues, inconclusive). Issues are recs Open Library couldn't
+    find at all. Inconclusive entries had a network error -- surfaced
+    separately so a flaky request doesn't silently count as "hallucinated."
+    """
+    issues = []
+    inconclusive = []
+    for rec in recs:
+        title = rec.get("title", "")
+        author = rec.get("author", "")
+        if not title or not author:
+            continue  # schema check already flags this
+        exists = check_book_exists(title, author)
+        if exists is False:
+            issues.append(
+                f"'{title}' by {author} was not found on Open Library -- possibly hallucinated"
+            )
+        elif exists is None:
+            inconclusive.append(f"'{title}' by {author} -- Open Library lookup failed, skipped")
+    return issues, inconclusive
+
+
 def main():
     recs_data = load_json(os.path.join(DATA_DIR, "recommendations.json"))
     if not recs_data:
@@ -164,6 +233,7 @@ def main():
         "already_read_overlap": [],
         "want_to_read_overlap": check_want_to_read(recs, want_to_read_books),
         "repetition": check_repetition(recs, history),
+        "existence": [],
     }
 
     if read_titles is None:
@@ -171,6 +241,9 @@ def main():
         print("   (fetch_availability.py needs to persist this file -- see accompanying diff)\n")
     else:
         results["already_read_overlap"] = check_already_read(recs, read_titles)
+
+    existence_issues, inconclusive = check_hallucination(recs)
+    results["existence"] = existence_issues
 
     total_issues = sum(len(v) for v in results.values())
 
@@ -183,15 +256,23 @@ def main():
             for issue in issues:
                 print(f"   - {issue}")
 
+    if inconclusive:
+        print(f"\n⚠️  {len(inconclusive)} existence lookup(s) inconclusive (not counted as issues):")
+        for note in inconclusive:
+            print(f"   - {note}")
+
     print(f"\n{'PASS' if total_issues == 0 else 'FAIL'} -- {total_issues} total issue(s) found")
 
     # Log this run to history regardless of pass/fail, so future runs can check repetition
     append_to_history(recs, history_path)
 
-    # Fail the CI step on critical issues (schema or already-read violations).
-    # Repetition and want-to-read overlap are treated as warnings for now, not hard failures --
-    # tune this once you decide how strict you want the pipeline to be.
-    critical = results["schema"] + results["already_read_overlap"]
+    # Fail the CI step on critical issues: schema, already-read, and existence.
+    # A hallucinated book is at least as bad as an already-read one -- both mean
+    # something shouldn't have been published. Repetition and want-to-read overlap
+    # stay warnings for now; tune this once you've seen how the existence check
+    # performs (Open Library coverage isn't perfect, so watch the inconclusive/
+    # false-positive rate before trusting it fully).
+    critical = results["schema"] + results["already_read_overlap"] + results["existence"]
     sys.exit(1 if critical else 0)
 
 
