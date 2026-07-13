@@ -6,7 +6,7 @@ import urllib.parse
 
 # Reuse the same matching logic the standalone eval script uses, so
 # "passes validation here" and "passes validation in CI" mean the same thing.
-from eval_recommendations import normalize, book_key, fuzzy_match, check_book_exists
+from eval_recommendations import normalize, book_key, fuzzy_match, check_book_exists, open_library_lookup
 
 # --- Config ---
 HARDCOVER_TOKEN = os.environ.get("HARDCOVER_TOKEN")
@@ -376,9 +376,17 @@ def check_recommendations_availability(recs):
             )
             ebook_availability[lib["name"]] = ebook
             audio_availability[lib["name"]] = audio
+
+        # Same Open Library endpoint the validation step already queried for
+        # this book -- a second call, but it's a free, low-volume API and this
+        # keeps the two lookups decoupled (validation happens before availability
+        # checking, on the pre-final rec list).
+        lookup = open_library_lookup(rec["title"], rec["author"])
+        cover_url = lookup["cover_url"]
+
         results.append({
             **rec,
-            "cover": None,
+            "cover": cover_url,
             "genres": [],
             "ebook_availability": ebook_availability,
             "audio_availability": audio_availability
