@@ -4,9 +4,14 @@ import re
 import requests
 import urllib.parse
 
+# Reuse the same matching logic the standalone eval script uses, so
+# "passes validation here" and "passes validation in CI" mean the same thing.
+from eval_recommendations import normalize, book_key, fuzzy_match
+
 # --- Config ---
 HARDCOVER_TOKEN = os.environ.get("HARDCOVER_TOKEN")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
+MAX_CORRECTION_ATTEMPTS = 2  # retries AFTER the initial generation, not counting it
 LIBRARIES = [
     {"name": "Fairfax County Public Library", "overdrive_id": "fairfax"},
     {"name": "Montgomery County Public Library", "overdrive_id": "mcplmd"},
@@ -197,20 +202,43 @@ def check_overdrive(title, author, isbn, library_id):
 
     return ebook_result, audio_result
 
-# --- Step 3: Generate recommendations via Claude ---
-def generate_recommendations(books, read_titles):
-    print("Generating recommendations via Claude...")
+# --- Step 3: Generate recommendations via Claude, with a validate-and-correct loop ---
 
-    # Build a compact reading list for the prompt
+def call_claude(prompt, max_tokens=1200):
+    """Single raw call to the Claude API. Returns parsed JSON (expects a JSON array)."""
+    response = requests.post(
+        "https://api.anthropic.com/v1/messages",
+        headers={
+            "Content-Type": "application/json",
+            "x-api-key": ANTHROPIC_API_KEY,
+            "anthropic-version": "2023-06-01"
+        },
+        json={
+            "model": "claude-sonnet-4-6",
+            "max_tokens": max_tokens,
+            "messages": [{"role": "user", "content": prompt}]
+        }
+    )
+    data = response.json()
+    raw = data["content"][0]["text"].strip()
+
+    # Strip markdown fences if present
+    if raw.startswith("```"):
+        raw = re.sub(r'^```[a-z]*\n?', '', raw)
+        raw = re.sub(r'\n?```$', '', raw)
+
+    return json.loads(raw)
+
+
+def build_base_prompt(books, read_titles):
     book_list = "\n".join([
         f"- {b['title']} by {b['author']}" +
         (f" [{', '.join(b['genres'][:3])}]" if b['genres'] else "")
         for b in books[:80]  # cap at 80 to stay within token limits
     ])
-
     read_list = "\n".join([f"- {t}" for t in read_titles[:150]])
 
-    prompt = f"""Here is someone's want-to-read list:
+    return f"""Here is someone's want-to-read list:
 
 {book_list}
 
@@ -230,29 +258,102 @@ Respond ONLY with a JSON array, no markdown, no preamble. Format:
   {{"title": "Book Title", "author": "Author Name", "reason": "One sentence why."}}
 ]"""
 
-    response = requests.post(
-        "https://api.anthropic.com/v1/messages",
-        headers={
-            "Content-Type": "application/json",
-            "x-api-key": ANTHROPIC_API_KEY,
-            "anthropic-version": "2023-06-01"
-        },
-        json={
-            "model": "claude-sonnet-4-6",
-            "max_tokens": 1000,
-            "messages": [{"role": "user", "content": prompt}]
-        }
-    )
 
-    data = response.json()
-    raw = data["content"][0]["text"].strip()
+def validate_recommendations(recs, want_to_read_books, read_titles):
+    """
+    Checks the same hard-fail criteria as eval_recommendations.py's
+    schema/already-read/want-to-read checks. Returns a list of
+    (index, book_key, reason) for anything that needs to be replaced.
+    An index of "__all__" means a batch-level problem (e.g. wrong count).
+    """
+    issues = []
 
-    # Strip markdown fences if present
-    if raw.startswith("```"):
-        raw = re.sub(r'^```[a-z]*\n?', '', raw)
-        raw = re.sub(r'\n?```$', '', raw)
+    if not isinstance(recs, list) or len(recs) != 8:
+        issues.append(("__all__", None, f"Expected a JSON array of exactly 8 recommendations, got {len(recs) if isinstance(recs, list) else type(recs).__name__}"))
+        return issues  # can't validate individual entries if the shape is wrong
 
-    return json.loads(raw)
+    read_keys = [normalize(t) for t in read_titles] if read_titles else []
+    wtr_keys = [book_key(b["title"], b["author"]) for b in want_to_read_books]
+    seen_keys = set()
+
+    for i, rec in enumerate(recs):
+        title = rec.get("title", "") if isinstance(rec, dict) else ""
+        author = rec.get("author", "") if isinstance(rec, dict) else ""
+        reason = rec.get("reason", "") if isinstance(rec, dict) else ""
+
+        if not str(title).strip() or not str(author).strip() or not str(reason).strip():
+            issues.append((i, book_key(title, author), "missing or empty title/author/reason"))
+            continue
+
+        key = book_key(title, author)
+
+        if key in seen_keys:
+            issues.append((i, key, "duplicate within this same list"))
+            continue
+        seen_keys.add(key)
+
+        matched_read = next((rk for rk in read_keys if fuzzy_match(key, rk)), None)
+        if matched_read:
+            issues.append((i, key, f"already read (matches '{matched_read}')"))
+            continue
+
+        matched_wtr = next((wk for wk in wtr_keys if fuzzy_match(key, wk)), None)
+        if matched_wtr:
+            issues.append((i, key, "already on the want-to-read list"))
+            continue
+
+    return issues
+
+
+def build_correction_prompt(base_prompt, prev_recs, issues):
+    flagged = {i for i, _, _ in issues if i != "__all__"}
+    problems_text = "\n".join([
+        f"- \"{prev_recs[i].get('title', '?')}\" by {prev_recs[i].get('author', '?')}: {reason}"
+        for i, key, reason in issues if i != "__all__"
+    ]) or "The response wasn't in the right shape (see instructions above) -- please try again."
+
+    kept = [r for i, r in enumerate(prev_recs) if i not in flagged] if isinstance(prev_recs, list) else []
+
+    return f"""{base_prompt}
+
+You previously responded with this list:
+{json.dumps(prev_recs, indent=2)}
+
+The following entries have problems and must be replaced with DIFFERENT books that still fit the reader's taste:
+{problems_text}
+
+Keep these {len(kept)} recommendations exactly as they were (they're fine):
+{json.dumps(kept, indent=2)}
+
+Respond ONLY with the complete corrected JSON array of exactly 8 recommendations (the kept ones plus new replacements for the flagged ones), no markdown, no preamble."""
+
+
+def generate_recommendations(books, read_titles):
+    print("Generating recommendations via Claude...")
+    base_prompt = build_base_prompt(books, read_titles)
+
+    recs = call_claude(base_prompt)
+    issues = validate_recommendations(recs, books, read_titles)
+
+    attempt = 0
+    while issues and attempt < MAX_CORRECTION_ATTEMPTS:
+        attempt += 1
+        print(f"  Validation attempt {attempt}: {len(issues)} issue(s) found. Requesting corrections...")
+        for _, key, reason in issues:
+            print(f"    - {key}: {reason}")
+        correction_prompt = build_correction_prompt(base_prompt, recs, issues)
+        recs = call_claude(correction_prompt)
+        issues = validate_recommendations(recs, books, read_titles)
+
+    if issues:
+        print(f"  Still failing after {MAX_CORRECTION_ATTEMPTS} correction attempt(s) -- giving up on this run.")
+        return None
+
+    if attempt:
+        print(f"  Recommendations passed validation after {attempt} correction attempt(s).")
+    else:
+        print("  Recommendations passed validation on the first try.")
+    return recs
 
 # --- Step 4: Check availability for recommendations ---
 def check_recommendations_availability(recs):
@@ -322,13 +423,16 @@ def main():
             }, f, indent=2)
 
         recs = generate_recommendations(books, read_titles)
-        recs_with_availability = check_recommendations_availability(recs)
-        with open("data/recommendations.json", "w") as f:
-            json.dump({
-                "updated": __import__("datetime").datetime.utcnow().isoformat() + "Z",
-                "recommendations": recs_with_availability
-            }, f, indent=2)
-        print("Done! Written to data/recommendations.json")
+        if recs is None:
+            print("No valid recommendations after retries -- leaving data/recommendations.json untouched.")
+        else:
+            recs_with_availability = check_recommendations_availability(recs)
+            with open("data/recommendations.json", "w") as f:
+                json.dump({
+                    "updated": __import__("datetime").datetime.utcnow().isoformat() + "Z",
+                    "recommendations": recs_with_availability
+                }, f, indent=2)
+            print("Done! Written to data/recommendations.json")
     except Exception as e:
         print(f"Recommendations failed: {e}")
 
