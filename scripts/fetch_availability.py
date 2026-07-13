@@ -12,6 +12,18 @@ from eval_recommendations import normalize, book_key, fuzzy_match, check_book_ex
 HARDCOVER_TOKEN = os.environ.get("HARDCOVER_TOKEN")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 MAX_CORRECTION_ATTEMPTS = 2  # retries AFTER the initial generation, not counting it
+
+# Caps on how many books get listed in the prompt. These exist as a sane upper
+# bound, not because token cost is actually a concern at these sizes (a few
+# hundred "- Title by Author" lines is a few thousand tokens, trivial for the
+# model's context window). Keep these comfortably above your actual library
+# size -- if validate_recommendations() checks against the full list but the
+# prompt only shows a truncated slice, the model gets penalized for not
+# avoiding books it was never shown, and self-repair can't fix that no matter
+# how many retries it gets.
+MAX_WANT_TO_READ_IN_PROMPT = 300
+MAX_READ_TITLES_IN_PROMPT = 500
+
 LIBRARIES = [
     {"name": "Fairfax County Public Library", "overdrive_id": "fairfax"},
     {"name": "Montgomery County Public Library", "overdrive_id": "mcplmd"},
@@ -231,12 +243,17 @@ def call_claude(prompt, max_tokens=1200):
 
 
 def build_base_prompt(books, read_titles):
+    if len(books) > MAX_WANT_TO_READ_IN_PROMPT:
+        print(f"  ⚠️  Want-to-read list ({len(books)}) exceeds prompt cap of {MAX_WANT_TO_READ_IN_PROMPT} -- truncating. Raise MAX_WANT_TO_READ_IN_PROMPT.")
+    if len(read_titles) > MAX_READ_TITLES_IN_PROMPT:
+        print(f"  ⚠️  Already-read list ({len(read_titles)}) exceeds prompt cap of {MAX_READ_TITLES_IN_PROMPT} -- truncating. Raise MAX_READ_TITLES_IN_PROMPT.")
+
     book_list = "\n".join([
         f"- {b['title']} by {b['author']}" +
         (f" [{', '.join(b['genres'][:3])}]" if b['genres'] else "")
-        for b in books[:80]  # cap at 80 to stay within token limits
+        for b in books[:MAX_WANT_TO_READ_IN_PROMPT]
     ])
-    read_list = "\n".join([f"- {t['title']} by {t['author']}" for t in read_titles[:150]])
+    read_list = "\n".join([f"- {t['title']} by {t['author']}" for t in read_titles[:MAX_READ_TITLES_IN_PROMPT]])
 
     return f"""Here is someone's want-to-read list:
 
