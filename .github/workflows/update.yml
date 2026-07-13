@@ -1,44 +1,65 @@
 name: Update Library Availability
-
 on:
   schedule:
     - cron: '0 8,20 * * *'
   workflow_dispatch:
-
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install dependencies
         run: pip install -r requirements.txt
-
       - name: Run fetch script
         env:
           HARDCOVER_TOKEN: ${{ secrets.HARDCOVER_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/fetch_availability.py
-
+      - name: Run eval checks
+        id: eval
+        run: |
+          if python scripts/eval_recommendations.py; then
+            echo "eval_passed=true" >> $GITHUB_OUTPUT
+          else
+            echo "eval_passed=false" >> $GITHUB_OUTPUT
+            echo "::warning::Recommendation eval failed critical checks -- today's recommendations will NOT be published. Previous recommendations.json will be kept."
+          fi
       - name: Commit results
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
+
           cp data/results.json /tmp/results.json
-          cp data/recommendations.json /tmp/recommendations.json 2>/dev/null || true
+          cp data/read_titles.json /tmp/read_titles.json 2>/dev/null || true
+          cp data/recommendation_history.json /tmp/recommendation_history.json 2>/dev/null || true
+
+          # Only stage today's recommendations if they passed the eval.
+          # Otherwise we deliberately keep whatever was last published.
+          if [ "${{ steps.eval.outputs.eval_passed }}" = "true" ]; then
+            cp data/recommendations.json /tmp/recommendations.json 2>/dev/null || true
+          fi
+
           git fetch origin main
           git reset --hard origin/main
+
           cp /tmp/results.json data/results.json
-          cp /tmp/recommendations.json data/recommendations.json 2>/dev/null || true
-          git add data/results.json data/recommendations.json
+          cp /tmp/read_titles.json data/read_titles.json 2>/dev/null || true
+          cp /tmp/recommendation_history.json data/recommendation_history.json 2>/dev/null || true
+          if [ -f /tmp/recommendations.json ]; then
+            cp /tmp/recommendations.json data/recommendations.json
+          fi
+
+          git add data/results.json
+          [ -f data/read_titles.json ] && git add data/read_titles.json
+          [ -f data/recommendation_history.json ] && git add data/recommendation_history.json
+          [ -f data/recommendations.json ] && git add data/recommendations.json
+
           git diff --staged --quiet || git commit -m "Update availability data"
           git push origin main
