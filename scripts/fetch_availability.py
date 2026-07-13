@@ -6,7 +6,7 @@ import urllib.parse
 
 # Reuse the same matching logic the standalone eval script uses, so
 # "passes validation here" and "passes validation in CI" mean the same thing.
-from eval_recommendations import normalize, book_key, fuzzy_match
+from eval_recommendations import normalize, book_key, fuzzy_match, check_book_exists
 
 # --- Config ---
 HARDCOVER_TOKEN = os.environ.get("HARDCOVER_TOKEN")
@@ -301,6 +301,13 @@ def validate_recommendations(recs, want_to_read_books, read_titles):
         if matched_wtr:
             issues.append((i, key, "already on the want-to-read list"))
             continue
+
+        exists = check_book_exists(title, author)
+        if exists is False:
+            issues.append((i, key, "not found on Open Library -- possibly hallucinated"))
+            continue
+        # exists is True or None (inconclusive/network error) -- don't block on
+        # a lookup failure, only on a confirmed miss.
 
     return issues
 
