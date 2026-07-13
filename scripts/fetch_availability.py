@@ -122,7 +122,7 @@ def fetch_read_titles():
         book = ub["book"]
         authors = [c["author"]["name"] for c in book.get("contributions", [])]
         author = authors[0] if authors else "Unknown"
-        titles.append(f"{book['title']} by {author}")
+        titles.append({"title": book["title"], "author": author})
     return titles
 
 # --- Step 2: Check availability on OverDrive, split by format ---
@@ -236,7 +236,7 @@ def build_base_prompt(books, read_titles):
         (f" [{', '.join(b['genres'][:3])}]" if b['genres'] else "")
         for b in books[:80]  # cap at 80 to stay within token limits
     ])
-    read_list = "\n".join([f"- {t}" for t in read_titles[:150]])
+    read_list = "\n".join([f"- {t['title']} by {t['author']}" for t in read_titles[:150]])
 
     return f"""Here is someone's want-to-read list:
 
@@ -272,7 +272,7 @@ def validate_recommendations(recs, want_to_read_books, read_titles):
         issues.append(("__all__", None, f"Expected a JSON array of exactly 8 recommendations, got {len(recs) if isinstance(recs, list) else type(recs).__name__}"))
         return issues  # can't validate individual entries if the shape is wrong
 
-    read_keys = [normalize(t) for t in read_titles] if read_titles else []
+    read_keys = [book_key(t["title"], t["author"]) for t in read_titles] if read_titles else []
     wtr_keys = [book_key(b["title"], b["author"]) for b in want_to_read_books]
     seen_keys = set()
 
