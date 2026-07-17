@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-16T21:21:17.833937Z",
+  "updated": "2026-07-17T10:12:34.799593Z",
   "recommendations": [
     {
       "title": "The Terror of Living",
       "author": "Urban Waite",
-      "reason": "Like the crime-noir tension in Blacktop Wasteland and Small Mercies, this taut crime thriller set in the Pacific Northwest blends atmosphere with relentless pacing.",
+      "reason": "Shares the taut, noir-inflected crime atmosphere of S.A. Cosby and Dennis Lehane titles on their list, with a bleak Pacific Northwest setting that echoes their interest in dark, place-driven thrillers.",
       "cover": "https://covers.openlibrary.org/b/id/6681324-M.jpg",
       "genres": [],
       "ebook_availability": {
@@ -46,182 +46,68 @@
       }
     },
     {
-      "title": "The Unconsoled",
-      "author": "Kazuo Ishiguro",
-      "reason": "Given their love of dreamlike, disorienting literary fiction like The Magus, Kafka on the Shore, and Piranesi, Ishiguro's surreal and labyrinthine novel about memory and identity should resonate deeply.",
-      "cover": "https://covers.openlibrary.org/b/id/5311753-M.jpg",
+      "title": "The Long Way to a Small, Angry Planet",
+      "author": "Becky Chambers",
+      "reason": "Appeals to their deep interest in character-driven science fiction with philosophical undertones, matching the tone of Adrian Tchaikovsky's Elder Race and Charles Yu's How to Live Safely in a Science Fictional Universe already on their list.",
+      "cover": "https://covers.openlibrary.org/b/id/8902659-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
+          "copies_available": 0,
+          "copies_owned": 6,
+          "holds": 24,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Long%20Way%20to%20a%20Small%2C%20Angry%20Planet%20Becky%20Chambers/page-1"
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 2,
-          "copies_owned": 3,
+          "copies_available": 37,
+          "copies_owned": 37,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Long%20Way%20to%20a%20Small%2C%20Angry%20Planet%20Becky%20Chambers/page-1"
         },
         "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
-        }
-      }
-    },
-    {
-      "title": "The Helliconia Trilogy",
-      "author": "Brian W. Aldiss",
-      "reason": "Their want-to-read list includes Aldiss's Hothouse and multiple Leviathan Wakes-style epic science fiction, and this ambitious planetary saga showcases the same grand scope.",
-      "cover": "https://covers.openlibrary.org/b/id/8460522-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
-        }
-      }
-    },
-    {
-      "title": "A Fire Upon the Deep",
-      "author": "Vernor Vinge",
-      "reason": "With Hyperion, Leviathan Wakes, and Solaris on their list, this sweeping cosmic science fiction epic about intelligence and alien civilizations fits perfectly.",
-      "cover": "https://covers.openlibrary.org/b/id/9261466-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 10,
+          "copies_owned": 0,
+          "holds": 2,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Fire%20Upon%20the%20Deep%20Vernor%20Vinge/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Fire%20Upon%20the%20Deep%20Vernor%20Vinge/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Fire%20Upon%20the%20Deep%20Vernor%20Vinge/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Long%20Way%20to%20a%20Small%2C%20Angry%20Planet%20Becky%20Chambers/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 3,
-          "holds": 1,
+          "copies_owned": 7,
+          "holds": 34,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Fire%20Upon%20the%20Deep%20Vernor%20Vinge/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Long%20Way%20to%20a%20Small%2C%20Angry%20Planet%20Becky%20Chambers/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Fire%20Upon%20the%20Deep%20Vernor%20Vinge/page-1"
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 5,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Long%20Way%20to%20a%20Small%2C%20Angry%20Planet%20Becky%20Chambers/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Fire%20Upon%20the%20Deep%20Vernor%20Vinge/page-1"
-        }
-      }
-    },
-    {
-      "title": "In the Cut",
-      "author": "Susanna Moore",
-      "reason": "Given their taste for dark literary thrillers like Lolita, The Comfort of Strangers, and My Dark Vanessa, this unsettling noir exploring power and violence is a natural fit.",
-      "cover": "https://covers.openlibrary.org/b/id/6515929-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-In%20the%20Cut%20Susanna%20Moore/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-In%20the%20Cut%20Susanna%20Moore/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-In%20the%20Cut%20Susanna%20Moore/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-In%20the%20Cut%20Susanna%20Moore/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-In%20the%20Cut%20Susanna%20Moore/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-In%20the%20Cut%20Susanna%20Moore/page-1"
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 5,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Long%20Way%20to%20a%20Small%2C%20Angry%20Planet%20Becky%20Chambers/page-1"
         }
       }
     },
     {
       "title": "The Raw Shark Texts",
       "author": "Steven Hall",
-      "reason": "Their want-to-read list includes House of Leaves-adjacent experimental fiction and metafictional work like The Magus and How to Live Safely in a Science Fictional Universe, making this conceptual thriller ideal.",
+      "reason": "Blends postmodern literary experimentation with thriller elements in a way that mirrors their interest in House of Leaves, Piranesi, and David Mitchell's structurally inventive fiction.",
       "cover": "https://covers.openlibrary.org/b/id/888852-M.jpg",
       "genres": [],
       "ebook_availability": {
@@ -263,85 +149,161 @@
       }
     },
     {
-      "title": "Sag Harbor",
-      "author": "Colson Whitehead",
-      "reason": "Their list includes The Nickel Boys already read and numerous literary fiction titles exploring race and identity like Americanah and Demon Copperhead, and this warm coming-of-age novel shows Whitehead's full range.",
-      "cover": "https://covers.openlibrary.org/b/id/6303065-M.jpg",
+      "title": "Mexico City Noir",
+      "author": "Paco Ignacio Taibo II",
+      "reason": "Matches their appetite for international crime fiction with political undercurrents, fitting neatly alongside their interest in Olga Tokarczuk, John le Carr\u00e9, and geopolitical nonfiction on their list.",
+      "cover": "https://covers.openlibrary.org/b/id/12948137-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 14,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Sag%20Harbor%20Colson%20Whitehead/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexico%20City%20Noir%20Paco%20Ignacio%20Taibo%20II/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexico%20City%20Noir%20Paco%20Ignacio%20Taibo%20II/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 5,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Sag%20Harbor%20Colson%20Whitehead/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexico%20City%20Noir%20Paco%20Ignacio%20Taibo%20II/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 14,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Sag%20Harbor%20Colson%20Whitehead/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexico%20City%20Noir%20Paco%20Ignacio%20Taibo%20II/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 11,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Sag%20Harbor%20Colson%20Whitehead/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexico%20City%20Noir%20Paco%20Ignacio%20Taibo%20II/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 4,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Sag%20Harbor%20Colson%20Whitehead/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexico%20City%20Noir%20Paco%20Ignacio%20Taibo%20II/page-1"
         }
       }
     },
     {
-      "title": "The Wasp Factory",
-      "author": "Iain Banks",
-      "reason": "Their appetite for dark literary horror like We Have Always Lived in the Castle, The Only Good Indians, and Dead Eleven suggests Banks's disturbing psychological debut would be a perfect match.",
-      "cover": "https://covers.openlibrary.org/b/id/427635-M.jpg",
+      "title": "The Book of the New Sun",
+      "author": "Gene Wolfe",
+      "reason": "A dense, literary science fantasy that rewards the kind of attentive reading their list suggests they enjoy, bridging their interest in Ursula K. Le Guin-adjacent classics and ambitious speculative fiction like Hyperion and Leviathan Wakes.",
+      "cover": "https://covers.openlibrary.org/b/id/11305529-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
+        }
+      }
+    },
+    {
+      "title": "Pimp",
+      "author": "Iceberg Slim",
+      "reason": "Connects to their strong interest in race, American history, and street-level social reality seen in titles like Demon Copperhead, When Crack Was King, and How the Word Is Passed on their want-to-read list.",
+      "cover": "https://covers.openlibrary.org/b/id/13539771-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Pimp%20Iceberg%20Slim/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Pimp%20Iceberg%20Slim/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Pimp%20Iceberg%20Slim/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Pimp%20Iceberg%20Slim/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Pimp%20Iceberg%20Slim/page-1"
+        }
+      }
+    },
+    {
+      "title": "The Age of Surveillance Capitalism",
+      "author": "Shoshana Zuboff",
+      "reason": "Directly mirrors their interest in technology, media culture, and political reality evident from Screen People, The Circle, and Reality in Ruins already on their want-to-read list.",
+      "cover": "https://covers.openlibrary.org/b/id/8353262-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 5,
+          "holds": 3,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Wasp%20Factory%20Iain%20Banks/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Age%20of%20Surveillance%20Capitalism%20Shoshana%20Zuboff/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Wasp%20Factory%20Iain%20Banks/page-1"
+          "available": true,
+          "copies_available": 3,
+          "copies_owned": 3,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Age%20of%20Surveillance%20Capitalism%20Shoshana%20Zuboff/page-1"
         },
         "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Wasp%20Factory%20Iain%20Banks/page-1"
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Age%20of%20Surveillance%20Capitalism%20Shoshana%20Zuboff/page-1"
         }
       },
       "audio_availability": {
@@ -352,13 +314,57 @@
         },
         "Montgomery County Public Library": {
           "available": false,
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 1,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Age%20of%20Surveillance%20Capitalism%20Shoshana%20Zuboff/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        }
+      }
+    },
+    {
+      "title": "The Dispatcher",
+      "author": "John Scalzi",
+      "reason": "Offers the same sharp, high-concept science fiction storytelling found in Starter Villain and The Kaiju Preservation Society on their list, with a noir mystery twist that suits their broad genre interests.",
+      "cover": "https://covers.openlibrary.org/b/id/8571568-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Wasp%20Factory%20Iain%20Banks/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispatcher%20John%20Scalzi/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispatcher%20John%20Scalzi/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Wasp%20Factory%20Iain%20Banks/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Dispatcher%20John%20Scalzi/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispatcher%20John%20Scalzi/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispatcher%20John%20Scalzi/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Dispatcher%20John%20Scalzi/page-1"
         }
       }
     }
