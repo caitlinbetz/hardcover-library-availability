@@ -1,89 +1,112 @@
 {
-  "updated": "2026-07-21T21:31:58.923751Z",
+  "updated": "2026-07-22T10:54:35.776025Z",
   "recommendations": [
     {
-      "title": "A Tale of Two Cities",
-      "author": "Charles Dickens",
-      "reason": "Their interest in sweeping, morally complex historical fiction like Fall of Giants, The Books of Jacob, and Augustus suggests they would be gripped by this masterfully plotted novel of revolution, sacrifice, and justice set during the French Revolution.",
-      "cover": "https://covers.openlibrary.org/b/id/13301713-M.jpg",
+      "title": "The Secret House of Death",
+      "author": "Ruth Rendell",
+      "reason": "Fans of Tana French, Patricia Highsmith, and Ian McEwan's psychological tension will find Rendell's slow-burn domestic dread a natural fit.",
+      "cover": "https://covers.openlibrary.org/b/id/3196276-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Tale%20of%20Two%20Cities%20Charles%20Dickens/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20House%20of%20Death%20Ruth%20Rendell/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 0,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Tale%20of%20Two%20Cities%20Charles%20Dickens/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20House%20of%20Death%20Ruth%20Rendell/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 0,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Tale%20of%20Two%20Cities%20Charles%20Dickens/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20House%20of%20Death%20Ruth%20Rendell/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Tale%20of%20Two%20Cities%20Charles%20Dickens/page-1"
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20House%20of%20Death%20Ruth%20Rendell/page-1"
         },
         "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 2,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Tale%20of%20Two%20Cities%20Charles%20Dickens/page-1"
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20House%20of%20Death%20Ruth%20Rendell/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Tale%20of%20Two%20Cities%20Charles%20Dickens/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20House%20of%20Death%20Ruth%20Rendell/page-1"
         }
       }
     },
     {
-      "title": "Blood Music",
-      "author": "Greg Bear",
-      "reason": "Their taste for hard science fiction with unsettling biological and philosophical dimensions, visible through The Tommyknockers, Hothouse, and Leviathan Wakes, makes this foundational biotech horror novel a compelling next read.",
-      "cover": "https://covers.openlibrary.org/b/id/477227-M.jpg",
+      "title": "The Terror of Living",
+      "author": "Urban Waite",
+      "reason": "Given their love of crime-infused literary fiction like Blacktop Wasteland and Bull Mountain, this taut Pacific Northwest noir about a drug smuggler and a detective will resonate deeply.",
+      "cover": "https://covers.openlibrary.org/b/id/6681324-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
+        },
+        "Alexandria Public Library": {
           "available": true,
           "copies_available": 1,
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Blood%20Music%20Greg%20Bear/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Blood%20Music%20Greg%20Bear/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        }
+      }
+    },
+    {
+      "title": "The Raw Shark Texts",
+      "author": "Steven Hall",
+      "reason": "Fans of House of Leaves, The Magus, and Piranesi who enjoy metafictional, reality-bending narratives with psychological depth will be captivated by this conceptual thriller.",
+      "cover": "https://covers.openlibrary.org/b/id/888852-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Blood%20Music%20Greg%20Bear/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
         }
       },
       "audio_availability": {
@@ -91,26 +114,26 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 0,
+          "holds": 1,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Blood%20Music%20Greg%20Bear/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Blood%20Music%20Greg%20Bear/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Blood%20Music%20Greg%20Bear/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
         }
       }
     },
     {
       "title": "The Book of the New Sun",
       "author": "Gene Wolfe",
-      "reason": "Their fondness for dense, layered speculative fiction with literary ambition, evident from Hyperion, Cloud Atlas, and The Way of Kings on their list, aligns perfectly with this acclaimed far-future science fantasy told by an unreliable narrator.",
+      "reason": "Given their enthusiasm for dense, literary speculative fiction like Hyperion, Solaris, and The Way of Kings, Wolfe's far-future dying-earth epic with an unreliable narrator is an essential read.",
       "cover": "https://covers.openlibrary.org/b/id/11305529-M.jpg",
       "genres": [],
       "ebook_availability": {
@@ -149,19 +172,134 @@
       }
     },
     {
-      "title": "Pet Sematary",
-      "author": "Stephen King",
-      "reason": "Given their deep engagement with Stephen King across multiple titles including The Shining, It, and Holly, this widely considered his most terrifying novel would be a compelling next read.",
-      "cover": "https://covers.openlibrary.org/b/id/12015500-M.jpg",
+      "title": "The Little Stranger",
+      "author": "Sarah Waters",
+      "reason": "Given their love of Fingersmith, We Have Always Lived in the Castle, and atmospheric psychological horror like Dark Matter, Waters's haunted-house literary ghost story is an obvious next read.",
+      "cover": "https://covers.openlibrary.org/b/id/6303287-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 5,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 0,
+          "holds": 4,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 4,
+          "holds": 1,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 2,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        }
+      }
+    },
+    {
+      "title": "Mexican Gothic",
+      "author": "Silvia Moreno-Garcia",
+      "reason": "Their pattern of enjoying Gothic horror with strong literary sensibility \u2014 Shirley Jackson, Laura Purcell, Catriona Ward \u2014 combined with historical settings makes this lush 1950s Mexico horror novel a compelling recommendation.",
+      "cover": "https://covers.openlibrary.org/b/id/10239163-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 7,
+          "holds": 11,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 22,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 2,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 7,
+          "holds": 15,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 22,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+        }
+      }
+    },
+    {
+      "title": "A Tale for the Time Being",
+      "author": "Ruth Ozeki",
+      "reason": "Their interest in structurally ambitious literary fiction like Cloud Atlas and Trust, combined with cross-cultural narratives and metafictional layering, makes this novel about a writer discovering a Japanese teenager's diary a strong match.",
+      "cover": "https://covers.openlibrary.org/b/id/9765848-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 10,
+          "holds": 2,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Pet%20Sematary%20Stephen%20King/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Tale%20for%20the%20Time%20Being%20Ruth%20Ozeki/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
@@ -169,204 +307,7 @@
           "copies_owned": 1,
           "holds": 3,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Pet%20Sematary%20Stephen%20King/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 0,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Pet%20Sematary%20Stephen%20King/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 13,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Pet%20Sematary%20Stephen%20King/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Pet%20Sematary%20Stephen%20King/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        }
-      }
-    },
-    {
-      "title": "The Secret River",
-      "author": "Kate Grenville",
-      "reason": "Their appreciation for morally complex historical fiction like The Poisonwood Bible, Demon Copperhead, and The Books of Jacob suggests they would be gripped by this brutal, beautifully written novel about colonization and conscience in early Australia.",
-      "cover": "https://covers.openlibrary.org/b/id/2627308-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20River%20Kate%20Grenville/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20River%20Kate%20Grenville/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 2,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20River%20Kate%20Grenville/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20River%20Kate%20Grenville/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20River%20Kate%20Grenville/page-1"
-        }
-      }
-    },
-    {
-      "title": "Under the Volcano",
-      "author": "Malcolm Lowry",
-      "reason": "Their taste for demanding, voice-driven literary classics like Absalom Absalom, The Pale King, and Nightwood points toward this celebrated modernist novel of dissolution and despair set in Mexico on the Day of the Dead.",
-      "cover": "https://covers.openlibrary.org/b/id/4197484-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 7,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Under%20the%20Volcano%20Malcolm%20Lowry/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Under%20the%20Volcano%20Malcolm%20Lowry/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Under%20the%20Volcano%20Malcolm%20Lowry/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Under%20the%20Volcano%20Malcolm%20Lowry/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Under%20the%20Volcano%20Malcolm%20Lowry/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Under%20the%20Volcano%20Malcolm%20Lowry/page-1"
-        }
-      }
-    },
-    {
-      "title": "The Dispossessed",
-      "author": "Ursula K. Le Guin",
-      "reason": "Their broad appetite for philosophically rich science fiction spanning Solaris, Hyperion, and Parable of the Talents makes this foundational anarchist utopia novel, blending hard SF with deep social thought, an essential read.",
-      "cover": "https://covers.openlibrary.org/b/id/6979680-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 14,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 2,
-          "copies_owned": 3,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 13,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 13,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-        }
-      }
-    },
-    {
-      "title": "The Word Exchange",
-      "author": "Alena Graedon",
-      "reason": "Their interest in dystopian techno-thrillers with literary depth, seen through The Circle, The Deluge, and Cloud Cuckoo Land, makes this inventive novel about a near-future collapse of language and meaning a natural fit.",
-      "cover": "https://covers.openlibrary.org/b/id/8119084-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Word%20Exchange%20Alena%20Graedon/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Tale%20for%20the%20Time%20Being%20Ruth%20Ozeki/page-1"
         },
         "Alexandria Public Library": {
           "available": true,
@@ -374,22 +315,69 @@
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Word%20Exchange%20Alena%20Graedon/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Tale%20for%20the%20Time%20Being%20Ruth%20Ozeki/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
+          "copies_owned": 4,
+          "holds": 1,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Tale%20for%20the%20Time%20Being%20Ruth%20Ozeki/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Word%20Exchange%20Alena%20Graedon/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Tale%20for%20the%20Time%20Being%20Ruth%20Ozeki/page-1"
+        }
+      }
+    },
+    {
+      "title": "The Cadaver King and the Country Dentist",
+      "author": "Radley Balko",
+      "reason": "Given their appetite for narrative nonfiction exploring systemic injustice \u2014 from Killers of the Flower Moon to Caste \u2014 this deeply reported investigation into corruption in the Mississippi criminal justice system will resonate strongly.",
+      "cover": "https://covers.openlibrary.org/b/id/9167511-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Cadaver%20King%20and%20the%20Country%20Dentist%20Radley%20Balko/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Word%20Exchange%20Alena%20Graedon/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Cadaver%20King%20and%20the%20Country%20Dentist%20Radley%20Balko/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Cadaver%20King%20and%20the%20Country%20Dentist%20Radley%20Balko/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Cadaver%20King%20and%20the%20Country%20Dentist%20Radley%20Balko/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Cadaver%20King%20and%20the%20Country%20Dentist%20Radley%20Balko/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
