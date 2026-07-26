@@ -1,10 +1,104 @@
 {
-  "updated": "2026-07-25T10:19:30.409088Z",
+  "updated": "2026-07-26T21:13:01.384610Z",
   "recommendations": [
+    {
+      "title": "The Recognitions",
+      "author": "William Gaddis",
+      "reason": "Given their appetite for dense, ambitious literary fiction like Infinite Jest and The Pale King, this sprawling modernist masterpiece about forgery and authenticity would be a natural next step.",
+      "cover": "https://covers.openlibrary.org/b/id/97727-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Recognitions%20William%20Gaddis/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Recognitions%20William%20Gaddis/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Recognitions%20William%20Gaddis/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Recognitions%20William%20Gaddis/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Recognitions%20William%20Gaddis/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Recognitions%20William%20Gaddis/page-1"
+        }
+      }
+    },
+    {
+      "title": "Bleeding Edge",
+      "author": "Thomas Pynchon",
+      "reason": "Their interest in paranoia, technology, and conspiracy (The Circle, Dark Wire, Mindf*ck) combined with a taste for challenging literary fiction points directly to this post-9/11 noir set in the early internet era.",
+      "cover": "https://covers.openlibrary.org/b/id/13152060-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Bleeding%20Edge%20Thomas%20Pynchon/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": true,
+          "copies_available": 2,
+          "copies_owned": 3,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Bleeding%20Edge%20Thomas%20Pynchon/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 1,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Bleeding%20Edge%20Thomas%20Pynchon/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 3,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Bleeding%20Edge%20Thomas%20Pynchon/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        }
+      }
+    },
     {
       "title": "The Terror of Living",
       "author": "Urban Waite",
-      "reason": "Fans of the gritty, atmospheric crime fiction seen with S.A. Cosby and Dennis Lehane will find this tense Pacific Northwest noir about a drug smuggler and a detective deeply compelling.",
+      "reason": "Given their enjoyment of S.A. Cosby's crime fiction, Cormac McCarthy's sparse brutality, and rural noir like Bull Mountain, this taut Pacific Northwest drug-trade thriller would resonate strongly.",
       "cover": "https://covers.openlibrary.org/b/id/6681324-M.jpg",
       "genres": [],
       "ebook_availability": {
@@ -46,333 +140,192 @@
       }
     },
     {
-      "title": "The Cruelty Is the Point",
-      "author": "Adam Serwer",
-      "reason": "Given their interest in works like Caste by Isabel Wilkerson and Between the World and Me by Ta-Nehisi Coates, this sharp collection of essays on American racism, power, and history fits their nonfiction appetite perfectly.",
-      "cover": "https://covers.openlibrary.org/b/id/10900078-M.jpg",
+      "title": "Galveston",
+      "author": "Nic Pizzolatto",
+      "reason": "Their appreciation for Dennis Lehane, S.A. Cosby, and Southern gothic fiction like One Foot in Eden suggests they would love this dark, atmospheric crime novel about a hitman on the Gulf Coast.",
+      "cover": "https://covers.openlibrary.org/b/id/10336854-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Cruelty%20Is%20the%20Point%20Adam%20Serwer/page-1"
+          "reason": "not_in_catalog",
+          "libby_url": null
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Galveston%20Nic%20Pizzolatto/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Cruelty%20Is%20the%20Point%20Adam%20Serwer/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Galveston%20Nic%20Pizzolatto/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Cruelty%20Is%20the%20Point%20Adam%20Serwer/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 3,
-          "copies_owned": 3,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Cruelty%20Is%20the%20Point%20Adam%20Serwer/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Cruelty%20Is%20the%20Point%20Adam%20Serwer/page-1"
-        }
-      }
-    },
-    {
-      "title": "Perdido Street Station",
-      "author": "China Mi\u00e9ville",
-      "reason": "Readers drawn to dark, ambitious fantasy and science fiction like Imajica by Clive Barker, The Way of Kings, and Leviathan Wakes will find this dense, inventive novel set in a sprawling industrial fantasy city utterly absorbing.",
-      "cover": "https://covers.openlibrary.org/b/id/6375226-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 6,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Perdido%20Street%20Station%20China%20Mi%C3%A9ville/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Alexandria Public Library": {
           "available": true,
           "copies_available": 1,
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Perdido%20Street%20Station%20China%20Mi%C3%A9ville/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Galveston%20Nic%20Pizzolatto/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Galveston%20Nic%20Pizzolatto/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Galveston%20Nic%20Pizzolatto/page-1"
+        }
+      }
+    },
+    {
+      "title": "The Raw Shark Texts",
+      "author": "Steven Hall",
+      "reason": "Their taste for mind-bending metafiction and genre-blurring work like House of Leaves, Piranesi, and How to Live Safely in a Science Fictional Universe makes this conceptual thriller about a man hunted by a conceptual shark an ideal fit.",
+      "cover": "https://covers.openlibrary.org/b/id/888852-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 3,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Perdido%20Street%20Station%20China%20Mi%C3%A9ville/page-1"
-        },
-        "Montgomery County Public Library": {
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 4,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Perdido%20Street%20Station%20China%20Mi%C3%A9ville/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        }
-      }
-    },
-    {
-      "title": "The Book of the New Sun",
-      "author": "Gene Wolfe",
-      "reason": "With Brandon Sanderson's Way of Kings, Hyperion by Dan Simmons, and Solaris by Stanislaw Lem on their list, this celebrated genre-blending science fantasy epic featuring an unreliable narrator is a natural fit.",
-      "cover": "https://covers.openlibrary.org/b/id/11305529-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
-        }
-      }
-    },
-    {
-      "title": "The Weight of Water",
-      "author": "Anita Shreve",
-      "reason": "Readers drawn to Ian McEwan's The Comfort of Strangers and psychological thrillers like Gone Girl and My Dark Vanessa will appreciate this dual-timeline novel blending a 19th-century murder mystery with a contemporary story of obsession and violence.",
-      "cover": "https://covers.openlibrary.org/b/id/190349-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Weight%20of%20Water%20Anita%20Shreve/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Weight%20of%20Water%20Anita%20Shreve/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
         },
         "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Weight%20of%20Water%20Anita%20Shreve/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Montgomery County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Weight%20of%20Water%20Anita%20Shreve/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
         }
       }
     },
     {
-      "title": "A Gentleman in Moscow",
-      "author": "Amor Towles",
-      "reason": "Their taste for rich literary historical fiction \u2014 seen through titles like The Poisonwood Bible, The Books of Jacob, and Augustus \u2014 makes this elegant, witty novel about a Russian count under house arrest in a luxury hotel an ideal match.",
-      "cover": "https://covers.openlibrary.org/b/id/11326818-M.jpg",
+      "title": "The Helliconia Trilogy",
+      "author": "Brian W. Aldiss",
+      "reason": "Their want-to-read list includes Aldiss's Hothouse, and their broader taste for epic, ideas-driven science fiction like Hyperion and Leviathan Wakes makes this sweeping planetary civilization saga a natural companion.",
+      "cover": "https://covers.openlibrary.org/b/id/8460522-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 82,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 39,
-          "holds": 3,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 11,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 41,
-          "holds": 13,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 23,
-          "holds": 9,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 3,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
         }
       }
     },
     {
-      "title": "The Grip of It",
-      "author": "Jac Jemc",
-      "reason": "Fans of House of Leaves, The Haunting of Hill House, and dark psychological horror like The September House will be drawn to this unsettling literary haunted house novel told from two perspectives as a couple unravels alongside their new home.",
-      "cover": "https://covers.openlibrary.org/b/id/8447401-M.jpg",
+      "title": "In the Lake of the Woods",
+      "author": "Tim O'Brien",
+      "reason": "Their fondness for psychological thrillers with literary ambition (Gone Girl, The Secret History) and their interest in war history and moral complexity (Ghost Wars, Blood Meridian) makes this harrowing novel about a politician hiding a dark past from Vietnam essential reading.",
+      "cover": "https://covers.openlibrary.org/b/id/1953114-M.jpg",
       "genres": [],
       "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
-        }
-      },
-      "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
           "copies_available": 2,
           "copies_owned": 2,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-In%20the%20Lake%20of%20the%20Woods%20Tim%20O%27Brien/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-In%20the%20Lake%20of%20the%20Woods%20Tim%20O%27Brien/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-In%20the%20Lake%20of%20the%20Woods%20Tim%20O%27Brien/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-In%20the%20Lake%20of%20the%20Woods%20Tim%20O%27Brien/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-In%20the%20Lake%20of%20the%20Woods%20Tim%20O%27Brien/page-1"
         }
       }
     },
     {
-      "title": "Outline",
-      "author": "Rachel Cusk",
-      "reason": "Given their interest in literary fiction exploring identity and interior life \u2014 from The Unbearable Lightness of Being to Beautiful World Where Are You and Foster \u2014 this quietly radical autofictional novel about a writer listening to others' stories will appeal strongly.",
-      "cover": "https://covers.openlibrary.org/b/id/9079084-M.jpg",
+      "title": "2666",
+      "author": "Roberto Bolano",
+      "reason": "Their interest in ambitious, sprawling literary fiction with dark undertones (Blood Meridian, The House of the Spirits, Beloved) and their taste for works that cross genre and geography makes this monumental novel about violence, obsession, and a missing author a compelling fit.",
+      "cover": "https://covers.openlibrary.org/b/id/1047310-M.jpg",
       "genres": [],
       "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Outline%20Rachel%20Cusk/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 0,
-          "holds": 3,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Outline%20Rachel%20Cusk/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Outline%20Rachel%20Cusk/page-1"
-        }
-      },
-      "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
           "copies_available": 1,
           "copies_owned": 2,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Outline%20Rachel%20Cusk/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-2666%20Roberto%20Bolano/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
@@ -383,6 +336,32 @@
           "available": false,
           "reason": "not_in_catalog",
           "libby_url": null
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-2666%20Roberto%20Bolano/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-2666%20Roberto%20Bolano/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-2666%20Roberto%20Bolano/page-1"
         }
       }
     }
