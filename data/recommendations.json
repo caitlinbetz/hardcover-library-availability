@@ -1,186 +1,116 @@
 {
-  "updated": "2026-07-28T10:47:39.042004Z",
+  "updated": "2026-07-29T10:55:40.855141Z",
   "recommendations": [
     {
-      "title": "The Secret House",
-      "author": "David Bodanis",
-      "reason": "Their list shows strong interest in popular science titles like those by Brian Greene and Richard Dawkins, and this accessible exploration of the invisible scientific phenomena in everyday life fits that pattern perfectly.",
-      "cover": "https://covers.openlibrary.org/b/id/4168323-M.jpg",
+      "title": "The Secret in Their Eyes",
+      "author": "Eduardo Sacheri",
+      "reason": "Their taste for international literary thrillers with moral complexity (The Girl with the Dragon Tattoo, In the Woods already read; Slow Horses, Drive Your Plow on want list) points strongly to this Argentine noir about obsession and justice.",
+      "cover": "https://covers.openlibrary.org/b/id/6935559-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20in%20Their%20Eyes%20Eduardo%20Sacheri/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20in%20Their%20Eyes%20Eduardo%20Sacheri/page-1"
         },
         "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20in%20Their%20Eyes%20Eduardo%20Sacheri/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20in%20Their%20Eyes%20Eduardo%20Sacheri/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20in%20Their%20Eyes%20Eduardo%20Sacheri/page-1"
         },
         "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20in%20Their%20Eyes%20Eduardo%20Sacheri/page-1"
         }
       }
     },
     {
-      "title": "The Weight of Water",
-      "author": "Anita Shreve",
-      "reason": "With multiple literary thrillers on their list including works by Tana French, Dennis Lehane, and Ian McEwan, this dual-timeline psychological thriller with its literary ambitions and dark moral questions matches their taste precisely.",
-      "cover": "https://covers.openlibrary.org/b/id/190349-M.jpg",
+      "title": "A Gentleman in Moscow",
+      "author": "Amor Towles",
+      "reason": "Their fondness for richly layered historical literary fiction (The Books of Jacob, The Thousand Autumns of Jacob de Zoet, Augustus on their want list) suggests they would love this elegant novel of confinement and civilization under Soviet rule.",
+      "cover": "https://covers.openlibrary.org/b/id/11326818-M.jpg",
       "genres": [],
       "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 3,
+          "copies_owned": 82,
+          "holds": 1,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 39,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 11,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+        }
+      },
+      "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 0,
+          "copies_owned": 41,
+          "holds": 17,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Weight%20of%20Water%20Anita%20Shreve/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Weight%20of%20Water%20Anita%20Shreve/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
-          "holds": 0,
+          "copies_available": 0,
+          "copies_owned": 23,
+          "holds": 6,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Weight%20of%20Water%20Anita%20Shreve/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Weight%20of%20Water%20Anita%20Shreve/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        }
-      }
-    },
-    {
-      "title": "Pirate Latitudes",
-      "author": "Michael Crichton",
-      "reason": "Their appreciation for Crichton's Jurassic Park, The Andromeda Strain, and Timeline, combined with their interest in adventure narratives like Undaunted Courage, makes this posthumously published seafaring thriller a natural fit.",
-      "cover": "https://covers.openlibrary.org/b/id/9281405-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 2,
-          "holds": 0,
+          "copies_available": 0,
+          "copies_owned": 4,
+          "holds": 3,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Pirate%20Latitudes%20Michael%20Crichton/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Pirate%20Latitudes%20Michael%20Crichton/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Pirate%20Latitudes%20Michael%20Crichton/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Pirate%20Latitudes%20Michael%20Crichton/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        }
-      }
-    },
-    {
-      "title": "The Book of the New Sun",
-      "author": "Gene Wolfe",
-      "reason": "Their want-to-read list is heavy with ambitious, literary speculative fiction \u2014 Hyperion, Solaris, Leviathan Wakes \u2014 and this dense, unreliable-narrator science fantasy epic is precisely the kind of challenging, rewarding work they seek out.",
-      "cover": "https://covers.openlibrary.org/b/id/11305529-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         }
       }
     },
     {
       "title": "The Terror of Living",
       "author": "Urban Waite",
-      "reason": "With Blacktop Wasteland, Razorblade Tears, and works by Dennis Lehane on their lists, this gritty, literary crime novel set in the Pacific Northwest offers the same noir atmosphere and morally complex characters they consistently choose.",
+      "reason": "Their clear appetite for taut, literary crime fiction (Blacktop Wasteland, Razorblade Tears already read; Slow Horses, Small Mercies on want list) aligns perfectly with this lean, brutal debut about a drug smuggler and a relentless detective in the Pacific Northwest.",
       "cover": "https://covers.openlibrary.org/b/id/6681324-M.jpg",
       "genres": [],
       "ebook_availability": {
@@ -222,157 +152,186 @@
       }
     },
     {
-      "title": "Mexican Gothic",
-      "author": "Silvia Moreno-Garcia",
-      "reason": "Their interest in Silver Nitrate by Moreno-Garcia combined with gothic horror entries like We Have Always Lived in the Castle, Dark Matter, and The September House makes this atmospheric horror novel an obvious next read.",
-      "cover": "https://covers.openlibrary.org/b/id/10239163-M.jpg",
+      "title": "The Raw Shark Texts",
+      "author": "Steven Hall",
+      "reason": "Their want list reveals a love for formally inventive, genre-blending fiction (House of Leaves already read; The Magus, Piranesi, Cloud Atlas on want list), and this conceptual thriller about a man hunted by a 'conceptual shark' sits squarely at that intersection.",
+      "cover": "https://covers.openlibrary.org/b/id/888852-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 7,
-          "holds": 13,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          "reason": "not_in_catalog",
+          "libby_url": null
         },
         "Montgomery County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 18,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 7,
-          "holds": 15,
+          "copies_owned": 1,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 3,
-          "holds": 20,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
         },
         "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+        }
+      }
+    },
+    {
+      "title": "The Sparsholt Affair",
+      "author": "Alan Hollinghurst",
+      "reason": "Their interest in sweeping literary fiction across time (The House of the Spirits, Fingersmith, The Books of Jacob on want list) combined with LGBTQ+ titles like Carol and A Marvellous Light suggests they would love this elegant multigenerational novel of desire and secrets.",
+      "cover": "https://covers.openlibrary.org/b/id/10157534-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Montgomery County Public Library": {
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Sparsholt%20Affair%20Alan%20Hollinghurst/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Sparsholt%20Affair%20Alan%20Hollinghurst/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Sparsholt%20Affair%20Alan%20Hollinghurst/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Sparsholt%20Affair%20Alan%20Hollinghurst/page-1"
         }
       }
     },
     {
-      "title": "The Dispossessed",
-      "author": "Ursula K. Le Guin",
-      "reason": "Their want-to-read list is filled with politically engaged science fiction \u2014 Parable of the Talents, Chain-Gang All-Stars, The Deluge \u2014 and this foundational anarchist utopia/dystopia novel bridges their love of literary SF with their clear interest in social and political critique.",
-      "cover": "https://covers.openlibrary.org/b/id/6979680-M.jpg",
+      "title": "Tinker, Tailor, Soldier, Spy",
+      "author": "John le Carr\u00e9",
+      "reason": "Having already read The Spy Who Came In from the Cold and with Our Kind of Traitor on their want list, this masterful espionage novel featuring George Smiley is the essential next le Carr\u00e9 they are missing.",
+      "cover": "https://covers.openlibrary.org/b/id/7021556-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 12,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 3,
+          "copies_owned": 5,
           "holds": 2,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Tinker%2C%20Tailor%2C%20Soldier%2C%20Spy%20John%20le%20Carr%C3%A9/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 3,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Tinker%2C%20Tailor%2C%20Soldier%2C%20Spy%20John%20le%20Carr%C3%A9/page-1"
         },
         "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
+          "available": true,
+          "copies_available": 3,
+          "copies_owned": 5,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Tinker%2C%20Tailor%2C%20Soldier%2C%20Spy%20John%20le%20Carr%C3%A9/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 17,
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 2,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Tinker%2C%20Tailor%2C%20Soldier%2C%20Spy%20John%20le%20Carr%C3%A9/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 13,
+          "available": true,
+          "copies_available": 4,
+          "copies_owned": 6,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Tinker%2C%20Tailor%2C%20Soldier%2C%20Spy%20John%20le%20Carr%C3%A9/page-1"
         },
         "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 1,
-          "holds": 3,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Tinker%2C%20Tailor%2C%20Soldier%2C%20Spy%20John%20le%20Carr%C3%A9/page-1"
         }
       }
     },
     {
-      "title": "Suttree",
-      "author": "Cormac McCarthy",
-      "reason": "Given their deep engagement with McCarthy's work across Blood Meridian, The Road, and All the Pretty Horses, this richly character-driven novel set along the Tennessee River showcases the same lyrical brutality and existential weight they clearly prize in his writing.",
-      "cover": "https://covers.openlibrary.org/b/id/9296908-M.jpg",
+      "title": "The Unconsoled",
+      "author": "Kazuo Ishiguro",
+      "reason": "Having read Never Let Me Go and with The Pale King and The Unbearable Lightness of Being on their want list, this disorienting, dreamlike novel about memory and obligation matches their taste for literary fiction that pushes formal boundaries.",
+      "cover": "https://covers.openlibrary.org/b/id/5311753-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 17,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Suttree%20Cormac%20McCarthy/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 23,
+          "copies_owned": 3,
+          "holds": 1,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Suttree%20Cormac%20McCarthy/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Suttree%20Cormac%20McCarthy/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
@@ -381,11 +340,49 @@
         },
         "Alexandria Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Suttree%20Cormac%20McCarthy/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
+        }
+      }
+    },
+    {
+      "title": "A Tomb for Boris Davidovich",
+      "author": "Danilo Ki\u0161",
+      "reason": "Their appetite for dark, formally ambitious literary fiction engaging history and moral reckoning (Blood Meridian already read; Absalom Absalom!, The Books of Jacob on want list) makes this devastating cycle of stories about Stalinist persecution a natural and essential fit.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Tomb%20for%20Boris%20Davidovich%20Danilo%20Ki%C5%A1/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Tomb%20for%20Boris%20Davidovich%20Danilo%20Ki%C5%A1/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Tomb%20for%20Boris%20Davidovich%20Danilo%20Ki%C5%A1/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Tomb%20for%20Boris%20Davidovich%20Danilo%20Ki%C5%A1/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Tomb%20for%20Boris%20Davidovich%20Danilo%20Ki%C5%A1/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Tomb%20for%20Boris%20Davidovich%20Danilo%20Ki%C5%A1/page-1"
         }
       }
     }
