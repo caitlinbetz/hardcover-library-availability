@@ -1,22 +1,69 @@
 {
-  "updated": "2026-07-30T10:55:07.666798Z",
+  "updated": "2026-07-30T21:37:38.505170Z",
   "recommendations": [
     {
-      "title": "The Terror of Living",
-      "author": "Urban Waite",
-      "reason": "The bleak, rural noir atmosphere and morally complex characters echo the crime fiction of S.A. Cosby and Dennis Lehane that dominates their thriller interests.",
-      "cover": "https://covers.openlibrary.org/b/id/6681324-M.jpg",
+      "title": "The Secret House",
+      "author": "David Bodanis",
+      "reason": "Their interest in popular science titles by Greene, Dawkins, and Gleick suggests they'd enjoy this microscopic exploration of hidden scientific phenomena in everyday life.",
+      "cover": "https://covers.openlibrary.org/b/id/4168323-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
+        }
+      }
+    },
+    {
+      "title": "The Alienist",
+      "author": "Caleb Carr",
+      "reason": "Their love of historical crime fiction spanning Eye of the Needle, Fingersmith, and Small Mercies points toward this dark, psychologically rich Victorian-era detective novel.",
+      "cover": "https://covers.openlibrary.org/b/id/417627-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 2,
+          "copies_owned": 4,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Alienist%20Caleb%20Carr/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 2,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Alienist%20Caleb%20Carr/page-1"
         },
         "Alexandria Public Library": {
           "available": true,
@@ -24,19 +71,69 @@
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Alienist%20Caleb%20Carr/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Montgomery County Public Library": {
+          "available": true,
+          "copies_available": 4,
+          "copies_owned": 4,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Alienist%20Caleb%20Carr/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        }
+      }
+    },
+    {
+      "title": "Pirate Latitudes",
+      "author": "Michael Crichton",
+      "reason": "Given their enjoyment of Crichton's adventure-driven science fiction and their broader taste for high-stakes historical thrillers, this posthumously published swashbuckling adventure would be a natural fit.",
+      "cover": "https://covers.openlibrary.org/b/id/9281405-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Pirate%20Latitudes%20Michael%20Crichton/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Pirate%20Latitudes%20Michael%20Crichton/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Pirate%20Latitudes%20Michael%20Crichton/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Pirate%20Latitudes%20Michael%20Crichton/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
@@ -48,7 +145,7 @@
     {
       "title": "The Raw Shark Texts",
       "author": "Steven Hall",
-      "reason": "The genre-blending metafictional horror and labyrinthine mystery closely mirrors the appeal of House of Leaves, Night Film, and the experimental literary fiction throughout their list.",
+      "reason": "Their fondness for formally experimental, genre-bending fiction like House of Leaves, Cloud Atlas, and Piranesi suggests they'd be captivated by this mind-bending literary thriller about a man hunted by a conceptual shark.",
       "cover": "https://covers.openlibrary.org/b/id/888852-M.jpg",
       "genres": [],
       "ebook_availability": {
@@ -90,186 +187,51 @@
       }
     },
     {
-      "title": "The Children of Men",
-      "author": "P.D. James",
-      "reason": "Their deep investment in dystopian fiction from Parable of the Sower to The Light Pirate makes this existential near-future thriller a clear match for their taste.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 2,
-          "copies_owned": 2,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Children%20of%20Men%20P.D.%20James/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Children%20of%20Men%20P.D.%20James/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 2,
-          "copies_owned": 2,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Children%20of%20Men%20P.D.%20James/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 5,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Children%20of%20Men%20P.D.%20James/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        }
-      }
-    },
-    {
-      "title": "The Helliconia Trilogy",
-      "author": "Brian W. Aldiss",
-      "reason": "Their interest in Aldiss's Hothouse signals an appetite for ambitious, ecological science fiction world-building on a grand scale.",
-      "cover": "https://covers.openlibrary.org/b/id/8460522-M.jpg",
+      "title": "Joe",
+      "author": "Larry Brown",
+      "reason": "Their interest in Southern Gothic fiction from authors like Ron Rash, Cormac McCarthy, and William Faulkner points strongly toward this gritty, atmospheric novel set in rural Mississippi.",
+      "cover": "https://covers.openlibrary.org/b/id/4811201-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Joe%20Larry%20Brown/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Joe%20Larry%20Brown/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Joe%20Larry%20Brown/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Joe%20Larry%20Brown/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Joe%20Larry%20Brown/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Joe%20Larry%20Brown/page-1"
         }
       }
     },
     {
-      "title": "The Secret House of Death",
-      "author": "Ruth Rendell",
-      "reason": "The psychological suspense, unreliable domestic settings, and slow-burn dread found across their thriller picks from Paula Hawkins to Ian McEwan align perfectly with Rendell's style.",
-      "cover": "https://covers.openlibrary.org/b/id/3196276-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20House%20of%20Death%20Ruth%20Rendell/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20House%20of%20Death%20Ruth%20Rendell/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20House%20of%20Death%20Ruth%20Rendell/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20House%20of%20Death%20Ruth%20Rendell/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20House%20of%20Death%20Ruth%20Rendell/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20House%20of%20Death%20Ruth%20Rendell/page-1"
-        }
-      }
-    },
-    {
-      "title": "Butcher's Crossing",
-      "author": "John Williams",
-      "reason": "Having Augustus by John Williams on their list and showing strong interest in historical adventure like Undaunted Courage, this brutal and literary Western would be a compelling next read from the same author.",
-      "cover": "https://covers.openlibrary.org/b/id/8043198-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Butcher%27s%20Crossing%20John%20Williams/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Butcher%27s%20Crossing%20John%20Williams/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Butcher%27s%20Crossing%20John%20Williams/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Butcher%27s%20Crossing%20John%20Williams/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Butcher%27s%20Crossing%20John%20Williams/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Butcher%27s%20Crossing%20John%20Williams/page-1"
-        }
-      }
-    },
-    {
-      "title": "The End of the Affair",
-      "author": "Graham Greene",
-      "reason": "Their taste for morally serious literary fiction with psychological depth, seen in picks from Ian McEwan, Milan Kundera, and Bret Easton Ellis, aligns closely with Greene's brooding, introspective style.",
-      "cover": null,
+      "title": "Flowers for Algernon",
+      "author": "Daniel Keyes",
+      "reason": "Their extensive science fiction and literary fiction overlap \u2014 spanning Solaris, Never Let Me Go, and Bewilderment \u2014 makes this emotionally devastating classic about intelligence and humanity a likely favorite.",
+      "cover": "https://covers.openlibrary.org/b/id/12947700-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
@@ -278,32 +240,41 @@
           "copies_owned": 5,
           "holds": 14,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20End%20of%20the%20Affair%20Graham%20Greene/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20End%20of%20the%20Affair%20Graham%20Greene/page-1"
+          "copies_available": 0,
+          "copies_owned": 5,
+          "holds": 8,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 2,
+          "holds": 1,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20End%20of%20the%20Affair%20Graham%20Greene/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
+          "copies_available": 0,
+          "copies_owned": 5,
+          "holds": 11,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20End%20of%20the%20Affair%20Graham%20Greene/page-1"
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 4,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
@@ -313,46 +284,90 @@
       }
     },
     {
-      "title": "The Unconsoled",
-      "author": "Kazuo Ishiguro",
-      "reason": "With multiple Ishiguro books already read and enjoyed, this surreal, dreamlike novel about memory and identity bridges their clear interests in literary fiction, psychological complexity, and the uncanny.",
-      "cover": "https://covers.openlibrary.org/b/id/5311753-M.jpg",
+      "title": "The Terror of Living",
+      "author": "Urban Waite",
+      "reason": "Their taste for tense, morally complex crime thrillers like Blacktop Wasteland, Razorblade Tears, and Slow Horses suggests they'd love this relentlessly paced Pacific Northwest crime debut.",
+      "cover": "https://covers.openlibrary.org/b/id/6681324-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 3,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
         },
         "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
           "reason": "not_in_catalog",
           "libby_url": null
+        }
+      }
+    },
+    {
+      "title": "An Instance of the Fingerpost",
+      "author": "Iain Pears",
+      "reason": "Their appetite for intellectually ambitious historical fiction with unreliable narrators \u2014 seen in Fingersmith, The Books of Jacob, and Trust \u2014 makes this multi-perspective 17th-century Oxford murder mystery a strong match.",
+      "cover": "https://covers.openlibrary.org/b/id/824348-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 6,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-An%20Instance%20of%20the%20Fingerpost%20Iain%20Pears/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-An%20Instance%20of%20the%20Fingerpost%20Iain%20Pears/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-An%20Instance%20of%20the%20Fingerpost%20Iain%20Pears/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-An%20Instance%20of%20the%20Fingerpost%20Iain%20Pears/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-An%20Instance%20of%20the%20Fingerpost%20Iain%20Pears/page-1"
         }
       }
     }
