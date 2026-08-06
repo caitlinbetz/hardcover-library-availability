@@ -1,380 +1,5 @@
 [
   {
-    "run_at": "2026-07-27T11:51:37.680970+00:00",
-    "recommendations": [
-      {
-        "title": "The Passage of Power",
-        "author": "Robert A. Caro",
-        "reason": "Their interest in political biography and American history (A Promised Land, All the King's Men, Augustus) suggests they would be gripped by Caro's monumental, novelistic account of LBJ's rise to the presidency.",
-        "cover": "https://covers.openlibrary.org/b/id/12869926-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": true,
-            "copies_available": 1,
-            "copies_owned": 3,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Passage%20of%20Power%20Robert%20A.%20Caro/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 2,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Passage%20of%20Power%20Robert%20A.%20Caro/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": true,
-            "copies_available": 1,
-            "copies_owned": 1,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Passage%20of%20Power%20Robert%20A.%20Caro/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          }
-        }
-      },
-      {
-        "title": "The Terror of Living",
-        "author": "Urban Waite",
-        "reason": "Their taste for tense, atmospheric crime fiction set in wild landscapes (Blacktop Wasteland, Razorblade Tears, The Dry, Bull Mountain) points directly to this dark, Cormac McCarthy-inflected thriller about a drug runner and the lawman hunting him through the Pacific Northwest.",
-        "cover": "https://covers.openlibrary.org/b/id/6681324-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": true,
-            "copies_available": 1,
-            "copies_owned": 1,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          }
-        }
-      },
-      {
-        "title": "The Raw Shark Texts",
-        "author": "Steven Hall",
-        "reason": "Their fondness for formally inventive, genre-bending literary fiction with a dark undertow (House of Leaves, Cloud Atlas, Piranesi, How to Live Safely in a Science Fictional Universe) makes this conceptual thriller about a man hunted by a 'conceptual shark' a natural fit.",
-        "cover": "https://covers.openlibrary.org/b/id/888852-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 1,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-          }
-        }
-      },
-      {
-        "title": "Red Mars",
-        "author": "Kim Stanley Robinson",
-        "reason": "Their extensive interest in climate dystopia, hard science fiction, and sweeping speculative fiction (The Deluge, The Light Pirate, Parable of the Sower, Leviathan Wakes) aligns perfectly with Robinson's landmark novel about the colonization and ecological transformation of Mars.",
-        "cover": "https://covers.openlibrary.org/b/id/382552-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 4,
-            "holds": 4,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Red%20Mars%20Kim%20Stanley%20Robinson/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 4,
-            "holds": 4,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Red%20Mars%20Kim%20Stanley%20Robinson/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 1,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Red%20Mars%20Kim%20Stanley%20Robinson/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 2,
-            "holds": 28,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Red%20Mars%20Kim%20Stanley%20Robinson/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          }
-        }
-      },
-      {
-        "title": "The Secret House",
-        "author": "David Bodanis",
-        "reason": "Their curiosity about popular science, hidden systems, and the invisible forces shaping reality (Chaos, Entangled Life, The Selfish Gene, The Elegant Universe) suggests they would enjoy this microscopic investigation into the unseen science occurring inside an ordinary home.",
-        "cover": "https://covers.openlibrary.org/b/id/4168323-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
-          }
-        }
-      },
-      {
-        "title": "Fingerprints of the Gods",
-        "author": "Graham Hancock",
-        "reason": "Their interest in history, archaeology, conspiracy, and fringe knowledge (Reality in Ruins, Ghost Wars, Indigenous Continent, The Lumumba Plot) makes this provocative investigation into lost civilizations and alternative prehistory a compelling and well-matched read.",
-        "cover": "https://covers.openlibrary.org/b/id/322542-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Fingerprints%20of%20the%20Gods%20Graham%20Hancock/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Fingerprints%20of%20the%20Gods%20Graham%20Hancock/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Fingerprints%20of%20the%20Gods%20Graham%20Hancock/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Fingerprints%20of%20the%20Gods%20Graham%20Hancock/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Fingerprints%20of%20the%20Gods%20Graham%20Hancock/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Fingerprints%20of%20the%20Gods%20Graham%20Hancock/page-1"
-          }
-        }
-      },
-      {
-        "title": "The Night Ocean",
-        "author": "Paul La Farge",
-        "reason": "Their taste for literary fiction that blurs reality and obsession (The Magus, Piranesi, Night Film, The Secret History) alongside their interest in dark genre history makes this layered novel about H.P. Lovecraft, identity, and literary forgery a strong match.",
-        "cover": "https://covers.openlibrary.org/b/id/8567412-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Night%20Ocean%20Paul%20La%20Farge/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Night%20Ocean%20Paul%20La%20Farge/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": true,
-            "copies_available": 1,
-            "copies_owned": 1,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Night%20Ocean%20Paul%20La%20Farge/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Night%20Ocean%20Paul%20La%20Farge/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Night%20Ocean%20Paul%20La%20Farge/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          }
-        }
-      },
-      {
-        "title": "Perdido Street Station",
-        "author": "China Mi\u00e9ville",
-        "reason": "Their deep engagement with ambitious, dark, and inventive fantasy (Imajica, The Way of Kings, Black Leopard Red Wolf, Weaveworld) suggests they would be captivated by Mi\u00e9ville's dense, grotesque, and brilliantly imagined New Crobuzon, one of the most original worlds in the genre.",
-        "cover": "https://covers.openlibrary.org/b/id/6375226-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 2,
-            "holds": 7,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Perdido%20Street%20Station%20China%20Mi%C3%A9ville/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          },
-          "Alexandria Public Library": {
-            "available": true,
-            "copies_available": 1,
-            "copies_owned": 1,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Perdido%20Street%20Station%20China%20Mi%C3%A9ville/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 2,
-            "holds": 3,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Perdido%20Street%20Station%20China%20Mi%C3%A9ville/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 1,
-            "holds": 4,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Perdido%20Street%20Station%20China%20Mi%C3%A9ville/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          }
-        }
-      }
-    ]
-  },
-  {
     "run_at": "2026-07-27T21:41:57.760146+00:00",
     "recommendations": [
       {
@@ -7279,6 +6904,375 @@
   },
   {
     "run_at": "2026-08-05T21:30:00.579076+00:00",
+    "recommendations": [
+      {
+        "title": "The Secret in Their Eyes",
+        "author": "Eduardo Sacheri",
+        "reason": "Fans of literary crime fiction with psychological depth like 'In the Woods' and 'Mystic River' will find this Argentine legal thriller equally gripping and emotionally resonant.",
+        "cover": null,
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20in%20Their%20Eyes%20Eduardo%20Sacheri/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20in%20Their%20Eyes%20Eduardo%20Sacheri/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20in%20Their%20Eyes%20Eduardo%20Sacheri/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20in%20Their%20Eyes%20Eduardo%20Sacheri/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20in%20Their%20Eyes%20Eduardo%20Sacheri/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20in%20Their%20Eyes%20Eduardo%20Sacheri/page-1"
+          }
+        }
+      },
+      {
+        "title": "The Terror of Living",
+        "author": "Urban Waite",
+        "reason": "Given their appetite for crime thrillers with literary ambition like S.A. Cosby and Dennis Lehane, this tense Pacific Northwest noir about a drug runner and a relentless detective fits perfectly.",
+        "cover": null,
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          }
+        }
+      },
+      {
+        "title": "The Elementals",
+        "author": "Michael McDowell",
+        "reason": "With their strong interest in classic horror from Shirley Jackson to Stephen King, this atmospheric Southern Gothic horror novel offers the same slow-burn dread and sense of place.",
+        "cover": null,
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 3,
+            "holds": 1,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Elementals%20Michael%20McDowell/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Elementals%20Michael%20McDowell/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Elementals%20Michael%20McDowell/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Elementals%20Michael%20McDowell/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Elementals%20Michael%20McDowell/page-1"
+          }
+        }
+      },
+      {
+        "title": "A Fire Upon the Deep",
+        "author": "Vernor Vinge",
+        "reason": "Their want-to-read list is stacked with ambitious science fiction like 'Hyperion,' 'Leviathan Wakes,' and 'Solaris,' making this Hugo-winning novel of cosmic scale and alien intelligence an ideal next read.",
+        "cover": null,
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 2,
+            "holds": 12,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Fire%20Upon%20the%20Deep%20Vernor%20Vinge/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Fire%20Upon%20the%20Deep%20Vernor%20Vinge/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Fire%20Upon%20the%20Deep%20Vernor%20Vinge/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 3,
+            "holds": 3,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Fire%20Upon%20the%20Deep%20Vernor%20Vinge/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Fire%20Upon%20the%20Deep%20Vernor%20Vinge/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Fire%20Upon%20the%20Deep%20Vernor%20Vinge/page-1"
+          }
+        }
+      },
+      {
+        "title": "The Weight of Water",
+        "author": "Anita Shreve",
+        "reason": "Their interest in literary fiction with dark psychological undertones and historical layering, seen in books like 'Fingersmith' and 'The Woman in White,' maps directly onto this dual-timeline murder mystery.",
+        "cover": null,
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 2,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Weight%20of%20Water%20Anita%20Shreve/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Weight%20of%20Water%20Anita%20Shreve/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Weight%20of%20Water%20Anita%20Shreve/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Weight%20of%20Water%20Anita%20Shreve/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          }
+        }
+      },
+      {
+        "title": "The Raw Shark Texts",
+        "author": "Steven Hall",
+        "reason": "Given their enthusiasm for genre-bending, experimentally structured fiction like 'House of Leaves' and 'Cloud Atlas,' this postmodern thriller about a man hunted by a conceptual shark will feel right at home.",
+        "cover": null,
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          }
+        }
+      },
+      {
+        "title": "Pirate Latitudes",
+        "author": "Michael Crichton",
+        "reason": "Their fondness for propulsive adventure and historical fiction, evidenced by 'Jurassic Park' and 'Undaunted Courage,' makes this posthumously published Crichton swashbuckler a natural fit.",
+        "cover": null,
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 2,
+            "holds": 1,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Pirate%20Latitudes%20Michael%20Crichton/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Pirate%20Latitudes%20Michael%20Crichton/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Pirate%20Latitudes%20Michael%20Crichton/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Pirate%20Latitudes%20Michael%20Crichton/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          }
+        }
+      },
+      {
+        "title": "The Bottoms",
+        "author": "Joe R. Lansdale",
+        "reason": "Their taste for Southern Gothic literary crime fiction \u2014 evident from Larry Brown's 'Joe,' Ron Rash, and Dennis Lehane \u2014 aligns perfectly with Lansdale's Edgar Award-winning coming-of-age murder mystery set in Depression-era East Texas.",
+        "cover": null,
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Bottoms%20Joe%20R.%20Lansdale/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Bottoms%20Joe%20R.%20Lansdale/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Bottoms%20Joe%20R.%20Lansdale/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Bottoms%20Joe%20R.%20Lansdale/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Bottoms%20Joe%20R.%20Lansdale/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "run_at": "2026-08-06T11:10:05.553673+00:00",
     "recommendations": [
       {
         "title": "The Secret in Their Eyes",
