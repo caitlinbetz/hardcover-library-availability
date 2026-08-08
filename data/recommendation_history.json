@@ -1,362 +1,5 @@
 [
   {
-    "run_at": "2026-07-29T21:28:45.079300+00:00",
-    "recommendations": [
-      {
-        "title": "The Passage of Power",
-        "author": "Robert A. Caro",
-        "reason": "Their interest in political history through books like 'A Promised Land,' 'All the King's Men,' and 'Imperium' suggests they'd be captivated by Caro's masterful blend of political intrigue, power, and American history.",
-        "cover": "https://covers.openlibrary.org/b/id/12869926-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": true,
-            "copies_available": 1,
-            "copies_owned": 3,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Passage%20of%20Power%20Robert%20A.%20Caro/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 2,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Passage%20of%20Power%20Robert%20A.%20Caro/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": true,
-            "copies_available": 1,
-            "copies_owned": 1,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Passage%20of%20Power%20Robert%20A.%20Caro/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          }
-        }
-      },
-      {
-        "title": "The Terror of Living",
-        "author": "Urban Waite",
-        "reason": "Their affinity for taut, literary crime fiction like 'Blacktop Wasteland,' 'Razorblade Tears,' and 'Mystic River' points toward this dark, atmospheric Pacific Northwest thriller with beautifully spare prose.",
-        "cover": "https://covers.openlibrary.org/b/id/6681324-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": true,
-            "copies_available": 1,
-            "copies_owned": 1,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          }
-        }
-      },
-      {
-        "title": "The Sunken Land Begins to Rise Again",
-        "author": "M. John Harrison",
-        "reason": "Their taste for literary strange fiction spanning Ballard's 'Concrete Island,' Fowles' 'The Magus,' and T. Kingfisher's work suggests they'd respond deeply to Harrison's unsettling, dreamlike contemporary Gothic.",
-        "cover": "https://covers.openlibrary.org/b/id/14322755-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Sunken%20Land%20Begins%20to%20Rise%20Again%20M.%20John%20Harrison/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Sunken%20Land%20Begins%20to%20Rise%20Again%20M.%20John%20Harrison/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Sunken%20Land%20Begins%20to%20Rise%20Again%20M.%20John%20Harrison/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Sunken%20Land%20Begins%20to%20Rise%20Again%20M.%20John%20Harrison/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Sunken%20Land%20Begins%20to%20Rise%20Again%20M.%20John%20Harrison/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Sunken%20Land%20Begins%20to%20Rise%20Again%20M.%20John%20Harrison/page-1"
-          }
-        }
-      },
-      {
-        "title": "A Fire Upon the Deep",
-        "author": "Vernor Vinge",
-        "reason": "Their broad science fiction appetite spanning Lem's 'Solaris,' Simmons' 'Hyperion,' and Corey's 'Leviathan Wakes' makes this landmark, ideas-dense space opera a natural fit.",
-        "cover": "https://covers.openlibrary.org/b/id/9261466-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 2,
-            "holds": 10,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Fire%20Upon%20the%20Deep%20Vernor%20Vinge/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Fire%20Upon%20the%20Deep%20Vernor%20Vinge/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Fire%20Upon%20the%20Deep%20Vernor%20Vinge/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 3,
-            "holds": 1,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Fire%20Upon%20the%20Deep%20Vernor%20Vinge/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Fire%20Upon%20the%20Deep%20Vernor%20Vinge/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Fire%20Upon%20the%20Deep%20Vernor%20Vinge/page-1"
-          }
-        }
-      },
-      {
-        "title": "The Unconsoled",
-        "author": "Kazuo Ishiguro",
-        "reason": "Their love of formally disorienting literary fiction like 'House of Leaves' and 'The Magus,' combined with their admiration for Ishiguro's 'Never Let Me Go' and 'Klara and the Sun,' makes this dreamlike, unsettling novel a compelling next step.",
-        "cover": "https://covers.openlibrary.org/b/id/5311753-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 3,
-            "holds": 1,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Unconsoled%20Kazuo%20Ishiguro/page-1"
-          }
-        }
-      },
-      {
-        "title": "Falling Man",
-        "author": "Don DeLillo",
-        "reason": "Their interest in literary fiction engaging with politics, culture, and crisis \u2014 seen through 'The Circle,' 'Screen People,' and 'The Deluge' \u2014 aligns with DeLillo's unflinching post-9/11 psychological reckoning.",
-        "cover": "https://covers.openlibrary.org/b/id/760439-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Falling%20Man%20Don%20DeLillo/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Falling%20Man%20Don%20DeLillo/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Falling%20Man%20Don%20DeLillo/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Falling%20Man%20Don%20DeLillo/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Falling%20Man%20Don%20DeLillo/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Falling%20Man%20Don%20DeLillo/page-1"
-          }
-        }
-      },
-      {
-        "title": "The Raw Shark Texts",
-        "author": "Steven Hall",
-        "reason": "Their appetite for formally inventive, reality-bending fiction like 'House of Leaves,' 'Cloud Atlas,' and 'How to Live Safely in a Science Fictional Universe' makes this genre-defying conceptual thriller an ideal match.",
-        "cover": "https://covers.openlibrary.org/b/id/888852-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 1,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-          }
-        }
-      },
-      {
-        "title": "The Helliconia Trilogy",
-        "author": "Brian W. Aldiss",
-        "reason": "Their want-to-read listing of Aldiss's 'Hothouse' alongside ecological dystopias like 'The Deluge' and 'Blue Skies' suggests they'd be enthralled by his sweeping, climate-obsessed planetary epic.",
-        "cover": "https://covers.openlibrary.org/b/id/8460522-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
-          }
-        }
-      }
-    ]
-  },
-  {
     "run_at": "2026-07-30T10:55:10.683481+00:00",
     "recommendations": [
       {
@@ -7237,6 +6880,414 @@
   },
   {
     "run_at": "2026-08-08T08:57:51.449665+00:00",
+    "recommendations": [
+      {
+        "title": "The Secret in Their Eyes",
+        "author": "Eduardo Sacheri",
+        "reason": "Fans of atmospheric crime fiction like 'Case Histories' and 'Bluebird, Bluebird' will appreciate this Argentine noir blending murder mystery with political history and deep moral complexity.",
+        "cover": "https://covers.openlibrary.org/b/id/6935559-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20in%20Their%20Eyes%20Eduardo%20Sacheri/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20in%20Their%20Eyes%20Eduardo%20Sacheri/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20in%20Their%20Eyes%20Eduardo%20Sacheri/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20in%20Their%20Eyes%20Eduardo%20Sacheri/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20in%20Their%20Eyes%20Eduardo%20Sacheri/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20in%20Their%20Eyes%20Eduardo%20Sacheri/page-1"
+          }
+        }
+      },
+      {
+        "title": "The Children of Men",
+        "author": "P.D. James",
+        "reason": "Their love of dystopian literary fiction spanning 'Parable of the Talents,' 'The Deluge,' and '1984' aligns perfectly with this bleak, elegantly written near-future collapse of civilization.",
+        "cover": null,
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 2,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Children%20of%20Men%20P.D.%20James/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Alexandria Public Library": {
+            "available": true,
+            "copies_available": 2,
+            "copies_owned": 2,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Children%20of%20Men%20P.D.%20James/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": true,
+            "copies_available": 2,
+            "copies_owned": 2,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Children%20of%20Men%20P.D.%20James/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 3,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Children%20of%20Men%20P.D.%20James/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          }
+        }
+      },
+      {
+        "title": "Under the Volcano",
+        "author": "Malcolm Lowry",
+        "reason": "Given their appetite for dense, literary modernist fiction like 'Absalom, Absalom!' and 'The Pale King,' this hallucinatory masterpiece of dissolution and guilt would resonate deeply.",
+        "cover": "https://covers.openlibrary.org/b/id/4197484-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 6,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Under%20the%20Volcano%20Malcolm%20Lowry/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Under%20the%20Volcano%20Malcolm%20Lowry/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Under%20the%20Volcano%20Malcolm%20Lowry/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 3,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Under%20the%20Volcano%20Malcolm%20Lowry/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Under%20the%20Volcano%20Malcolm%20Lowry/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Under%20the%20Volcano%20Malcolm%20Lowry/page-1"
+          }
+        }
+      },
+      {
+        "title": "The Secret Agent",
+        "author": "Joseph Conrad",
+        "reason": "Their interest in spy and political thrillers like 'Our Kind of Traitor,' 'Slow Horses,' and 'Imperium' pairs naturally with this dark, ironic founding text of the espionage genre.",
+        "cover": "https://covers.openlibrary.org/b/id/8239401-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 0,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20Agent%20Joseph%20Conrad/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20Agent%20Joseph%20Conrad/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20Agent%20Joseph%20Conrad/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 1,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20Agent%20Joseph%20Conrad/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20Agent%20Joseph%20Conrad/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20Agent%20Joseph%20Conrad/page-1"
+          }
+        }
+      },
+      {
+        "title": "A Gentleman in Moscow",
+        "author": "Amor Towles",
+        "reason": "Their fondness for richly atmospheric historical literary fiction like 'The Thousand Autumns of Jacob de Zoet' and 'The Books of Jacob' suggests they would love this elegant, character-driven novel of confinement and resilience.",
+        "cover": "https://covers.openlibrary.org/b/id/11326818-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 82,
+            "holds": 2,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 39,
+            "holds": 5,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 11,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 41,
+            "holds": 24,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 23,
+            "holds": 12,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 4,
+            "holds": 2,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          }
+        }
+      },
+      {
+        "title": "The Raw Shark Texts",
+        "author": "Steven Hall",
+        "reason": "Their enthusiasm for formally inventive, genre-blurring fiction like 'House of Leaves' and 'How to Live Safely in a Science Fictional Universe' makes this conceptually dazzling literary thriller a natural fit.",
+        "cover": "https://covers.openlibrary.org/b/id/888852-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          }
+        }
+      },
+      {
+        "title": "Perdido Street Station",
+        "author": "China Mi\u00e9ville",
+        "reason": "Their wide-ranging taste in ambitious, dark secondary-world fantasy spanning 'Jonathan Strange & Mr Norrell,' 'Black Leopard Red Wolf,' and 'Gardens of the Moon' points directly to this dense, extraordinary New Weird landmark.",
+        "cover": "https://covers.openlibrary.org/b/id/6375226-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 2,
+            "holds": 2,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Perdido%20Street%20Station%20China%20Mi%C3%A9ville/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Alexandria Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Perdido%20Street%20Station%20China%20Mi%C3%A9ville/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 2,
+            "holds": 6,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Perdido%20Street%20Station%20China%20Mi%C3%A9ville/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 3,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Perdido%20Street%20Station%20China%20Mi%C3%A9ville/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          }
+        }
+      },
+      {
+        "title": "The Yiddish Policemen's Union",
+        "author": "Michael Chabon",
+        "reason": "Their overlapping interest in noir mystery, alternate history, and literary wit seen across 'Bluebird Bluebird,' 'The Anomaly,' and 'Fingersmith' makes this inventive genre mashup an ideal recommendation.",
+        "cover": "https://covers.openlibrary.org/b/id/12745258-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 5,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Yiddish%20Policemen%27s%20Union%20Michael%20Chabon/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 9,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Yiddish%20Policemen%27s%20Union%20Michael%20Chabon/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Yiddish%20Policemen%27s%20Union%20Michael%20Chabon/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 3,
+            "holds": 2,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Yiddish%20Policemen%27s%20Union%20Michael%20Chabon/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 2,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Yiddish%20Policemen%27s%20Union%20Michael%20Chabon/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Yiddish%20Policemen%27s%20Union%20Michael%20Chabon/page-1"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "run_at": "2026-08-08T21:01:10.306642+00:00",
     "recommendations": [
       {
         "title": "The Secret in Their Eyes",
