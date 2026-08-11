@@ -1,380 +1,5 @@
 [
   {
-    "run_at": "2026-08-01T10:28:57.058504+00:00",
-    "recommendations": [
-      {
-        "title": "The Secret House",
-        "author": "David Bodanis",
-        "reason": "Their interest in popular science titles by Greene, Dawkins, and Gleick suggests they'd enjoy this microscopic exploration of hidden scientific phenomena in everyday life.",
-        "cover": "https://covers.openlibrary.org/b/id/4168323-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20House%20David%20Bodanis/page-1"
-          }
-        }
-      },
-      {
-        "title": "The Alienist",
-        "author": "Caleb Carr",
-        "reason": "Their love of historical crime fiction spanning Eye of the Needle, Fingersmith, and Small Mercies points toward this dark, psychologically rich Victorian-era detective novel.",
-        "cover": "https://covers.openlibrary.org/b/id/417627-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": true,
-            "copies_available": 2,
-            "copies_owned": 4,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Alienist%20Caleb%20Carr/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": true,
-            "copies_available": 1,
-            "copies_owned": 2,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Alienist%20Caleb%20Carr/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": true,
-            "copies_available": 1,
-            "copies_owned": 1,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Alienist%20Caleb%20Carr/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          },
-          "Montgomery County Public Library": {
-            "available": true,
-            "copies_available": 4,
-            "copies_owned": 4,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Alienist%20Caleb%20Carr/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          }
-        }
-      },
-      {
-        "title": "Pirate Latitudes",
-        "author": "Michael Crichton",
-        "reason": "Given their enjoyment of Crichton's adventure-driven science fiction and their broader taste for high-stakes historical thrillers, this posthumously published swashbuckling adventure would be a natural fit.",
-        "cover": "https://covers.openlibrary.org/b/id/9281405-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 2,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Pirate%20Latitudes%20Michael%20Crichton/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Pirate%20Latitudes%20Michael%20Crichton/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": true,
-            "copies_available": 1,
-            "copies_owned": 1,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Pirate%20Latitudes%20Michael%20Crichton/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Pirate%20Latitudes%20Michael%20Crichton/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          }
-        }
-      },
-      {
-        "title": "The Raw Shark Texts",
-        "author": "Steven Hall",
-        "reason": "Their fondness for formally experimental, genre-bending fiction like House of Leaves, Cloud Atlas, and Piranesi suggests they'd be captivated by this mind-bending literary thriller about a man hunted by a conceptual shark.",
-        "cover": "https://covers.openlibrary.org/b/id/888852-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 1,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-          }
-        }
-      },
-      {
-        "title": "Joe",
-        "author": "Larry Brown",
-        "reason": "Their interest in Southern Gothic fiction from authors like Ron Rash, Cormac McCarthy, and William Faulkner points strongly toward this gritty, atmospheric novel set in rural Mississippi.",
-        "cover": "https://covers.openlibrary.org/b/id/4811201-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Joe%20Larry%20Brown/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Joe%20Larry%20Brown/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Joe%20Larry%20Brown/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Joe%20Larry%20Brown/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Joe%20Larry%20Brown/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Joe%20Larry%20Brown/page-1"
-          }
-        }
-      },
-      {
-        "title": "Flowers for Algernon",
-        "author": "Daniel Keyes",
-        "reason": "Their extensive science fiction and literary fiction overlap \u2014 spanning Solaris, Never Let Me Go, and Bewilderment \u2014 makes this emotionally devastating classic about intelligence and humanity a likely favorite.",
-        "cover": "https://covers.openlibrary.org/b/id/12947700-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 5,
-            "holds": 14,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 5,
-            "holds": 8,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 1,
-            "holds": 1,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 5,
-            "holds": 11,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 3,
-            "holds": 4,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Flowers%20for%20Algernon%20Daniel%20Keyes/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          }
-        }
-      },
-      {
-        "title": "The Terror of Living",
-        "author": "Urban Waite",
-        "reason": "Their taste for tense, morally complex crime thrillers like Blacktop Wasteland, Razorblade Tears, and Slow Horses suggests they'd love this relentlessly paced Pacific Northwest crime debut.",
-        "cover": "https://covers.openlibrary.org/b/id/6681324-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": true,
-            "copies_available": 1,
-            "copies_owned": 1,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20of%20Living%20Urban%20Waite/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          }
-        }
-      },
-      {
-        "title": "An Instance of the Fingerpost",
-        "author": "Iain Pears",
-        "reason": "Their appetite for intellectually ambitious historical fiction with unreliable narrators \u2014 seen in Fingersmith, The Books of Jacob, and Trust \u2014 makes this multi-perspective 17th-century Oxford murder mystery a strong match.",
-        "cover": "https://covers.openlibrary.org/b/id/824348-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 2,
-            "holds": 6,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-An%20Instance%20of%20the%20Fingerpost%20Iain%20Pears/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-An%20Instance%20of%20the%20Fingerpost%20Iain%20Pears/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-An%20Instance%20of%20the%20Fingerpost%20Iain%20Pears/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-An%20Instance%20of%20the%20Fingerpost%20Iain%20Pears/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-An%20Instance%20of%20the%20Fingerpost%20Iain%20Pears/page-1"
-          }
-        }
-      }
-    ]
-  },
-  {
     "run_at": "2026-08-01T21:22:18.385885+00:00",
     "recommendations": [
       {
@@ -7791,6 +7416,357 @@
             "available": false,
             "reason": "no_isbn",
             "libby_url": "https://libbyapp.com/library/alexandria/search/query-Embassytown%20China%20Mi%C3%A9ville/page-1"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "run_at": "2026-08-11T09:25:07.206158+00:00",
+    "recommendations": [
+      {
+        "title": "The Raw Shark Texts",
+        "author": "Steven Hall",
+        "reason": "Their taste for formally experimental, uncanny fiction like House of Leaves (already read) and No One Is Talking About This on their list makes this metafictional thriller a natural fit.",
+        "cover": "https://covers.openlibrary.org/b/id/888852-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          }
+        }
+      },
+      {
+        "title": "Satin Island",
+        "author": "Tom McCarthy",
+        "reason": "Their attraction to cerebral, postmodern fiction exploring media and society\u2014reflected by The Pale King, Screen People, and The Circle on their list\u2014makes this anthropologist-narrator novel an ideal match.",
+        "cover": "https://covers.openlibrary.org/b/id/10304991-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Satin%20Island%20Tom%20McCarthy/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Satin%20Island%20Tom%20McCarthy/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Satin%20Island%20Tom%20McCarthy/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Satin%20Island%20Tom%20McCarthy/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Satin%20Island%20Tom%20McCarthy/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          }
+        }
+      },
+      {
+        "title": "The Enchanted",
+        "author": "Rene Denfeld",
+        "reason": "Their interest in literary crime fiction with dark, atmospheric prose\u2014seen through Blacktop Wasteland, Small Mercies, and Mystic River already read\u2014fits this lyrical, haunting novel set on death row.",
+        "cover": "https://covers.openlibrary.org/b/id/9685385-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Enchanted%20Rene%20Denfeld/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Enchanted%20Rene%20Denfeld/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Enchanted%20Rene%20Denfeld/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Enchanted%20Rene%20Denfeld/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Enchanted%20Rene%20Denfeld/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          }
+        }
+      },
+      {
+        "title": "The Wanting Seed",
+        "author": "Anthony Burgess",
+        "reason": "Their strong dystopian science fiction thread\u2014spanning Parable of the Talents, The Deluge, Chain-Gang All-Stars, and 1984 on their list\u2014makes this dark satirical novel about overpopulation and state control a natural recommendation.",
+        "cover": "https://covers.openlibrary.org/b/id/14430689-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Wanting%20Seed%20Anthony%20Burgess/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Wanting%20Seed%20Anthony%20Burgess/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Wanting%20Seed%20Anthony%20Burgess/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Wanting%20Seed%20Anthony%20Burgess/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Wanting%20Seed%20Anthony%20Burgess/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Wanting%20Seed%20Anthony%20Burgess/page-1"
+          }
+        }
+      },
+      {
+        "title": "Lost Souls",
+        "author": "Poppy Z. Brite",
+        "reason": "Their gothic horror sensibility spanning We Have Always Lived in the Castle, Our Share of Night, and Summer Sons on their list suggests they'd be drawn to this decadent, Southern-inflected vampire novel with strong literary atmosphere.",
+        "cover": "https://covers.openlibrary.org/b/id/9109799-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Lost%20Souls%20Poppy%20Z.%20Brite/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Lost%20Souls%20Poppy%20Z.%20Brite/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Lost%20Souls%20Poppy%20Z.%20Brite/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Lost%20Souls%20Poppy%20Z.%20Brite/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Lost%20Souls%20Poppy%20Z.%20Brite/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Lost%20Souls%20Poppy%20Z.%20Brite/page-1"
+          }
+        }
+      },
+      {
+        "title": "The Grip of It",
+        "author": "Jac Jemc",
+        "reason": "Their attraction to literary haunted-house horror with psychological depth\u2014evidenced by The September House, Dark Matter by Michelle Paver, and We Have Always Lived in the Castle on their list\u2014aligns well with this unsettling, formally inventive novel.",
+        "cover": "https://covers.openlibrary.org/b/id/8447401-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 2,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
+          }
+        }
+      },
+      {
+        "title": "Galveston",
+        "author": "Nic Pizzolatto",
+        "reason": "Their interest in Southern noir and literary crime fiction\u2014reflected by Cottonmouths, Joe, and Blacktop Wasteland across their lists\u2014makes this bleak, elegiac debut novel a strong match.",
+        "cover": "https://covers.openlibrary.org/b/id/10336854-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Galveston%20Nic%20Pizzolatto/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Galveston%20Nic%20Pizzolatto/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Galveston%20Nic%20Pizzolatto/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Galveston%20Nic%20Pizzolatto/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Galveston%20Nic%20Pizzolatto/page-1"
+          }
+        }
+      },
+      {
+        "title": "The Bottoms",
+        "author": "Joe R. Lansdale",
+        "reason": "Their taste for dark Southern literary crime fiction with atmospheric menace\u2014seen in Cottonmouths, Joe by Larry Brown, and Small Mercies on their lists\u2014makes this Edgar Award-winning coming-of-age noir set in Depression-era East Texas a compelling fit.",
+        "cover": "https://covers.openlibrary.org/b/id/691907-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Bottoms%20Joe%20R.%20Lansdale/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Bottoms%20Joe%20R.%20Lansdale/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Bottoms%20Joe%20R.%20Lansdale/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Bottoms%20Joe%20R.%20Lansdale/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Bottoms%20Joe%20R.%20Lansdale/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
           }
         }
       }
