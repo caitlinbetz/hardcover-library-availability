@@ -1,371 +1,5 @@
 [
   {
-    "run_at": "2026-08-10T20:59:32.507199+00:00",
-    "recommendations": [
-      {
-        "title": "The Witchfinder's Sister",
-        "author": "Beth Underdown",
-        "reason": "Fans of Fingersmith and The Silent Patient will find this darkly atmospheric historical fiction with a mystery at its core deeply satisfying.",
-        "cover": null,
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Witchfinder%27s%20Sister%20Beth%20Underdown/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Witchfinder%27s%20Sister%20Beth%20Underdown/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Witchfinder%27s%20Sister%20Beth%20Underdown/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Witchfinder%27s%20Sister%20Beth%20Underdown/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Witchfinder%27s%20Sister%20Beth%20Underdown/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Witchfinder%27s%20Sister%20Beth%20Underdown/page-1"
-          }
-        }
-      },
-      {
-        "title": "Perdido Street Station",
-        "author": "China Mi\u00e9ville",
-        "reason": "Their want-to-read list's appetite for ambitious, dark, genre-defying fantasy \u2014 Jonathan Strange, Imajica, The Way of Kings \u2014 points squarely toward Mi\u00e9ville's dense, inventive weird fiction.",
-        "cover": "https://covers.openlibrary.org/b/id/6375226-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 2,
-            "holds": 2,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Perdido%20Street%20Station%20China%20Mi%C3%A9ville/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          },
-          "Alexandria Public Library": {
-            "available": true,
-            "copies_available": 1,
-            "copies_owned": 1,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Perdido%20Street%20Station%20China%20Mi%C3%A9ville/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 2,
-            "holds": 5,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Perdido%20Street%20Station%20China%20Mi%C3%A9ville/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 1,
-            "holds": 3,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Perdido%20Street%20Station%20China%20Mi%C3%A9ville/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          }
-        }
-      },
-      {
-        "title": "Riddley Walker",
-        "author": "Russell Hoban",
-        "reason": "Their dystopian and post-apocalyptic interests spanning The Road, Parable of the Sower, and The Deluge make this linguistically bold post-nuclear classic an ideal challenging read.",
-        "cover": "https://covers.openlibrary.org/b/id/8510440-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
-          }
-        }
-      },
-      {
-        "title": "The Bottoms",
-        "author": "Joe R. Lansdale",
-        "reason": "Their taste for Southern gothic fiction \u2014 Joe by Larry Brown, Cottonmouths, Bluebird Bluebird \u2014 aligns perfectly with Lansdale's Depression-era Texas coming-of-age noir thriller.",
-        "cover": "https://covers.openlibrary.org/b/id/691907-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Bottoms%20Joe%20R.%20Lansdale/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Bottoms%20Joe%20R.%20Lansdale/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": true,
-            "copies_available": 1,
-            "copies_owned": 1,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Bottoms%20Joe%20R.%20Lansdale/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Bottoms%20Joe%20R.%20Lansdale/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Bottoms%20Joe%20R.%20Lansdale/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          }
-        }
-      },
-      {
-        "title": "Brother",
-        "author": "Ania Ahlborn",
-        "reason": "Their affinity for literary horror rooted in dark family dynamics \u2014 The Only Good Indians, Our Wives Under the Sea, The September House \u2014 makes this bleak Appalachian horror about a family of killers a strong match.",
-        "cover": "https://covers.openlibrary.org/b/id/9258747-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 1,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Brother%20Ania%20Ahlborn/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 2,
-            "holds": 6,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Brother%20Ania%20Ahlborn/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Brother%20Ania%20Ahlborn/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Brother%20Ania%20Ahlborn/page-1"
-          }
-        }
-      },
-      {
-        "title": "The Helliconia Trilogy",
-        "author": "Brian W. Aldiss",
-        "reason": "Given Hothouse by Brian W. Aldiss and Hyperion by Dan Simmons on their list, Aldiss's epic ecological science fiction trilogy about a planet with seasons lasting centuries is a natural next step.",
-        "cover": "https://covers.openlibrary.org/b/id/8460522-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
-          }
-        }
-      },
-      {
-        "title": "The Grip of It",
-        "author": "Jac Jemc",
-        "reason": "Fans of We Have Always Lived in the Castle and The Haunting of Hill House will appreciate this unsettling literary haunted house novel that blurs the line between psychological dread and supernatural horror.",
-        "cover": "https://covers.openlibrary.org/b/id/8447401-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 2,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
-          }
-        }
-      },
-      {
-        "title": "Embassytown",
-        "author": "China Mi\u00e9ville",
-        "reason": "Their interest in The Language Instinct and challenging science fiction like Solaris and The Three-Body Problem makes this deeply literary novel about alien language and colonialism a compelling fit.",
-        "cover": "https://covers.openlibrary.org/b/id/7276258-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 2,
-            "holds": 1,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Embassytown%20China%20Mi%C3%A9ville/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Embassytown%20China%20Mi%C3%A9ville/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 2,
-            "holds": 2,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Embassytown%20China%20Mi%C3%A9ville/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 2,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Embassytown%20China%20Mi%C3%A9ville/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Embassytown%20China%20Mi%C3%A9ville/page-1"
-          }
-        }
-      }
-    ]
-  },
-  {
     "run_at": "2026-08-11T09:25:07.206158+00:00",
     "recommendations": [
       {
@@ -7980,6 +7614,393 @@
             "available": false,
             "reason": "no_isbn",
             "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "run_at": "2026-08-20T20:45:42.634548+00:00",
+    "recommendations": [
+      {
+        "title": "The Dispatcher",
+        "author": "John Scalzi",
+        "reason": "Their interest in Scalzi's Starter Villain and The Kaiju Preservation Society, combined with their sci-fi taste, makes this inventive speculative noir a natural next step.",
+        "cover": null,
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispatcher%20John%20Scalzi/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispatcher%20John%20Scalzi/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Dispatcher%20John%20Scalzi/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispatcher%20John%20Scalzi/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispatcher%20John%20Scalzi/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Dispatcher%20John%20Scalzi/page-1"
+          }
+        }
+      },
+      {
+        "title": "All Systems Red",
+        "author": "Martha Wells",
+        "reason": "Their appetite for character-driven sci-fi with dark undertones, seen in works like Leviathan Wakes and Elder Race, fits perfectly with this celebrated Murderbot novella.",
+        "cover": "https://covers.openlibrary.org/b/id/9157148-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 25,
+            "holds": 1,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-All%20Systems%20Red%20Martha%20Wells/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 9,
+            "holds": 11,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-All%20Systems%20Red%20Martha%20Wells/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 3,
+            "holds": 2,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-All%20Systems%20Red%20Martha%20Wells/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 22,
+            "holds": 37,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-All%20Systems%20Red%20Martha%20Wells/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 2,
+            "holds": 15,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-All%20Systems%20Red%20Martha%20Wells/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 4,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-All%20Systems%20Red%20Martha%20Wells/page-1"
+          }
+        }
+      },
+      {
+        "title": "Midnight Mass",
+        "author": "F. Paul Wilson",
+        "reason": "Their repeated interest in horror with thematic weight, from Stephen King to Paul Tremblay and Shirley Jackson, aligns well with this literary vampire horror novel.",
+        "cover": null,
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Midnight%20Mass%20F.%20Paul%20Wilson/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Midnight%20Mass%20F.%20Paul%20Wilson/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Midnight%20Mass%20F.%20Paul%20Wilson/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Midnight%20Mass%20F.%20Paul%20Wilson/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Midnight%20Mass%20F.%20Paul%20Wilson/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Midnight%20Mass%20F.%20Paul%20Wilson/page-1"
+          }
+        }
+      },
+      {
+        "title": "The Secret of Ventriloquism",
+        "author": "Jon Padgett",
+        "reason": "Their taste for literary weird fiction and horror, evidenced by Brian Evenson's Last Days and T. Kingfisher's work, points directly to this unsettling short story collection.",
+        "cover": "https://covers.openlibrary.org/b/id/9133846-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20of%20Ventriloquism%20Jon%20Padgett/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20of%20Ventriloquism%20Jon%20Padgett/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20of%20Ventriloquism%20Jon%20Padgett/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Secret%20of%20Ventriloquism%20Jon%20Padgett/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Secret%20of%20Ventriloquism%20Jon%20Padgett/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Secret%20of%20Ventriloquism%20Jon%20Padgett/page-1"
+          }
+        }
+      },
+      {
+        "title": "A Gentleman in Moscow",
+        "author": "Amor Towles",
+        "reason": "Their appreciation for literary historical fiction with rich prose, seen in their want-to-read picks like The Books of Jacob and Augustus, makes this elegant Russian novel a strong match.",
+        "cover": null,
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 82,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 39,
+            "holds": 2,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 11,
+            "holds": 1,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 41,
+            "holds": 21,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 23,
+            "holds": 10,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 4,
+            "holds": 3,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+          }
+        }
+      },
+      {
+        "title": "Mexican Gothic",
+        "author": "Silvia Moreno-Garcia",
+        "reason": "Given their strong horror-literary crossover tastes spanning Our Wives Under the Sea, The September House, and Dark Matter, this atmospheric gothic horror set in 1950s Mexico would be a perfect fit.",
+        "cover": "https://covers.openlibrary.org/b/id/10239163-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 7,
+            "holds": 24,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 3,
+            "holds": 25,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 4,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 7,
+            "holds": 23,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 3,
+            "holds": 29,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 2,
+            "holds": 3,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          }
+        }
+      },
+      {
+        "title": "Helliconia Spring",
+        "author": "Brian W. Aldiss",
+        "reason": "Their fondness for Aldiss's Hothouse and dense speculative world-building makes this epic planetary saga with deep ecological and civilizational themes an ideal read.",
+        "cover": null,
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Helliconia%20Spring%20Brian%20W.%20Aldiss/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Helliconia%20Spring%20Brian%20W.%20Aldiss/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Helliconia%20Spring%20Brian%20W.%20Aldiss/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Helliconia%20Spring%20Brian%20W.%20Aldiss/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Helliconia%20Spring%20Brian%20W.%20Aldiss/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Helliconia%20Spring%20Brian%20W.%20Aldiss/page-1"
+          }
+        }
+      },
+      {
+        "title": "Songs of a Dead Dreamer and Grimscribe",
+        "author": "Thomas Ligotti",
+        "reason": "Their attraction to literary horror with existential dread, seen in picks like Brian Evenson's Last Days and The Only Good Indians, aligns perfectly with Ligotti's celebrated weird fiction stories steeped in cosmic pessimism.",
+        "cover": "https://covers.openlibrary.org/b/id/12174063-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Songs%20of%20a%20Dead%20Dreamer%20and%20Grimscribe%20Thomas%20Ligotti/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Songs%20of%20a%20Dead%20Dreamer%20and%20Grimscribe%20Thomas%20Ligotti/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Songs%20of%20a%20Dead%20Dreamer%20and%20Grimscribe%20Thomas%20Ligotti/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Songs%20of%20a%20Dead%20Dreamer%20and%20Grimscribe%20Thomas%20Ligotti/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Songs%20of%20a%20Dead%20Dreamer%20and%20Grimscribe%20Thomas%20Ligotti/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Songs%20of%20a%20Dead%20Dreamer%20and%20Grimscribe%20Thomas%20Ligotti/page-1"
           }
         }
       }
