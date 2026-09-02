@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T22:49:32.569324Z",
+  "updated": "2026-09-02T12:47:34.810543Z",
   "books": [
     {
       "title": "Scion",
@@ -17,7 +17,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 30,
+          "holds": 40,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Scion%20James%20Islington/page-1"
         },
@@ -55,7 +55,7 @@
       "author": "Nick Fuller Googins",
       "isbn": "9781668010754",
       "added_at": "2026-08-31T22:48:41.696515+00:00",
-      "cover": "https://assets.hardcover.app/external_data/60090849/9b9e3fe05bf8881a32437501408fbeb7f426019a.jpeg",
+      "cover": "https://assets.hardcover.app/external_data/4218317/e54c9dbd6f67acc4d23b2f319850ef3129d427ff.jpeg",
       "description": "This richly imaginative, immersive, and \u201celectrifyingly relevant\u201d (William Kent Krueger, New York Times bestselling author) debut novel follows a shocking disappearance amid the climate crisis of our near future\u2014perfect for fans of Station Eleven and The Last Thing He Told Me. Emi Vargas, whose parents helped save the world, is tired of being told how lucky she is to have been born after the climate crisis. But following the public assassination of a dozen climate criminals, Emi\u2019s mother, Kristina, disappears as a possible suspect, and Emi\u2019s illusions of utopia are shattered. A determined Emi and her father, Larch, journey from their home in Nuuk, Greenland to New York City, now a lightly populated storm-surge outpost built from the ruins of the former metropolis. But they aren\u2019t the only ones looking for Kristina. Thirty years earlier, Larch first came to New York with a team of volunteers to save the city from rising waters and torrential storms. Kristina was on the frontlines of a different battle, fighting massive wildfires that ravaged the western United States. They became part of a movement that changed the world\u00ad\u2014The Great Transition\u2014forging a new society and finding each other in process. Alternating between Emi\u2019s desperate search for her mother and a meticulously rendered, heart-stopping account of her parents\u2019 experiences during The Great Transition, this novel beautifully shows how our actions today determine our fate tomorrow. A triumphant debut, The Great Transition is \u201ca book for the present and the future\u2014read this and you will be changed\u201d (Michelle Min Sterling, New York Times bestselling author).",
       "genres": [
         "Science Fiction",
@@ -93,7 +93,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 9,
+          "holds": 10,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Great%20Transition%20Nick%20Fuller%20Googins/page-1"
         },
@@ -176,7 +176,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 16,
-          "holds": 151,
+          "holds": 154,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Dead%20Beat%20Leigh%20Bardugo/page-1"
         },
@@ -196,7 +196,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 90,
+          "holds": 92,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Dead%20Beat%20Leigh%20Bardugo/page-1"
         },
@@ -271,7 +271,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 12,
-          "holds": 111,
+          "holds": 116,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Under%20Story%20Chloe%20Benjamin/page-1"
         },
@@ -470,7 +470,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 52,
+          "holds": 74,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Disappearers%20Marlon%20James/page-1"
         },
@@ -478,7 +478,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 28,
-          "holds": 312,
+          "holds": 324,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Disappearers%20Marlon%20James/page-1"
         },
@@ -493,7 +493,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 35,
+          "holds": 47,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Disappearers%20Marlon%20James/page-1"
         },
@@ -526,8 +526,8 @@
       ],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
@@ -555,7 +555,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 2,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Tale%20for%20the%20Time%20Being%20Ruth%20Ozeki/page-1"
         },
@@ -599,7 +599,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 20,
-          "holds": 93,
+          "holds": 94,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Biological%20War%3A%20A%20Scenario%20Annie%20Jacobsen/page-1"
         },
@@ -792,7 +792,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 30,
+          "holds": 32,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Case%20Histories%20Kate%20Atkinson/page-1"
         },
@@ -800,7 +800,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 21,
+          "holds": 22,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Case%20Histories%20Kate%20Atkinson/page-1"
         },
@@ -818,7 +818,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 14,
-          "holds": 22,
+          "holds": 23,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Case%20Histories%20Kate%20Atkinson/page-1"
         },
@@ -861,7 +861,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 13,
+          "holds": 12,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Bluebird%2C%20Bluebird%20Attica%20Locke/page-1"
         },
@@ -939,8 +939,8 @@
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Luster%20Raven%20Leilani/page-1"
         },
         "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 2,
           "holds": 0,
           "reason": "ok",
@@ -976,7 +976,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 9,
-          "holds": 4,
+          "holds": 5,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Jonathan%20Strange%20%26%20Mr%20Norrell%20Susanna%20Clarke/page-1"
         },
@@ -1002,7 +1002,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 6,
+          "holds": 5,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Jonathan%20Strange%20%26%20Mr%20Norrell%20Susanna%20Clarke/page-1"
         },
@@ -1010,7 +1010,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 5,
-          "holds": 3,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Jonathan%20Strange%20%26%20Mr%20Norrell%20Susanna%20Clarke/page-1"
         },
@@ -1041,7 +1041,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 85,
+          "holds": 86,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Trade%20of%20Blood%20Robert%20Jackson%20Bennett/page-1"
         },
@@ -1049,7 +1049,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 22,
-          "holds": 172,
+          "holds": 173,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Trade%20of%20Blood%20Robert%20Jackson%20Bennett/page-1"
         },
@@ -1067,7 +1067,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 59,
+          "holds": 60,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Trade%20of%20Blood%20Robert%20Jackson%20Bennett/page-1"
         },
@@ -1296,7 +1296,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 32,
-          "holds": 17,
+          "holds": 18,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Terror%20Dan%20Simmons/page-1"
         },
@@ -1304,7 +1304,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 14,
-          "holds": 25,
+          "holds": 24,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
         },
@@ -1312,7 +1312,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 87,
+          "holds": 85,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Terror%20Dan%20Simmons/page-1"
         }
@@ -1330,7 +1330,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 40,
+          "holds": 39,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Terror%20Dan%20Simmons/page-1"
         },
@@ -1511,7 +1511,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 23,
-          "holds": 281,
+          "holds": 278,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Country%20People%20Daniel%20Mason/page-1"
         },
@@ -1563,7 +1563,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 3,
           "copies_owned": 5,
           "holds": 0,
           "reason": "ok",
@@ -1628,7 +1628,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 10,
-          "holds": 103,
+          "holds": 102,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Most%20Fun%20We%20Ever%20Had%20Claire%20Lombardo/page-1"
         },
@@ -1636,7 +1636,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 5,
-          "holds": 44,
+          "holds": 45,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Most%20Fun%20We%20Ever%20Had%20Claire%20Lombardo/page-1"
         },
@@ -1659,7 +1659,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 8,
-          "holds": 4,
+          "holds": 5,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Most%20Fun%20We%20Ever%20Had%20Claire%20Lombardo/page-1"
         },
@@ -1724,10 +1724,10 @@
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Circle%20Dave%20Eggers/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 1,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Circle%20Dave%20Eggers/page-1"
         },
@@ -1744,7 +1744,7 @@
     {
       "title": "The Tommyknockers",
       "author": "Stephen King",
-      "isbn": "9780399133145",
+      "isbn": "9789513093426",
       "added_at": "2026-06-16T15:22:34.115297+00:00",
       "cover": "https://assets.hardcover.app/edition/23729165/9536f5e437cc3e7a76c9cfb97c8fa47d77e9c78a.jpeg",
       "description": "The Tommyknockers is a 1987 science fiction novel by Stephen King. While maintaining a horror style, the novel is an excursion into the realm of science fiction for King, as the residents of the Maine town of Haven gradually fall under the influence of a mysterious object buried in the woods.   ---------- See also:   - [The Tommyknockers: 1/3](https://openlibrary.org/works/OL8002000W/The_Tommyknockers._1_3)",
@@ -1810,7 +1810,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 29,
-          "holds": 123,
+          "holds": 120,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Go%20Gentle%20Maria%20Semple/page-1"
         },
@@ -1818,7 +1818,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 28,
-          "holds": 153,
+          "holds": 154,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Go%20Gentle%20Maria%20Semple/page-1"
         },
@@ -1836,7 +1836,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 14,
-          "holds": 146,
+          "holds": 144,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Go%20Gentle%20Maria%20Semple/page-1"
         },
@@ -1844,7 +1844,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 20,
-          "holds": 105,
+          "holds": 104,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Go%20Gentle%20Maria%20Semple/page-1"
         },
@@ -1903,7 +1903,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Dead%20Eleven%3A%20A%20Novel%20Jimmy%20Juliano/page-1"
         },
@@ -2434,7 +2434,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Vaster%20Wilds%20Lauren%20Groff/page-1"
         },
@@ -2504,8 +2504,8 @@
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Walk%20in%20the%20Woods%3A%20Rediscovering%20America%20on%20the%20Appalachian%20Trail%20Bill%20Bryson/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 8,
           "holds": 0,
           "reason": "ok",
@@ -2525,7 +2525,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 10,
-          "holds": 6,
+          "holds": 7,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Walk%20in%20the%20Woods%3A%20Rediscovering%20America%20on%20the%20Appalachian%20Trail%20Bill%20Bryson/page-1"
         },
@@ -2547,9 +2547,9 @@
     {
       "title": "The Unbearable Lightness of Being",
       "author": "Michael Henry Heim",
-      "isbn": null,
+      "isbn": "9789026327612",
       "added_at": "2026-06-15T14:44:43.71598+00:00",
-      "cover": "https://assets.hardcover.app/book_mappings/7332985/84dbb147f5985a35aab6e5605c62ebf7a6339690.jpeg",
+      "cover": "https://assets.hardcover.app/external_data/4217750/72d1bf3ad18a7fe5d125775415414551e24c0ab3.jpeg",
       "description": "Interweaves story and dream, past and present, and philosophy and poetry in a sardonic and erotic tale of two couples--Tomas and Teresa, and Sabina and her Swiss lover, Gerhart.",
       "genres": [
         "Classics",
@@ -2562,34 +2562,34 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "no_isbn",
+          "reason": "not_in_catalog",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Unbearable%20Lightness%20of%20Being%20Michael%20Henry%20Heim/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "no_isbn",
+          "reason": "not_in_catalog",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Unbearable%20Lightness%20of%20Being%20Michael%20Henry%20Heim/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "reason": "no_isbn",
+          "reason": "not_in_catalog",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Unbearable%20Lightness%20of%20Being%20Michael%20Henry%20Heim/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "no_isbn",
+          "reason": "not_in_catalog",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Unbearable%20Lightness%20of%20Being%20Michael%20Henry%20Heim/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "no_isbn",
+          "reason": "not_in_catalog",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Unbearable%20Lightness%20of%20Being%20Michael%20Henry%20Heim/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "reason": "no_isbn",
+          "reason": "not_in_catalog",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Unbearable%20Lightness%20of%20Being%20Michael%20Henry%20Heim/page-1"
         }
       }
@@ -2832,10 +2832,10 @@
       ],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 3,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Night%20Circus%20Erin%20Morgenstern/page-1"
         },
@@ -2926,7 +2926,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 6,
+          "holds": 5,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Rivers%20of%20London%20Ben%20Aaronovitch/page-1"
         },
@@ -3077,7 +3077,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 111,
+          "holds": 113,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Way%20of%20Kings%20Brandon%20Sanderson/page-1"
         },
@@ -3085,7 +3085,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 9,
-          "holds": 24,
+          "holds": 25,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Way%20of%20Kings%20Brandon%20Sanderson/page-1"
         },
@@ -3103,7 +3103,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 16,
-          "holds": 56,
+          "holds": 55,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Way%20of%20Kings%20Brandon%20Sanderson/page-1"
         },
@@ -3111,7 +3111,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 12,
-          "holds": 25,
+          "holds": 24,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Way%20of%20Kings%20Brandon%20Sanderson/page-1"
         },
@@ -3214,7 +3214,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 3,
+          "copies_available": 2,
           "copies_owned": 3,
           "holds": 0,
           "reason": "ok",
@@ -3488,7 +3488,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 1,
           "copies_owned": 2,
           "holds": 0,
           "reason": "ok",
@@ -3527,7 +3527,7 @@
     {
       "title": "Fingersmith",
       "author": "Sarah Waters",
-      "isbn": "9781449890094",
+      "isbn": "9789513129033",
       "added_at": "2026-06-15T14:44:42.169135+00:00",
       "cover": "https://assets.hardcover.app/edition/30399573/461d710f57318cc7b853a33842c7a75770828f1d.jpeg",
       "description": "The Handmaiden, a film adaptation of Fingersmith, directed by Park Chan-wook and starring Kim Tae-Ri, is now available.  Sue Trinder is an orphan, left as an infant in the care of Mrs. Sucksby, a \"baby farmer,\" who raised her with unusual tenderness, as if Sue were her own. Mrs. Sucksby\u2019s household, with its fussy babies calmed with doses of gin, also hosts a transient family of petty thieves\u2014fingersmiths\u2014for whom this house in the heart of a mean London slum is home.  One day, the most beloved thief of all arrives\u2014Gentleman, an elegant con man, who carries with him an enticing proposition for Sue: If she wins a position as the maid to Maud Lilly, a na\u00efve gentlewoman, and aids Gentleman in her seduction, then they will all share in Maud\u2019s vast inheritance. Once the inheritance is secured, Maud will be disposed of\u2014passed off as mad, and made to live out the rest of her days in a lunatic asylum.  With dreams of paying back the kindness of her adopted family, Sue agrees to the plan. Once in, however, Sue begins to pity her helpless mark and care for Maud Lilly in unexpected ways...But no one and nothing is as it seems in this Dickensian novel of thrills and reversals.",
@@ -3696,8 +3696,8 @@
       ],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 2,
           "holds": 0,
           "reason": "ok",
@@ -3738,7 +3738,7 @@
     {
       "title": "It",
       "author": "Stephen King",
-      "isbn": "9788401322150",
+      "isbn": "9789513197568",
       "added_at": "2026-06-15T14:44:41.731816+00:00",
       "cover": "https://assets.hardcover.app/edition/8943980/122ac0cfc4b131affedd32c2aff08463199bec1e.jpeg",
       "description": "\"They were seven teenagers when they first stumbled upon the horror. Now they are grown-up men and women who have gone out into the big world to gain success and happiness.   But the promise they made twenty-eight years ago calls them reunite in the same place where, as teenagers, they battled an evil creature that preyed on the city\u2019s children.   Now, children are being murdered again and their repressed memories of that terrifying summer return as they prepare to once again battle the monster lurking in Derry\u2019s sewers.\"-- Provided by Amazon",
@@ -3781,7 +3781,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 16,
+          "holds": 15,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-It%20Stephen%20King/page-1"
         },
@@ -3821,7 +3821,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 1,
+          "copies_available": 2,
           "copies_owned": 5,
           "holds": 0,
           "reason": "ok",
@@ -3831,7 +3831,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 5,
+          "holds": 4,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Zodiac%20Neal%20Stephenson/page-1"
         },
@@ -3914,7 +3914,7 @@
     {
       "title": "Foster",
       "author": "Claire Keegan",
-      "isbn": "9788806256319",
+      "isbn": "9789520461102",
       "added_at": "2026-06-15T14:44:41.265355+00:00",
       "cover": "https://assets.hardcover.app/edition/30650338/3efa3119-0c0c-478c-bac2-31e141de0893.jpg",
       "description": "It is a hot summer in rural Ireland. A child is taken by her father to live with relatives on a farm, not knowing when or if she will be brought home again. In the Kinsellas' house, she finds an affection and warmth she has not known and slowly, in their care, begins to blossom. But there is something unspoken in this new household--where everything is so well tended to--and this summer must soon come to an end.  Winner of the prestigious Davy Byrnes Award and published in an abridged version in the New Yorker, this internationally bestselling contemporary classic is now available for the first time in the US in a full, standalone edition. A story of astonishing emotional depth, Foster showcases Claire Keegan's great talent and secures her reputation as one of our most important storytellers.",
@@ -3938,7 +3938,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 23,
-          "holds": 7,
+          "holds": 5,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Foster%20Claire%20Keegan/page-1"
         },
@@ -4046,9 +4046,9 @@
     {
       "title": "The Cormorant",
       "author": "Stephen Gregory",
-      "isbn": "9781565049185",
+      "isbn": null,
       "added_at": "2026-06-15T14:44:40.947139+00:00",
-      "cover": "https://assets.hardcover.app/edition/30463282/810050._SX98_.jpg",
+      "cover": "https://assets.hardcover.app/edition/30463282/0c9f1675b1a5171700d3e539f403902d4949289d.jpeg",
       "description": "",
       "genres": [
         "Horror"
@@ -4056,34 +4056,34 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
+          "reason": "no_isbn",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Cormorant%20Stephen%20Gregory/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
+          "reason": "no_isbn",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Cormorant%20Stephen%20Gregory/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
+          "reason": "no_isbn",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Cormorant%20Stephen%20Gregory/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
+          "reason": "no_isbn",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Cormorant%20Stephen%20Gregory/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
+          "reason": "no_isbn",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Cormorant%20Stephen%20Gregory/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
+          "reason": "no_isbn",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Cormorant%20Stephen%20Gregory/page-1"
         }
       }
@@ -4282,7 +4282,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 24,
-          "holds": 13,
+          "holds": 14,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Slow%20Horses%20Mick%20Herron/page-1"
         },
@@ -4290,7 +4290,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 21,
-          "holds": 11,
+          "holds": 13,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Slow%20Horses%20Mick%20Herron/page-1"
         },
@@ -4352,7 +4352,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 13,
+          "holds": 12,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Hitchhiker%27s%20Guide%20to%20the%20Galaxy%20Douglas%20Adams/page-1"
         },
@@ -4370,7 +4370,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 2,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Hitchhiker%27s%20Guide%20to%20the%20Galaxy%20Douglas%20Adams/page-1"
         },
@@ -4417,8 +4417,8 @@
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-How%20to%20Live%20Safely%20in%20a%20Science%20Fictional%20Universe%20Charles%20Yu/page-1"
         },
         "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
@@ -4433,7 +4433,7 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 1,
+          "copies_available": 2,
           "copies_owned": 2,
           "holds": 0,
           "reason": "ok",
@@ -4520,10 +4520,10 @@
       ],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 2,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Hyperion%20Dan%20Simmons/page-1"
         },
@@ -4611,7 +4611,7 @@
     {
       "title": "The Elegant Universe: Superstrings, Hidden Dimensions, and the Quest for the Ultimate Theory",
       "author": "Brian Greene",
-      "isbn": "9788408007012",
+      "isbn": "9789513116507",
       "added_at": "2026-06-15T14:44:39.766329+00:00",
       "cover": "https://assets.hardcover.app/edition/30403245/a85a624a1c766e145d9fbf5497d914d263d5699b.jpeg",
       "description": "Brian Greene, one of the world's leading string theorists, peels away layers of mystery to reveal a universe that consists of eleven dimensions, where the fabric of space tears and repairs itself, and all matter\u2015from the smallest quarks to the most gargantuan supernovas\u2015is generated by the vibrations of microscopically tiny loops of energy. The Elegant Universe makes some of the most sophisticated concepts ever contemplated accessible and thoroughly entertaining, bringing us closer than ever to understanding how the universe works.",
@@ -4678,7 +4678,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 6,
+          "holds": 8,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Jurassic%20Park%20Michael%20Crichton/page-1"
         },
@@ -4686,7 +4686,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 19,
+          "holds": 20,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Jurassic%20Park%20Michael%20Crichton/page-1"
         },
@@ -4743,8 +4743,8 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 20,
-          "copies_owned": 20,
+          "copies_available": 19,
+          "copies_owned": 19,
           "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Lord%20of%20the%20Flies%20William%20Golding/page-1"
@@ -4968,7 +4968,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 3,
+          "copies_available": 4,
           "copies_owned": 8,
           "holds": 0,
           "reason": "ok",
@@ -4978,7 +4978,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 5,
+          "holds": 4,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Beautiful%20World%2C%20Where%20Are%20You%20Sally%20Rooney/page-1"
         },
@@ -5166,7 +5166,7 @@
     {
       "title": "A Visit from the Goon Squad",
       "author": "Jennifer Egan",
-      "isbn": "9788875213633",
+      "isbn": "9789513167424",
       "added_at": "2026-06-15T14:44:38.568988+00:00",
       "cover": "https://assets.hardcover.app/edition/30400488/be5fd0661f044488345da40a2c70a7e4aea41fe8.jpeg",
       "description": "Jennifer Egan's spellbinding interlocking narratives circle the lives of Bennie Salazar, an aging former punk rocker and record executive, and Sasha, the passionate, troubled young woman he employs. Although Bennie and Sasha never discover each other's pasts, the reader does, in intimate detail, along with the secret lives of a host of other characters whose paths intersect with theirs, over many years, in locales as varied as New York, San Francisco, Naples, and Africa.  We first meet Sasha in her mid-thirties, on her therapist's couch in New York City, confronting her long-standing compulsion to steal. Later, we learn the genesis of her turmoil when we see her as the child of a violent marriage, then as a runaway living in Naples, then as a college student trying to avert the suicidal impulses of her best friend. We plunge into the hidden yearnings and disappointments of her uncle, an art historian stuck in a dead marriage, who travels to Naples to extract Sasha from the city's demimonde and experiences an epiphany of his own while staring at a sculpture of Orpheus and Eurydice in the Museo Nazionale.   We meet Bennie Salazar at the melancholy nadir of his adult life--divorced, struggling to connect with his nine-year-old son, listening to a washed-up band in the basement of a suburban house--and then revisit him in 1979, at the height of his youth, shy and tender, reveling in San Francisco's punk scene as he discovers his ardor for rock and roll and his gift for spotting talent. We learn what became of his high school gang--who thrived and who faltered--and we encounter Lou Kline, Bennie's catastrophically careless mentor, along with the lovers and children left behind in the wake of Lou's far-flung sexual conquests and meteoric rise and fall.  *A Visit from the Goon Squad* is a book about the interplay of time and music, about survival, about the stirrings and transformations set inexorably in motion by even the most passing conjunction of our fates. In a breathtaking array of styles and tones ranging from tragedy to satire to PowerPoint, Egan captures the undertow of self-destruction that we all must either master or succumb to; the basic human hunger for redemption; and the universal tendency to reach for both--and escape the merciless progress of time--in the transporting realms of art and music. Sly, startling, exhilarating work from one of our boldest writers. *From the Hardcover edition.*",
@@ -5259,7 +5259,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 5,
+          "holds": 4,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Fall%20of%20Giants%20Ken%20Follett/page-1"
         },
@@ -5302,7 +5302,7 @@
     {
       "title": "Dolores Claiborne",
       "author": "Stephen King",
-      "isbn": "9780816156405",
+      "isbn": "9789513094379",
       "added_at": "2026-06-15T14:44:38.362202+00:00",
       "cover": "https://assets.hardcover.app/edition/6350670/e8b95bf54aa520385eeb1122b8e061ab491477c2.jpeg",
       "description": "Suspected of killing Vera Donovan, her wealthy employer, Dolores Claiborne tells police the story of her life, harkening back to her disintegrating marriage and the suspicious death of her violent husband, Joe St. George, thirty years earlier. Dolores also tells of Vera's physical and mental decline and of her loyalty to an employer who has become emotionally demanding in recent years.   ([source][1])     [1]: https://www.stephenking.com/library/novel/dolores_claiborne.html",
@@ -5373,7 +5373,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 10,
-          "holds": 49,
+          "holds": 50,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Poisonwood%20Bible%20Barbara%20Kingsolver/page-1"
         },
@@ -5528,7 +5528,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 10,
-          "holds": 74,
+          "holds": 72,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-North%20Woods%20Daniel%20%20%20%20%20%20%20Mason/page-1"
         },
@@ -5536,7 +5536,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 9,
-          "holds": 70,
+          "holds": 71,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-North%20Woods%20Daniel%20%20%20%20%20%20%20Mason/page-1"
         },
@@ -5554,7 +5554,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 60,
+          "holds": 61,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-North%20Woods%20Daniel%20%20%20%20%20%20%20Mason/page-1"
         },
@@ -5562,7 +5562,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 9,
-          "holds": 59,
+          "holds": 61,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-North%20Woods%20Daniel%20%20%20%20%20%20%20Mason/page-1"
         },
@@ -5590,7 +5590,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 10,
+          "holds": 11,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Skippy%20Dies%20Paul%20Murray/page-1"
         },
@@ -5653,7 +5653,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 9,
-          "holds": 4,
+          "holds": 5,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Emperor%20of%20All%20Maladies%3A%20A%20Biography%20of%20Cancer%20Siddhartha%20Mukherjee/page-1"
         },
@@ -5667,8 +5667,8 @@
         "Fairfax County Public Library": {
           "available": true,
           "copies_available": 51,
-          "copies_owned": 82,
-          "holds": 25,
+          "copies_owned": 81,
+          "holds": 24,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Emperor%20of%20All%20Maladies%3A%20A%20Biography%20of%20Cancer%20Siddhartha%20Mukherjee/page-1"
         },
@@ -5708,7 +5708,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 1,
+          "copies_available": 2,
           "copies_owned": 3,
           "holds": 0,
           "reason": "ok",
@@ -5763,7 +5763,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-On%20the%20Road%20Jack%20Kerouac/page-1"
         },
@@ -5814,7 +5814,7 @@
     {
       "title": "The Last Kingdom",
       "author": "Bernard Cornwell",
-      "isbn": "9780754095910",
+      "isbn": "9782749903934",
       "added_at": "2026-06-15T14:44:37.232345+00:00",
       "cover": "https://assets.hardcover.app/external_data/60842981/eb58015437e8bd62264e30c912fe1f3a8bf4fc8e.jpeg",
       "description": "This is the exciting\u2014yet little known\u2014story of the making of England in the 9th and 10th centuries, the years in which King Alfred the Great, his son and grandson defeated the Danish Vikings who had invaded and occupied three of England\u2019s four kingdoms.  The story is seen through the eyes of Uhtred, a dispossessed nobleman, who is captured as a child by the Danes and then raised by them so that, by the time the Northmen begin their assault on Wessex (Alfred\u2019s kingdom and the last territory in English hands) Uhtred almost thinks of himself as a Dane. He certainly has no love for Alfred, whom he considers a pious weakling and no match for Viking savagery, yet when Alfred unexpectedly defeats the Danes and the Danes themselves turn on Uhtred, he is finally forced to choose sides. By now he is a young man, in love, trained to fight and ready to take his place in the dreaded shield wall. Above all, though, he wishes to recover his father\u2019s land, the enchanting fort of Bebbanburg by the wild northern sea.  This thrilling adventure\u2014based on existing records of Bernard Cornwell\u2019s ancestors\u2014depicts a time when law and order were ripped violently apart by a pagan assault on Christian England, an assault that came very close to destroying England.",
@@ -6337,8 +6337,8 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 83,
-          "copies_owned": 83,
+          "copies_available": 82,
+          "copies_owned": 82,
           "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Holly%20Stephen%20King/page-1"
@@ -6525,7 +6525,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 3,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Bell%20Jar%20Sylvia%20Plath/page-1"
         },
@@ -6581,7 +6581,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 22,
+          "holds": 20,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20September%20House%20Kimberly%20Farr/page-1"
         },
@@ -7080,7 +7080,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 10,
+          "holds": 11,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Real%20Americans%20Rachel%20Khong/page-1"
         },
@@ -7234,7 +7234,7 @@
           "available": true,
           "copies_available": 2,
           "copies_owned": 5,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Banyan%20Moon%20Thao%20Thai/page-1"
         },
@@ -7609,7 +7609,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 69,
+          "holds": 70,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Bee%20Sting%20Paul%20Murray/page-1"
         },
@@ -8290,7 +8290,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 4,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Master%20Slave%20Husband%20Wife%20Ilyon%20Woo/page-1"
         },
@@ -8316,7 +8316,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 2,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Master%20Slave%20Husband%20Wife%20Ilyon%20Woo/page-1"
         },
@@ -8415,7 +8415,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 11,
+          "holds": 10,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Golden%20Spoon%20Jessa%20Maxwell/page-1"
         },
@@ -8728,7 +8728,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 14,
+          "holds": 15,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Our%20Share%20of%20Night%20Mariana%20Enriquez/page-1"
         },
@@ -8736,7 +8736,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 3,
+          "holds": 4,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Our%20Share%20of%20Night%20Mariana%20Enriquez/page-1"
         },
@@ -8819,7 +8819,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 5,
+          "holds": 6,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Magicians%20Lev%20Grossman/page-1"
         },
@@ -8913,7 +8913,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 5,
-          "holds": 16,
+          "holds": 18,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Parable%20of%20the%20Talents%20Octavia%20E.%20Butler/page-1"
         },
@@ -9060,7 +9060,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 3,
+          "holds": 4,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Deluge%20Stephen%20Markley/page-1"
         },
@@ -9241,7 +9241,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 9,
+          "holds": 10,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Light%20Pirate%20Lily%20Brooks-Dalton/page-1"
         },
@@ -9249,7 +9249,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 2,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Light%20Pirate%20Lily%20Brooks-Dalton/page-1"
         },
@@ -9348,7 +9348,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Bliss%20Montage%20Ling%20Ma/page-1"
         },
@@ -9389,7 +9389,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 10,
+          "holds": 9,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Marriage%20Portrait%20Maggie%20O%27Farrell/page-1"
         },
@@ -9415,7 +9415,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 51,
+          "holds": 50,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Marriage%20Portrait%20Maggie%20O%27Farrell/page-1"
         },
@@ -9423,7 +9423,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 2,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Marriage%20Portrait%20Maggie%20O%27Farrell/page-1"
         }
@@ -9499,9 +9499,9 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 741,
-          "copies_owned": 900,
-          "holds": 150,
+          "copies_available": 698,
+          "copies_owned": 830,
+          "holds": 122,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Demon%20Copperhead%20Barbara%20Kingsolver/page-1"
         },
@@ -9509,7 +9509,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 15,
+          "holds": 16,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Demon%20Copperhead%20Barbara%20Kingsolver/page-1"
         },
@@ -9527,7 +9527,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 75,
-          "holds": 42,
+          "holds": 50,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Demon%20Copperhead%20Barbara%20Kingsolver/page-1"
         },
@@ -9535,7 +9535,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 162,
-          "holds": 8,
+          "holds": 11,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Demon%20Copperhead%20Barbara%20Kingsolver/page-1"
         },
@@ -9543,7 +9543,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 5,
-          "holds": 5,
+          "holds": 6,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Demon%20Copperhead%20Barbara%20Kingsolver/page-1"
         }
@@ -9552,7 +9552,7 @@
     {
       "title": "Fairy Tale",
       "author": "Stephen King",
-      "isbn": null,
+      "isbn": "9789520448684",
       "added_at": "2026-06-15T14:44:32.110356+00:00",
       "cover": "https://assets.hardcover.app/edition/30445662/0c91093569488c3b6ffed7b9fafa10cbf9ea0ccf.jpeg",
       "description": "Charlie Reade looks like a regular high school kid, great at baseball and football, a decent student. But he carries a heavy load. His mom was killed in a hit-and-run accident when he was ten, and grief drove his dad to drink. Charlie learned how to take care of himself\u2014and his dad. When Charlie is seventeen, he meets a dog named Radar and her aging master, Howard Bowditch, a recluse in a big house at the top of a big hill, with a locked shed in the backyard. Sometimes strange sounds emerge from it.  Charlie starts doing jobs for Mr. Bowditch and loses his heart to Radar. Then, when Bowditch dies, he leaves Charlie a cassette tape telling a story no one would believe. What Bowditch knows, and has kept secret all his long life, is that inside the shed is a portal to another world.  King\u2019s storytelling in Fairy Tale soars. This is a magnificent and terrifying tale in which good is pitted against overwhelming evil, and a heroic boy\u2014and his dog\u2014must lead the battle.  Early in the Pandemic, King asked himself: \u201cWhat could you write that would make you happy?\u201d  \u201cAs if my imagination had been waiting for the question to be asked, I saw a vast deserted city\u2014deserted but alive. I saw the empty streets, the haunted buildings, a gargoyle head lying overturned in the street. I saw smashed statues (of what I didn\u2019t know, but I eventually found out). I saw a huge, sprawling palace with glass towers so high their tips pierced the clouds. Those images released the story I wanted to tell.\u201d",
@@ -9569,7 +9569,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 3,
+          "holds": 4,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Fairy%20Tale%20Stephen%20King/page-1"
         },
@@ -9724,7 +9724,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 2,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Heat%202%20Meg%20Gardiner/page-1"
         },
@@ -9938,7 +9938,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 8,
+          "holds": 9,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Stay%20True%20Hua%20Hsu/page-1"
         },
@@ -10056,7 +10056,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Mountain%20in%20the%20Sea%20Ray%20Nayler/page-1"
         },
@@ -10064,7 +10064,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Mountain%20in%20the%20Sea%20Ray%20Nayler/page-1"
         },
@@ -10167,7 +10167,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 20,
-          "holds": 74,
+          "holds": 73,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-I%27m%20Glad%20My%20Mom%20Died%20Jennette%20McCurdy/page-1"
         },
@@ -10175,7 +10175,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 18,
-          "holds": 1,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-I%27m%20Glad%20My%20Mom%20Died%20Jennette%20McCurdy/page-1"
         },
@@ -10342,8 +10342,8 @@
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 2,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 12,
           "holds": 1,
           "reason": "ok",
@@ -10361,7 +10361,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 9,
+          "holds": 8,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Yellowface%20R.F.%20Kuang/page-1"
         }
@@ -10370,7 +10370,7 @@
     {
       "title": "The Talisman",
       "author": "Peter Straub",
-      "isbn": "9785170290642",
+      "isbn": "9789513148140",
       "added_at": "2026-06-15T14:44:31.442254+00:00",
       "cover": "https://assets.hardcover.app/external_data/4088543/f9c85f7ea765db250806c91f891f88f0edb239ee.jpeg",
       "description": "On a brisk autumn day, a thirteen-year-old boy stands on the shores of the gray Atlantic, near a silent amusement park and a fading ocean resort called the Alhambra. The past has driven Jack Sawyer here: His father is gone, his mother is dying, and the world no longer makes sense. But for Jack everything is about to change. For he has been chosen to make a journey back across America\u2013-and into another realm.  One of the most influential and heralded works of fantasy ever written, The Talisman is an extraordinary novel of loyalty, awakening, terror, and mystery. Jack Sawyer, on a desperate quest to save his mother\u2019s life, must search for a prize across an epic landscape of innocents and monsters, of incredible dangers and even more incredible truths. The prize is essential, but the journey means even more. Let the quest begin. . . .",
@@ -10410,7 +10410,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 22,
+          "holds": 23,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Talisman%20Peter%20Straub/page-1"
         },
@@ -10842,8 +10842,8 @@
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 8,
           "holds": 1,
           "reason": "ok",
@@ -10999,7 +10999,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 3,
+          "holds": 4,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Our%20Wives%20Under%20the%20Sea%20Julia%20Armfield/page-1"
         },
@@ -11103,7 +11103,7 @@
     {
       "title": "Small Things Like These",
       "author": "Claire Keegan",
-      "isbn": "9780571368686",
+      "isbn": "9789520455088",
       "added_at": "2026-06-15T14:44:29.905881+00:00",
       "cover": "https://assets.hardcover.app/editions/30555005/9830805827943454.jpg",
       "description": "It is 1985 in a small Irish town. During the weeks leading up to Christmas, Bill Furlong, a coal merchant and family man faces into his busiest season. Early one morning, while delivering an order to the local convent, Bill makes a discovery which forces him to confront both his past and the complicit silences of a town controlled by the church.  Already an international bestseller, Small Things Like These is a deeply affecting story of hope, quiet heroism, and empathy from one of our most critically lauded and iconic writers.",
@@ -11117,10 +11117,10 @@
       ],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 46,
-          "holds": 0,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Small%20Things%20Like%20These%20Claire%20Keegan/page-1"
         },
@@ -11128,7 +11128,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 23,
-          "holds": 7,
+          "holds": 5,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Small%20Things%20Like%20These%20Claire%20Keegan/page-1"
         },
@@ -11231,7 +11231,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 4,
+          "copies_available": 3,
           "copies_owned": 12,
           "holds": 0,
           "reason": "ok",
@@ -11511,7 +11511,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 6,
+          "holds": 5,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-V%20for%20Vendetta%20Alan%20Moore/page-1"
         },
@@ -11610,7 +11610,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 20,
+          "holds": 21,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Kaiju%20Preservation%20Society%20John%20Scalzi/page-1"
         },
@@ -11768,7 +11768,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 3,
           "copies_owned": 4,
           "holds": 0,
           "reason": "ok",
@@ -11791,7 +11791,7 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 1,
           "copies_owned": 4,
           "holds": 0,
           "reason": "ok",
@@ -11845,8 +11845,8 @@
         },
         "Alexandria Public Library": {
           "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
+          "copies_available": 2,
+          "copies_owned": 2,
           "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-City%20on%20Fire%20Don%20Winslow/page-1"
@@ -11899,7 +11899,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 5,
+          "holds": 6,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Kaikeyi%20Vaishnavi%20Patel/page-1"
         },
@@ -11953,7 +11953,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 1,
           "copies_owned": 2,
           "holds": 0,
           "reason": "ok",
@@ -12227,8 +12227,8 @@
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 15,
-          "holds": 3,
+          "copies_owned": 3,
+          "holds": 28,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Sanatorium%20Sarah%20%20Pearse/page-1"
         },
@@ -12254,7 +12254,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 9,
-          "holds": 13,
+          "holds": 64,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Sanatorium%20Sarah%20%20Pearse/page-1"
         },
@@ -12262,7 +12262,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 19,
+          "holds": 20,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Sanatorium%20Sarah%20%20Pearse/page-1"
         },
@@ -12319,7 +12319,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 4,
+          "holds": 5,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Anomaly%20Adriana%20Hunter/page-1"
         },
@@ -12346,7 +12346,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 5,
+          "holds": 6,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Sentence%20Louise%20Erdrich/page-1"
         },
@@ -12414,7 +12414,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 30,
+          "holds": 29,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Cloud%20Cuckoo%20Land%20Anthony%20Doerr/page-1"
         },
@@ -12440,14 +12440,14 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 24,
+          "holds": 25,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Cloud%20Cuckoo%20Land%20Anthony%20Doerr/page-1"
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 20,
-          "copies_owned": 21,
+          "copies_available": 19,
+          "copies_owned": 20,
           "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Cloud%20Cuckoo%20Land%20Anthony%20Doerr/page-1"
@@ -12592,13 +12592,13 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 12,
-          "holds": 6,
+          "holds": 7,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Cackle%20Rachel%20Harrison/page-1"
         },
         "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 3,
           "holds": 0,
           "reason": "ok",
@@ -12746,7 +12746,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 1,
           "copies_owned": 4,
           "holds": 0,
           "reason": "ok",
@@ -12940,7 +12940,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 20,
+          "holds": 19,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Columbine%20Dave%20Cullen/page-1"
         },
@@ -12948,7 +12948,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 15,
+          "holds": 17,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Columbine%20Dave%20Cullen/page-1"
         },
@@ -12956,7 +12956,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 4,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Columbine%20Dave%20Cullen/page-1"
         }
@@ -13060,7 +13060,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 8,
-          "holds": 109,
+          "holds": 107,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Trees%20Percival%20Everett/page-1"
         },
@@ -13068,7 +13068,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 10,
-          "holds": 73,
+          "holds": 75,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Trees%20Percival%20Everett/page-1"
         },
@@ -13909,7 +13909,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 3,
+          "copies_available": 2,
           "copies_owned": 7,
           "holds": 0,
           "reason": "ok",
@@ -13932,7 +13932,7 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 11,
+          "copies_available": 12,
           "copies_owned": 23,
           "holds": 0,
           "reason": "ok",
@@ -13940,7 +13940,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 9,
+          "copies_available": 8,
           "copies_owned": 12,
           "holds": 0,
           "reason": "ok",
@@ -14284,7 +14284,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-1984%20George%20Orwell/page-1"
         },
@@ -14318,7 +14318,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 5,
-          "holds": 12,
+          "holds": 13,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Last%20House%20on%20Needless%20Street%20Catriona%20Ward/page-1"
         },
@@ -14341,13 +14341,13 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 3,
+          "holds": 4,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Last%20House%20on%20Needless%20Street%20Catriona%20Ward/page-1"
         },
         "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 7,
           "holds": 0,
           "reason": "ok",
@@ -14738,7 +14738,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 5,
+          "holds": 4,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-No%20One%20Is%20Talking%20About%20This%20Patricia%20Lockwood/page-1"
         },
@@ -15294,10 +15294,10 @@
       ],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 15,
-          "holds": 3,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Searcher%20Tana%20French/page-1"
         },
@@ -15323,7 +15323,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 9,
-          "holds": 13,
+          "holds": 15,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Searcher%20Tana%20French/page-1"
         },
@@ -15331,7 +15331,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 19,
+          "holds": 20,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Searcher%20Tana%20French/page-1"
         },
@@ -15786,7 +15786,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 16,
+          "holds": 13,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Only%20Good%20Indians%20Stephen%20Graham%20Jones/page-1"
         },
@@ -15868,10 +15868,10 @@
       ],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 2,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 10,
-          "holds": 0,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Drive%20Your%20Plow%20Over%20the%20Bones%20of%20the%20Dead%20Antonia%20Lloyd-Jones/page-1"
         },
@@ -16037,7 +16037,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 19,
+          "holds": 20,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Blacktop%20Wasteland%20S.%20A.%20Cosby/page-1"
         },
@@ -16062,7 +16062,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 3,
+          "holds": 4,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Blacktop%20Wasteland%20S.%20A.%20Cosby/page-1"
         }
@@ -16230,7 +16230,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 20,
-          "holds": 303,
+          "holds": 305,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Deadly%20Education%20Naomi%20Novik/page-1"
         },
@@ -16281,7 +16281,7 @@
     {
       "title": "Franny and Zooey",
       "author": "J. D. Salinger",
-      "isbn": "9784102057049",
+      "isbn": null,
       "added_at": "2026-06-15T14:44:23.580359+00:00",
       "cover": "https://assets.hardcover.app/external_data/37177452/ec7abbe3550f8ff9c6d1eb697c15cce769bd339b.jpeg",
       "description": "A novel in two halves, Franny and Zooey brilliantly captures the emotional strains and traumas of entering adulthood. It is a gleaming example of the wit, precision, and poignancy that have made J. D. Salinger one of America\u2019s most beloved writers.",
@@ -16312,7 +16312,7 @@
         },
         "Alexandria Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
+          "reason": "no_isbn",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Franny%20and%20Zooey%20J.%20D.%20Salinger/page-1"
         }
       },
@@ -16329,7 +16329,7 @@
         },
         "Alexandria Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
+          "reason": "no_isbn",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Franny%20and%20Zooey%20J.%20D.%20Salinger/page-1"
         }
       }
@@ -16525,7 +16525,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Black%20Sun%20Rebecca%20Roanhorse/page-1"
         },
@@ -16590,7 +16590,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 5,
-          "holds": 5,
+          "holds": 6,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Hollow%20Places%20T.%20Kingfisher/page-1"
         },
@@ -16598,7 +16598,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 5,
+          "holds": 6,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Hollow%20Places%20T.%20Kingfisher/page-1"
         },
@@ -16683,7 +16683,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 13,
-          "holds": 122,
+          "holds": 120,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Invisible%20Life%20of%20Addie%20LaRue%20V.%20E.%20Schwab/page-1"
         },
@@ -16691,7 +16691,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 14,
-          "holds": 43,
+          "holds": 42,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Invisible%20Life%20of%20Addie%20LaRue%20V.%20E.%20Schwab/page-1"
         },
@@ -16699,7 +16699,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 15,
+          "holds": 14,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Invisible%20Life%20of%20Addie%20LaRue%20V.%20E.%20Schwab/page-1"
         }
@@ -16709,7 +16709,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 65,
-          "holds": 3,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Invisible%20Life%20of%20Addie%20LaRue%20V.%20E.%20Schwab/page-1"
         },
@@ -16722,8 +16722,8 @@
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Invisible%20Life%20of%20Addie%20LaRue%20V.%20E.%20Schwab/page-1"
         },
         "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 6,
           "holds": 0,
           "reason": "ok",
@@ -16750,7 +16750,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 6,
+          "holds": 7,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Black%20Leopard%2C%20Red%20Wolf%20Marlon%20James/page-1"
         },
@@ -16774,7 +16774,7 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 5,
+          "copies_available": 6,
           "copies_owned": 14,
           "holds": 0,
           "reason": "ok",
@@ -16925,7 +16925,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 29,
-          "holds": 135,
+          "holds": 133,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Piranesi%20Susanna%20Clarke/page-1"
         },
@@ -16933,7 +16933,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 29,
-          "holds": 106,
+          "holds": 109,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Piranesi%20Susanna%20Clarke/page-1"
         },
@@ -16959,7 +16959,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 0,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Piranesi%20Susanna%20Clarke/page-1"
         },
@@ -16967,7 +16967,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 39,
+          "holds": 40,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Piranesi%20Susanna%20Clarke/page-1"
         }
@@ -17000,7 +17000,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 11,
+          "holds": 10,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Know%20My%20Name%20Chanel%20Miller/page-1"
         },
@@ -17195,7 +17195,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 9,
-          "holds": 181,
+          "holds": 182,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-When%20No%20One%20is%20Watching%20Alyssa%20Cole/page-1"
         },
@@ -17229,7 +17229,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 14,
-          "holds": 122,
+          "holds": 120,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-When%20No%20One%20is%20Watching%20Alyssa%20Cole/page-1"
         },
@@ -17420,7 +17420,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Sorrowland%20Rivers%20Solomon/page-1"
         },
@@ -17451,7 +17451,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 10,
+          "holds": 9,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Sorrowland%20Rivers%20Solomon/page-1"
         },
@@ -17480,7 +17480,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 3,
+          "copies_available": 2,
           "copies_owned": 20,
           "holds": 0,
           "reason": "ok",
@@ -17581,7 +17581,7 @@
     {
       "title": "Kafka on the Shore",
       "author": "Haruki Murakami",
-      "isbn": "9788483103562",
+      "isbn": "9789513181932",
       "added_at": "2026-06-15T14:44:22.197276+00:00",
       "cover": "https://assets.hardcover.app/editions/31645214/7751038927873328.jpg",
       "description": "Kafka on the Shore is powered by two remarkable characters: a teenage boy, Kafka Tamura, who runs away from home either to escape a gruesome oedipal prophecy or to search for his long missing mother and sister; and an aging simpleton called Nakata, who never recovered from a wartime affliction and now is drawn toward Kafka for reasons that, like the most basic activities of daily life, he cannot fathom.",
@@ -18025,7 +18025,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 4,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Metamorphosis%20Franz%20Kafka/page-1"
         },
@@ -18080,7 +18080,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 13,
+          "holds": 14,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Wise%20Blood%20Flannery%20O%E2%80%99Connor/page-1"
         },
@@ -18163,8 +18163,8 @@
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Real%20Life%20Brandon%20%20Taylor/page-1"
         },
         "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
@@ -18236,7 +18236,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 10,
-          "holds": 41,
+          "holds": 40,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Zodiac%20Academy%3A%20The%20Awakening%20Caroline%20Peckham/page-1"
         },
@@ -18301,7 +18301,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 33,
+          "holds": 34,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-For%20Whom%20the%20Bell%20Tolls%20Ernest%20Hemingway/page-1"
         },
@@ -18352,8 +18352,8 @@
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Great%20Believers%20Rebecca%20Makkai/page-1"
         },
         "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
@@ -18404,7 +18404,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 10,
+          "copies_available": 12,
           "copies_owned": 31,
           "holds": 0,
           "reason": "ok",
@@ -18412,7 +18412,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 12,
+          "copies_available": 13,
           "copies_owned": 27,
           "holds": 0,
           "reason": "ok",
@@ -18432,13 +18432,13 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 25,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20House%20in%20the%20Cerulean%20Sea%20TJ%20Klune/page-1"
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 1,
           "copies_owned": 20,
           "holds": 0,
           "reason": "ok",
@@ -18473,8 +18473,8 @@
           "libby_url": null
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
@@ -18625,7 +18625,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 6,
+          "holds": 5,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Interior%20Chinatown%20Charles%20Yu/page-1"
         },
@@ -18972,7 +18972,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 29,
-          "holds": 135,
+          "holds": 133,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Hamnet%20Maggie%20O%27Farrell/page-1"
         },
@@ -18980,7 +18980,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 29,
-          "holds": 106,
+          "holds": 109,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Hamnet%20Maggie%20O%27Farrell/page-1"
         },
@@ -18998,7 +18998,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 62,
-          "holds": 412,
+          "holds": 414,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Hamnet%20Maggie%20O%27Farrell/page-1"
         },
@@ -19014,7 +19014,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 58,
+          "holds": 59,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Hamnet%20Maggie%20O%27Farrell/page-1"
         }
@@ -19034,9 +19034,9 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 3,
           "copies_owned": 12,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Night%20Watchman%20Louise%20Erdrich/page-1"
         },
@@ -19044,7 +19044,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 5,
-          "holds": 4,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Night%20Watchman%20Louise%20Erdrich/page-1"
         },
@@ -19070,7 +19070,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 15,
+          "holds": 12,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Night%20Watchman%20Louise%20Erdrich/page-1"
         },
@@ -19180,13 +19180,13 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 29,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Starless%20Sea%20Erin%20Morgenstern/page-1"
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 10,
+          "copies_available": 8,
           "copies_owned": 29,
           "holds": 0,
           "reason": "ok",
@@ -19374,7 +19374,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 6,
+          "holds": 7,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Cape%20Fear%20John%20D.%20MacDonald/page-1"
         },
@@ -19496,7 +19496,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 12,
-          "holds": 41,
+          "holds": 40,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-This%20Is%20How%20You%20Lose%20the%20Time%20War%20Amal%20El-Mohtar/page-1"
         },
@@ -19504,7 +19504,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 30,
+          "holds": 32,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-This%20Is%20How%20You%20Lose%20the%20Time%20War%20Amal%20El-Mohtar/page-1"
         },
@@ -19933,7 +19933,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 0,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Fearing%20the%20Black%20Body%3A%20The%20Racial%20Origins%20of%20Fat%20Phobia%20Sabrina%20Strings/page-1"
         },
@@ -20037,8 +20037,8 @@
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Verity%20Colleen%20Hoover/page-1"
         },
         "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 2,
           "holds": 0,
           "reason": "ok",
@@ -20058,7 +20058,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 24,
+          "holds": 23,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Verity%20Colleen%20Hoover/page-1"
         },
@@ -20100,7 +20100,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 22,
+          "holds": 23,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-On%20Earth%20We%27re%20Briefly%20Gorgeous%20Ocean%20Vuong/page-1"
         },
@@ -20118,7 +20118,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 16,
-          "holds": 0,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-On%20Earth%20We%27re%20Briefly%20Gorgeous%20Ocean%20Vuong/page-1"
         },
@@ -20650,7 +20650,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Possession%20A.S.%20Byatt/page-1"
         },
@@ -20871,7 +20871,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 54,
+          "holds": 52,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Normal%20People%20Sally%20Rooney/page-1"
         },
@@ -20895,7 +20895,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 1,
+          "copies_available": 3,
           "copies_owned": 24,
           "holds": 0,
           "reason": "ok",
@@ -20931,7 +20931,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 9,
-          "holds": 55,
+          "holds": 56,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Psalm%20for%20the%20Wild-Built%20Becky%20Chambers/page-1"
         },
@@ -20957,7 +20957,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 8,
-          "holds": 23,
+          "holds": 24,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Psalm%20for%20the%20Wild-Built%20Becky%20Chambers/page-1"
         },
@@ -21044,7 +21044,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 4,
+          "copies_available": 5,
           "copies_owned": 7,
           "holds": 0,
           "reason": "ok",
@@ -21069,10 +21069,10 @@
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dinner%20Herman%20Koch/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 2,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dinner%20Herman%20Koch/page-1"
         },
@@ -21106,7 +21106,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 13,
-          "holds": 54,
+          "holds": 53,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Giovanni%27s%20Room%20James%20Baldwin/page-1"
         },
@@ -21114,7 +21114,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 56,
+          "holds": 57,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Giovanni%27s%20Room%20James%20Baldwin/page-1"
         },
@@ -21129,7 +21129,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 9,
-          "holds": 48,
+          "holds": 47,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Giovanni%27s%20Room%20James%20Baldwin/page-1"
         },
@@ -21182,7 +21182,7 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 27,
+          "copies_available": 29,
           "copies_owned": 45,
           "holds": 0,
           "reason": "ok",
@@ -21190,7 +21190,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 12,
+          "copies_available": 11,
           "copies_owned": 19,
           "holds": 0,
           "reason": "ok",
@@ -21243,8 +21243,8 @@
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 4,
           "holds": 0,
           "reason": "ok",
@@ -21456,7 +21456,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 16,
-          "holds": 76,
+          "holds": 74,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-How%20to%20Hide%20an%20Empire%3A%20A%20History%20of%20the%20Greater%20United%20States%20Daniel%20Immerwahr/page-1"
         },
@@ -21657,7 +21657,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 15,
-          "holds": 112,
+          "holds": 114,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Witch%20Elm%20Tana%20French/page-1"
         },
@@ -21681,7 +21681,7 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 3,
+          "copies_available": 4,
           "copies_owned": 8,
           "holds": 0,
           "reason": "ok",
@@ -21870,7 +21870,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 4,
+          "copies_available": 5,
           "copies_owned": 7,
           "holds": 0,
           "reason": "ok",
@@ -22013,7 +22013,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 2,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Vita%20Nostra%20Marina%20Dyachenko/page-1"
         },
@@ -22135,7 +22135,7 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 51,
+          "copies_available": 50,
           "copies_owned": 63,
           "holds": 0,
           "reason": "ok",
@@ -22200,7 +22200,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 10,
-          "holds": 60,
+          "holds": 61,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-My%20Sister%2C%20the%20Serial%20Killer%20Oyinkan%20Braithwaite/page-1"
         },
@@ -22208,7 +22208,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 9,
-          "holds": 64,
+          "holds": 65,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-My%20Sister%2C%20the%20Serial%20Killer%20Oyinkan%20Braithwaite/page-1"
         },
@@ -22216,7 +22216,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 10,
+          "holds": 11,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-My%20Sister%2C%20the%20Serial%20Killer%20Oyinkan%20Braithwaite/page-1"
         }
@@ -22313,7 +22313,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 34,
+          "holds": 35,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Midnight%20in%20the%20Garden%20of%20Good%20and%20Evil%20John%20Berendt/page-1"
         },
@@ -22399,7 +22399,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 12,
-          "holds": 4,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Convenience%20Store%20Woman%20Sayaka%20Murata/page-1"
         },
@@ -22407,7 +22407,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Convenience%20Store%20Woman%20Sayaka%20Murata/page-1"
         },
@@ -22430,7 +22430,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 2,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Convenience%20Store%20Woman%20Sayaka%20Murata/page-1"
         },
@@ -22438,7 +22438,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 0,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Convenience%20Store%20Woman%20Sayaka%20Murata/page-1"
         }
@@ -22620,7 +22620,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 9,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Things%20Fall%20Apart%20Chinua%20Achebe/page-1"
         },
@@ -22628,7 +22628,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 2,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Things%20Fall%20Apart%20Chinua%20Achebe/page-1"
         },
@@ -22853,7 +22853,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 64,
+          "holds": 65,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Memory%20Police%20Stephen%20%20%20%20Snyder/page-1"
         },
@@ -22861,7 +22861,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 25,
+          "holds": 26,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Memory%20Police%20Stephen%20%20%20%20Snyder/page-1"
         },
@@ -22884,7 +22884,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 14,
+          "holds": 15,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Memory%20Police%20Stephen%20%20%20%20Snyder/page-1"
         },
@@ -22942,7 +22942,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 20,
-          "holds": 8,
+          "holds": 6,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Dopesick%20Beth%20Macy/page-1"
         },
@@ -23008,7 +23008,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 37,
+          "copies_available": 38,
           "copies_owned": 54,
           "holds": 0,
           "reason": "ok",
@@ -23052,7 +23052,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 10,
+          "holds": 9,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Their%20Eyes%20Were%20Watching%20God%20Zora%20Neale%20Hurston/page-1"
         },
@@ -23070,7 +23070,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 8,
-          "holds": 9,
+          "holds": 8,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Their%20Eyes%20Were%20Watching%20God%20Zora%20Neale%20Hurston/page-1"
         },
@@ -23385,7 +23385,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 4,
+          "copies_available": 2,
           "copies_owned": 34,
           "holds": 0,
           "reason": "ok",
@@ -23413,7 +23413,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 19,
-          "holds": 7,
+          "holds": 4,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%207%201/2%20Deaths%20of%20Evelyn%20Hardcastle%20Stuart%20Turton/page-1"
         },
@@ -23496,7 +23496,7 @@
     {
       "title": "Call Me by Your Name",
       "author": "Andre Aciman",
-      "isbn": null,
+      "isbn": "9789520406660",
       "added_at": "2026-06-15T14:44:14.783548+00:00",
       "cover": "https://assets.hardcover.app/edition/28576362/ed06cb6d0b913afdd73eb7b39f8bc4d72928d8bc.jpeg",
       "description": "Call Me by Your Name is the story of a sudden and powerful romance that blossoms between an adolescent boy and a summer guest at his parents' cliff-side mansion on the Italian Riviera. Unprepared for the consequences of their attraction, at first each feigns indifference. But during the restless summer weeks that follow, unrelenting buried currents of obsession and fear, fascination and desire, intensify their passion as they test the charged ground between them. What grows from the depths of their spirits is a romance of scarcely six weeks' duration and an experience that marks them for a lifetime. For what the two discover on the Riviera and during a sultry evening in Rome is the one thing both already fear they may never truly find again: total intimacy.",
@@ -23874,7 +23874,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 8,
-          "holds": 18,
+          "holds": 17,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-My%20Brilliant%20Friend%20Ann%20Goldstein/page-1"
         },
@@ -23940,7 +23940,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 18,
-          "holds": 62,
+          "holds": 63,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Great%20Alone%20Kristin%20Hannah/page-1"
         },
@@ -24142,7 +24142,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 3,
+          "copies_available": 2,
           "copies_owned": 4,
           "holds": 0,
           "reason": "ok",
@@ -24157,7 +24157,7 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 18,
+          "copies_available": 17,
           "copies_owned": 35,
           "holds": 0,
           "reason": "ok",
@@ -24165,7 +24165,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 6,
+          "copies_available": 7,
           "copies_owned": 16,
           "holds": 0,
           "reason": "ok",
@@ -24247,8 +24247,8 @@
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-In%20the%20Distance%20Hern%C3%A1n%20D%C3%ADaz/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 5,
           "holds": 1,
           "reason": "ok",
@@ -24306,8 +24306,8 @@
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Daemon%20Daniel%20Suarez/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
@@ -24470,10 +24470,10 @@
       ],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 60,
-          "holds": 2,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Pachinko%20Min%20Jin%20Lee/page-1"
         },
@@ -24481,7 +24481,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 41,
-          "holds": 14,
+          "holds": 13,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Pachinko%20Min%20Jin%20Lee/page-1"
         },
@@ -24743,7 +24743,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 5,
-          "holds": 7,
+          "holds": 8,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Roadside%20Picnic%20Olena%20Bormashenko/page-1"
         },
@@ -25001,7 +25001,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 1,
+          "copies_available": 2,
           "copies_owned": 8,
           "holds": 0,
           "reason": "ok",
@@ -25139,7 +25139,7 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 6,
+          "copies_available": 4,
           "copies_owned": 23,
           "holds": 0,
           "reason": "ok",
@@ -25231,7 +25231,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 5,
+          "holds": 4,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Priestdaddy%20Patricia%20Lockwood/page-1"
         },
@@ -25569,7 +25569,7 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 3,
+          "copies_available": 2,
           "copies_owned": 9,
           "holds": 0,
           "reason": "ok",
@@ -25605,7 +25605,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 3,
+          "copies_available": 2,
           "copies_owned": 5,
           "holds": 0,
           "reason": "ok",
@@ -25778,7 +25778,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 2,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Gone-Away%20World%20Nick%20Harkaway/page-1"
         },
@@ -25896,7 +25896,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 14,
+          "copies_available": 15,
           "copies_owned": 35,
           "holds": 0,
           "reason": "ok",
@@ -25924,7 +25924,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 23,
-          "holds": 10,
+          "holds": 9,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Lincoln%20in%20the%20Bardo%20George%20Saunders/page-1"
         },
@@ -25932,7 +25932,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 14,
-          "holds": 6,
+          "holds": 5,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Lincoln%20in%20the%20Bardo%20George%20Saunders/page-1"
         },
@@ -26079,7 +26079,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 34,
+          "copies_available": 33,
           "copies_owned": 38,
           "holds": 0,
           "reason": "ok",
@@ -26467,7 +26467,7 @@
     {
       "title": "American Psycho",
       "author": "Bret Easton Ellis",
-      "isbn": "9780330536301",
+      "isbn": "9789513135157",
       "added_at": "2026-06-15T14:44:10.254005+00:00",
       "cover": "https://assets.hardcover.app/edition/30483142/34fc972fa61b658b63bc11a10eadfbf4808cdc09.jpeg",
       "description": "INTERNATIONAL BESTSELLER \u2022 In this modern classic, the acclaimed author of The Shards explores the incomprehensible depths of madness and captures the insanity of violence in our time or any other.  Patrick Bateman moves among the young and trendy in 1980s Manhattan. Young, handsome, and well educated, Bateman earns his fortune on Wall Street by day while spending his nights in ways we cannot begin to fathom. Expressing his true self through torture and murder, Bateman prefigures an apocalyptic horror that no society could bear to confront.",
@@ -26636,7 +26636,7 @@
     {
       "title": "The Remains of the Day",
       "author": "Kazuo Ishiguro",
-      "isbn": "9783804418486",
+      "isbn": "9789513092016",
       "added_at": "2026-06-15T14:44:10.114252+00:00",
       "cover": "https://assets.hardcover.app/edition/28184720/69b94f6c-9fed-4626-a31e-a61c78d626f6.jpg",
       "description": "Overview: The Remains of the Day is a profoundly compelling portrait of the perfect English butler and of his fading, insular world postwar England. At the end of his three decades of service at Darlington Hall, Stevens embarks on a country drive, during which he looks back over his career to reassure himself that he has served humanity by serving \"a great gentleman.\" But lurking in his memory are doubts about the true nature of Lord Darlington's \"greatness\" and graver doubts about his own faith in the man he served. A tragic, spiritual portrait of a perfect English butler and his reaction to his fading insular world in post-war England. A wonderful, wonderful book.",
@@ -26653,13 +26653,13 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 6,
+          "copies_available": 7,
           "copies_owned": 11,
           "holds": 0,
           "reason": "ok",
@@ -26695,7 +26695,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Remains%20of%20the%20Day%20Kazuo%20Ishiguro/page-1"
         }
@@ -26871,7 +26871,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 1,
           "copies_owned": 6,
           "holds": 0,
           "reason": "ok",
@@ -26939,7 +26939,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 0,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20People%27s%20History%20of%20the%20United%20States%20Howard%20Zinn/page-1"
         },
@@ -27071,7 +27071,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Homegoing%20Yaa%20Gyasi/page-1"
         },
@@ -27146,7 +27146,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 5,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Girls%20Emma%20Cline/page-1"
         },
@@ -27219,7 +27219,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Gene%3A%20An%20Intimate%20History%20Siddhartha%20Mukherjee/page-1"
         }
@@ -27238,10 +27238,10 @@
       ],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 1,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Ballad%20of%20Black%20Tom%20Victor%20LaValle/page-1"
         },
@@ -27294,7 +27294,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 2,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Beacon%2023%20Hugh%20Howey/page-1"
         },
@@ -27324,7 +27324,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 0,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Beacon%2023%20Hugh%20Howey/page-1"
         }
@@ -27350,7 +27350,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 20,
+          "holds": 18,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-To%20Kill%20A%20Mockingbird%20Harper%20Lee/page-1"
         },
@@ -27376,7 +27376,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 34,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-To%20Kill%20A%20Mockingbird%20Harper%20Lee/page-1"
         },
@@ -27389,8 +27389,8 @@
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-To%20Kill%20A%20Mockingbird%20Harper%20Lee/page-1"
         },
         "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 2,
           "holds": 0,
           "reason": "ok",
@@ -27729,7 +27729,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 37,
+          "copies_available": 36,
           "copies_owned": 43,
           "holds": 0,
           "reason": "ok",
@@ -27919,7 +27919,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 4,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Seven%20Brief%20Lessons%20on%20Physics%20Carlo%20Rovelli/page-1"
         },
@@ -28388,7 +28388,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 7,
+          "holds": 5,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dark%20Forest%20Joel%20Martinsen/page-1"
         },
@@ -28718,7 +28718,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 10,
-          "holds": 265,
+          "holds": 266,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
         },
@@ -28749,7 +28749,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 25,
-          "holds": 134,
+          "holds": 133,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Lonesome%20Dove%20Larry%20McMurtry/page-1"
         },
@@ -28828,7 +28828,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 2,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Children%20of%20Time%20Adrian%20Tchaikovsky/page-1"
         },
@@ -28903,7 +28903,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 3,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Vegetarian%20Han%20Kang/page-1"
         }
@@ -28921,7 +28921,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 14,
+          "holds": 15,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Vegetarian%20Han%20Kang/page-1"
         },
@@ -29480,7 +29480,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 65,
-          "holds": 1700,
+          "holds": 1703,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Whistler%20Ann%20Patchett/page-1"
         },
@@ -29488,7 +29488,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 229,
-          "holds": 1731,
+          "holds": 1735,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Whistler%20Ann%20Patchett/page-1"
         },
@@ -29496,7 +29496,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 201,
+          "holds": 202,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Whistler%20Ann%20Patchett/page-1"
         }
@@ -29506,7 +29506,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 69,
-          "holds": 1507,
+          "holds": 1517,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Whistler%20Ann%20Patchett/page-1"
         },
@@ -29522,7 +29522,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 114,
+          "holds": 115,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Whistler%20Ann%20Patchett/page-1"
         }
@@ -29543,7 +29543,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 69,
-          "holds": 2269,
+          "holds": 2268,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Theo%20of%20Golden%20Allen%20Levi/page-1"
         },
@@ -29551,7 +29551,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 195,
-          "holds": 1402,
+          "holds": 1397,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Theo%20of%20Golden%20Allen%20Levi/page-1"
         },
@@ -29577,7 +29577,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 218,
-          "holds": 1731,
+          "holds": 1725,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Theo%20of%20Golden%20Allen%20Levi/page-1"
         },
@@ -29660,7 +29660,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 30,
-          "holds": 292,
+          "holds": 304,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Exit%20Party%20Emily%20St.%20John%20Mandel/page-1"
         },
@@ -29680,7 +29680,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 16,
-          "holds": 160,
+          "holds": 165,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Exit%20Party%20Emily%20St.%20John%20Mandel/page-1"
         },
@@ -29754,7 +29754,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 51,
-          "holds": 544,
+          "holds": 542,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Kin%20Tayari%20Jones/page-1"
         },
@@ -29762,7 +29762,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 84,
-          "holds": 668,
+          "holds": 667,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Kin%20Tayari%20Jones/page-1"
         },
@@ -29964,7 +29964,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 14,
-          "holds": 39,
+          "holds": 38,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Upward%20Bound%20Woody%20Brown/page-1"
         },
@@ -29980,9 +29980,9 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 5,
+          "copies_available": 3,
           "copies_owned": 41,
-          "holds": 2,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Upward%20Bound%20Woody%20Brown/page-1"
         },
@@ -30066,7 +30066,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 5,
-          "holds": 52,
+          "holds": 50,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Caretaker%20Marcus%20Kliewer/page-1"
         },
@@ -30121,7 +30121,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 19,
-          "holds": 0,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Sympathizer%20Viet%20Thanh%20Nguyen/page-1"
         },
@@ -30135,7 +30135,7 @@
         },
         "Alexandria Public Library": {
           "available": true,
-          "copies_available": 5,
+          "copies_available": 4,
           "copies_owned": 5,
           "holds": 0,
           "reason": "ok",
@@ -30228,7 +30228,7 @@
     {
       "title": "The Buried Giant",
       "author": "Kazuo Ishiguro",
-      "isbn": "9789535956518",
+      "isbn": "9789513186524",
       "added_at": "2026-06-15T14:44:03.622593+00:00",
       "cover": "https://assets.hardcover.app/external_data/59800787/456c0b0456f3afa6a2c9d12b334ad9304b5b2165.jpeg",
       "description": "In post-Arthurian Britain, the wars that once raged between the Saxons and the Britons have finally ceased. Axl and Beatrice, an elderly British couple, set off to visit their son, whom they haven't seen in years. And, because a strange mist has caused mass amnesia throughout the land, they can scarcely remember anything about him. As they are joined on their journey by a Saxon warrior, his orphan charge, and an illustrious knight, Axl and Beatrice slowly begin to remember the dark and troubled past they all share.  By turns savage, suspenseful, and intensely moving, The Buried Giant is a luminous meditation on the act of forgetting and the power of memory.",
@@ -30245,7 +30245,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 14,
-          "holds": 14,
+          "holds": 13,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         },
@@ -30287,7 +30287,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Buried%20Giant%20Kazuo%20Ishiguro/page-1"
         }
@@ -30333,7 +30333,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 0,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-On%20the%20Origin%20of%20Species%20Charles%20Darwin/page-1"
         },
@@ -30603,10 +30603,10 @@
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Careless%20People%20Sarah%20Wynn-Williams/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 2,
           "copies_owned": 46,
-          "holds": 2,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Careless%20People%20Sarah%20Wynn-Williams/page-1"
         },
@@ -30789,10 +30789,10 @@
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Loneliness%20of%20Sonia%20and%20Sunny%20Kiran%20Desai/page-1"
         },
         "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 3,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 100,
-          "holds": 3,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Loneliness%20of%20Sonia%20and%20Sunny%20Kiran%20Desai/page-1"
         },
@@ -30800,7 +30800,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 27,
+          "holds": 26,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Loneliness%20of%20Sonia%20and%20Sunny%20Kiran%20Desai/page-1"
         }
@@ -30810,7 +30810,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 47,
-          "holds": 0,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Loneliness%20of%20Sonia%20and%20Sunny%20Kiran%20Desai/page-1"
         },
@@ -30818,7 +30818,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 57,
-          "holds": 6,
+          "holds": 7,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Loneliness%20of%20Sonia%20and%20Sunny%20Kiran%20Desai/page-1"
         },
@@ -30844,16 +30844,16 @@
       ],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 8,
-          "holds": 2,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Wilderness%20Angela%20Flournoy/page-1"
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 4,
+          "copies_available": 3,
           "copies_owned": 14,
           "holds": 0,
           "reason": "ok",
@@ -30863,7 +30863,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 10,
+          "holds": 9,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Wilderness%20Angela%20Flournoy/page-1"
         }
@@ -30879,7 +30879,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 3,
           "copies_owned": 15,
           "holds": 0,
           "reason": "ok",
@@ -30959,7 +30959,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 1,
           "copies_owned": 20,
           "holds": 0,
           "reason": "ok",
@@ -30974,8 +30974,8 @@
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Never%20Flinch%20Stephen%20King/page-1"
         },
         "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 2,
           "holds": 0,
           "reason": "ok",
@@ -30984,8 +30984,8 @@
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 2,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 22,
           "holds": 0,
           "reason": "ok",
@@ -31103,7 +31103,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 21,
+          "holds": 20,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Darker%20Shade%20of%20Magic%20V.%20E.%20Schwab/page-1"
         },
@@ -31111,7 +31111,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 16,
+          "holds": 14,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Darker%20Shade%20of%20Magic%20V.%20E.%20Schwab/page-1"
         },
@@ -31245,15 +31245,15 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 35,
-          "holds": 3,
+          "holds": 5,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Heartwood%20Amity%20Gaige/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 32,
-          "holds": 2,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Heartwood%20Amity%20Gaige/page-1"
         },
@@ -31261,17 +31261,17 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 40,
+          "holds": 39,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Heartwood%20Amity%20Gaige/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 53,
-          "holds": 2,
+          "holds": 4,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Heartwood%20Amity%20Gaige/page-1"
         },
@@ -31303,7 +31303,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 5,
+          "copies_available": 6,
           "copies_owned": 14,
           "holds": 0,
           "reason": "ok",
@@ -31311,7 +31311,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 6,
+          "copies_available": 5,
           "copies_owned": 12,
           "holds": 0,
           "reason": "ok",
@@ -31329,7 +31329,7 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 10,
+          "copies_available": 11,
           "copies_owned": 12,
           "holds": 0,
           "reason": "ok",
@@ -31373,7 +31373,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 23,
-          "holds": 5,
+          "holds": 4,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Devil%20in%20the%20White%20City%20Erik%20Larson/page-1"
         },
@@ -31387,7 +31387,7 @@
         },
         "Alexandria Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 1,
           "copies_owned": 3,
           "holds": 0,
           "reason": "ok",
@@ -31399,7 +31399,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 14,
-          "holds": 21,
+          "holds": 23,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Devil%20in%20the%20White%20City%20Erik%20Larson/page-1"
         },
@@ -31407,7 +31407,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 8,
-          "holds": 30,
+          "holds": 32,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Devil%20in%20the%20White%20City%20Erik%20Larson/page-1"
         },
@@ -31439,13 +31439,13 @@
           "available": true,
           "copies_available": 3,
           "copies_owned": 21,
-          "holds": 0,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-King%20of%20Ashes%20S.%20A.%20Cosby/page-1"
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 13,
+          "copies_available": 15,
           "copies_owned": 36,
           "holds": 0,
           "reason": "ok",
@@ -31465,21 +31465,21 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 29,
-          "holds": 3,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-King%20of%20Ashes%20S.%20A.%20Cosby/page-1"
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 4,
+          "copies_available": 2,
           "copies_owned": 41,
           "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-King%20of%20Ashes%20S.%20A.%20Cosby/page-1"
         },
         "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 2,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 3,
           "holds": 0,
           "reason": "ok",
@@ -31503,7 +31503,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 5,
-          "holds": 3,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Dream%20Count%20Chimamanda%20Ngozi%20Adichie/page-1"
         },
@@ -31537,7 +31537,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 9,
+          "holds": 10,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Dream%20Count%20Chimamanda%20Ngozi%20Adichie/page-1"
         },
@@ -31569,7 +31569,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 5,
+          "copies_available": 4,
           "copies_owned": 7,
           "holds": 0,
           "reason": "ok",
@@ -31577,8 +31577,8 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 12,
-          "copies_owned": 13,
+          "copies_available": 11,
+          "copies_owned": 12,
           "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Kind%20Worth%20Killing%20Peter%20Swanson/page-1"
@@ -31592,7 +31592,7 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 1,
           "copies_owned": 7,
           "holds": 0,
           "reason": "ok",
@@ -31734,7 +31734,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 2,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Ten%20Incarnations%20of%20Rebellion%20Vaishnavi%20Patel/page-1"
         },
@@ -31835,7 +31835,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 23,
+          "holds": 22,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Woodworking%20Emily%20St.%20James/page-1"
         },
@@ -31999,7 +31999,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 5,
+          "holds": 6,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Lamb%20Lucy%20Rose/page-1"
         },
@@ -32129,7 +32129,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 2,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Stag%20Dance%20Torrey%20Peters/page-1"
         },
@@ -32194,7 +32194,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 20,
-          "holds": 117,
+          "holds": 118,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Buffalo%20Hunter%20Hunter%20Stephen%20Graham%20Jones/page-1"
         },
@@ -32202,7 +32202,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 17,
-          "holds": 73,
+          "holds": 71,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Buffalo%20Hunter%20Hunter%20Stephen%20Graham%20Jones/page-1"
         },
@@ -32441,7 +32441,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 10,
-          "holds": 12,
+          "holds": 14,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Devils%20Joe%20Abercrombie/page-1"
         },
@@ -32464,7 +32464,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 12,
-          "holds": 119,
+          "holds": 118,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Devils%20Joe%20Abercrombie/page-1"
         },
@@ -32499,7 +32499,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 4,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-When%20the%20Wolf%20Comes%20Home%20Nat%20Cassidy/page-1"
         },
@@ -32623,7 +32623,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 10,
+          "copies_available": 9,
           "copies_owned": 12,
           "holds": 0,
           "reason": "ok",
@@ -32976,7 +32976,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 22,
+          "copies_available": 21,
           "copies_owned": 30,
           "holds": 0,
           "reason": "ok",
@@ -32984,7 +32984,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 15,
+          "copies_available": 16,
           "copies_owned": 28,
           "holds": 0,
           "reason": "ok",
@@ -33048,7 +33048,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 6,
+          "holds": 7,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Big%20Sleep%20Raymond%20Chandler/page-1"
         },
@@ -33096,13 +33096,13 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 13,
-          "holds": 3,
+          "holds": 4,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Safekeep%20Yael%20van%20der%20Wouden/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 21,
           "holds": 0,
           "reason": "ok",
@@ -33130,7 +33130,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 11,
-          "holds": 3,
+          "holds": 4,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Safekeep%20Yael%20van%20der%20Wouden/page-1"
         },
@@ -33215,7 +33215,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 8,
+          "copies_available": 9,
           "copies_owned": 12,
           "holds": 0,
           "reason": "ok",
@@ -33329,7 +33329,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 1,
           "copies_owned": 3,
           "holds": 0,
           "reason": "ok",
@@ -33445,7 +33445,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 5,
+          "holds": 6,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Bright%20Sword%20Lev%20Grossman/page-1"
         },
@@ -33579,7 +33579,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 16,
+          "holds": 15,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-You%20Like%20It%20Darker%20Stephen%20King/page-1"
         },
@@ -33587,7 +33587,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-You%20Like%20It%20Darker%20Stephen%20King/page-1"
         },
@@ -34123,7 +34123,7 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 3,
+          "copies_available": 4,
           "copies_owned": 5,
           "holds": 0,
           "reason": "ok",
@@ -34184,8 +34184,8 @@
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 2,
           "holds": 0,
           "reason": "ok",
@@ -34193,7 +34193,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 6,
+          "copies_available": 5,
           "copies_owned": 7,
           "holds": 0,
           "reason": "ok",
@@ -34302,7 +34302,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 2,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Fifth%20Season%20N.%20K.%20Jemisin/page-1"
         },
@@ -34343,7 +34343,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 11,
-          "holds": 20,
+          "holds": 22,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Likeness%20Tana%20French/page-1"
         },
@@ -34351,7 +34351,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 8,
-          "holds": 23,
+          "holds": 22,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Likeness%20Tana%20French/page-1"
         },
@@ -34573,7 +34573,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 8,
+          "copies_available": 7,
           "copies_owned": 11,
           "holds": 0,
           "reason": "ok",
@@ -34598,7 +34598,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 5,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-My%20Cousin%20Rachel%20Daphne%20du%20Maurier/page-1"
         },
@@ -34953,7 +34953,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 20,
-          "holds": 93,
+          "holds": 94,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Nuclear%20War%3A%20A%20Scenario%20Annie%20Jacobsen/page-1"
         },
@@ -34971,7 +34971,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 13,
-          "holds": 137,
+          "holds": 138,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Nuclear%20War%3A%20A%20Scenario%20Annie%20Jacobsen/page-1"
         },
@@ -34979,7 +34979,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 25,
-          "holds": 125,
+          "holds": 123,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Nuclear%20War%3A%20A%20Scenario%20Annie%20Jacobsen/page-1"
         },
@@ -35011,7 +35011,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 4,
+          "copies_available": 2,
           "copies_owned": 16,
           "holds": 0,
           "reason": "ok",
@@ -35045,7 +35045,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 1,
+          "copies_available": 2,
           "copies_owned": 7,
           "holds": 0,
           "reason": "ok",
@@ -35114,7 +35114,7 @@
     {
       "title": "The Grapes of Wrath",
       "author": "John Steinbeck",
-      "isbn": null,
+      "isbn": "9789513007478",
       "added_at": "2026-06-15T14:43:50.826275+00:00",
       "cover": "https://assets.hardcover.app/editions/10573597/8270357984760670-grapesofwrath.jpg",
       "description": "Steinbeck\u2019s classic novel of the Great Depression is as vivid now as ever. The story focuses on a family of Oklahoma sharecroppers, farmers who work another man\u2019s land for a share of the crops. Driven from their home by drought and poverty they take to the road in a battered old truck and make their way to California to look for work. When they arrive they find hundreds of others like them being forced to work for breadline wages. they begin working as fruit pickers, strike-breakers replacing the people who have been trying to establish a union but their consciences force them to leave.",
@@ -35162,7 +35162,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 8,
-          "holds": 41,
+          "holds": 43,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Grapes%20of%20Wrath%20John%20Steinbeck/page-1"
         },
@@ -35387,7 +35387,7 @@
     {
       "title": "S.",
       "author": "J.J. Abrams",
-      "isbn": "9788817068697",
+      "isbn": "9782749920696",
       "added_at": "2026-06-15T14:43:50.092156+00:00",
       "cover": "https://assets.hardcover.app/edition/3857770/4ec4b478-3677-48d1-ba05-778b91ee3ed0.jpg",
       "description": "This one-of-a-kind bestseller from J.J. Abrams and Doug Dorst captures the excitement of solving a mystery like no other book: \"Both as literature and as a physical object, S. is a profound and tremendous work of art\" (Miami Herald).   One book. Two readers. A world of mystery, menace, and desire.  The chronicle of two readers finding each other, and their deadly struggle with forces beyond their understanding \u2014 all within the margins of a book conceived by Star Wars director J.J. Abrams and written by award-winning novelist Doug Dorst.  The book: Ship of Theseus, the final novel by a prolific but enigmatic writer named V.M. Straka, in which a man with no past is shanghaied onto a strange ship with a monstrous crew and launched onto a disorienting and perilous journey.  The writer: Straka, the incendiary and secretive subject of one of the world's greatest mysteries, a revolutionary about whom the world knows nothing apart from the words he wrote and the rumors that swirl around him.  The readers: Jennifer and Eric, a college senior and a disgraced grad student, both facing crucial decisions about who they are, who they might become, and how much they're willing to trust another person with their passions, hurts, and fears.  S. contains 22 inserts and will be delivered in a sealed slipcase.",
@@ -35658,7 +35658,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 8,
-          "holds": 14,
+          "holds": 15,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-All%20About%20Love%3A%20New%20Visions%20bell%20hooks/page-1"
         },
@@ -35728,7 +35728,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 6,
+          "holds": 4,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Iron%20Lake%20Chandler%2C%20David/page-1"
         },
@@ -35791,7 +35791,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 65,
-          "holds": 6,
+          "holds": 4,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-James%20Percival%20Everett/page-1"
         },
@@ -35946,7 +35946,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 7,
+          "holds": 8,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Demon-Haunted%20World%3A%20Science%20as%20a%20Candle%20in%20the%20Dark%20Carl%20Sagan/page-1"
         },
@@ -36257,7 +36257,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 1,
           "copies_owned": 4,
           "holds": 0,
           "reason": "ok",
@@ -36372,7 +36372,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 3,
+          "copies_available": 2,
           "copies_owned": 5,
           "holds": 0,
           "reason": "ok",
@@ -36466,7 +36466,7 @@
     {
       "title": "Doctor Sleep",
       "author": "Stephen King",
-      "isbn": "9781476727653",
+      "isbn": "9789513179007",
       "added_at": "2026-06-15T14:43:46.56067+00:00",
       "cover": "https://assets.hardcover.app/edition/14503262/0327da187607ff86aedc1a23f5fd44a64540254d.jpeg",
       "description": "The now middle-aged Dan Torrance (the boy protagonist of The Shining) must save a very special twelve-year-old girl from a tribe of murderous paranormals. On highways across America, a tribe of people called The True Knot travel in search of sustenance. They look harmless; mostly old, lots of polyester, and married to their RVs. But as Dan Torrance knows, and spunky twelve-year-old Abra Stone learns, The True Knot are quasi-immortal, living off the \"steam\" that children with the \"shining\" produce when they are slowly tortured to death. Haunted by the inhabitants of the Overlook Hotel where he spent one horrific childhood year, Dan has been drifting for decades, desperate to shed his father's legacy of despair, alcoholism, and violence. Finally, he settles in a New Hampshire town, an AA community that sustains him, and a job at a nursing home where his remnant \"shining\" power provides the crucial final comfort to the dying. Aided by a prescient cat, he becomes \"Doctor Sleep.\" Then Dan meets the evanescent Abra Stone, and it is her spectacular gift, the brightest shining ever seen, that reignites Dan's own demons and summons him to a battle for Abra's soul and survival.",
@@ -36504,7 +36504,7 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 9,
+          "copies_available": 10,
           "copies_owned": 13,
           "holds": 0,
           "reason": "ok",
@@ -36703,10 +36703,10 @@
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Interestings%20Meg%20Wolitzer/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 3,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Interestings%20Meg%20Wolitzer/page-1"
         },
@@ -36764,7 +36764,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 18,
+          "holds": 19,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Last%20Days%20Adam%20Nevill/page-1"
         },
@@ -37083,8 +37083,8 @@
       ],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": null,
-          "reason": "error: HTTPSConnectionPool(host='thunder.api.overdrive.com', port=443): Read timed out. (read timeout=10)",
+          "available": false,
+          "reason": "not_in_catalog",
           "libby_url": null
         },
         "Montgomery County Public Library": {
@@ -37100,9 +37100,12 @@
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": null,
-          "reason": "error: HTTPSConnectionPool(host='thunder.api.overdrive.com', port=443): Read timed out. (read timeout=10)",
-          "libby_url": null
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 1,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Horizon%20Barry%20%20Lopez/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
@@ -37227,7 +37230,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 39,
-          "holds": 15,
+          "holds": 16,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Martyr%21%20Kaveh%20Akbar/page-1"
         },
@@ -37261,7 +37264,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 49,
+          "holds": 50,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Martyr%21%20Kaveh%20Akbar/page-1"
         },
@@ -37406,7 +37409,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 16,
+          "holds": 17,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Prodigal%20Summer%20Barbara%20Kingsolver/page-1"
         },
@@ -37435,7 +37438,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 6,
+          "holds": 5,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Doppelganger%20Naomi%20Klein/page-1"
         },
@@ -37456,7 +37459,7 @@
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 7,
+          "copies_available": 6,
           "copies_owned": 14,
           "holds": 0,
           "reason": "ok",
@@ -37824,7 +37827,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 8,
-          "holds": 7,
+          "holds": 6,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Things%20They%20Carried%20Tim%20O%27Brien/page-1"
         },
@@ -38150,7 +38153,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 2,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Horrorst%C3%B6r%20Grady%20Hendrix/page-1"
         },
@@ -38158,7 +38161,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 2,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Horrorst%C3%B6r%20Grady%20Hendrix/page-1"
         },
@@ -38262,7 +38265,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 1,
           "copies_owned": 2,
           "holds": 0,
           "reason": "ok",
@@ -38390,7 +38393,7 @@
     {
       "title": "The Cold Cold Ground",
       "author": "Adrian McKinty",
-      "isbn": "9788420612058",
+      "isbn": "9781781258187",
       "added_at": "2026-06-15T14:43:40.317861+00:00",
       "cover": "https://assets.hardcover.app/external_data/878537/ae20321f131a410e07283b4b87b83a1296fdb21e.jpeg",
       "description": "Northern Ireland. Spring 1981. Hunger strikes. Riots. Power cuts. A homophobic serial killer with a penchant for opera. And a young woman's suicide that may yet turn out to be murder. On the surface, the events are unconnected, but then things - and people - aren't always what they see .Author lives in Melbourne.",
@@ -38410,7 +38413,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 12,
+          "holds": 10,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Cold%20Cold%20Ground%20Adrian%20McKinty/page-1"
         },
@@ -38493,14 +38496,14 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Pride%20and%20Prejudice%20Jane%20Austen/page-1"
         },
         "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 5,
-          "copies_owned": 5,
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Pride%20and%20Prejudice%20Jane%20Austen/page-1"
@@ -38509,7 +38512,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 3,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Pride%20and%20Prejudice%20Jane%20Austen/page-1"
         }
@@ -38541,7 +38544,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 3,
           "copies_owned": 5,
           "holds": 0,
           "reason": "ok",
@@ -38651,8 +38654,8 @@
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Breaking%20the%20Habit%20of%20Being%20Yourself%3A%20How%20to%20Lose%20Your%20Mind%20and%20Create%20a%20New%20One%20Joe%20Dispenza/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
+          "available": true,
+          "copies_available": 1,
           "copies_owned": 6,
           "holds": 0,
           "reason": "ok",
@@ -38904,7 +38907,7 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 7,
+          "copies_available": 6,
           "copies_owned": 13,
           "holds": 0,
           "reason": "ok",
@@ -39137,7 +39140,7 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 1,
+          "copies_available": 2,
           "copies_owned": 5,
           "holds": 0,
           "reason": "ok",
@@ -39221,10 +39224,10 @@
       ],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 45,
-          "holds": 0,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Orbital%20Samantha%20Harvey/page-1"
         },
@@ -39250,14 +39253,14 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 9,
+          "holds": 10,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Orbital%20Samantha%20Harvey/page-1"
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 186,
-          "copies_owned": 188,
+          "copies_available": 183,
+          "copies_owned": 185,
           "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Orbital%20Samantha%20Harvey/page-1"
@@ -39555,7 +39558,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 5,
-          "holds": 22,
+          "holds": 21,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Running%20Man%20Richard%20Bachman/page-1"
         },
@@ -39569,7 +39572,7 @@
     {
       "title": "The Girl Who Loved Tom Gordon",
       "author": "Stephen King",
-      "isbn": "9780340952382",
+      "isbn": "9789513116279",
       "added_at": "2026-06-15T14:43:36.318375+00:00",
       "cover": "https://assets.hardcover.app/edition/31640288/0a1fca4c9936f710e07669429716e34c2b2f6bce.jpeg",
       "description": "What if the woods were full of them? And of course they were, the woods were full of everything you didn't like, everything you were afraid of and instinctively loathed, everything that tried to overwhelm you with nasty, no-brain panic.  The brochure promised a \"moderate-to-difficult\" six-mile hike on the Maine-New Hampshire branch of the Appalachian Trail, where nine-year-old Trisha McFarland was to spend Saturday with her older brother, Pete, and her recently divorced mother. When she wanders off to escape their constant bickering, then tries to catch up by attempting a shortcut through the woods, Trisha strays deeper into a wilderness full of peril and terror. Especially when night falls.  Trisha has only her wits for navigation, only her ingenuity as a defense against the elements, only her courage and faith to withstand her mounting fear. For solace she tunes her Walkman to broadcasts of Boston Red Sox games and the gritty performances of her hero, number 36, relief pitcher Tom Gordon. And when her radio's reception begins to fade, Trisha imagines that Tom Gordon is with her -- her key to surviving an enemy known only by the slaughtered animals and mangled trees in its wake.",
@@ -39591,7 +39594,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 0,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Girl%20Who%20Loved%20Tom%20Gordon%20Stephen%20King/page-1"
         },
@@ -39748,7 +39751,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 6,
-          "holds": 47,
+          "holds": 46,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman/page-1"
         },
@@ -39799,7 +39802,7 @@
     {
       "title": "Sula",
       "author": "Toni Morrison",
-      "isbn": "9780786246533",
+      "isbn": "9789513103606",
       "added_at": "2026-06-15T14:43:35.893871+00:00",
       "cover": "https://assets.hardcover.app/edition/18748969/7d46d95d-a477-429a-938d-b127b1db4bb3.jpeg",
       "description": "Two girls who grow up to become women. Two friends who become something worse than enemies. In this brilliantly imagined novel, Toni Morrison tells the story of Nel Wright and Sula Peace, who meet as children in the small town of Medallion, Ohio. Their devotion is fierce enough to withstand bullies and the burden of a dreadful secret. It endures even after Nel has grown up to be a pillar of the black community and Sula has become a pariah. But their friendship ends in an unforgivable betrayal\u2014or does it end? Terrifying, comic, ribald and tragic, Sula is a work that overflows with life.",
@@ -39839,7 +39842,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 15,
-          "holds": 104,
+          "holds": 105,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Sula%20Toni%20Morrison/page-1"
         },
@@ -39864,7 +39867,7 @@
     {
       "title": "Eragon",
       "author": "Christopher Paolini",
-      "isbn": "9788817061629",
+      "isbn": "9789520424671",
       "added_at": "2026-06-15T14:43:35.840493+00:00",
       "cover": "https://assets.hardcover.app/editions/30399869/8816624490580869-91JrDpvTiML._SL1500_.jpg",
       "description": "When fifteen-year-old Eragon finds a polished blue stone in the forest, he thinks it is the lucky discovery of a poor farm boy. But when the stone brings a dragon hatchling, Eragon soon realizes he has stumbled upon a legacy nearly as old as the Empire itself.  Overnight his simple life is shattered, and, gifted with only an ancient sword, a loyal dragon, and sage advice from an old storyteller, Eragon is soon swept into a dangerous tapestry of magic, glory, and power. Now his choices could save\u2014or destroy\u2014the Empire.",
@@ -39948,7 +39951,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 96,
+          "holds": 98,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Bluest%20Eye%20Toni%20Morrison/page-1"
         },
@@ -39956,7 +39959,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 9,
-          "holds": 61,
+          "holds": 62,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Bluest%20Eye%20Toni%20Morrison/page-1"
         },
@@ -39974,7 +39977,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 15,
-          "holds": 104,
+          "holds": 105,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Bluest%20Eye%20Toni%20Morrison/page-1"
         },
@@ -40591,7 +40594,7 @@
     {
       "title": "1Q84",
       "author": "Jay Rubin",
-      "isbn": null,
+      "isbn": "9789513174637",
       "added_at": "2026-06-15T14:43:34.528204+00:00",
       "cover": "https://assets.hardcover.app/editions/28550547/2665591638920066.jpg",
       "description": "The year is 1984 and the city is Tokyo. A young woman named Aomame follows a taxi driver\u2019s enigmatic suggestion and begins to notice puzzling discrepancies in the world around her.  She has entered, she realizes, a parallel existence, which she calls 1Q84 \u2014\u201cQ is for \u2018question mark.\u2019 A world that bears a question.\u201d Meanwhile, an aspiring writer named Tengo takes on a suspect ghostwriting project. He becomes so wrapped up with the work and its unusual author that, soon, his previously placid life begins to come unraveled.",
@@ -40606,34 +40609,34 @@
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "no_isbn",
+          "reason": "not_in_catalog",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-1Q84%20Jay%20Rubin/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "no_isbn",
+          "reason": "not_in_catalog",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-1Q84%20Jay%20Rubin/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "reason": "no_isbn",
+          "reason": "not_in_catalog",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-1Q84%20Jay%20Rubin/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "no_isbn",
+          "reason": "not_in_catalog",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-1Q84%20Jay%20Rubin/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "no_isbn",
+          "reason": "not_in_catalog",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-1Q84%20Jay%20Rubin/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "reason": "no_isbn",
+          "reason": "not_in_catalog",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-1Q84%20Jay%20Rubin/page-1"
         }
       }
@@ -40641,7 +40644,7 @@
     {
       "title": "Bag of Bones",
       "author": "Stephen King",
-      "isbn": "9781473695504",
+      "isbn": "9789513112974",
       "added_at": "2026-06-15T14:43:34.52149+00:00",
       "cover": "https://assets.hardcover.app/edition/17575840/193d9f2f9e2aa5289a72ed3c885ecde58ffc0dd4.jpeg",
       "description": "Bag of Bones is a 1998 horror novel by American writer Stephen King. It focuses on an author who suffers severe writer's block and delusions at an isolated lake house four years after the death of his wife. It won the 1999 Bram Stoker Award for Best Novel, the 1999 British Fantasy Award for Best Novel, and the 1999 Locus Award for Best Dark Fantasy/Horror Novel. The book re-uses many basic plot elements of Daphne du Maurier's Rebecca, which is directly referenced several times in the book's opening pages; however, the relation of these elements (including a wife who is dead as the book opens, her posthumous effect on future romance, a drowning, and house haunted by the memories of previous inhabitants) to the plot and characters is markedly different. When the paperback edition of Bag of Bones was published by Pocket Books on June 1, 1999 (ISBN 978-0671024239).",
@@ -40678,7 +40681,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 2,
+          "holds": 3,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Bag%20of%20Bones%20Stephen%20King/page-1"
         },
@@ -41013,8 +41016,8 @@
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 57,
-          "copies_owned": 59,
+          "copies_available": 55,
+          "copies_owned": 57,
           "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Bright%20Young%20Women%20Jessica%20Knoll/page-1"
@@ -41023,7 +41026,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 2,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Bright%20Young%20Women%20Jessica%20Knoll/page-1"
         }
