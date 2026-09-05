@@ -1,51 +1,113 @@
 {
-  "updated": "2026-09-03T22:41:16.791509Z",
+  "updated": "2026-09-05T11:52:49.929463Z",
   "recommendations": [
     {
-      "title": "The Book of the New Sun",
-      "author": "Gene Wolfe",
-      "reason": "This dense, literary science fantasy epic rewards the kind of close reading they seem to love in authors like David Mitchell and Susanna Clarke's Jonathan Strange & Mr Norrell.",
-      "cover": "https://covers.openlibrary.org/b/id/11305529-M.jpg",
+      "title": "The Raw Shark Texts",
+      "author": "Steven Hall",
+      "reason": "Lovers of House of Leaves, David Mitchell's metafictional layering, and Blake Crouch's reality-bending thrillers will appreciate this inventive novel about a man hunted by a conceptual shark.",
+      "cover": "https://covers.openlibrary.org/b/id/888852-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
+          "reason": "not_in_catalog",
+          "libby_url": null
         },
         "Montgomery County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+        }
+      }
+    },
+    {
+      "title": "All Systems Red",
+      "author": "Martha Wells",
+      "reason": "With strong interest in science fiction titles like Leviathan Wakes, The Murderbot Diaries opener offers the same blend of action, sharp character voice, and social commentary they clearly enjoy.",
+      "cover": "https://covers.openlibrary.org/b/id/9157148-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 25,
+          "holds": 3,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-All%20Systems%20Red%20Martha%20Wells/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 9,
+          "holds": 1,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-All%20Systems%20Red%20Martha%20Wells/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 2,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-All%20Systems%20Red%20Martha%20Wells/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
+          "copies_available": 0,
+          "copies_owned": 22,
+          "holds": 32,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-All%20Systems%20Red%20Martha%20Wells/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 19,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-All%20Systems%20Red%20Martha%20Wells/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 5,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-All%20Systems%20Red%20Martha%20Wells/page-1"
         }
       }
     },
     {
       "title": "Mexican Gothic",
       "author": "Silvia Moreno-Garcia",
-      "reason": "Its atmospheric gothic horror set in mid-century Mexico matches their appetite for literary horror and historical fiction seen in picks like Silver Nitrate and The Terror.",
+      "reason": "Given their love of Silver Nitrate by the same author plus their broad appetite for gothic horror, atmospheric mystery, and historical fiction, this lush 1950s haunted-house thriller is an obvious next read.",
       "cover": "https://covers.openlibrary.org/b/id/10239163-M.jpg",
       "genres": [],
       "ebook_availability": {
@@ -53,7 +115,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 14,
+          "holds": 15,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
         },
@@ -61,7 +123,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 30,
+          "holds": 29,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
         },
@@ -79,15 +141,15 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 19,
+          "holds": 20,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 3,
-          "holds": 33,
+          "copies_owned": 4,
+          "holds": 32,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
         },
@@ -95,231 +157,116 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
         }
       }
     },
     {
-      "title": "The Sunken Land Begins to Rise Again",
-      "author": "M. John Harrison",
-      "reason": "This quiet, unsettling literary horror about dislocation and dread aligns with their taste for authors like Ian McEwan and Catriona Ward who blur genre and literary fiction.",
-      "cover": "https://covers.openlibrary.org/b/id/14322755-M.jpg",
+      "title": "The Hellfire Club",
+      "author": "Peter Straub",
+      "reason": "Given their interest in Last Days, In the Night Room, and The Talisman by Peter Straub, this earlier thriller blending literary horror with dark conspiracy will deepen their appreciation of his work.",
+      "cover": "https://covers.openlibrary.org/b/id/8271667-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Sunken%20Land%20Begins%20to%20Rise%20Again%20M.%20John%20Harrison/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Hellfire%20Club%20Peter%20Straub/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Sunken%20Land%20Begins%20to%20Rise%20Again%20M.%20John%20Harrison/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Hellfire%20Club%20Peter%20Straub/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Sunken%20Land%20Begins%20to%20Rise%20Again%20M.%20John%20Harrison/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Hellfire%20Club%20Peter%20Straub/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Sunken%20Land%20Begins%20to%20Rise%20Again%20M.%20John%20Harrison/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Hellfire%20Club%20Peter%20Straub/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Sunken%20Land%20Begins%20to%20Rise%20Again%20M.%20John%20Harrison/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Hellfire%20Club%20Peter%20Straub/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Sunken%20Land%20Begins%20to%20Rise%20Again%20M.%20John%20Harrison/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Hellfire%20Club%20Peter%20Straub/page-1"
         }
       }
     },
     {
-      "title": "The City & The City",
-      "author": "China Mi\u00e9ville",
-      "reason": "Its noir mystery layered over speculative world-building mirrors the genre-blending they love across picks like Titanium Noir, Rivers of London, and Jonathan Strange & Mr Norrell.",
-      "cover": "https://covers.openlibrary.org/b/id/8455453-M.jpg",
+      "title": "The Beautiful Thing That Awaits Us All",
+      "author": "Laird Barron",
+      "reason": "Fans of Stephen Graham Jones's Only Good Indians, Paul Tremblay's horror, and the cosmic dread found throughout their list will love Barron's visceral, Lovecraftian weird fiction short stories.",
+      "cover": "https://covers.openlibrary.org/b/id/8429017-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 3,
-          "holds": 3,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20City%20%26%20The%20City%20China%20Mi%C3%A9ville/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Beautiful%20Thing%20That%20Awaits%20Us%20All%20Laird%20Barron/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 10,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20City%20%26%20The%20City%20China%20Mi%C3%A9ville/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Beautiful%20Thing%20That%20Awaits%20Us%20All%20Laird%20Barron/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20City%20%26%20The%20City%20China%20Mi%C3%A9ville/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Beautiful%20Thing%20That%20Awaits%20Us%20All%20Laird%20Barron/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20City%20%26%20The%20City%20China%20Mi%C3%A9ville/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Beautiful%20Thing%20That%20Awaits%20Us%20All%20Laird%20Barron/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Beautiful%20Thing%20That%20Awaits%20Us%20All%20Laird%20Barron/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20City%20%26%20The%20City%20China%20Mi%C3%A9ville/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Beautiful%20Thing%20That%20Awaits%20Us%20All%20Laird%20Barron/page-1"
         }
       }
     },
     {
-      "title": "A Gentleman in Moscow",
-      "author": "Amor Towles",
-      "reason": "Its elegant, literary historical fiction with a confined setting and rich character study suits the taste for authors like Kate Atkinson and Ian McEwan evident throughout their list.",
-      "cover": "https://covers.openlibrary.org/b/id/11326818-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 82,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 2,
-          "copies_owned": 39,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 11,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 41,
-          "holds": 11,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 23,
-          "holds": 13,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 5,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
-        }
-      }
-    },
-    {
-      "title": "Plain Bad Heroines",
-      "author": "Emily M. Danforth",
-      "reason": "This dual-timeline gothic horror with literary ambition and queer themes matches their interest in books like Fingersmith, Our Wives Under the Sea, and The Terror.",
-      "cover": "https://covers.openlibrary.org/b/id/10332578-M.jpg",
+      "title": "The Little Stranger",
+      "author": "Sarah Waters",
+      "reason": "Given their enthusiasm for Tipping the Velvet and Fingersmith by Sarah Waters, plus their broad love of gothic horror and haunted-house fiction, this atmospheric postwar ghost story is a natural next read.",
+      "cover": "https://covers.openlibrary.org/b/id/6303287-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 3,
+          "copies_available": 2,
           "copies_owned": 5,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Plain%20Bad%20Heroines%20Emily%20M.%20Danforth/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "copies_available": 0,
           "copies_owned": 0,
-          "holds": 0,
+          "holds": 6,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Plain%20Bad%20Heroines%20Emily%20M.%20Danforth/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Plain%20Bad%20Heroines%20Emily%20M.%20Danforth/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 3,
-          "copies_owned": 7,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Plain%20Bad%20Heroines%20Emily%20M.%20Danforth/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 3,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Plain%20Bad%20Heroines%20Emily%20M.%20Danforth/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Plain%20Bad%20Heroines%20Emily%20M.%20Danforth/page-1"
-        }
-      }
-    },
-    {
-      "title": "The Actual Star",
-      "author": "Monica Byrne",
-      "reason": "Its sweeping multi-era speculative fiction with rich world-building and literary depth fits the taste for ambitious genre work seen in picks like Cloud Cuckoo Land and Hyperion.",
-      "cover": "https://covers.openlibrary.org/b/id/10615175-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Actual%20Star%20Monica%20Byrne/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Actual%20Star%20Monica%20Byrne/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
         },
         "Alexandria Public Library": {
           "available": true,
@@ -327,19 +274,25 @@
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Actual%20Star%20Monica%20Byrne/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Actual%20Star%20Monica%20Byrne/page-1"
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 4,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Actual%20Star%20Monica%20Byrne/page-1"
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 2,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
@@ -349,27 +302,24 @@
       }
     },
     {
-      "title": "She Who Became the Sun",
-      "author": "Shelley Parker-Chan",
-      "reason": "Its dark, literary historical fantasy with themes of identity and ambition complements their interest in authors like R.F. Kuang and books like Kaikeyi and The Poppy War.",
-      "cover": "https://covers.openlibrary.org/b/id/10609174-M.jpg",
+      "title": "Every Last One",
+      "author": "Anna Quindlen",
+      "reason": "Readers drawn to literary fiction about family fracture and grief, as seen in titles like The Most Fun We Ever Had and The Bee Sting, will find this devastating domestic thriller equally gripping and emotionally resonant.",
+      "cover": null,
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-She%20Who%20Became%20the%20Sun%20Shelley%20Parker-Chan/page-1"
-        },
-        "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 1,
-          "copies_owned": 2,
+          "copies_available": 2,
+          "copies_owned": 3,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-She%20Who%20Became%20the%20Sun%20Shelley%20Parker-Chan/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Every%20Last%20One%20Anna%20Quindlen/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Every%20Last%20One%20Anna%20Quindlen/page-1"
         },
         "Alexandria Public Library": {
           "available": true,
@@ -377,33 +327,65 @@
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-She%20Who%20Became%20the%20Sun%20Shelley%20Parker-Chan/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Every%20Last%20One%20Anna%20Quindlen/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 2,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-She%20Who%20Became%20the%20Sun%20Shelley%20Parker-Chan/page-1"
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
         },
         "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 3,
-          "copies_owned": 4,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-She%20Who%20Became%20the%20Sun%20Shelley%20Parker-Chan/page-1"
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Every%20Last%20One%20Anna%20Quindlen/page-1"
         },
         "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-She%20Who%20Became%20the%20Sun%20Shelley%20Parker-Chan/page-1"
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        }
+      }
+    },
+    {
+      "title": "Every Man Dies Alone",
+      "author": "Hans Fallada",
+      "reason": "With their appetite for historical fiction, wartime narratives, and morally serious literary novels evident across their list, this gripping account of quiet resistance in Nazi Germany will deeply satisfy.",
+      "cover": null,
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Every%20Man%20Dies%20Alone%20Hans%20Fallada/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Every%20Man%20Dies%20Alone%20Hans%20Fallada/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Every%20Man%20Dies%20Alone%20Hans%20Fallada/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Every%20Man%20Dies%20Alone%20Hans%20Fallada/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Every%20Man%20Dies%20Alone%20Hans%20Fallada/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Every%20Man%20Dies%20Alone%20Hans%20Fallada/page-1"
         }
       }
     }
