@@ -1,10 +1,54 @@
 {
-  "updated": "2026-09-20T22:26:46.979915Z",
+  "updated": "2026-09-21T23:14:23.107780Z",
   "recommendations": [
+    {
+      "title": "The Pale Blue Eye",
+      "author": "Louis Bayard",
+      "reason": "Fans of gothic historical fiction with mystery elements like 'The Terror' and 'We Have Always Lived in the Castle' will appreciate this dark, atmospheric murder investigation set at West Point in 1830.",
+      "cover": "https://covers.openlibrary.org/b/id/33360-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Pale%20Blue%20Eye%20Louis%20Bayard/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Pale%20Blue%20Eye%20Louis%20Bayard/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Pale%20Blue%20Eye%20Louis%20Bayard/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Pale%20Blue%20Eye%20Louis%20Bayard/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Pale%20Blue%20Eye%20Louis%20Bayard/page-1"
+        }
+      }
+    },
     {
       "title": "Mexican Gothic",
       "author": "Silvia Moreno-Garcia",
-      "reason": "Given their enthusiasm for gothic horror and literary fiction seen in titles like 'The Terror,' 'Rebecca,' and 'Silver Nitrate' (already read), this atmospheric horror novel set in 1950s Mexico would be a natural fit.",
+      "reason": "Given their love of atmospheric horror with literary depth as seen in their interest in 'Our Wives Under the Sea' and 'The September House', this lush gothic mystery set in 1950s Mexico should be a perfect fit.",
       "cover": "https://covers.openlibrary.org/b/id/10239163-M.jpg",
       "genres": [],
       "ebook_availability": {
@@ -12,7 +56,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 25,
+          "holds": 26,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
         },
@@ -46,7 +90,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 29,
+          "holds": 27,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
         },
@@ -54,60 +98,16 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 2,
-          "holds": 6,
+          "holds": 5,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
         }
       }
     },
     {
-      "title": "The October Country",
-      "author": "Ray Bradbury",
-      "reason": "Their fondness for dark, literary short fiction (Stephen Graham Jones, Shirley Jackson, Brian Lumley) and classic horror points strongly toward Bradbury's masterful collection of strange, melancholy tales.",
-      "cover": "https://covers.openlibrary.org/b/id/14828135-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20October%20Country%20Ray%20Bradbury/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20October%20Country%20Ray%20Bradbury/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 2,
-          "copies_owned": 3,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20October%20Country%20Ray%20Bradbury/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20October%20Country%20Ray%20Bradbury/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20October%20Country%20Ray%20Bradbury/page-1"
-        }
-      }
-    },
-    {
       "title": "A Gentleman in Moscow",
       "author": "Amor Towles",
-      "reason": "Their interest in rich historical literary fiction like 'Augustus,' 'Fingersmith,' and 'The Books of Jacob' suggests they would appreciate this elegantly written novel about a Russian count under house arrest.",
+      "reason": "Their fondness for literary historical fiction with rich prose, as seen with 'The Books of Jacob', 'Augustus', and 'Fingersmith', suggests they would love this elegant, character-driven novel set across decades in Soviet Russia.",
       "cover": "https://covers.openlibrary.org/b/id/11326818-M.jpg",
       "genres": [],
       "ebook_availability": {
@@ -123,7 +123,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 39,
-          "holds": 7,
+          "holds": 5,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         },
@@ -131,7 +131,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 11,
-          "holds": 0,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         }
@@ -141,7 +141,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 41,
-          "holds": 18,
+          "holds": 15,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         },
@@ -149,7 +149,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 23,
-          "holds": 17,
+          "holds": 16,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         },
@@ -164,9 +164,174 @@
       }
     },
     {
+      "title": "The Quiet American",
+      "author": "Graham Greene",
+      "reason": "Their interest in morally complex political fiction rooted in history, seen through titles like 'Imperium', 'Ghost Wars', and 'The Spy Who Came In From the Cold', aligns perfectly with Greene's taut, disillusioned Vietnam-era thriller.",
+      "cover": "https://covers.openlibrary.org/b/id/6783126-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 7,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Quiet%20American%20Graham%20Greene/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Quiet%20American%20Graham%20Greene/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 10,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Quiet%20American%20Graham%20Greene/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 5,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Quiet%20American%20Graham%20Greene/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Quiet%20American%20Graham%20Greene/page-1"
+        }
+      }
+    },
+    {
+      "title": "Authority",
+      "author": "Jeff VanderMeer",
+      "reason": "Their love of dystopian and ecological science fiction across titles like 'The Deluge' and 'Blue Skies', combined with having read 'Annihilation', makes this second Southern Reach novel a natural continuation.",
+      "cover": "https://covers.openlibrary.org/b/id/10526739-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 17,
+          "copies_owned": 20,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Authority%20Jeff%20VanderMeer/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": true,
+          "copies_available": 7,
+          "copies_owned": 9,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Authority%20Jeff%20VanderMeer/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Authority%20Jeff%20VanderMeer/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 0,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Authority%20Jeff%20VanderMeer/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 1,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Authority%20Jeff%20VanderMeer/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Authority%20Jeff%20VanderMeer/page-1"
+        }
+      }
+    },
+    {
+      "title": "The Little Stranger",
+      "author": "Sarah Waters",
+      "reason": "Their want-to-read list includes two Sarah Waters novels and several gothic horror titles like 'The Cormorant' and 'Dark Matter', making this chilling, ambiguous haunted-house story an ideal fit.",
+      "cover": "https://covers.openlibrary.org/b/id/6303287-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 3,
+          "copies_owned": 5,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 0,
+          "holds": 4,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 4,
+          "holds": 1,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 3,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        }
+      }
+    },
+    {
       "title": "The Raw Shark Texts",
       "author": "Steven Hall",
-      "reason": "Their taste for mind-bending, genre-blurring fiction \u2014 'House of Leaves,' 'Recursion,' 'How to Live Safely in a Science Fictional Universe' \u2014 makes this experimental thriller about a man hunting a conceptual shark a strong match.",
+      "reason": "Their taste for experimental, mind-bending fiction with horror undertones as seen through 'House of Leaves' and their interest in 'Cloud Cuckoo Land' and 'How to Live Safely in a Science Fictional Universe' points strongly toward this inventive conceptual thriller.",
       "cover": "https://covers.openlibrary.org/b/id/888852-M.jpg",
       "genres": [],
       "ebook_availability": {
@@ -208,65 +373,27 @@
       }
     },
     {
-      "title": "The Hearing Trumpet",
-      "author": "Leonora Carrington",
-      "reason": "Their appetite for surreal, literary fantasy like 'Little, Big' and 'The House of the Spirits' points toward this darkly comic, wildly imaginative novel about an elderly woman drawn into a bizarre occult conspiracy.",
-      "cover": "https://covers.openlibrary.org/b/id/5298904-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Hearing%20Trumpet%20Leonora%20Carrington/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Hearing%20Trumpet%20Leonora%20Carrington/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Hearing%20Trumpet%20Leonora%20Carrington/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Hearing%20Trumpet%20Leonora%20Carrington/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Hearing%20Trumpet%20Leonora%20Carrington/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Hearing%20Trumpet%20Leonora%20Carrington/page-1"
-        }
-      }
-    },
-    {
-      "title": "Something Wicked This Way Comes",
-      "author": "Ray Bradbury",
-      "reason": "Their love of dark fantasy and coming-of-age horror \u2014 'It,' 'We Have Always Lived in the Castle,' 'The Night Circus' \u2014 makes this classic about a sinister carnival arriving in a small town an ideal pick.",
-      "cover": "https://covers.openlibrary.org/b/id/9346340-M.jpg",
+      "title": "The Dispossessed",
+      "author": "Ursula K. Le Guin",
+      "reason": "Their broad appetite for literary science fiction with philosophical and political depth, seen across 'Parable of the Talents', 'The Deluge', and 'Bewilderment', makes this classic anarchist utopian novel a natural and richly rewarding fit.",
+      "cover": "https://covers.openlibrary.org/b/id/6979680-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 5,
-          "holds": 10,
+          "copies_owned": 1,
+          "holds": 19,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Something%20Wicked%20This%20Way%20Comes%20Ray%20Bradbury/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Something%20Wicked%20This%20Way%20Comes%20Ray%20Bradbury/page-1"
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 4,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
@@ -278,123 +405,26 @@
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 3,
-          "holds": 1,
+          "copies_owned": 4,
+          "holds": 19,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Something%20Wicked%20This%20Way%20Comes%20Ray%20Bradbury/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Something%20Wicked%20This%20Way%20Comes%20Ray%20Bradbury/page-1"
+          "copies_available": 0,
+          "copies_owned": 4,
+          "holds": 21,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 3,
+          "holds": 2,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Something%20Wicked%20This%20Way%20Comes%20Ray%20Bradbury/page-1"
-        }
-      }
-    },
-    {
-      "title": "Lost Souls",
-      "author": "Poppy Z. Brite",
-      "reason": "Their broad horror reading spanning King, Barker, Lumley, and Straub, combined with interest in dark literary fiction, suggests they would be drawn to this visceral, atmospheric Southern Gothic vampire novel.",
-      "cover": "https://covers.openlibrary.org/b/id/9109799-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Lost%20Souls%20Poppy%20Z.%20Brite/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Lost%20Souls%20Poppy%20Z.%20Brite/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Lost%20Souls%20Poppy%20Z.%20Brite/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Lost%20Souls%20Poppy%20Z.%20Brite/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Lost%20Souls%20Poppy%20Z.%20Brite/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Lost%20Souls%20Poppy%20Z.%20Brite/page-1"
-        }
-      }
-    },
-    {
-      "title": "Beloved",
-      "author": "Toni Morrison",
-      "reason": "Their interest in literary fiction with gothic, haunting, and historical dimensions \u2014 'The Color Purple,' 'The Poisonwood Bible,' 'The Terror' \u2014 makes this Pulitzer-winning ghost story about the trauma of slavery a natural next read.",
-      "cover": "https://covers.openlibrary.org/b/id/8261367-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Beloved%20Toni%20Morrison/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 58,
-          "copies_owned": 58,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Beloved%20Toni%20Morrison/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Beloved%20Toni%20Morrison/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 8,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Beloved%20Toni%20Morrison/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 8,
-          "holds": 51,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Beloved%20Toni%20Morrison/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 3,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Beloved%20Toni%20Morrison/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
         }
       }
     }
