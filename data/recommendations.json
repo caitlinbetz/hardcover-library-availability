@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-23T13:51:48.859689Z",
+  "updated": "2026-09-23T22:58:52.271232Z",
   "recommendations": [
     {
       "title": "Mexican Gothic",
       "author": "Silvia Moreno-Garcia",
-      "reason": "Given their love of Silver Nitrate and gothic horror authors like Shirley Jackson and Laura Purcell, this atmospheric haunted-house novel set in 1950s Mexico is a natural fit.",
+      "reason": "Their enjoyment of Silver Nitrate and Gothic horror classics like Rebecca and We Have Always Lived in the Castle points directly to this atmospheric 1950s Mexico haunted house thriller.",
       "cover": "https://covers.openlibrary.org/b/id/10239163-M.jpg",
       "genres": [],
       "ebook_availability": {
@@ -20,7 +20,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 4,
-          "holds": 33,
+          "holds": 34,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
         },
@@ -38,7 +38,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 7,
-          "holds": 26,
+          "holds": 28,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
         },
@@ -61,58 +61,223 @@
       }
     },
     {
-      "title": "The Book of the New Sun",
-      "author": "Gene Wolfe",
-      "reason": "Their interest in dense, literary genre fiction (Little, Big, Hyperion, The Way of Kings, Book of the New Sun's far-future dying-earth setting) makes this celebrated, unreliable-narrator science fantasy a compelling choice.",
-      "cover": "https://covers.openlibrary.org/b/id/11305529-M.jpg",
+      "title": "Plain Bad Heroines",
+      "author": "Emily M. Danforth",
+      "reason": "Their want-to-read list's strong pattern of literary horror with queer themes \u2014 Our Wives Under the Sea, Summer Sons, What Moves the Dead \u2014 makes this dual-timeline Gothic horror novel an obvious match.",
+      "cover": "https://covers.openlibrary.org/b/id/10332578-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 2,
+          "copies_owned": 5,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Plain%20Bad%20Heroines%20Emily%20M.%20Danforth/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 0,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Plain%20Bad%20Heroines%20Emily%20M.%20Danforth/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Plain%20Bad%20Heroines%20Emily%20M.%20Danforth/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 3,
+          "copies_owned": 7,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Plain%20Bad%20Heroines%20Emily%20M.%20Danforth/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 3,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Plain%20Bad%20Heroines%20Emily%20M.%20Danforth/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Plain%20Bad%20Heroines%20Emily%20M.%20Danforth/page-1"
+        }
+      }
+    },
+    {
+      "title": "The Signature of All Things",
+      "author": "Elizabeth Gilbert",
+      "reason": "The breadth of their list \u2014 Entangled Life, The Overstory, The Poisonwood Bible, Barbara Kingsolver's work \u2014 suggests strong appetite for richly researched literary fiction rooted in the natural world and science.",
+      "cover": "https://covers.openlibrary.org/b/id/7306050-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Signature%20of%20All%20Things%20Elizabeth%20Gilbert/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 2,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Signature%20of%20All%20Things%20Elizabeth%20Gilbert/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Signature%20of%20All%20Things%20Elizabeth%20Gilbert/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 5,
+          "copies_owned": 7,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Signature%20of%20All%20Things%20Elizabeth%20Gilbert/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Signature%20of%20All%20Things%20Elizabeth%20Gilbert/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Signature%20of%20All%20Things%20Elizabeth%20Gilbert/page-1"
+        }
+      }
+    },
+    {
+      "title": "The City & The City",
+      "author": "China Mi\u00e9ville",
+      "reason": "Their want-to-read list's recurring interest in noir mysteries embedded in speculative fiction \u2014 Titanium Noir, Slow Horses, Rivers of London, Bewilderment \u2014 maps perfectly onto Mi\u00e9ville's genre-bending detective novel set in two overlapping cities.",
+      "cover": "https://covers.openlibrary.org/b/id/8455453-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 3,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20City%20%26%20The%20City%20China%20Mi%C3%A9ville/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 13,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20City%20%26%20The%20City%20China%20Mi%C3%A9ville/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20City%20%26%20The%20City%20China%20Mi%C3%A9ville/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 7,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20City%20%26%20The%20City%20China%20Mi%C3%A9ville/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20City%20%26%20The%20City%20China%20Mi%C3%A9ville/page-1"
+        }
+      }
+    },
+    {
+      "title": "The Long Price Quartet",
+      "author": "Daniel Abraham",
+      "reason": "Their want-to-read titles like The Way of Kings, The Farseer Trilogy, and Gardens of the Moon show appetite for epic secondary-world fantasy with serious literary ambitions, which Abraham's politically intricate series delivers.",
+      "cover": "https://covers.openlibrary.org/b/id/8838023-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Long%20Price%20Quartet%20Daniel%20Abraham/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
+          "reason": "not_in_catalog",
+          "libby_url": null
         },
         "Alexandria Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Long%20Price%20Quartet%20Daniel%20Abraham/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Long%20Price%20Quartet%20Daniel%20Abraham/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Long%20Price%20Quartet%20Daniel%20Abraham/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Long%20Price%20Quartet%20Daniel%20Abraham/page-1"
         }
       }
     },
     {
       "title": "A Gentleman in Moscow",
       "author": "Amor Towles",
-      "reason": "The pattern of literary historical fiction on their list \u2014 Fingersmith, Augustus, The Books of Jacob, Lessons \u2014 suggests they would love this elegantly crafted novel about a Russian count under house arrest across decades of Soviet history.",
+      "reason": "Their interest in richly observed literary fiction spanning history \u2014 The Books of Jacob, Augustus, The Poisonwood Bible, Fingersmith \u2014 makes this elegantly crafted novel about a Russian count under house arrest a natural fit.",
       "cover": "https://covers.openlibrary.org/b/id/11326818-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 14,
+          "copies_available": 15,
           "copies_owned": 82,
-          "holds": 0,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         },
@@ -146,7 +311,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 23,
-          "holds": 14,
+          "holds": 13,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         },
@@ -161,9 +326,59 @@
       }
     },
     {
+      "title": "An Unkindness of Ghosts",
+      "author": "Rivers Solomon",
+      "reason": "Their interest in literary speculative fiction with social and political weight \u2014 Parable of the Talents, Chain-Gang All-Stars, Wild Seed \u2014 makes this haunting generation-ship novel exploring race and power a strong match.",
+      "cover": "https://covers.openlibrary.org/b/id/14368165-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 7,
+          "copies_owned": 7,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-An%20Unkindness%20of%20Ghosts%20Rivers%20Solomon/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": true,
+          "copies_available": 3,
+          "copies_owned": 4,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-An%20Unkindness%20of%20Ghosts%20Rivers%20Solomon/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-An%20Unkindness%20of%20Ghosts%20Rivers%20Solomon/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        }
+      }
+    },
+    {
       "title": "The Elementals",
       "author": "Michael McDowell",
-      "reason": "Their strong appetite for classic and literary horror (We Have Always Lived in the Castle, The Haunting of Hill House, Dark Matter, The Cormorant) points directly to this underseen Southern Gothic horror novel often cited alongside Jackson as essential.",
+      "reason": "Their want-to-read list's deep investment in literary Southern Gothic horror \u2014 The Terror, Last Days, Mr. Shivers, The Cormorant \u2014 points directly to McDowell's slow-burn atmospheric horror set on the Alabama coast.",
       "cover": "https://covers.openlibrary.org/b/id/9341153-M.jpg",
       "genres": [],
       "ebook_availability": {
@@ -171,7 +386,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 3,
-          "holds": 2,
+          "holds": 1,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Elementals%20Michael%20McDowell/page-1"
         },
@@ -201,209 +416,6 @@
           "available": false,
           "reason": "no_isbn",
           "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Elementals%20Michael%20McDowell/page-1"
-        }
-      }
-    },
-    {
-      "title": "The Raw Shark Texts",
-      "author": "Steven Hall",
-      "reason": "Readers drawn to House of Leaves, Cloud Cuckoo Land, and experimental literary fiction with genre elements will find this formally inventive novel \u2014 in which a man is hunted by a conceptual shark that moves through meaning rather than water \u2014 irresistible.",
-      "cover": "https://covers.openlibrary.org/b/id/888852-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-        }
-      }
-    },
-    {
-      "title": "Melmoth",
-      "author": "Sarah Perry",
-      "reason": "Their taste for gothic literary horror with classical roots (The Monk, We Have Always Lived in the Castle, Shirley Jackson) aligns well with this dark, brooding novel about a guilt-haunted witness figure drawn from the Melmoth the Wanderer tradition.",
-      "cover": "https://covers.openlibrary.org/b/id/12033123-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 2,
-          "copies_owned": 7,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Melmoth%20Sarah%20Perry/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 2,
-          "copies_owned": 3,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Melmoth%20Sarah%20Perry/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Melmoth%20Sarah%20Perry/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Melmoth%20Sarah%20Perry/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Melmoth%20Sarah%20Perry/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Melmoth%20Sarah%20Perry/page-1"
-        }
-      }
-    },
-    {
-      "title": "The Sparsholt Affair",
-      "author": "Alan Hollinghurst",
-      "reason": "Given their interest in literary fiction spanning decades and generations (The Most Fun We Ever Had, Lessons, The Books of Jacob), this quietly devastating novel tracing secrets across English social history from the 1940s onward is a strong fit.",
-      "cover": "https://covers.openlibrary.org/b/id/10157534-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Sparsholt%20Affair%20Alan%20Hollinghurst/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Sparsholt%20Affair%20Alan%20Hollinghurst/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Sparsholt%20Affair%20Alan%20Hollinghurst/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Sparsholt%20Affair%20Alan%20Hollinghurst/page-1"
-        }
-      }
-    },
-    {
-      "title": "The Children of Men",
-      "author": "P.D. James",
-      "reason": "Their appetite for dystopian literary fiction with dark, unflinching premises (Parable of the Sower, The Road, Chain-Gang All-Stars, The Deluge) makes this bleak, beautifully written novel about a near-future England facing human extinction a natural next read.",
-      "cover": null,
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Children%20of%20Men%20P.D.%20James/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 2,
-          "copies_owned": 2,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Children%20of%20Men%20P.D.%20James/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 1,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Children%20of%20Men%20P.D.%20James/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Children%20of%20Men%20P.D.%20James/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
         }
       }
     }
