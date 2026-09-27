@@ -1,147 +1,205 @@
 {
-  "updated": "2026-09-25T13:57:16.989532Z",
+  "updated": "2026-09-27T14:10:52.134463Z",
   "recommendations": [
     {
-      "title": "The Little Stranger",
-      "author": "Sarah Waters",
-      "reason": "Given their interest in Waters' Tipping the Velvet and Fingersmith, plus a strong appetite for atmospheric horror like The Haunting of Hill House and Dark Matter, this gothic ghost story is a natural fit.",
-      "cover": "https://covers.openlibrary.org/b/id/6303287-M.jpg",
+      "title": "The Elementals",
+      "author": "Michael McDowell",
+      "reason": "Their love of Southern Gothic horror (Cottonmouths, Blacktop Wasteland, Stephen King) and classic atmospheric dread (We Have Always Lived in the Castle, The Haunting of Hill House) makes this slow-burn Southern haunting a natural fit.",
+      "cover": "https://covers.openlibrary.org/b/id/9341153-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 3,
-          "copies_owned": 5,
-          "holds": 0,
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 1,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Elementals%20Michael%20McDowell/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 0,
-          "holds": 4,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Elementals%20Michael%20McDowell/page-1"
         },
         "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Elementals%20Michael%20McDowell/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 4,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 4,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
-        },
-        "Alexandria Public Library": {
           "available": false,
           "reason": "not_in_catalog",
           "libby_url": null
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Elementals%20Michael%20McDowell/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Elementals%20Michael%20McDowell/page-1"
         }
       }
     },
     {
-      "title": "Mexican Gothic",
-      "author": "Silvia Moreno-Garcia",
-      "reason": "Given their enjoyment of Silver Nitrate and their extensive appetite for gothic horror blending literary fiction with dark atmosphere, as seen throughout their list, this is a clear recommendation.",
-      "cover": "https://covers.openlibrary.org/b/id/10239163-M.jpg",
+      "title": "The Raw Shark Texts",
+      "author": "Steven Hall",
+      "reason": "Their interest in metafictional, mind-bending narratives (House of Leaves, How to Live Safely in a Science Fictional Universe, The Magus) and genre-blending literary fiction points directly to this conceptually dazzling thriller.",
+      "cover": "https://covers.openlibrary.org/b/id/888852-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 7,
-          "holds": 30,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          "reason": "not_in_catalog",
+          "libby_url": null
         },
         "Montgomery County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 35,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 6,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 7,
-          "holds": 27,
+          "copies_owned": 1,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 27,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 7,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
+        }
+      }
+    },
+    {
+      "title": "Riddley Walker",
+      "author": "Russell Hoban",
+      "reason": "Their appetite for bleak, literary post-apocalyptic fiction (The Road, Parable of the Sower, The Deluge) and challenging modernist classics (Absalom, Absalom!, Infinite Jest) makes this post-nuclear masterpiece an ideal match.",
+      "cover": "https://covers.openlibrary.org/b/id/8510440-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Riddley%20Walker%20Russell%20Hoban/page-1"
+        }
+      }
+    },
+    {
+      "title": "The Mysteries of Pittsburgh",
+      "author": "Michael Chabon",
+      "reason": "Their recurring interest in coming-of-age literary fiction (The Immortalists, Among Others, Skippy Dies, Franny and Zooey) and character-driven narratives about youth and identity makes this debut a strong fit.",
+      "cover": "https://covers.openlibrary.org/b/id/8346701-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 3,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Mysteries%20of%20Pittsburgh%20Michael%20Chabon/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Mysteries%20of%20Pittsburgh%20Michael%20Chabon/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Mysteries%20of%20Pittsburgh%20Michael%20Chabon/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Mysteries%20of%20Pittsburgh%20Michael%20Chabon/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Mysteries%20of%20Pittsburgh%20Michael%20Chabon/page-1"
         }
       }
     },
     {
       "title": "A Gentleman in Moscow",
       "author": "Amor Towles",
-      "reason": "Their interest in literary historical fiction spanning Fingersmith, The Marriage Portrait, and The Books of Jacob, combined with a taste for richly atmospheric character studies, aligns perfectly with Towles's celebrated novel.",
+      "reason": "Their enjoyment of sprawling, literary historical fiction with rich atmosphere (The Books of Jacob, The Thousand Autumns of Jacob de Zoet, Augustus) and character depth aligns closely with this acclaimed novel.",
       "cover": "https://covers.openlibrary.org/b/id/11326818-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": true,
-          "copies_available": 12,
+          "copies_available": 5,
           "copies_owned": 82,
-          "holds": 1,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         },
         "Montgomery County Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 5,
           "copies_owned": 39,
-          "holds": 4,
+          "holds": 0,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         },
         "Alexandria Public Library": {
           "available": true,
-          "copies_available": 2,
+          "copies_available": 4,
           "copies_owned": 11,
           "holds": 0,
           "reason": "ok",
@@ -153,7 +211,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 41,
-          "holds": 12,
+          "holds": 16,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         },
@@ -161,7 +219,7 @@
           "available": false,
           "copies_available": 0,
           "copies_owned": 23,
-          "holds": 14,
+          "holds": 15,
           "reason": "ok",
           "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
         },
@@ -176,246 +234,140 @@
       }
     },
     {
-      "title": "The Long Way to a Small, Angry Planet",
-      "author": "Becky Chambers",
-      "reason": "Their broad appetite for humane, character-driven science fiction from Butler, Leviathan Wakes, and Hyperion makes this warmly written found-family space opera a strong match.",
-      "cover": "https://covers.openlibrary.org/b/id/8902659-M.jpg",
+      "title": "The Helliconia Trilogy",
+      "author": "Brian W. Aldiss",
+      "reason": "They have Hothouse by Aldiss on their want-to-read list and show a strong appetite for ambitious, world-building science fiction (Hyperion, Leviathan Wakes, The Way of Kings), making Aldiss's epic planetary saga a natural escalation.",
+      "cover": "https://covers.openlibrary.org/b/id/8460522-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 6,
-          "holds": 18,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Long%20Way%20to%20a%20Small%2C%20Angry%20Planet%20Becky%20Chambers/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
         },
         "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 47,
-          "copies_owned": 47,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Long%20Way%20to%20a%20Small%2C%20Angry%20Planet%20Becky%20Chambers/page-1"
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 0,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Long%20Way%20to%20a%20Small%2C%20Angry%20Planet%20Becky%20Chambers/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 7,
-          "holds": 23,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Long%20Way%20to%20a%20Small%2C%20Angry%20Planet%20Becky%20Chambers/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
         },
         "Montgomery County Public Library": {
-          "available": true,
-          "copies_available": 1,
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Helliconia%20Trilogy%20Brian%20W.%20Aldiss/page-1"
+        }
+      }
+    },
+    {
+      "title": "The Golem and the Jinni",
+      "author": "Helene Wecker",
+      "reason": "Their taste for richly atmospheric literary fantasy grounded in history (The House of the Spirits, The Thousand Autumns of Jacob de Zoet, Kaikeyi) makes this character-driven immigrant fantasy a natural recommendation.",
+      "cover": "https://covers.openlibrary.org/b/id/7267388-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
           "copies_owned": 5,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Long%20Way%20to%20a%20Small%2C%20Angry%20Planet%20Becky%20Chambers/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Golem%20and%20the%20Jinni%20Helene%20Wecker/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
         },
         "Alexandria Public Library": {
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 1,
+          "holds": 2,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Long%20Way%20to%20a%20Small%2C%20Angry%20Planet%20Becky%20Chambers/page-1"
-        }
-      }
-    },
-    {
-      "title": "Helliconia Spring",
-      "author": "Brian W. Aldiss",
-      "reason": "Their interest in Aldiss's Hothouse, combined with a broad appetite for sweeping science fiction like Hyperion and Dune, makes this epic planetary saga a strong match.",
-      "cover": "https://covers.openlibrary.org/b/id/5331312-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Helliconia%20Spring%20Brian%20W.%20Aldiss/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Helliconia%20Spring%20Brian%20W.%20Aldiss/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Helliconia%20Spring%20Brian%20W.%20Aldiss/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Helliconia%20Spring%20Brian%20W.%20Aldiss/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Helliconia%20Spring%20Brian%20W.%20Aldiss/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Helliconia%20Spring%20Brian%20W.%20Aldiss/page-1"
-        }
-      }
-    },
-    {
-      "title": "The Word Exchange",
-      "author": "Alena Graedon",
-      "reason": "Their fondness for dystopian literary fiction like The Circle and Station Eleven, combined with interest in language and technology as seen across their list, makes this near-future thriller about the death of language a compelling pick.",
-      "cover": "https://covers.openlibrary.org/b/id/8119084-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Word%20Exchange%20Alena%20Graedon/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Word%20Exchange%20Alena%20Graedon/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Golem%20and%20the%20Jinni%20Helene%20Wecker/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
           "copies_available": 1,
-          "copies_owned": 1,
+          "copies_owned": 4,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Word%20Exchange%20Alena%20Graedon/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Golem%20and%20the%20Jinni%20Helene%20Wecker/page-1"
         },
         "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Word%20Exchange%20Alena%20Graedon/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        }
-      }
-    },
-    {
-      "title": "The Dispossessed",
-      "author": "Ursula K. Le Guin",
-      "reason": "Their deep engagement with literary science fiction from Butler, Hyperion, and Solaris, plus recurring interest in philosophy and social structures, aligns perfectly with Le Guin's classic novel of utopia and anarchism.",
-      "cover": "https://covers.openlibrary.org/b/id/6979680-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 19,
+          "available": true,
+          "copies_available": 3,
+          "copies_owned": 6,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 3,
-          "holds": 4,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 18,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 20,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Golem%20and%20the%20Jinni%20Helene%20Wecker/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 1,
+          "holds": 3,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Golem%20and%20the%20Jinni%20Helene%20Wecker/page-1"
         }
       }
     },
     {
-      "title": "Malafrena",
-      "author": "Ursula K. Le Guin",
-      "reason": "Their taste for richly layered historical and literary fiction like The Books of Jacob and Augustus, alongside admiration for speculative literary authors, makes this lesser-known Le Guin historical novel an ideal discovery.",
-      "cover": "https://covers.openlibrary.org/b/id/4395792-M.jpg",
+      "title": "The Book of the New Sun",
+      "author": "Gene Wolfe",
+      "reason": "Their appreciation for dense, layered speculative fiction with unreliable narrators (House of Leaves, Hyperion, Little, Big) and ambitious world-building makes Wolfe's far-future masterwork a compelling next step.",
+      "cover": "https://covers.openlibrary.org/b/id/11305529-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Malafrena%20Ursula%20K.%20Le%20Guin/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Malafrena%20Ursula%20K.%20Le%20Guin/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Malafrena%20Ursula%20K.%20Le%20Guin/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Malafrena%20Ursula%20K.%20Le%20Guin/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Malafrena%20Ursula%20K.%20Le%20Guin/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Malafrena%20Ursula%20K.%20Le%20Guin/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Book%20of%20the%20New%20Sun%20Gene%20Wolfe/page-1"
         }
       }
     }
