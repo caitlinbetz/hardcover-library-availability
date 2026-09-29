@@ -1,10 +1,128 @@
 {
-  "updated": "2026-09-29T14:52:27.289970Z",
+  "updated": "2026-09-29T23:55:44.753546Z",
   "recommendations": [
+    {
+      "title": "Mexican Gothic",
+      "author": "Silvia Moreno-Garcia",
+      "reason": "Their want-to-read list is full of gothic horror and dark fantasy titles like The Terror, The Cormorant, and Our Wives Under the Sea, and this atmospheric, literary horror novel would match that sensibility perfectly.",
+      "cover": "https://covers.openlibrary.org/b/id/10239163-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 7,
+          "holds": 29,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 4,
+          "holds": 36,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 6,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 7,
+          "holds": 29,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 4,
+          "holds": 28,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 2,
+          "holds": 6,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+        }
+      }
+    },
+    {
+      "title": "A Gentleman in Moscow",
+      "author": "Amor Towles",
+      "reason": "Their broad taste for literary historical fiction spanning authors like David Mitchell, Olga Tokarczuk, and Ken Follett suggests they would appreciate this elegantly constructed, character-driven novel set in Soviet Russia.",
+      "cover": "https://covers.openlibrary.org/b/id/11326818-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 12,
+          "copies_owned": 82,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 39,
+          "holds": 5,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 11,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 41,
+          "holds": 16,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 23,
+          "holds": 10,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 4,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
+        }
+      }
+    },
     {
       "title": "The Elementals",
       "author": "Michael McDowell",
-      "reason": "Fans of Southern Gothic horror like Cottonmouths and The Terror will find McDowell's atmospheric, slow-burn dread set along the Alabama Gulf Coast deeply compelling.",
+      "reason": "Their want-to-read list heavily features Southern Gothic and literary horror like The Cormorant, Mr. Shivers, and Dolores Claiborne, and this deeply unsettling Southern horror novel fits that exact niche.",
       "cover": "https://covers.openlibrary.org/b/id/9341153-M.jpg",
       "genres": [],
       "ebook_availability": {
@@ -46,41 +164,21 @@
       }
     },
     {
-      "title": "The Scar",
-      "author": "China Mi\u00e9ville",
-      "reason": "Given their love of sprawling, imaginative fantasy like Jonathan Strange & Mr Norrell and The Way of Kings, Mi\u00e9ville's weird-fiction nautical epic offers similarly ambitious worldbuilding with literary depth.",
-      "cover": "https://covers.openlibrary.org/b/id/210923-M.jpg",
+      "title": "The Word Exchange",
+      "author": "Alena Graedon",
+      "reason": "Their dystopian science fiction interests combined with their literary bent seen in titles like The Circle, The Pale King, and Cloud Cuckoo Land makes this linguistically obsessed near-future thriller a strong fit.",
+      "cover": "https://covers.openlibrary.org/b/id/8119084-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Scar%20China%20Mi%C3%A9ville/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
           "reason": "not_in_catalog",
           "libby_url": null
         },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Scar%20China%20Mi%C3%A9ville/page-1"
-        },
         "Montgomery County Public Library": {
           "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 2,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Scar%20China%20Mi%C3%A9ville/page-1"
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Word%20Exchange%20Alena%20Graedon/page-1"
         },
         "Alexandria Public Library": {
           "available": true,
@@ -88,205 +186,34 @@
           "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Scar%20China%20Mi%C3%A9ville/page-1"
-        }
-      }
-    },
-    {
-      "title": "Mexican Gothic",
-      "author": "Silvia Moreno-Garcia",
-      "reason": "Their taste for atmospheric horror with literary ambition\u2014seen in Our Wives Under the Sea, The Terror, and Silver Nitrate\u2014maps perfectly onto this lush, unsettling Gothic novel set in 1950s Mexico.",
-      "cover": "https://covers.openlibrary.org/b/id/10239163-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 7,
-          "holds": 29,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 35,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 6,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 7,
-          "holds": 28,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 4,
-          "holds": 28,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 2,
-          "holds": 6,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
-        }
-      }
-    },
-    {
-      "title": "The Raw Shark Texts",
-      "author": "Steven Hall",
-      "reason": "Readers drawn to formally inventive, reality-bending fiction like House of Leaves and How to Live Safely in a Science Fictional Universe will be captivated by this postmodern thriller about identity and conceptual predators.",
-      "cover": "https://covers.openlibrary.org/b/id/888852-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "copies_available": 0,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Raw%20Shark%20Texts%20Steven%20Hall/page-1"
-        }
-      }
-    },
-    {
-      "title": "Brother",
-      "author": "David Chariandy",
-      "reason": "Given their interest in literary fiction exploring race, community, and loss\u2014seen through The Fishermen, Bluebird Bluebird, and The Nickel Boys\u2014this spare, devastating Canadian novel will resonate powerfully.",
-      "cover": "https://covers.openlibrary.org/b/id/8507755-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": true,
-          "copies_available": 1,
-          "copies_owned": 1,
-          "holds": 0,
-          "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Brother%20David%20Chariandy/page-1"
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Brother%20David%20Chariandy/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Brother%20David%20Chariandy/page-1"
-        }
-      },
-      "audio_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Brother%20David%20Chariandy/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Brother%20David%20Chariandy/page-1"
-        }
-      }
-    },
-    {
-      "title": "The Grip of It",
-      "author": "Jac Jemc",
-      "reason": "Their fondness for literary haunted-house horror like The Haunting of Hill House, We Have Always Lived in the Castle, and The September House makes this psychologically fractured, formally inventive novel a strong match.",
-      "cover": "https://covers.openlibrary.org/b/id/8447401-M.jpg",
-      "genres": [],
-      "ebook_availability": {
-        "Fairfax County Public Library": {
-          "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
-        },
-        "Montgomery County Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
-        },
-        "Alexandria Public Library": {
-          "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Word%20Exchange%20Alena%20Graedon/page-1"
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": true,
           "copies_available": 1,
-          "copies_owned": 2,
+          "copies_owned": 1,
           "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Word%20Exchange%20Alena%20Graedon/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Word%20Exchange%20Alena%20Graedon/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "reason": "no_isbn",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Grip%20of%20It%20Jac%20Jemc/page-1"
+          "reason": "not_in_catalog",
+          "libby_url": null
         }
       }
     },
     {
       "title": "The Book of the New Sun",
       "author": "Gene Wolfe",
-      "reason": "Their appetite for dense, literary genre fiction\u2014spanning Hyperion, Jonathan Strange & Mr Norrell, and The Way of Kings\u2014makes Wolfe's unreliable-narrator far-future fantasy a natural and rewarding next step.",
+      "reason": "Their want-to-read list includes ambitious, layered speculative works like Hyperion, Leviathan Wakes, and Little Big, and this densely literary, genre-defying science fantasy series sits at exactly that intersection.",
       "cover": "https://covers.openlibrary.org/b/id/11305529-M.jpg",
       "genres": [],
       "ebook_availability": {
@@ -325,58 +252,158 @@
       }
     },
     {
-      "title": "My Year of Rest and Relaxation",
-      "author": "Ottessa Moshfegh",
-      "reason": "Their interest in dark, uncomfortable literary fiction exploring alienation\u2014seen through Luster, The Bell Jar, and Nightwood\u2014aligns well with Moshfegh's provocative, deadpan portrait of self-imposed numbness.",
-      "cover": "https://covers.openlibrary.org/b/id/8202400-M.jpg",
+      "title": "Ghostly: A Collection of Ghost Stories",
+      "author": "Audrey Niffenegger",
+      "reason": "Their want-to-read list is rich with horror short fiction and dark fantasy anthologies like The Ones That Got Away and Bloodchild and Other Stories, and this curated ghost story collection matches that appetite perfectly.",
+      "cover": "https://covers.openlibrary.org/b/id/8685867-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Ghostly%3A%20A%20Collection%20of%20Ghost%20Stories%20Audrey%20Niffenegger/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Ghostly%3A%20A%20Collection%20of%20Ghost%20Stories%20Audrey%20Niffenegger/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Ghostly%3A%20A%20Collection%20of%20Ghost%20Stories%20Audrey%20Niffenegger/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Ghostly%3A%20A%20Collection%20of%20Ghost%20Stories%20Audrey%20Niffenegger/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Ghostly%3A%20A%20Collection%20of%20Ghost%20Stories%20Audrey%20Niffenegger/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "no_isbn",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Ghostly%3A%20A%20Collection%20of%20Ghost%20Stories%20Audrey%20Niffenegger/page-1"
+        }
+      }
+    },
+    {
+      "title": "Faithful Place",
+      "author": "Tana French",
+      "reason": "Given their deep interest in atmospheric literary crime fiction seen across their list and their already-read Tana French titles like In the Woods and Broken Harbor, this psychologically rich Dublin Murder Squad entry would be a natural continuation.",
+      "cover": "https://covers.openlibrary.org/b/id/8372232-M.jpg",
       "genres": [],
       "ebook_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 7,
-          "holds": 14,
+          "copies_owned": 6,
+          "holds": 1,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-My%20Year%20of%20Rest%20and%20Relaxation%20Ottessa%20Moshfegh/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Faithful%20Place%20Tana%20French/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 12,
-          "holds": 4,
+          "copies_owned": 5,
+          "holds": 1,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-My%20Year%20of%20Rest%20and%20Relaxation%20Ottessa%20Moshfegh/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Faithful%20Place%20Tana%20French/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
           "copies_available": 0,
           "copies_owned": 1,
-          "holds": 6,
+          "holds": 0,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/alexandria/search/query-My%20Year%20of%20Rest%20and%20Relaxation%20Ottessa%20Moshfegh/page-1"
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Faithful%20Place%20Tana%20French/page-1"
+        }
+      },
+      "audio_availability": {
+        "Fairfax County Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 6,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-Faithful%20Place%20Tana%20French/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 5,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Faithful%20Place%20Tana%20French/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": true,
+          "copies_available": 1,
+          "copies_owned": 1,
+          "holds": 0,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-Faithful%20Place%20Tana%20French/page-1"
+        }
+      }
+    },
+    {
+      "title": "The Dispossessed",
+      "author": "Ursula K. Le Guin",
+      "reason": "Their sustained interest in socially conscious literary science fiction from Octavia Butler, Dan Simmons, and James S.A. Corey makes this foundational Le Guin novel exploring anarchism and utopia an ideal fit.",
+      "cover": "https://covers.openlibrary.org/b/id/6979680-M.jpg",
+      "genres": [],
+      "ebook_availability": {
+        "Fairfax County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 19,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
+        },
+        "Montgomery County Public Library": {
+          "available": false,
+          "copies_available": 0,
+          "copies_owned": 3,
+          "holds": 3,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
+        },
+        "Alexandria Public Library": {
+          "available": false,
+          "reason": "not_in_catalog",
+          "libby_url": null
         }
       },
       "audio_availability": {
         "Fairfax County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 7,
-          "holds": 34,
+          "copies_owned": 4,
+          "holds": 16,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/fairfax/search/query-My%20Year%20of%20Rest%20and%20Relaxation%20Ottessa%20Moshfegh/page-1"
+          "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
         },
         "Montgomery County Public Library": {
           "available": false,
           "copies_available": 0,
-          "copies_owned": 5,
-          "holds": 11,
+          "copies_owned": 4,
+          "holds": 18,
           "reason": "ok",
-          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-My%20Year%20of%20Rest%20and%20Relaxation%20Ottessa%20Moshfegh/page-1"
+          "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
         },
         "Alexandria Public Library": {
           "available": false,
-          "reason": "not_in_catalog",
-          "libby_url": null
+          "copies_available": 0,
+          "copies_owned": 1,
+          "holds": 2,
+          "reason": "ok",
+          "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
         }
       }
     }
