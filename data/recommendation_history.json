@@ -1,428 +1,5 @@
 [
   {
-    "run_at": "2026-09-26T23:00:04.481580+00:00",
-    "recommendations": [
-      {
-        "title": "The Little Stranger",
-        "author": "Sarah Waters",
-        "reason": "Given their interest in Waters' Tipping the Velvet and Fingersmith, plus a strong appetite for atmospheric horror like The Haunting of Hill House and Dark Matter, this gothic ghost story is a natural fit.",
-        "cover": "https://covers.openlibrary.org/b/id/6303287-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": true,
-            "copies_available": 3,
-            "copies_owned": 5,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 0,
-            "holds": 4,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": true,
-            "copies_available": 1,
-            "copies_owned": 1,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": true,
-            "copies_available": 1,
-            "copies_owned": 4,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 2,
-            "holds": 4,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Little%20Stranger%20Sarah%20Waters/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          }
-        }
-      },
-      {
-        "title": "Mexican Gothic",
-        "author": "Silvia Moreno-Garcia",
-        "reason": "Given their enjoyment of Silver Nitrate and their extensive appetite for gothic horror blending literary fiction with dark atmosphere, as seen throughout their list, this is a clear recommendation.",
-        "cover": "https://covers.openlibrary.org/b/id/10239163-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 7,
-            "holds": 30,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 4,
-            "holds": 35,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 1,
-            "holds": 6,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 7,
-            "holds": 27,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 4,
-            "holds": 27,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 2,
-            "holds": 7,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
-          }
-        }
-      },
-      {
-        "title": "A Gentleman in Moscow",
-        "author": "Amor Towles",
-        "reason": "Their interest in literary historical fiction spanning Fingersmith, The Marriage Portrait, and The Books of Jacob, combined with a taste for richly atmospheric character studies, aligns perfectly with Towles's celebrated novel.",
-        "cover": "https://covers.openlibrary.org/b/id/11326818-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": true,
-            "copies_available": 12,
-            "copies_owned": 82,
-            "holds": 1,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": true,
-            "copies_available": 2,
-            "copies_owned": 39,
-            "holds": 4,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": true,
-            "copies_available": 2,
-            "copies_owned": 11,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 41,
-            "holds": 12,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 23,
-            "holds": 14,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 4,
-            "holds": 1,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-A%20Gentleman%20in%20Moscow%20Amor%20Towles/page-1"
-          }
-        }
-      },
-      {
-        "title": "The Long Way to a Small, Angry Planet",
-        "author": "Becky Chambers",
-        "reason": "Their broad appetite for humane, character-driven science fiction from Butler, Leviathan Wakes, and Hyperion makes this warmly written found-family space opera a strong match.",
-        "cover": "https://covers.openlibrary.org/b/id/8902659-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 6,
-            "holds": 18,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Long%20Way%20to%20a%20Small%2C%20Angry%20Planet%20Becky%20Chambers/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": true,
-            "copies_available": 47,
-            "copies_owned": 47,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Long%20Way%20to%20a%20Small%2C%20Angry%20Planet%20Becky%20Chambers/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 0,
-            "holds": 2,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Long%20Way%20to%20a%20Small%2C%20Angry%20Planet%20Becky%20Chambers/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 7,
-            "holds": 23,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Long%20Way%20to%20a%20Small%2C%20Angry%20Planet%20Becky%20Chambers/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": true,
-            "copies_available": 1,
-            "copies_owned": 5,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Long%20Way%20to%20a%20Small%2C%20Angry%20Planet%20Becky%20Chambers/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 1,
-            "holds": 1,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Long%20Way%20to%20a%20Small%2C%20Angry%20Planet%20Becky%20Chambers/page-1"
-          }
-        }
-      },
-      {
-        "title": "Helliconia Spring",
-        "author": "Brian W. Aldiss",
-        "reason": "Their interest in Aldiss's Hothouse, combined with a broad appetite for sweeping science fiction like Hyperion and Dune, makes this epic planetary saga a strong match.",
-        "cover": "https://covers.openlibrary.org/b/id/5331312-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Helliconia%20Spring%20Brian%20W.%20Aldiss/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Helliconia%20Spring%20Brian%20W.%20Aldiss/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Helliconia%20Spring%20Brian%20W.%20Aldiss/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Helliconia%20Spring%20Brian%20W.%20Aldiss/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Helliconia%20Spring%20Brian%20W.%20Aldiss/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Helliconia%20Spring%20Brian%20W.%20Aldiss/page-1"
-          }
-        }
-      },
-      {
-        "title": "The Word Exchange",
-        "author": "Alena Graedon",
-        "reason": "Their fondness for dystopian literary fiction like The Circle and Station Eleven, combined with interest in language and technology as seen across their list, makes this near-future thriller about the death of language a compelling pick.",
-        "cover": "https://covers.openlibrary.org/b/id/8119084-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Word%20Exchange%20Alena%20Graedon/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": true,
-            "copies_available": 1,
-            "copies_owned": 1,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Word%20Exchange%20Alena%20Graedon/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": true,
-            "copies_available": 1,
-            "copies_owned": 1,
-            "holds": 0,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Word%20Exchange%20Alena%20Graedon/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Word%20Exchange%20Alena%20Graedon/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          }
-        }
-      },
-      {
-        "title": "The Dispossessed",
-        "author": "Ursula K. Le Guin",
-        "reason": "Their deep engagement with literary science fiction from Butler, Hyperion, and Solaris, plus recurring interest in philosophy and social structures, aligns perfectly with Le Guin's classic novel of utopia and anarchism.",
-        "cover": "https://covers.openlibrary.org/b/id/6979680-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 1,
-            "holds": 19,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 3,
-            "holds": 4,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "not_in_catalog",
-            "libby_url": null
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 4,
-            "holds": 18,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 4,
-            "holds": 20,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "copies_available": 0,
-            "copies_owned": 1,
-            "holds": 1,
-            "reason": "ok",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Dispossessed%20Ursula%20K.%20Le%20Guin/page-1"
-          }
-        }
-      },
-      {
-        "title": "Malafrena",
-        "author": "Ursula K. Le Guin",
-        "reason": "Their taste for richly layered historical and literary fiction like The Books of Jacob and Augustus, alongside admiration for speculative literary authors, makes this lesser-known Le Guin historical novel an ideal discovery.",
-        "cover": "https://covers.openlibrary.org/b/id/4395792-M.jpg",
-        "genres": [],
-        "ebook_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Malafrena%20Ursula%20K.%20Le%20Guin/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Malafrena%20Ursula%20K.%20Le%20Guin/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Malafrena%20Ursula%20K.%20Le%20Guin/page-1"
-          }
-        },
-        "audio_availability": {
-          "Fairfax County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Malafrena%20Ursula%20K.%20Le%20Guin/page-1"
-          },
-          "Montgomery County Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Malafrena%20Ursula%20K.%20Le%20Guin/page-1"
-          },
-          "Alexandria Public Library": {
-            "available": false,
-            "reason": "no_isbn",
-            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Malafrena%20Ursula%20K.%20Le%20Guin/page-1"
-          }
-        }
-      }
-    ]
-  },
-  {
     "run_at": "2026-09-27T14:10:55.551356+00:00",
     "recommendations": [
       {
@@ -7998,6 +7575,420 @@
             "available": false,
             "reason": "no_isbn",
             "libby_url": "https://libbyapp.com/library/alexandria/search/query-Galveston%20Nic%20Pizzolatto/page-1"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "run_at": "2026-10-06T23:53:41.248100+00:00",
+    "recommendations": [
+      {
+        "title": "Mexican Gothic",
+        "author": "Silvia Moreno-Garcia",
+        "reason": "Given their interest in Silver Nitrate by Moreno-Garcia and atmospheric horror titles like The September House and The Terror, this lush gothic horror set in 1950s Mexico should resonate deeply.",
+        "cover": "https://covers.openlibrary.org/b/id/10239163-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 7,
+            "holds": 28,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 4,
+            "holds": 32,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 7,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 7,
+            "holds": 29,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 4,
+            "holds": 27,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 2,
+            "holds": 8,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Mexican%20Gothic%20Silvia%20Moreno-Garcia/page-1"
+          }
+        }
+      },
+      {
+        "title": "Plain Bad Heroines",
+        "author": "Emily M. Danforth",
+        "reason": "Their taste for layered literary horror with queer themes, as seen with Our Wives Under the Sea, Summer Sons, and What Moves the Dead, aligns perfectly with this dual-timeline gothic novel.",
+        "cover": "https://covers.openlibrary.org/b/id/10332578-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 5,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Plain%20Bad%20Heroines%20Emily%20M.%20Danforth/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Plain%20Bad%20Heroines%20Emily%20M.%20Danforth/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": true,
+            "copies_available": 2,
+            "copies_owned": 7,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Plain%20Bad%20Heroines%20Emily%20M.%20Danforth/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 3,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Plain%20Bad%20Heroines%20Emily%20M.%20Danforth/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Plain%20Bad%20Heroines%20Emily%20M.%20Danforth/page-1"
+          }
+        }
+      },
+      {
+        "title": "The Night Country",
+        "author": "Melissa Albert",
+        "reason": "Their fondness for dark fairy-tale fantasy like Fairy Tale by Stephen King, The Night Circus, and Starling House points directly to this sharp, atmospheric YA dark fantasy follow-up.",
+        "cover": "https://covers.openlibrary.org/b/id/9255510-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Night%20Country%20Melissa%20Albert/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Night%20Country%20Melissa%20Albert/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 3,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Night%20Country%20Melissa%20Albert/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": true,
+            "copies_available": 2,
+            "copies_owned": 2,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Night%20Country%20Melissa%20Albert/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Night%20Country%20Melissa%20Albert/page-1"
+          }
+        }
+      },
+      {
+        "title": "The Trees",
+        "author": "Ali Shaw",
+        "reason": "Their love of literary ecological fiction and fantasy such as The Vaster Wilds, The Overstory, and Blue Skies makes this haunting novel about England swallowed overnight by a primeval forest an excellent fit.",
+        "cover": "https://covers.openlibrary.org/b/id/13123171-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Trees%20Ali%20Shaw/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Trees%20Ali%20Shaw/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Trees%20Ali%20Shaw/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Trees%20Ali%20Shaw/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Trees%20Ali%20Shaw/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Trees%20Ali%20Shaw/page-1"
+          }
+        }
+      },
+      {
+        "title": "Leave the Gun, Take the Cannoli",
+        "author": "Mark Seal",
+        "reason": "Their nonfiction interests spanning true crime, cultural history, and narrative nonfiction like Rogues by Patrick Radden Keefe and Dark Wire make this behind-the-scenes history of The Godfather a compelling pick.",
+        "cover": "https://covers.openlibrary.org/b/id/12024680-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Leave%20the%20Gun%2C%20Take%20the%20Cannoli%20Mark%20Seal/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Leave%20the%20Gun%2C%20Take%20the%20Cannoli%20Mark%20Seal/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Leave%20the%20Gun%2C%20Take%20the%20Cannoli%20Mark%20Seal/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Leave%20the%20Gun%2C%20Take%20the%20Cannoli%20Mark%20Seal/page-1"
+          }
+        }
+      },
+      {
+        "title": "The Devil in Silver",
+        "author": "Victor LaValle",
+        "reason": "Their appreciation for Lone Women by LaValle and horror titles with literary ambition like The Only Good Indians and Our Share of Night makes this darkly comic institutional horror novel a strong fit.",
+        "cover": null,
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Devil%20in%20Silver%20Victor%20LaValle/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 2,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Devil%20in%20Silver%20Victor%20LaValle/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Devil%20in%20Silver%20Victor%20LaValle/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": true,
+            "copies_available": 2,
+            "copies_owned": 2,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Devil%20in%20Silver%20Victor%20LaValle/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 2,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Devil%20in%20Silver%20Victor%20LaValle/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          }
+        }
+      },
+      {
+        "title": "The Mercies",
+        "author": "Kiran Millwood Hargrave",
+        "reason": "Their interest in historical fiction with dark atmospheres, queer themes, and literary depth as seen with Fingersmith, Woman of Light, and The Terror points toward this haunting novel about witchcraft trials in 17th-century Norway.",
+        "cover": null,
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 4,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Mercies%20Kiran%20Millwood%20Hargrave/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 4,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-The%20Mercies%20Kiran%20Millwood%20Hargrave/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Mercies%20Kiran%20Millwood%20Hargrave/page-1"
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 1,
+            "holds": 7,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-The%20Mercies%20Kiran%20Millwood%20Hargrave/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "no_isbn",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-The%20Mercies%20Kiran%20Millwood%20Hargrave/page-1"
+          }
+        }
+      },
+      {
+        "title": "Bad Feminist",
+        "author": "Roxane Gay",
+        "reason": "Their nonfiction reading spanning cultural criticism and identity as seen with Elite Capture, Black Friend, and Stay True makes this sharp, witty essay collection on feminism, race, and pop culture a natural next read.",
+        "cover": "https://covers.openlibrary.org/b/id/7848731-M.jpg",
+        "genres": [],
+        "ebook_availability": {
+          "Fairfax County Public Library": {
+            "available": true,
+            "copies_available": 4,
+            "copies_owned": 5,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Bad%20Feminist%20Roxane%20Gay/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Bad%20Feminist%20Roxane%20Gay/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "reason": "not_in_catalog",
+            "libby_url": null
+          }
+        },
+        "audio_availability": {
+          "Fairfax County Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 4,
+            "holds": 1,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/fairfax/search/query-Bad%20Feminist%20Roxane%20Gay/page-1"
+          },
+          "Montgomery County Public Library": {
+            "available": true,
+            "copies_available": 1,
+            "copies_owned": 1,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/mcplmd/search/query-Bad%20Feminist%20Roxane%20Gay/page-1"
+          },
+          "Alexandria Public Library": {
+            "available": false,
+            "copies_available": 0,
+            "copies_owned": 2,
+            "holds": 0,
+            "reason": "ok",
+            "libby_url": "https://libbyapp.com/library/alexandria/search/query-Bad%20Feminist%20Roxane%20Gay/page-1"
           }
         }
       }
